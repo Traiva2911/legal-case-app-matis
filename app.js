@@ -12,7 +12,6 @@ const navItems = [
   { id: "evidence", label: "Podklady", icon: "□" },
   { id: "people", label: "Osoby", icon: "○" },
   { id: "documents", label: "Dokumenty", icon: "▤" },
-  { id: "claims", label: "Částky", icon: "Kč" },
   { id: "notes", label: "Poznámky", icon: "✎" },
   { id: "export", label: "Export", icon: "⇩" },
 ];
@@ -395,19 +394,6 @@ const documents = [
   { id: "d-incident", title: "Záznam incidentu s vozidlem", type: "záznam incidentu", date: "5/2026", tags: ["vozidla", "GPS"], file: "https://drive.google.com/file/d/1LWRXAEHDuZ2W6iYO_HwIavRJUPsVuUka/view" },
 ];
 
-const claims = [
-  { id: "c-jednatel-i", title: "A. Práce jednatelky — Období I (~24 měs.)", min: 480000, amount: 720000, max: 1200000, tags: ["jednatel", "obchodní"], note: "Funkci jsem fakticky vykonávala už před formálním jmenováním, bez smlouvy a bez odměny navíc. Zda mi za to něco náleží, nevím — nechám na Vašem posouzení." },
-  { id: "c-jednatel-ii", title: "A. Práce jednatelky — Období II (22,6 měs.)", min: 452000, amount: 678000, max: 1130000, tags: ["jednatel", "obchodní"], note: "Po jmenování jsem funkci vykonávala bez smlouvy o výkonu funkce. Částka je jen můj orientační odhad." },
-  { id: "c-profit-declared", title: "B. 5 % ze zisku 2024+2025 (deklarovaný)", min: 588450, amount: 588450, max: 588450, tags: ["obchodní"], note: "Varianta počítaná z deklarovaného hospodářského výsledku." },
-  { id: "c-profit-normalized", title: "B. 5 % ze zisku 2024+2025 (normalizovaný)", min: 0, amount: 1553450, max: 2000000, tags: ["obchodní"], note: "Varianta podle finanční rekonciliace. Jak správně počítat základ, nechám na Vás." },
-  { id: "c-sale", title: "C. 10 % podíl z prodeje firmy", min: 0, amount: 4500000, max: 9300000, tags: ["obchodní"], note: "Slíbený podíl při prodeji firmy — vnímám ho jako největší, ale nejnejistější položku." },
-  { id: "c-odoo", title: "D. Odměna za Odoo ERP", min: 200000, amount: 225000, max: 250000, tags: ["Odoo", "mzda"], note: "Písemně slíbená odměna za dokončení základní implementace Odoo." },
-  { id: "c-work", title: "E. Pracovní záležitosti (mzda a související)", min: 453000, amount: 766000, max: 1413000, tags: ["mzda", "DPP", "pracovněprávní"], note: "Mzda, dohody, překážky v práci, dovolená a přesčasy — sepsáno podle mých podkladů." },
-  { id: "c-vozidla", title: "F. Vozidla a hotovost (vypořádání)", min: 0, amount: 237593, max: 330000, tags: ["vozidla", "obchodní"], note: "Hotovost 237 593 Kč mám u sebe a nechávám ji netknutou stranou. Jak ji správně vypořádat (moje náklady 59 407 Kč, splácení SsangYongu z mých odměn), chci probrat. Není součástí součtů níže." },
-  { id: "c-total-no-sale", title: "Součet bez 10% podílu", min: 2173000, amount: 3942000, max: 5993000, tags: ["obchodní", "pracovněprávní"], note: "Můj orientační součet bez podílu z prodeje." },
-  { id: "c-total-sale", title: "Součet včetně 10% podílu", min: 2173000, amount: 8442000, max: 15293000, tags: ["obchodní", "pracovněprávní"], note: "Můj orientační součet — o tom, co z toho skutečně uplatnit, rozhodne Vaše posouzení." },
-];
-
 const lawyerQuestions = [
   "Jsou DPP na fiktivních pozicích neplatné a lze z nich přepočítat průměrný výdělek?",
   "Jaká je promlčecí lhůta pro bezdůvodné obohacení z Období I?",
@@ -433,7 +419,6 @@ const lawyerQuestions = [
 ];
 
 const formatMoney = (value) => new Intl.NumberFormat("cs-CZ", { style: "currency", currency: "CZK", maximumFractionDigits: 0 }).format(value);
-const totalClaims = claims.reduce((sum, claim) => sum + claim.amount, 0);
 
 function matches(item) {
   const query = state.query.trim().toLowerCase();
@@ -458,7 +443,6 @@ function renderNav() {
     evidence: evidence.filter(matches).length,
     people: people.filter(matches).length,
     documents: documents.filter(matches).length,
-    claims: claims.filter(matches).length,
     notes: "",
     export: "",
   };
@@ -489,7 +473,6 @@ function renderViews() {
   renderEvidence();
   renderPeople();
   renderDocuments();
-  renderClaims();
   renderNotes();
   renderExport();
 }
@@ -509,17 +492,16 @@ function renderDashboard() {
   const recent = events.slice(-4).reverse();
   document.getElementById("view-dashboard").innerHTML = `
     <div class="dash-eyebrow">Spisový přehled · TRAIVA s.r.o.</div>
-    ${titleBlock("Případ Andrea Matis", "Podklady, které jsem si připravila ke konzultaci: události, dokumenty, komunikace a částky tak, jak je vnímám já. Právní posouzení nechávám na Vás.")}
+    ${titleBlock("Případ Andrea Matis", "Podklady, které jsem si připravila ke konzultaci: události, dokumenty a komunikace tak, jak je vnímám já. Právní posouzení nechávám na Vás.")}
     <div class="stat-grid">
       ${stat("Poslední událost", "19. 6. 2026", "stav ke dni sepsání", "var(--accent)")}
       ${stat("Osoby", people.length, "já, protistrana a další", "var(--accent-2)")}
       ${stat("Podklady", evidence.length, `z toho ${evidence.filter((e) => e.strength === 5).length}× považuji za klíčové`, "var(--accent-3)")}
-      ${stat("Částky k posouzení", formatMoney(8442000), "můj orientační souhrn vč. 10% podílu", "var(--accent)")}
+      ${stat("Otázky na konzultaci", lawyerQuestions.length, "sepsané v Poznámkách", "var(--accent)")}
     </div>
     <div class="dashboard-layout">
       <article class="card summary-panel">
         <h2>Přehled případu</h2>
-        <div class="money-total"><span>Můj orientační souhrn (střední varianta)</span><strong>${formatMoney(8442000)}</strong></div>
         <ul class="mini-list">
           <li><span>Okruhy k probrání</span><strong>6</strong></li>
           <li><span>Události v časové ose</span><strong>${events.length}</strong></li>
@@ -603,7 +585,6 @@ function personCard(item) {
       <ul class="mini-list">
         <li><span>Dokumenty</span><strong>${item.documents}</strong></li>
         <li><span>Události</span><strong>${item.events}</strong></li>
-        <li><span>Částky</span><strong>${item.claims}</strong></li>
       </ul>
       ${tagRow(item.tags)}
       <button class="ghost-button" type="button" data-select="${item.id}" data-kind="Osoba">Detail</button>
@@ -631,30 +612,6 @@ function documentCard(item) {
           ? `<a class="ghost-button file-link" href="${item.file}" target="_blank" rel="noopener">Otevřít soubor ↗</a>`
           : `<span class="file-missing">soubor zatím nenahrán</span>`}
       </div>
-    </article>
-  `;
-}
-
-function renderClaims() {
-  const max = Math.max(...claims.map((claim) => claim.amount));
-  const items = claims.filter(matches);
-  document.getElementById("view-claims").innerHTML = `
-    ${titleBlock("Částky k posouzení", `Sepsala jsem si částky podle svých podkladů — orientační střední součet ${formatMoney(8442000)}. Netuším, jaké nároky skutečně mám nebo nemám; posouzení nechávám na Vás.`)}
-    ${items.length ? `<div class="claim-grid">${items.map((item) => claimCard(item, max)).join("")}</div>` : emptyState()}
-  `;
-}
-
-function claimCard(item, max) {
-  const width = Math.max(8, Math.round((item.amount / max) * 100));
-  return `
-    <article class="card claim-card">
-      <div class="meta">${item.tags.join(" · ")}</div>
-      <h2 class="section-heading">${item.title}</h2>
-      <div class="claim-amount">${formatMoney(item.amount)}</div>
-      <div class="meta">MIN ${formatMoney(item.min)} · STŘED ${formatMoney(item.amount)} · MAX ${formatMoney(item.max)}</div>
-      <div class="bar" aria-label="Poměrná výše částky"><span style="width: ${width}%"></span></div>
-      <p>${item.note}</p>
-      <button class="ghost-button" type="button" data-select="${item.id}" data-kind="Částka">Detail</button>
     </article>
   `;
 }
@@ -696,12 +653,11 @@ function renderExport() {
     ${titleBlock("Export do PDF", "Export používá tiskový dialog prohlížeče. Zvolte Uložit jako PDF.")}
     <article class="card summary-panel">
       <h2>Možnosti exportu</h2>
-      <p>Kompletní spis obsahuje dashboard, časovou osu, podklady, osoby, dokumenty i částky k posouzení. Filtrování a vyhledávání můžete použít před exportem pro užší výstup.</p>
+      <p>Kompletní spis obsahuje dashboard, časovou osu, podklady, osoby i dokumenty. Filtrování a vyhledávání můžete použít před exportem pro užší výstup.</p>
       <div class="export-actions">
         <button class="primary-button" type="button" data-print>Exportovat celý spis</button>
         <button class="ghost-button" type="button" data-goto="timeline">Pouze časová osa</button>
         <button class="ghost-button" type="button" data-goto="evidence">Pouze podklady</button>
-        <button class="ghost-button" type="button" data-goto="claims">Pouze částky</button>
       </div>
     </article>
   `;
@@ -717,7 +673,7 @@ function emptyState() {
 
 function renderDetail() {
   const detail = document.getElementById("detailPanel");
-  const allItems = [...events, ...evidence, ...people, ...documents, ...claims];
+  const allItems = [...events, ...evidence, ...people, ...documents];
   const item = allItems.find((entry) => entry.id === state.selected);
 
   if (!item) {
@@ -810,7 +766,7 @@ document.addEventListener("input", (event) => {
 
 function clearHiddenSelection() {
   if (!state.selected) return;
-  const allItems = [...events, ...evidence, ...people, ...documents, ...claims];
+  const allItems = [...events, ...evidence, ...people, ...documents];
   const item = allItems.find((entry) => entry.id === state.selected);
   if (item && !matches(item)) {
     state.selected = null;
