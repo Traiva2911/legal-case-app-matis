@@ -23,11 +23,11 @@ const events = [
     id: "ev-2021-whatsapp",
     date: "20. 5. 2021",
     year: "2021",
-    title: "Příslib 5 % ze zisku a 10 % z prodeje",
-    text: "Komunikace přes WhatsApp zachycuje tvrzený ekonomický příslib navázaný na zisk a případný prodej.",
+    title: "Podmínky odměňování k pozici produktové/obchodní manažerky",
+    text: "Komunikace přes WhatsApp zachycuje podmínky odměňování dohodnuté k mé tehdejší pozici produktové/obchodní manažerky — šlo o jiné podmínky než pozdější příslib podílů. Zpráva z 20. 5. 2021, 13:20: „probereme odměnu za duben a podíl na výsledcích do budoucna“ — podíl na výsledcích tu byl poprvé zmíněn do budoucna, konkrétní podoba (5 % ze zisku, 10 % z prodeje) přišla až v e-mailu ze 4. 8. 2023.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["WhatsApp 20. 5. 2021"],
-    legal: "Tento slib beru jako základ celé naší dohody — co z něj plyne, nechám na Vašem posouzení.",
+    legal: "Beru to jako začátek celé dohody o mém odměňování — tady padla první zmínka o podílu na výsledcích. Co z toho plyne, nechám na Vašem posouzení.",
     tags: ["obchodní"],
   },
   {
@@ -57,22 +57,11 @@ const events = [
     date: "4. 8. 2023",
     year: "2023",
     title: "E-mail „Návrh Tvých odměn a smlouvy na obchodní podíl“",
-    text: "Pan Ospalík mi poslal e-mail „Návrh Tvých odměn a smlouvy na obchodní podíl — k projednání“. Přílohou byl přímo dokument „Odměny a smlouva Andrea“ (5 % ze zisku po zdanění, 10% podíl = 2,2 mil. Kč, převod podílu po kumulaci bonusů, smlouva o smlouvě budoucí) s účinností od 1. 1. 2024. Autor i odesílatel návrhu je tedy doložen: pan Ospalík, 4. 8. 2023.",
+    text: "Pan Ospalík mi poslal e-mail „Návrh Tvých odměn a smlouvy na obchodní podíl — k projednání“. Přílohou byl přímo dokument „Odměny a smlouva Andrea“ (5 % ze zisku po zdanění, 10% podíl = 2,2 mil. Kč, převod podílu po kumulaci bonusů, smlouva o smlouvě budoucí) s účinností od 1. 1. 2024. Autor i odesílatel návrhu je tedy doložen: pan Ospalík, 4. 8. 2023. K 1. 1. 2024 pak podle tohoto návrhu nabylo účinnosti jmenování i příslib podílů (5 % ze zisku, 10 % z prodeje).",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["E-mail 4. 8. 2023 — návrh odměn (.msg zajištěn)"],
     legal: "Originál e-mailu (.msg) mám zajištěný včetně hlaviček s DKIM podpisem Gmailu — odesláno 4. 8. 2023, 12:26, z charlie.ospalik@gmail.com na a.matis@traiva.cz. Dokument s podmínkami tedy prokazatelně vytvořil a poslal pan Ospalík.",
     tags: ["obchodní", "jednatel", "mzda"],
-  },
-  {
-    id: "ev-2024-potvrzeni",
-    date: "1. 1. 2024",
-    year: "2024",
-    title: "Formální potvrzení jmenování a podílů",
-    text: "Pan Ospalík mi potvrdil jmenování, příslib 5 % podílu na zisku a 10 % podíl z prodeje firmy.",
-    people: ["Andrea Matis", "Karel Ospalík"],
-    evidence: ["Formální potvrzení 1. 1. 2024"],
-    legal: "Beru jako písemné potvrzení dřívějšího slibu z roku 2021.",
-    tags: ["jednatel", "obchodní"],
   },
   {
     id: "ev-2024-jmenovani",
@@ -308,7 +297,7 @@ const events = [
 ];
 
 const evidence = [
-  { id: "e-whatsapp", title: "WhatsApp 20. 5. 2021", type: "Komunikace", date: "20. 5. 2021", strength: 5, proves: ["příslib 5 % zisku", "10 % z prodeje", "moje osobní iniciativa"], risk: "Export chatu zajištěn na Drive (zpráva 20. 5. 2021, 13:20: „probereme odměnu za duben a podíl na výsledcích do budoucna“).", file: "https://drive.google.com/file/d/17-QQlBM_O_F5DwRXIPcWHScBjr2GoIf4/view", tags: ["obchodní"], people: ["Andrea Matis", "Karel Ospalík"] },
+  { id: "e-whatsapp", title: "WhatsApp 20. 5. 2021", type: "Komunikace", date: "20. 5. 2021", strength: 5, proves: ["podmínky odměňování k pozici produktové/obchodní manažerky", "první zmínka o podílu na výsledcích do budoucna", "moje osobní iniciativa"], risk: "Export chatu zajištěn na Drive (zpráva 20. 5. 2021, 13:20: „probereme odměnu za duben a podíl na výsledcích do budoucna“). Konkrétní podíly 5 % / 10 % přišly až e-mailem 4. 8. 2023.", file: "https://drive.google.com/file/d/17-QQlBM_O_F5DwRXIPcWHScBjr2GoIf4/view", tags: ["obchodní"], people: ["Andrea Matis", "Karel Ospalík"] },
   { id: "e-potvrzeni", title: "Formální potvrzení 1. 1. 2024", type: "Dokument / e-mail", date: "1. 1. 2024", strength: 5, proves: ["potvrzení slibu", "záměr pana Ospalíka", "moje jmenování", "návrh mi pan Ospalík poslal e-mailem už 4. 8. 2023"], risk: "Kopie zajištěna — dokument Odměny a smlouva Andrea i originál e-mailu ze 4. 8. 2023 (.msg s hlavičkami) jsou na Drive.", file: "https://drive.google.com/file/d/10c_dDHxW25JV8M8YPoEYFLROQOmIoX0S/view", tags: ["jednatel", "obchodní"], people: ["Andrea Matis", "Karel Ospalík"] },
   { id: "e-usneseni", title: "Usnesení 24. 6. 2024", type: "Firemní dokument", date: "24. 6. 2024", strength: 5, proves: ["moje jmenování jednatelkou č. 2 (NZ 160/2024)", "samostatné zastupování do 1 mil. Kč — prodej SsangYong za 330 000 Kč byl v mém oprávnění", "funkci jsem vykonávala bez smlouvy"], risk: "Notářský zápis zajištěn na Drive. Smlouva o výkonu funkce nikdy nevznikla — zeptat se, co to znamená.", file: "https://drive.google.com/file/d/1eCAa25alrAYcvMjsaBmiR_GSXIW1OhTj/view", tags: ["jednatel", "obchodní"], people: ["Andrea Matis"] },
   { id: "e-odoo-prislib", title: "Projektový plán Odoo 23. 6. 2025 — příslib prémie", type: "Projektový plán (dokument)", date: "23. 6. 2025", strength: 5, proves: ["písemný příslib prémie 200 000 Kč (sekce 9)", "termín dokončení oprav 30. 9. 2025", "při částečném splnění poměrné krácení"], risk: "Dokument zajištěn na Drive. Termín 30. 9. 2025 byl nereálný: kvůli nezdokumentované práci původního dodavatele nikdo opravy nechtěl převzít (kapacity až od září, doporučení stavět znovu) — Origamis jsem po 3 měsících jednání získala do 09/2025 jen jako poradce. Prémie nevyplacena.", tags: ["Odoo", "mzda"], people: ["Andrea Matis", "Karel Ospalík"], file: "https://drive.google.com/file/d/1FrVQQwA-fRW6GJwdnDmo0kXz7wYg4tvI/view" },
@@ -386,7 +375,7 @@ const documents = [
 const lawyerQuestions = [
   "Jsou DPP na fiktivních pozicích neplatné a lze z nich přepočítat průměrný výdělek?",
   "Jaká je promlčecí lhůta pro bezdůvodné obohacení z Období I?",
-  "Je příslib z WhatsApp 20. 5. 2021 a potvrzení 1. 1. 2024 právně vymahatelné?",
+  "Jsou podmínky odměňování z WhatsApp 20. 5. 2021 (k pozici produktové/obchodní manažerky) a příslib podílů z e-mailu 4. 8. 2023 s účinností od 1. 1. 2024 právně vymahatelné?",
   "Má nerealistický 2měsíční termín pro Odoo vliv na vymahatelnost nároku D?",
   "Lze prokázat záměr sabotovat podmínku pro 10% podíl?",
   "Je zrušení DPP Traiva Safety 04/2026 odvetným jednáním podle § 346b ZP?",
