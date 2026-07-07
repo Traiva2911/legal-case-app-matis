@@ -577,63 +577,95 @@ button {
 .timeline {
   position: relative;
   display: grid;
-  gap: 14px;
-  margin-left: 10px;
+  gap: 0;
+  max-width: 760px;
+  padding: 28px 26px 12px;
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: var(--shadow);
 }
 
 .timeline::before {
   content: "";
   position: absolute;
-  left: 14px;
-  top: 4px;
-  bottom: 4px;
+  left: calc(26px + 19px);
+  top: 40px;
+  bottom: 36px;
   width: 2px;
-  border-radius: 2px;
-  background: var(--line-strong);
+  background: color-mix(in srgb, var(--accent) 55%, var(--line));
+}
+
+.timeline-era {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0 18px;
+}
+
+.timeline-era span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 26px;
+  padding: 0 10px;
+  border-radius: 8px;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-variant-numeric: tabular-nums;
 }
 
 .timeline-item {
   position: relative;
+  z-index: 1;
   display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
-  gap: 16px;
-  padding-left: 38px;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: 0 22px;
+  padding-bottom: 30px;
 }
 
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: 9px;
-  top: 22px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+.timeline-marker {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
   background: var(--accent);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
-}
-
-.timeline-year {
-  color: var(--muted);
-  font-weight: 600;
-  font-size: 15px;
-  padding-top: 18px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
+  box-shadow: 0 0 0 6px var(--panel);
 }
 
-.timeline-card {
-  padding: 18px 20px;
-  border: 0;
-  border-radius: var(--radius-sm);
-  background: var(--panel);
-  box-shadow: var(--shadow);
-  transition: box-shadow 200ms ease;
+.timeline-content {
+  padding-top: 2px;
 }
 
-.timeline-card:hover {
-  box-shadow: var(--shadow-lift);
+.timeline-content .meta {
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.timeline-card button,
+.timeline-content .section-heading {
+  margin: 3px 0 6px;
+  font-size: 18px;
+}
+
+.timeline-text {
+  max-width: 62ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.timeline-content button,
 .evidence-card button,
 .person-card button,
 .document-card button,
@@ -927,13 +959,24 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
-  .timeline-item {
-    grid-template-columns: 1fr;
-    gap: 4px;
+  .timeline {
+    padding: 20px 16px 8px;
   }
 
-  .timeline-year {
-    padding-top: 0;
+  .timeline::before {
+    left: calc(16px + 15px);
+  }
+
+  .timeline-item {
+    grid-template-columns: 30px minmax(0, 1fr);
+    gap: 0 14px;
+  }
+
+  .timeline-marker {
+    width: 30px;
+    height: 30px;
+    border-radius: 9px;
+    font-size: 13px;
   }
 }
 

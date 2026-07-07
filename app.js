@@ -526,20 +526,28 @@ function stat(label, value, sub = "", accent = "") {
 
 function renderTimeline() {
   const items = events.filter(matches);
+  let lastYear = null;
+  const rows = items
+    .map((item, index) => {
+      const yearHeading = item.year !== lastYear ? `<div class="timeline-era"><span>${item.year}</span></div>` : "";
+      lastYear = item.year;
+      return yearHeading + timelineItem(item, index + 1);
+    })
+    .join("");
   document.getElementById("view-timeline").innerHTML = `
     ${titleBlock("Časová osa", "Události, jak jsem je zažila, s odkazy na osoby, podklady a moje poznámky.")}
-    ${items.length ? `<div class="timeline">${items.map(timelineItem).join("")}</div>` : emptyState()}
+    ${items.length ? `<div class="timeline">${rows}</div>` : emptyState()}
   `;
 }
 
-function timelineItem(item) {
+function timelineItem(item, order) {
   return `
     <article class="timeline-item">
-      <div class="timeline-year">${item.year}</div>
-      <div class="timeline-card">
+      <div class="timeline-marker" aria-hidden="true">${order}</div>
+      <div class="timeline-content">
         <div class="meta">${item.date}</div>
         <h2 class="section-heading">${item.title}</h2>
-        <p>${item.text}</p>
+        <p class="timeline-text">${item.text}</p>
         ${tagRow(item.tags)}
         <button class="ghost-button" type="button" data-select="${item.id}" data-kind="Událost">Detail</button>
       </div>
