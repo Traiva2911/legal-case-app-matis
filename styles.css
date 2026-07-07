@@ -808,6 +808,19 @@ a.file-link:hover {
   background: var(--panel);
 }
 
+.detail-close {
+  display: none;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 34px;
+  min-height: 34px;
+}
+
+.detail-card {
+  position: relative;
+}
+
 .detail-empty {
   display: grid;
   place-items: center;
@@ -898,7 +911,28 @@ textarea:focus {
   }
 
   .detail-panel {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    width: min(92vw, 400px);
+    border-left: 1px solid var(--line);
+    box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18);
+    transform: translateX(103%);
+    transition: transform 240ms cubic-bezier(0.25, 0.6, 0.2, 1);
+  }
+
+  .detail-panel.open {
+    transform: translateX(0);
+  }
+
+  .detail-panel .detail-empty {
     display: none;
+  }
+
+  .detail-close {
+    display: grid;
+    place-items: center;
   }
 
   .stat-grid,

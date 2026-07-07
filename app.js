@@ -119,26 +119,15 @@ const events = [
     tags: ["pracovněprávní", "mzda"],
   },
   {
-    id: "ev-2025-vytky",
+    id: "ev-2025-maralik",
     date: "září 2025",
     year: "2025",
-    title: "Nový IT kolega a zesílení e-mailových výtek",
-    text: "Byl najat nový IT kolega a zároveň zesílily e-mailové výtky, urgence a postupné omezování mého postavení.",
-    people: ["Andrea Matis", "Karel Ospalík"],
-    evidence: ["E-mailové výtky", "Výzva 30. 4. 2026"],
-    legal: "Vnímám to jako druhou fázi tlaku, který začal už v červnu a odtud dál gradoval.",
-    tags: ["pracovněprávní", "diskriminace"],
-  },
-  {
-    id: "ev-2025-maralik",
-    date: "09/2025",
-    year: "2025",
-    title: "Najat Tomáš Maralík k převzetí ERP agendy",
-    text: "Pan Maralík měl převzít ERP agendu, ale podle mě k tomu neměl dostatečné zkušenosti.",
+    title: "Najat Tomáš Maralík a zesílení e-mailových výtek",
+    text: "Byl najat nový IT kolega Tomáš Maralík, který měl postupně převzít ERP agendu — podle mě k tomu ale neměl dostatečné zkušenosti. Zároveň zesílily e-mailové výtky, urgence a postupné omezování mého postavení.",
     people: ["Andrea Matis", "Tomáš Maralík", "Karel Ospalík"],
-    evidence: ["E-mail Maralíka 4. 5. 2026", "Odoo komunikace"],
-    legal: "Zpětně to vnímám jako přípravu na moje nahrazení.",
-    tags: ["Odoo", "pracovněprávní"],
+    evidence: ["E-mail Maralíka 4. 5. 2026", "Odoo komunikace", "E-mailové výtky", "Výzva 30. 4. 2026"],
+    legal: "Vnímám to jako druhou fázi tlaku, který začal už v červnu odebráním mzdové agendy a odtud dál gradoval. Zpětně to vidím jako přípravu na moje nahrazení.",
+    tags: ["Odoo", "pracovněprávní", "diskriminace"],
   },
   {
     id: "ev-2026-vyuka",
@@ -681,16 +670,20 @@ function emptyState() {
 
 function renderDetail() {
   const detail = document.getElementById("detailPanel");
+  const panel = document.querySelector(".detail-panel");
   const allItems = [...events, ...evidence, ...people, ...documents];
   const item = allItems.find((entry) => entry.id === state.selected);
 
   if (!item) {
+    panel.classList.remove("open");
     detail.innerHTML = `<div class="detail-empty">Vyberte událost, podklad, osobu, dokument nebo částku pro detail.</div>`;
     return;
   }
 
+  panel.classList.add("open");
   detail.innerHTML = `
     <article class="detail-card">
+      <button class="icon-button detail-close" type="button" data-close-detail aria-label="Zavřít detail">✕</button>
       <div class="meta">${item.date || item.role || item.type || "Detail"}</div>
       <h2>${item.title || item.name}</h2>
       ${tagRow(item.tags)}
@@ -728,6 +721,11 @@ document.addEventListener("click", (event) => {
 
   if (select) {
     state.selected = select.dataset.select;
+    renderDetail();
+  }
+
+  if (event.target.closest("[data-close-detail]")) {
+    state.selected = null;
     renderDetail();
   }
 
