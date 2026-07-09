@@ -60,7 +60,7 @@ const events = [
     text: "V roce 2024 jsem panu Ospalíkovi podepisovala výpověď, když odcházel do důchodu. Sám mě tehdy požádal, abych ho smazala odevšad — z webu, systémů, ze všeho.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: [],
-    legal: "Připadá mi to jako výrazný rozpor — přesně to, o co mě sám tehdy požádal pro sebe, teď o dva roky později udělal on mně, aniž by cokoliv vypořádal. Chci to dát do souvislosti s odstraněním z firemního webu v červnu 2026.",
+    legal: "Připadá mi to jako výrazný rozpor — přesně to, o co mě sám tehdy požádal pro sebe, teď o dva roky později udělal on mně, aniž by cokoliv vypořádal. V době, kdy se úpravy webu zadávaly (2024–2025), na webu skutečně vůbec nefiguroval — jeho přání bylo respektováno. Nyní je ale v kontaktech nově uveden jako CEO, zatímco já jsem z webu kompletně zmizela. Chci to dát do souvislosti s odstraněním z firemního webu 12. 5. 2026.",
     tags: ["jednatel", "pracovněprávní"],
   },
   {
@@ -76,13 +76,13 @@ const events = [
   },
   {
     id: "ev-2024-nas-tym-redesign",
-    date: "23. 11. – 10. 12. 2024",
+    date: "2024–2025",
     year: "2024",
     title: "Osobně jsem zadávala redesign stránky Náš tým",
-    text: "Stránku Náš tým jsem osobně zakládala společně s majitelem panem Ospalíkem a veškerou její funkcionalitu jsem si následně řešila sama, po vlastní ose. Sniper Design (agentura spravující e-shop na Upgates) mi 21. 11. 2024 psala kvůli jiným úpravám. Sama jsem 23. 11. 2024 navrhla, ať při redesignu dají hezčí vzhled i této stránce (e-safetyshop.eu/nas-tym — stejná stránka/tým jako pozdější traiva-shop.cz/nas-tym, jen jiná subdoména). 9. 12. 2024 jsem upřesnila, jaké údaje na stránce ponechat (jen telefon na prodejnu, ostatní čísla pryč) a 10. 12. 2024 mi agentura potvrdila realizaci na polovinu ledna 2025. Zadané a zaplacené úpravy ale agentura podle kolegů od října 2024 stále nedokončila.",
-    people: ["Andrea Matis", "Karel Ospalík"],
+    text: "Stránku Náš tým jsem osobně zakládala při přechodu na e-shopové řešení Upgates a veškerou její funkcionalitu jsem následně řešila sama, po vlastní ose. V roce 2025 jsem s externím dodavatelem IT služeb (Sniper Design) řešila custom úpravu funkcionality stránky Náš tým a další doplňkové moduly. Konkrétně: Sniper Design mi 21. 11. 2024 psala kvůli jiným úpravám, sama jsem 23. 11. 2024 navrhla, ať při redesignu dají hezčí vzhled i této stránce (e-safetyshop.eu/nas-tym — stejná stránka/tým jako pozdější traiva-shop.cz/nas-tym, jen jiná subdoména), 9. 12. 2024 jsem upřesnila, jaké údaje na stránce ponechat, a 10. 12. 2024 mi agentura potvrdila realizaci na polovinu ledna 2025. Zadané a zaplacené úpravy ale agentura podle kolegů od října 2024 stále nedokončila.",
+    people: ["Andrea Matis"],
     evidence: ["E-mailové vlákno „sniperdesign zakázky“ 2024–2025"],
-    legal: "Dokládá to, že jsem stránku Náš tým sama založila spolu s majitelem a dlouhodobě ji samostatně spravovala už rok a půl před odvoláním — je pro mě podstatné, že mě z ní stejný web později (12. 5. 2026) kompletně odstranil.",
+    legal: "Dokládá to, že jsem stránku Náš tým sama založila a dlouhodobě ji samostatně spravovala už rok a půl před odvoláním — je pro mě podstatné, že mě z ní stejný web později (12. 5. 2026) kompletně odstranil. V kontaktech je přitom nyní nově přidán Karel Ospalík jako CEO — v době, kdy se práce zadávaly Sniper Designu, na webu vůbec nefiguroval, protože si po formálním odchodu do důchodu přál být odstraněn i z kontaktů.",
     tags: ["pracovněprávní", "obchodní"],
   },
   {
