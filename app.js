@@ -24,22 +24,11 @@ const events = [
     date: "20. 5. 2021",
     year: "2021",
     title: "Podmínky odměňování k pozici produktové/obchodní manažerky",
-    text: "Komunikace přes WhatsApp zachycuje podmínky odměňování dohodnuté k mé tehdejší pozici produktové/obchodní manažerky — šlo o jiné podmínky než pozdější příslib podílů. Zpráva z 20. 5. 2021, 13:20: „probereme odměnu za duben a podíl na výsledcích do budoucna“ — podíl na výsledcích tu byl poprvé zmíněn do budoucna, konkrétní podoba (5 % ze zisku, 10 % z prodeje) přišla až v e-mailu ze 4. 8. 2023.",
+    text: "Komunikace přes WhatsApp zachycuje podmínky odměňování dohodnuté k mé tehdejší pozici produktové/obchodní manažerky — šlo o jiné podmínky než pozdější příslib podílů. Zpráva z 20. 5. 2021, 13:20: „probereme odměnu za duben a podíl na výsledcích do budoucna“ — podíl na výsledcích tu byl poprvé zmíněn do budoucna, konkrétní podoba (5 % ze zisku, 10 % z prodeje) přišla až v e-mailu ze 4. 8. 2023. V té době svým slibům ještě dostál — na rozdíl od pozdějšího vývoje.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["WhatsApp 20. 5. 2021"],
     legal: "Beru to jako začátek celé dohody o mém odměňování — tady padla první zmínka o podílu na výsledcích. Co z toho plyne, nechám na Vašem posouzení.",
     tags: ["obchodní"],
-  },
-  {
-    id: "ev-2021-dpp",
-    date: "2021-2024",
-    year: "2021",
-    title: "Mzda rozdělená mezi 1× HPP a 2× DPP",
-    text: "Mzda byla ve firmě standardně rozdělena mezi hlavní pracovní poměr a dvě dohody o provedení práce (DPP TRAIVA s.r.o. a DPP Traiva Safety s.r.o.). Takhle to měli nastavené všichni zaměstnanci, věděli o tom a akceptovali to.",
-    people: ["Andrea Matis", "Karel Ospalík"],
-    evidence: ["DPP smlouvy", "Výplatní pásky HPP + DPP"],
-    legal: "Uvádím pro úplnost, aby bylo jasné, jak byla moje celková odměna složena — část příjmu šla přes DPP, což je důležité pro pochopení výplatních pásek.",
-    tags: ["DPP", "mzda", "pracovněprávní"],
   },
   {
     id: "ev-2022-funkce",
@@ -134,10 +123,10 @@ const events = [
     date: "březen 2026",
     year: "2026",
     title: "Návrh režimu práce manažerů",
-    text: "Pan Ospalík předložil návrh k připomínkování; nešlo ještě o jednostranné zavedení.",
+    text: "Pan Ospalík předložil návrh k připomínkování; moje připomínky ale nebyly nijak zapracovány ani akceptovány.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["Vnitřní směrnice verze 1"],
-    legal: "Verze 1 zachycuje pravidla odměňování tak, jak jsem jim tehdy rozuměla.",
+    legal: "Verze 1 zachycuje pravidla odměňování tak, jak jsem jim tehdy rozuměla — připomínkování bylo podle mě jen formální.",
     tags: ["mzda", "pracovněprávní"],
   },
   {
@@ -156,22 +145,11 @@ const events = [
     date: "jaro 2026",
     year: "2026",
     title: "Prodej vozidla SsangYong Korando",
-    text: "Vozidlo vedené na TRAIVA s.r.o. jsem prodala v době, kdy jsem byla jednatelkou — podle notářského zápisu jsem mohla samostatně jednat do 1 mil. Kč, prodej za 330 000 Kč byl tedy v mém oprávnění. Čistý výtěžek 237 593 Kč (330 000 − provize 33 000 − náklady 59 407) mám fyzicky u sebe. Příjmový doklad uvádí vyplacení komitentovi Traiva — to neodpovídá skutečnosti.",
+    text: "Vozidlo jsem si předtím zaplatila z bonusové složky své mzdy a odměn, ale nikdy nebylo přepsáno na mě jako fyzickou osobu — pořád bylo vedené na TRAIVA s.r.o. Prodala jsem ho v době, kdy jsem byla jednatelkou — podle notářského zápisu jsem mohla samostatně jednat do 1 mil. Kč, prodej za 330 000 Kč byl tedy v mém oprávnění. Čistý výtěžek 237 593 Kč (330 000 − provize 33 000 − náklady 59 407) mám fyzicky u sebe. Příjmový doklad uvádí vyplacení komitentovi Traiva — to neodpovídá skutečnosti.",
     people: ["Andrea Matis", "Karel Ospalík", "Karel Neffe"],
     evidence: ["Doklady k vozidlům", "Pokladní doklad 237 593 Kč"],
-    legal: "Hotovost nechávám netknutou stranou; jak ji správně vypořádat, chci probrat na konzultaci.",
+    legal: "Hotovost nechávám netknutou stranou; jak ji správně vypořádat, chci probrat na konzultaci. Kvůli tomu, že auto bylo formálně vedené na firmu, i když jsem ho zaplatila ze svých odměn, se mě pan Ospalík snaží nyní vyhrožovat udáním za zpronevěru — chci probrat, jak se proti tomu bránit.",
     tags: ["vozidla", "obchodní"],
-  },
-  {
-    id: "ev-2026-dpp-konec",
-    date: "duben 2026",
-    year: "2026",
-    title: "Zrušení DPP Traiva Safety",
-    text: "DPP Traiva Safety byla zrušena všem zaměstnancům v souvislosti s prodejem firmy. Pro mě to znamenalo o 6 460 Kč čistého měsíčně méně.",
-    people: ["Andrea Matis", "Karel Ospalík"],
-    evidence: ["DPP smlouvy", "Výplatní pásky HPP + DPP"],
-    legal: "Uvádím pro úplnost kvůli vývoji mého celkového příjmu — nešlo o krok mířený na mě, týkal se všech zaměstnanců.",
-    tags: ["DPP", "mzda", "pracovněprávní"],
   },
   {
     id: "ev-2026-vyzva",
@@ -387,6 +365,7 @@ const lawyerQuestions = [
   "Je nárok na náhradu právních nákladů?",
   "Jak se stanoví přiměřená odměna jednatele v tomto kontextu?",
   "Jak vypořádat hotovost 237 593 Kč (zápočet proti nárokům) tak, aby nešlo o svépomoc a nehrozila kvalifikace jako zpronevěra?",
+  "Hrozí mi reálně trestní oznámení za zpronevěru ohledně vozidla SsangYong, které jsem zaplatila ze svých odměn, ale nebylo nikdy přepsáno na mě jako fyzickou osobu?",
   "Jak posoudit zadržení BMW, odpojení GPS a podmiňování vydání vozidla vrácením peněz?",
   "Jak ošetřit rozpor příjmového dokladu (vyplaceno komitentovi Traiva) se skutečností, že hotovost drží AM?",
   "Můžu po zaměstnavateli formálně žádat vydání kopií dokumentů, které jsem podepsala, ale nedostala (nařízení dovolené z 12. 5. 2026), a mé pracovní korespondence z firemního e-mailu a SharePointu (je tam mj. písemný příslib odměny za Odoo z června 2025)?",
@@ -619,6 +598,10 @@ function renderNotes() {
         </ul>
       </article>
     </div>
+    <article class="card note-card" style="margin-top: 16px">
+      <h2 class="section-heading">Kontext: struktura mzdy (HPP + DPP)</h2>
+      <p>Mzda byla ve firmě standardně rozdělena mezi hlavní pracovní poměr a dvě dohody o provedení práce (DPP TRAIVA s.r.o. a DPP Traiva Safety s.r.o.). Takhle to měli nastavené všichni zaměstnanci, věděli o tom a akceptovali to. DPP Traiva Safety byla v dubnu 2026 zrušena všem zaměstnancům v souvislosti s prodejem firmy — pro mě to znamenalo o 6 460 Kč čistého měsíčně méně, nešlo ale o krok mířený jen na mě. Uvádím to pro úplnost, aby byl jasný vývoj mého celkového příjmu při čtení výplatních pásek.</p>
+    </article>
     <article class="card note-card" style="margin-top: 16px">
       <h2 class="section-heading">Moje prohlášení k projektu Odoo</h2>
       <p><em>„Řešení Odoo nebyl IT projekt, ale řízení provozního rizika. Pokud by se tyto věci neřešily, firma by nebyla v prodejném stavu. Z e-mailů je zřejmé, že jsem dlouhodobě pracovala s úkoly a odpovědností, které měly přímý dopad na hodnotu firmy při prodeji — ať už šlo o řízení rizik, stabilitu, plánování, cenotvorbu nebo auditní připravenost. Nejde o subjektivní pocit přínosu, ale o konkrétní kroky, které zvyšují valuaci a snižují rizika pro kupce. Proto je legitimní bavit se o odpovídajících odměnách."</em></p>
