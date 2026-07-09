@@ -79,10 +79,10 @@ const events = [
     date: "01/2025",
     year: "2025",
     title: "Formální start implementace Odoo ERP",
-    text: "Projekt Odoo ERP začal s TRAIVA a Quest s.r.o.; kontaktní osobou byl mimo jiné Michal Plaček.",
+    text: "Projekt Odoo ERP začal s TRAIVA a Quest s.r.o.; kontaktní osobou byl mimo jiné Michal Plaček. K projektu jsem tehdy zároveň vyřizovala dotační podporu z fondu ministerstva práce a průmyslu, který v té době poskytoval podnikatelům v Moravskoslezském kraji podporu na nákup strojů a zařízení a v rámci digitalizace i na implementaci ERP systému/software.",
     people: ["Andrea Matis", "Tomáš Maralík", "Michal Plaček"],
     evidence: ["Odoo komunikace", "E-maily", "Úkoly v systému"],
-    legal: "Projekt jsem fakticky vedla já — téměř rok a půl intenzivní, z velké části samostatné práce na narovnání celého ERP od základu po nepovedené implementaci ODOPRO. Odoo nebyl IT projekt, ale řízení provozního rizika: bez něj by firma nebyla v prodejném stavu — správně nastavené párování plateb dává přehled cash flow, nutný i pro prodej firmy (viz moje prohlášení v Poznámkách).",
+    legal: "Projekt jsem fakticky vedla já — téměř rok a půl intenzivní, z velké části samostatné práce na narovnání celého ERP od základu po nepovedené implementaci ODOPRO, včetně vyřízení dotační podpory na jeho financování. Odoo nebyl IT projekt, ale řízení provozního rizika: bez něj by firma nebyla v prodejném stavu — správně nastavené párování plateb dává přehled cash flow, nutný i pro prodej firmy (viz moje prohlášení v Poznámkách).",
     tags: ["Odoo", "mzda", "DPP", "pracovněprávní"],
   },
   {
