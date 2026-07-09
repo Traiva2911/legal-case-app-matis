@@ -470,8 +470,6 @@ function renderDashboard() {
     <div class="dash-eyebrow">Spisový přehled · TRAIVA s.r.o.</div>
     ${titleBlock("Případ Andrea Matis", "Podklady, které jsem si připravila ke konzultaci: události, dokumenty a komunikace tak, jak je vnímám já. Právní posouzení nechávám na Vás.")}
     <div class="stat-grid">
-      ${stat("Poslední událost", "19. 6. 2026", "stav ke dni sepsání", "var(--accent)")}
-      ${stat("Osoby", people.length, "já, protistrana a další", "var(--accent-2)")}
       ${stat("Podklady", evidence.length, `z toho ${evidence.filter((e) => e.strength === 5).length}× považuji za klíčové`, "var(--accent-3)")}
       ${stat("Otázky na konzultaci", lawyerQuestions.length, "sepsané v Poznámkách", "var(--accent)")}
     </div>
