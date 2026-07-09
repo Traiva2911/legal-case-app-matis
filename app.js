@@ -75,6 +75,17 @@ const events = [
     tags: ["jednatel", "obchodní"],
   },
   {
+    id: "ev-2024-nas-tym-redesign",
+    date: "23. 11. – 10. 12. 2024",
+    year: "2024",
+    title: "Osobně jsem zadávala redesign stránky Náš tým",
+    text: "Sniper Design (agentura spravující e-shop na Upgates) mi 21. 11. 2024 psala kvůli jiným úpravám. Sama jsem 23. 11. 2024 navrhla, ať při redesignu dají hezčí vzhled i stránce Náš tým (e-safetyshop.eu/nas-tym — stejná stránka/tým jako pozdější traiva-shop.cz/nas-tym, jen jiná subdoména). 9. 12. 2024 jsem upřesnila, jaké údaje na stránce ponechat (jen telefon na prodejnu, ostatní čísla pryč) a 10. 12. 2024 mi agentura potvrdila realizaci na polovinu ledna 2025. Zadané a zaplacené úpravy ale agentura podle kolegů od října 2024 stále nedokončila.",
+    people: ["Andrea Matis"],
+    evidence: ["E-mailové vlákno „sniperdesign zakázky“ 2024–2025"],
+    legal: "Dokládá to, že jsem stránku Náš tým osobně a dlouhodobě spravovala už rok a půl před odvoláním — je pro mě podstatné, že mě z ní stejný web později (12. 5. 2026) kompletně odstranil.",
+    tags: ["pracovněprávní", "obchodní"],
+  },
+  {
     id: "ev-2025-odoo",
     date: "01/2025",
     year: "2025",
@@ -214,7 +225,7 @@ const events = [
     text: "Podle kolegů je firemní web v tomto stavu už ode dne, kdy mě pan Ospalík odvolal z funkce jednatelky — 12. 5. 2026. Byla jsem z něj kompletně odstraněna: zmizely všechny moje články, kontaktní formulář i moje údaje. Stav jsem si potvrdila screenshotem stránky Náš tým z 15. 6. 2026, kde už nejsem uvedena.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["Screenshot stránky Náš tým 15. 6. 2026"],
-    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno, a to hned v den odvolání — chci probrat, co z toho může plynout. Ironické mi přijde, že přesně o totéž (kompletní vymazání odevšad) mě sám žádal v roce 2024, když odcházel do důchodu.",
+    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno, a to hned v den odvolání — chci probrat, co z toho může plynout. Ironické mi přijde, že přesně o totéž (kompletní vymazání odevšad) mě sám žádal v roce 2024, když odcházel do důchodu. Tuhle přesnou stránku jsem přitom sama osobně spravovala a zadávala její redesign už koncem roku 2024.",
     tags: ["pracovněprávní", "GDPR", "jednatel"],
   },
   {
