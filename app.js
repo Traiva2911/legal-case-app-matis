@@ -145,10 +145,9 @@ const events = [
     date: "4. 7. – 8. 8. 2025",
     year: "2025",
     title: "„O lidech, zrcadlech a tichých signálech“ — a moje odpověď",
-    text: "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu), zpochybnění restrikce mých odměn jsem označila za demotivující a upřímně urážející, a připomněla, že na začátku svého působení ve firmě jsem čekala sedm měsíců, než mi dokončil slíbenou věc z mého předchozího zaměstnání.",
+    text: "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu), zpochybnění restrikce mých odměn jsem označila za demotivující až možná upřímně urážející, a připomněla, že na začátku svého působení ve firmě na mne čekal sedm měsíců, než dokončím rozpracovaný projekt u předchozího zaměstnavatele. Vytýkal mi totiž, že není vidět rychlý progres, a měl dojem, že když se mi to nepovedlo hned, dávám od toho ruce pryč.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["E-mail Ospalíka 4. 7. 2025 — O lidech, zrcadlech a tichých signálech", "Moje odpověď 8. 8. 2025"],
-    legal: "Tuto svou odpověď jsem 8. 8. 2025 poslala i na e-mail pana Neffeho (neffe@gt-sports.cz) — dokládá to, že byl do vnitřního napětí zasvěcen mnohem dřív, než ukazuje zbytek časové osy. Vnímám ten první e-mail jako psychologický tlak bez konkrétního obsahu — chci probrat, jestli má tohle nějakou právní relevanci.",
     tags: ["pracovněprávní", "diskriminace", "Odoo"],
   },
   {
