@@ -34,7 +34,7 @@ const events = [
     id: "ev-2022-funkce",
     date: "~2022",
     year: "2022",
-    title: "Faktický výkon funkce jednatele bez smlouvy",
+    title: "Přidávání a rozšiřování funkcí a pravomocí",
     text: "Fakticky jsem podepisovala smlouvy, jednala s bankami a řešila personální věci ještě před formálním jmenováním.",
     people: ["Andrea Matis"],
     evidence: ["Fio banka + smlouvy — Období I", "Smlouva o pracovnělékařských službách", "Fio dokumenty 8/2023"],
@@ -207,6 +207,17 @@ const events = [
     tags: ["jednatel", "GPS", "GDPR", "obchodní", "pracovněprávní"],
   },
   {
+    id: "ev-2026-web-odstraneni",
+    date: "12. 5. 2026",
+    year: "2026",
+    title: "Odstranění z firemního webu",
+    text: "Podle kolegů je firemní web v tomto stavu už ode dne, kdy mě pan Ospalík odvolal z funkce jednatelky — 12. 5. 2026. Byla jsem z něj kompletně odstraněna: zmizely všechny moje články, kontaktní formulář i moje údaje. Stav jsem si potvrdila screenshotem stránky Náš tým z 15. 6. 2026, kde už nejsem uvedena.",
+    people: ["Andrea Matis", "Karel Ospalík"],
+    evidence: ["Screenshot stránky Náš tým 15. 6. 2026"],
+    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno, a to hned v den odvolání — chci probrat, co z toho může plynout. Ironické mi přijde, že přesně o totéž (kompletní vymazání odevšad) mě sám žádal v roce 2024, když odcházel do důchodu.",
+    tags: ["pracovněprávní", "GDPR", "jednatel"],
+  },
+  {
     id: "ev-2026-bmw-incident",
     date: "5/2026 (datum ověřit)",
     year: "2026",
@@ -249,17 +260,6 @@ const events = [
     evidence: ["Záznamy přístupů", "E-mail 11. 6. 2026"],
     legal: "Bez přístupů nemohu pracovat, i když pracovat chci — jak se to posuzuje, nechám na Vás.",
     tags: ["pracovněprávní", "mzda"],
-  },
-  {
-    id: "ev-2026-web-odstraneni",
-    date: "začátek 6/2026",
-    year: "2026",
-    title: "Odstranění z firemního webu",
-    text: "Byla jsem kompletně odstraněna z firemního webu — zmizely všechny moje články, kontaktní formulář i moje údaje.",
-    people: ["Andrea Matis", "Karel Ospalík"],
-    evidence: ["Screenshoty firemního webu před/po"],
-    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno — chci probrat, co z toho může plynout. Ironické mi přijde, že přesně o totéž (kompletní vymazání odevšad) mě sám žádal v roce 2024, když odcházel do důchodu.",
-    tags: ["pracovněprávní", "GDPR"],
   },
   {
     id: "ev-2026-smernice2",
@@ -393,7 +393,7 @@ const lawyerQuestions = [
   "Můžu po zaměstnavateli formálně žádat vydání kopií dokumentů, které jsem podepsala, ale nedostala (nařízení dovolené z 12. 5. 2026), a mé pracovní korespondence z firemního e-mailu a SharePointu (je tam mj. písemný příslib odměny za Odoo z června 2025)?",
   "Směl mi zaměstnavatel 12. 5. 2026 nařídit dovolenou ze dne na den, bez předchozího oznámení termínu — a vykazovat tak dobu, kdy mi sám odebral přístupy, jako moji dovolenou?",
   "Tlak podle mě nezačal 11. 3. 2026, ale už v červnu 2025 odebráním agendy výpočtu mezd a zesílil v září 2025 s příchodem nového IT kolegy — mění tahle dřívější časová linie právní posouzení?",
-  "Co znamená, že mě začátkem června 2026 odstranili z firemního webu (moje články, kontaktní formulář i moje údaje) ještě před vypořádáním mých nároků — má to nějaký právní význam?",
+  "Co znamená, že mě už v den odvolání (12. 5. 2026) odstranili z firemního webu (moje články, kontaktní formulář i moje údaje) ještě před vypořádáním mých nároků — má to nějaký právní význam?",
 ];
 
 const formatMoney = (value) => new Intl.NumberFormat("cs-CZ", { style: "currency", currency: "CZK", maximumFractionDigits: 0 }).format(value);
