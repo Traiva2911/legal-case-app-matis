@@ -53,6 +53,17 @@ const events = [
     tags: ["obchodní", "jednatel", "mzda"],
   },
   {
+    id: "ev-2024-ospalik-odchod",
+    date: "2024",
+    year: "2024",
+    title: "Karel Ospalík odcházel do důchodu — chtěl být „úplně smazán“",
+    text: "V roce 2024 jsem panu Ospalíkovi podepisovala výpověď, když odcházel do důchodu. Sám mě tehdy požádal, abych ho smazala odevšad — z webu, systémů, ze všeho.",
+    people: ["Andrea Matis", "Karel Ospalík"],
+    evidence: [],
+    legal: "Připadá mi to jako výrazný rozpor — přesně to, o co mě sám tehdy požádal pro sebe, teď o dva roky později udělal on mně, aniž by cokoliv vypořádal. Chci to dát do souvislosti s odstraněním z firemního webu v červnu 2026.",
+    tags: ["jednatel", "pracovněprávní"],
+  },
+  {
     id: "ev-2024-jmenovani",
     date: "24. 6. 2024",
     year: "2024",
@@ -247,7 +258,7 @@ const events = [
     text: "Byla jsem kompletně odstraněna z firemního webu — zmizely všechny moje články, kontaktní formulář i moje údaje.",
     people: ["Andrea Matis", "Karel Ospalík"],
     evidence: ["Screenshoty firemního webu před/po"],
-    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno — chci probrat, co z toho může plynout.",
+    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno — chci probrat, co z toho může plynout. Ironické mi přijde, že přesně o totéž (kompletní vymazání odevšad) mě sám žádal v roce 2024, když odcházel do důchodu.",
     tags: ["pracovněprávní", "GDPR"],
   },
   {
