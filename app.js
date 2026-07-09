@@ -108,6 +108,17 @@ const events = [
     tags: ["Odoo", "mzda", "DPP", "pracovněprávní"],
   },
   {
+    id: "ev-2025-moratorium-skoleni",
+    date: "18. 6. 2025",
+    year: "2025",
+    title: "Moratorium na externí školení",
+    text: "Pan Ospalík e-mailem (mně a Jiřímu Premusovi) vyhlásil moratorium na jakákoli externí školení, dokud nebude jisté, že personál dokonale zná Odoo. Zrušil tím i školení na Excel nebo IT dovednosti, které jsem navrhovala — argumentoval, že na ně není podepsaná smlouva.",
+    people: ["Andrea Matis", "Karel Ospalík", "Jiří Premus"],
+    evidence: ["E-mail Ospalíka 18. 6. 2025 — moratorium na školení"],
+    legal: "Vydal to kvůli mně, abych se nevzdělávala v ničem jiném než v Odoo — přesně den před tím, než mi napsal, že systém vedení projektu bude „po jeho“, a týden před zahájením projektového plánu 23. 6. 2025.",
+    tags: ["Odoo", "pracovněprávní"],
+  },
+  {
     id: "ev-2025-prislib",
     date: "23. 6. 2025",
     year: "2025",
