@@ -323,7 +323,7 @@ const evidence = [
 
 const people = [
   { id: "p-andrea", name: "Ing. Andrea Matis", role: "zaměstnanec HPP, produktová manažerka, jednatelka 24. 6. 2024 - 12. 5. 2026", documents: 23, events: 20, claims: 7, tags: ["jednatel", "mzda", "DPP", "pracovněprávní"] },
-  { id: "p-karel", name: "Ing. Karel Ospalík", role: "jednatel a jediný společník TRAIVA s.r.o.", documents: 15, events: 18, claims: 7, tags: ["obchodní", "GPS", "pracovněprávní"] },
+  { id: "p-karel", name: "Ing. Karel Ospalík", role: "jednatel a jediný vlastník TRAIVA s.r.o.", documents: 15, events: 18, claims: 7, tags: ["obchodní", "GPS", "pracovněprávní"] },
   { id: "p-traiva", name: "TRAIVA s.r.o.", role: "zaměstnavatel, rodinná firma v procesu prodeje", documents: 15, events: 20, claims: 7, tags: ["pracovněprávní", "obchodní"] },
   { id: "p-neffe", name: "Karel Neffe", role: "potenciální kupující doporučený AM, NKtech s.r.o. + GTSPORTS; vlastník BMW X1 (Under8/NK Technology), komisionář prodeje SsangYongu", documents: 4, events: 5, claims: 3, tags: ["obchodní", "vozidla"] },
   { id: "p-quest", name: "Quest s.r.o. / ODOPRO s.r.o.", role: "původní ERP dodavatel (p. Plaček); implementaci nechal nezdokumentovanou, radil se ve facebookových poradnách a najímal externí programátory", documents: 5, events: 4, claims: 1, tags: ["Odoo"] },
