@@ -465,7 +465,7 @@ function titleBlock(title, subtitle) {
 }
 
 function renderDashboard() {
-  const recent = events.slice(-4).reverse();
+  const keyPeople = people.slice(0, 4);
   document.getElementById("view-dashboard").innerHTML = `
     <div class="dash-eyebrow">Spisový přehled · TRAIVA s.r.o.</div>
     ${titleBlock("Případ Andrea Matis", "Podklady, které jsem si připravila ke konzultaci: události, dokumenty a komunikace tak, jak je vnímám já. Právní posouzení nechávám na Vás.")}
@@ -479,16 +479,15 @@ function renderDashboard() {
       <article class="card summary-panel">
         <h2>Přehled případu</h2>
         <ul class="mini-list">
-          <li><span>Okruhy k probrání</span><strong>6</strong></li>
           <li><span>Události v časové ose</span><strong>${events.length}</strong></li>
-          <li><span>Podklady a dokumenty</span><strong>${evidence.length}</strong></li>
-          <li><span>Klíčový podklad (dle mě)</span><strong>WhatsApp 2021</strong></li>
+          <li><span>Podklady</span><strong>${evidence.length}</strong></li>
+          <li><span>Dokumenty</span><strong>${documents.length}</strong></li>
         </ul>
       </article>
       <article class="card insight-panel">
-        <h2>Nejbližší fokus</h2>
+        <h2>Klíčové osoby</h2>
         <ul class="mini-list">
-          ${recent.map((item) => `<li><span>${item.title}</span><strong>${item.date}</strong></li>`).join("")}
+          ${keyPeople.map((item) => `<li><span>${item.name}</span><strong>${item.role}</strong></li>`).join("")}
         </ul>
       </article>
     </div>
