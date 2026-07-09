@@ -240,6 +240,17 @@ const events = [
     tags: ["pracovněprávní", "mzda"],
   },
   {
+    id: "ev-2026-web-odstraneni",
+    date: "začátek 6/2026",
+    year: "2026",
+    title: "Odstranění z firemního webu",
+    text: "Byla jsem kompletně odstraněna z firemního webu — zmizely všechny moje články, kontaktní formulář i moje údaje.",
+    people: ["Andrea Matis", "Karel Ospalík"],
+    evidence: ["Screenshoty firemního webu před/po"],
+    legal: "Vnímám to jako snahu vymazat moji roli ve firmě navenek, ještě než bylo cokoliv vypořádáno — chci probrat, co z toho může plynout.",
+    tags: ["pracovněprávní", "GDPR"],
+  },
+  {
     id: "ev-2026-smernice2",
     date: "3. 6. 2026",
     year: "2026",
@@ -371,6 +382,7 @@ const lawyerQuestions = [
   "Můžu po zaměstnavateli formálně žádat vydání kopií dokumentů, které jsem podepsala, ale nedostala (nařízení dovolené z 12. 5. 2026), a mé pracovní korespondence z firemního e-mailu a SharePointu (je tam mj. písemný příslib odměny za Odoo z června 2025)?",
   "Směl mi zaměstnavatel 12. 5. 2026 nařídit dovolenou ze dne na den, bez předchozího oznámení termínu — a vykazovat tak dobu, kdy mi sám odebral přístupy, jako moji dovolenou?",
   "Tlak podle mě nezačal 11. 3. 2026, ale už v červnu 2025 odebráním agendy výpočtu mezd a zesílil v září 2025 s příchodem nového IT kolegy — mění tahle dřívější časová linie právní posouzení?",
+  "Co znamená, že mě začátkem června 2026 odstranili z firemního webu (moje články, kontaktní formulář i moje údaje) ještě před vypořádáním mých nároků — má to nějaký právní význam?",
 ];
 
 const formatMoney = (value) => new Intl.NumberFormat("cs-CZ", { style: "currency", currency: "CZK", maximumFractionDigits: 0 }).format(value);
