@@ -76,12 +76,12 @@ const events = [
   },
   {
     id: "ev-2024-odoo-schvaleni",
-    date: "podzim 2024 (smlouva), plánovaný start 1. 11. 2024",
+    date: "21. 6. 2024",
     year: "2024",
     title: "Schválení Odoo a výběr dodavatele Quest",
-    text: "Schválení Odoo a výběr implementačního partnera (firma Quest s.r.o.) proběhlo ve spolupráci s panem Ospalíkem. Po podpisu smlouvy ale prohlásil, že jde o projekt na mou zodpovědnost, nad rámec mé pracovní náplně, a že s tím nechce mít nic společného. Ostrý provoz se měl spustit od 1. 11. 2024. Do té doby jsem měla sama vše připraveno na testovacím účtu, ale předpřipravená databáze mi někam zmizela. Mezitím se společníci Questu, Jakub Brada a Michal Plaček, rozdělili — zůstal pan Plaček a firma se přejmenovala na ODOPRO; víc na pozadí té změny nevidím. Od té doby se muselo začít vše nanovo, ale panu Plačkovi se to dařilo tajit asi měsíc a půl, až do 1. 11. 2024, kdy měl být ostrý start.",
+    text: "Schválení Odoo a výběr implementačního partnera (firma Quest solutions s.r.o.) proběhlo ve spolupráci s panem Ospalíkem. Po podpisu smlouvy ale prohlásil, že jde o projekt na mou zodpovědnost, nad rámec mé pracovní náplně, a že s tím nechce mít nic společného. Smlouva s Quest solutions s.r.o. (zastoupenou Jakubem Bradou) byla podepsána a nabyla účinnosti 21. 6. 2024 — jen tři dny předtím, než jsem byla 24. 6. 2024 formálně jmenována jednatelkou. Smlouva počítala s implementací za 450 hodin (770 004 Kč s DPH) a plánovaným dokončením do 1. 6. 2025; interně jsme si ale domlouvali dřívější ostrý start k 1. 11. 2024. Do té doby jsem měla sama vše připraveno na testovacím účtu, ale předpřipravená databáze mi někam zmizela. Mezitím se společníci Questu, Jakub Brada a Michal Plaček, rozdělili — zůstal pan Plaček a firma se přejmenovala na ODOPRO; víc na pozadí té změny nevidím. Od té doby se muselo začít vše nanovo, ale panu Plačkovi se to dařilo tajit asi měsíc a půl, až do 1. 11. 2024, kdy měl být ostrý start.",
     people: ["Andrea Matis", "Karel Ospalík", "Michal Plaček"],
-    evidence: ["Původní projektový plán Odoo a přílohy"],
+    evidence: ["Smlouva Quest solutions s.r.o. — implementace Odoo, 21. 6. 2024", "Původní projektový plán Odoo a přílohy"],
     legal: "Od plánovaného startu 1. 11. 2024 začal kolotoč mých kontrol, eskalací a školení programátorského jazyka a podobně. Původní projektový plán a přílohy jasně ukazují, že jedinou stěžejní osobou projektu jsem měla být já.",
     tags: ["Odoo", "pracovněprávní", "obchodní"],
   },
@@ -349,6 +349,7 @@ const driveFolderUrl = "https://drive.google.com/drive/folders/1cHt8gpq7G0hVBAz4
 const documents = [
   { id: "d-main", title: "Podklady pro advokáta Matis", type: "hlavní spis", date: "19. 6. 2026", tags: ["pracovněprávní", "obchodní"], file: "https://docs.google.com/document/d/1mbjYSxnS4vBEAi9slsNKMU9BG0HeBb5CBNyMXR-vWR0/edit" },
   { id: "d-odoo-plan-puvodni", title: "Původní projektový plán Odoo a přílohy (Quest)", type: "projektový plán + přílohy, podzim 2024", date: "podzim 2024", tags: ["Odoo", "pracovněprávní"], file: "https://drive.google.com/drive/u/0/folders/1TdLGqBCNzM-u4cfPJ8P3O7aEGiIiKzAX" },
+  { id: "d-odoo-smlouva-quest", title: "Smlouva Quest solutions s.r.o. — implementace Odoo", type: "smlouva o dílo, účinná 21. 6. 2024", date: "21. 6. 2024", tags: ["Odoo", "obchodní"], file: "https://drive.google.com/file/d/1GxFBBo826MEQbquhT-UeWtN3HrHYm2JZ/view" },
   { id: "d-whatsapp", title: "WhatsApp 20. 5. 2021 (plný přepis konverzace)", type: "důkazní příloha", date: "2021", tags: ["obchodní"], file: "https://drive.google.com/file/d/1MW_PSKNiBfFRo8swK--78Fqmpzjpf2iJ/view" },
   { id: "d-potvrzeni", title: "Formální potvrzení 1. 1. 2024 (Odměny a smlouva)", type: "důkazní příloha", date: "1. 1. 2024", tags: ["jednatel", "obchodní"], file: "https://drive.google.com/file/d/12GHeMwprTYm71fh0DZg-mw299h2KzPD-/view" },
   { id: "d-usneseni", title: "Notářský zápis — jmenování jednatelkou", type: "rozhodnutí jediného společníka (sken)", date: "24. 6. 2024", tags: ["jednatel"], file: "https://drive.google.com/file/d/1eCAa25alrAYcvMjsaBmiR_GSXIW1OhTj/view" },  { id: "d-payroll", title: "Výplatní pásky 04/2025, 05/2025, 12/2025 + 02–05/2026 (13×)", type: "mzdová příloha — vývoj prémií od vrcholu po pokles na nulu", date: "2025-2026", tags: ["mzda", "DPP"], file: "https://drive.google.com/drive/folders/10cYncs-DqJjerMVHXjwAdaNLvDQOKl4V" },
