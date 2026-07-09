@@ -465,7 +465,7 @@ function titleBlock(title, subtitle) {
 }
 
 function renderDashboard() {
-  const keyPeople = people.slice(0, 4);
+  const keyPeople = people.slice(0, 3);
   document.getElementById("view-dashboard").innerHTML = `
     <div class="dash-eyebrow">Spisový přehled · TRAIVA s.r.o.</div>
     ${titleBlock("Případ Andrea Matis", "Podklady, které jsem si připravila ke konzultaci: události, dokumenty a komunikace tak, jak je vnímám já. Právní posouzení nechávám na Vás.")}
