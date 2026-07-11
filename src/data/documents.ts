@@ -251,6 +251,16 @@ export const documents: CaseDocument[] = [
     "file": "https://docs.google.com/document/d/1hSdi-SluswOhDW55VgOb4PAhmIDkodvJ_NpGeEuDJhE/edit"
   },
   {
+    "id": "d-origamis-samouk",
+    "title": "E-mail Ospalíka Hrdličkovi (Origamis) 27. 4. 2026 — \"jeden samouk\"",
+    "type": "E-mail",
+    "date": "27. 4. 2026",
+    "tags": [
+      "Odoo",
+      "diskriminace"
+    ]
+  },
+  {
     "id": "d-rezim-schvaleni",
     "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
     "type": "E-mail",

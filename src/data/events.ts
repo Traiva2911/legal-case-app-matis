@@ -367,6 +367,26 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ]
   },
   {
+    "id": "ev-2026-origamis-samouk",
+    "date": "27. 4. 2026",
+    "year": "2026",
+    "title": "Ospalík znevažuje mou odbornost přímo vůči dodavateli Origamis",
+    "text": "22. 4. 2026 jsem oslovila pana Hrdličku z firmy Origamis s poptávkou na správu projektu Traiva-shop a upgrade na Odoo 19 — žádala jsem o nacenění analýzy, migrace produkční databáze, nastavení výrobního workflow a integrace GLS. Pan Ospalík na to 27. 4. 2026 odpověděl přímo panu Hrdličkovi, ne mně soukromě, a napsal doslova: „Připravit si firmu na cestu do pekel s firmou a jedním samoukem, kteří ani za půl roku nedokázali zavést ani základní funkci - znát pohledávky. Jiná cesta s nimi nevede.\" Slovem „samouk\" tak vedle profesionální firmy Origamis označil mě.",
+    "legal": "Není to jen soukromá poznámka mezi námi — napsal to přímo obchodnímu partnerovi, se kterým jsem sama jednala o zakázce. Vnímám to jako znevažování mé odbornosti navenek, ne jen interní kritiku.",
+    "tags": [
+      "Odoo",
+      "pracovněprávní",
+      "diskriminace"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "E-mail Ospalíka Hrdličkovi 27. 4. 2026 — \"jeden samouk\""
+    ]
+  },
+  {
     "id": "ev-2026-vyzva",
     "date": "30. 4. 2026",
     "year": "2026",

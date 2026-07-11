@@ -57,4 +57,5 @@ export const documentAlias: Record<string, string> = {
   "Odoo párování plateb — stav projektu 7. 5. 2026": "d-odoo-stav",
   "Podklady pro advokáta": "d-main",
   "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"": "d-rezim-schvaleni",
+  "E-mail Ospalíka Hrdličkovi 27. 4. 2026 — \"jeden samouk\"": "d-origamis-samouk",
 };
