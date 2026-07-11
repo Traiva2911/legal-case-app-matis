@@ -271,6 +271,15 @@ export const documents: CaseDocument[] = [
     ]
   },
   {
+    "id": "d-neffe-vypoved",
+    "title": "E-mail Neffe/Ospalík 8.-9. 6. 2026 — výpověď nájemní smlouvy vozu",
+    "type": "E-mail",
+    "date": "8.–9. 6. 2026",
+    "tags": [
+      "vozidla"
+    ]
+  },
+  {
     "id": "d-rezim-schvaleni",
     "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
     "type": "E-mail",
