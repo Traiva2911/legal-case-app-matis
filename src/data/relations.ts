@@ -56,4 +56,5 @@ export const documentAlias: Record<string, string> = {
   "Podklad advokát vozidla PRIORITA": "d-vozidla",
   "Odoo párování plateb — stav projektu 7. 5. 2026": "d-odoo-stav",
   "Podklady pro advokáta": "d-main",
+  "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"": "d-rezim-schvaleni",
 };

@@ -311,8 +311,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "březen 2026",
     "year": "2026",
     "title": "Návrh režimu práce manažerů",
-    "text": "Pan Ospalík předložil návrh k připomínkování; moje připomínky ale nebyly nijak zapracovány ani akceptovány. Navrhoval mimo jiné, že manažeři nesmí mít víc než 3 nápady/podněty za týden, a argumentoval to tím, abychom měli osobní život, volný čas a podobně. Právě na základě jeho vlastního podnětu jsem si začala měřit pracovní dobu (viz Timely). Režim se měl oficiálně týkat i kolegy Premuse — od doby, kdy jsem do firmy nastoupila, měla být podle mě jeho manažerská pozice upravena podle faktického stavu. Český zákoník práce ale jeho fakticky vykonávanou funkci (\"povolání zeť\") neřadí do žádné z prací; podle rozvrhu docházel do firmy hlavně k dobití auta a na procházku, aby bylo vidět, že tam byl.",
-    "legal": "Verze 1 zachycuje pravidla odměňování tak, jak jsem jim tehdy rozuměla — připomínkování bylo podle mě jen formální. Zvláštní pro mě je, že stejný přísný režim měl platit i pro pana Premuse, jehož skutečná pracovní náplň podle mě neodpovídala ničemu, co zákoník práce zná jako druh práce — chci se zeptat, co z tohoto nerovného zacházení plyne. Důležité: tím, že sám argumentoval omezením nápadů kvůli potřebě mít osobní život a volný čas, prokazatelně věděl, že se pracuje i po pracovní době — to považuji za přímý důkaz jeho vědomí o mých přesčasech.",
+    "text": "Pan Ospalík předložil návrh k připomínkování; moje připomínky ale nebyly nijak zapracovány ani akceptovány. Navrhoval mimo jiné, že manažeři nesmí mít víc než 3 nápady/podněty za týden, a argumentoval to tím, abychom měli osobní život, volný čas a podobně. Právě na základě jeho vlastního podnětu jsem si začala měřit pracovní dobu (viz Timely). Režim se měl oficiálně týkat i kolegy Premuse — od doby, kdy jsem do firmy nastoupila, měla být podle mě jeho manažerská pozice upravena podle faktického stavu. Český zákoník práce ale jeho fakticky vykonávanou funkci (\"povolání zeť\") neřadí do žádné z prací; podle rozvrhu docházel do firmy hlavně k dobití auta a na procházku, aby bylo vidět, že tam byl. Že bylo připomínkování jen formální, dokládá i jeho e-mail z 2. 4. 2026: napsal, že pokud nikdo nedodal žádné návrhy na úpravu, považuje předpis rovnou za schválený, a poslal ho k podpisu — bez ohledu na to, zda k němu připomínky reálně byly. V navazujícím e-mailu z 22. 4. 2026 dodal, že jakmile něco vydá jako vnitřní předpis, je to „červená čára jako všude jinde\", a zmínil, že kolega Jiří Premus mezitím vypracoval vlastní plán práce.",
+    "legal": "Verze 1 zachycuje pravidla odměňování tak, jak jsem jim tehdy rozuměla — připomínkování bylo podle mě jen formální. Zvláštní pro mě je, že stejný přísný režim měl platit i pro pana Premuse, jehož skutečná pracovní náplň podle mě neodpovídala ničemu, co zákoník práce zná jako druh práce — chci se zeptat, co z tohoto nerovného zacházení plyne. Důležité: tím, že sám argumentoval omezením nápadů kvůli potřebě mít osobní život a volný čas, prokazatelně věděl, že se pracuje i po pracovní době — to považuji za přímý důkaz jeho vědomí o mých přesčasech. E-maily z 2. a 22. 4. 2026 mám zajištěné a chci je dát do souvislosti s tím, jak vznikla i následná verze 2 (viz 3. 6. 2026) — proces připomínkování byl podle mě od začátku jen formalita.",
     "tags": [
       "mzda",
       "pracovněprávní"
@@ -322,7 +322,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "Karel Ospalík"
     ],
     "evidenceRefs": [
-      "Vnitřní směrnice verze 1"
+      "Vnitřní směrnice verze 1",
+      "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\""
     ]
   },
   {
@@ -556,7 +557,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "year": "2026",
     "title": "Nová vnitřní směrnice verze 2",
     "text": "Nová směrnice Režim práce a měření výsledků manažerů verze 2, tentokrát už bez možnosti připomínkování.",
-    "legal": "Chci porovnat, co se změnilo oproti verzi 1, kterou jsem znala.",
+    "legal": "Chci porovnat, co se změnilo oproti verzi 1, kterou jsem znala. Verzi 1 už v dubnu 2026 sám prohlásil za schválenou „mlčením\" a upozornil, že jakmile něco vydá jako vnitřní předpis, je to pro něj červená čára (viz e-maily z 2. a 22. 4. 2026) — verze 2 na to navazuje, tentokrát ale bez jakéhokoliv prostoru pro připomínky.",
     "tags": [
       "mzda",
       "pracovněprávní"

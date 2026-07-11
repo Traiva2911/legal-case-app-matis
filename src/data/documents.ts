@@ -251,6 +251,16 @@ export const documents: CaseDocument[] = [
     "file": "https://docs.google.com/document/d/1hSdi-SluswOhDW55VgOb4PAhmIDkodvJ_NpGeEuDJhE/edit"
   },
   {
+    "id": "d-rezim-schvaleni",
+    "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
+    "type": "E-mail",
+    "date": "2.–22. 4. 2026",
+    "tags": [
+      "pracovněprávní",
+      "jednatel"
+    ]
+  },
+  {
     "id": "d-rezim",
     "title": "Režim práce manažerů od 3. 6. 2026",
     "type": "vnitřní směrnice verze 2",
