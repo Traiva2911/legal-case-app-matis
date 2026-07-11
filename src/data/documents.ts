@@ -280,6 +280,26 @@ export const documents: CaseDocument[] = [
     ]
   },
   {
+    "id": "d-vypis-karty-22-5",
+    "title": "Celý výpis z karty 22. 5. 2026",
+    "type": "E-mail + příloha",
+    "date": "22. 5. 2026",
+    "tags": [
+      "jednatel",
+      "pracovněprávní"
+    ]
+  },
+  {
+    "id": "d-dd-podklad",
+    "title": "Podklad pro DD 6. 5. 2026",
+    "type": "E-mail",
+    "date": "6. 5. 2026",
+    "tags": [
+      "obchodní",
+      "jednatel"
+    ]
+  },
+  {
     "id": "d-rezim-schvaleni",
     "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
     "type": "E-mail",
