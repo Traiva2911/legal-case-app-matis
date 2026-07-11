@@ -10,7 +10,7 @@ describe("content counts survive the rebuild", () => {
     expect(events.length).toBe(33);
     expect(evidence.length).toBe(22);
     expect(people.length).toBe(9);
-    expect(documents.length).toBe(43);
+    expect(documents.length).toBe(44);
     expect(lawyerQuestions.length).toBe(19);
   });
 });

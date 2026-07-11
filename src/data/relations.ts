@@ -62,4 +62,5 @@ export const documentAlias: Record<string, string> = {
   "E-mail Neffe/Ospalík 8.-9. 6. 2026 — výpověď nájemní smlouvy vozu": "d-neffe-vypoved",
   "Celý výpis z karty 22. 5. 2026": "d-vypis-karty-22-5",
   "Podklad pro DD 6. 5. 2026": "d-dd-podklad",
+  "FW: Nájem auta 8. 5. 2026": "d-najem-auta",
 };

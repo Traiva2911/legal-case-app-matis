@@ -453,7 +453,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "8. 5. 2026",
     "year": "2026",
     "title": "Zákaz komunikace z jiné než firemní e-mailové adresy",
-    "text": "Dostala jsem formální zákaz komunikovat z jiné než firemní e-mailové adresy.",
+    "text": "V e-mailu k tématu nájmu auta (přes doménu Karla Neffeho) mi Ospalík napsal doslova: „K tomu jsem už vše řekl telefonicky. Nepiš mi emaily z andrea@gt-sports.cz nebo jiných než firemního.“ Ve stejném e-mailu mi zároveň vytkl, že neví, jaká je navržená prodejní cena starého vozidla, což označil za „opět porušení firemní instrukce i zvyku ve firmě“.",
     "legal": "Dávám do souvislosti s pozdějším odebráním firemních přístupů — pak jsem neměla jak komunikovat.",
     "tags": [
       "pracovněprávní"
@@ -463,7 +463,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "Karel Ospalík"
     ],
     "evidenceRefs": [
-      "E-mailová komunikace"
+      "E-mailová komunikace",
+      "FW: Nájem auta 8. 5. 2026"
     ]
   },
   {

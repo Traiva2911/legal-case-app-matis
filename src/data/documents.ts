@@ -300,6 +300,16 @@ export const documents: CaseDocument[] = [
     ]
   },
   {
+    "id": "d-najem-auta",
+    "title": "FW: Nájem auta 8. 5. 2026",
+    "type": "E-mail",
+    "date": "8. 5. 2026",
+    "tags": [
+      "vozidla",
+      "pracovněprávní"
+    ]
+  },
+  {
     "id": "d-rezim-schvaleni",
     "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
     "type": "E-mail",
