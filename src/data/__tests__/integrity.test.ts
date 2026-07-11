@@ -7,7 +7,7 @@ import { personAlias, evidenceAlias, documentAlias } from "../relations";
 
 describe("content counts survive the rebuild", () => {
   it("matches the known-good counts extracted from the legacy app", () => {
-    expect(events.length).toBe(29);
+    expect(events.length).toBe(30);
     expect(evidence.length).toBe(22);
     expect(people.length).toBe(9);
     expect(documents.length).toBe(37);

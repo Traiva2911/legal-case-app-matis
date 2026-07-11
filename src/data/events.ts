@@ -229,7 +229,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "4. 7. – 8. 8. 2025",
     "year": "2025",
     "title": "„O lidech, zrcadlech a tichých signálech“ — a moje odpověď",
-    "text": "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu), zpochybnění restrikce mých odměn jsem označila za demotivující až možná upřímně urážející, a připomněla, že na začátku svého působení ve firmě na mne čekal sedm měsíců, než dokončím rozpracovaný projekt u předchozího zaměstnavatele. Vytýkal mi totiž, že není vidět rychlý progres, a měl dojem, že když se mi to nepovedlo hned, dávám od toho ruce pryč.",
+    "text": "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu), zpochybnění restrikce mých odměn jsem označila za demotivující až možná upřímně urážející, a připomněla mu, že na mě čekal sedm měsíců ještě předtím, než jsem vůbec nastoupila do firmy — protože jsem chtěla nejdřív dokončit rozpracovaný projekt u předchozího zaměstnavatele. Vytýkal mi totiž, že není vidět rychlý progres, a měl dojem, že když se mi to nepovedlo hned, dávám od toho ruce pryč.",
     "tags": [
       "pracovněprávní",
       "diskriminace",
@@ -243,6 +243,23 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "E-mail Ospalíka 4. 7. 2025 — O lidech, zrcadlech a tichých signálech",
       "Moje odpověď 8. 8. 2025"
     ]
+  },
+  {
+    "id": "ev-2025-it-konzultace",
+    "date": "léto 2025",
+    "year": "2025",
+    "title": "Společná konzultace o přijetí nového IT pracovníka",
+    "text": "V létě 2025 jsme s panem Ospalíkem společně řešili možnost přijetí nového IT pracovníka, který by mi byl k ruce a pomáhal se správou interních systémů, spravovaných webů a aplikací — nejen s Odoo. Shodli jsme se, že vzhledem ke všem povinnostem, které jsem aktuálně vykonávala, naplánovaným pracím s vývojářem (DEV) a další agendě, by to v tu chvíli nebylo vhodné — neměla bych prostor ani kapacitu naučit nového kolegu všechny systémy a prioritou pro mě bylo dokončit projekt Odoo, který by mi přijetí a zaučení nového člověka jen zdrželo. Pan Ospalík můj názor tehdy akceptoval, v praxi ho ale nerespektoval.",
+    "legal": "Chci to dát do souvislosti s tím, co následovalo — sám tehdy uznal, že nemám kapacitu na nic navíc, přesto na mě později dál nabaloval další úkoly a odpovědnost.",
+    "tags": [
+      "Odoo",
+      "pracovněprávní"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": []
   },
   {
     "id": "ev-2025-maralik",
