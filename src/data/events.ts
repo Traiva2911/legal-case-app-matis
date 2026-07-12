@@ -167,7 +167,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "18. 6. 2025",
     "year": "2025",
     "title": "Moratorium na externí školení",
-    "text": "Pan Ospalík e-mailem (mně a Jiřímu Premusovi) vyhlásil moratorium na jakákoli externí školení, dokud nebude jisté, že personál dokonale zná Odoo. Zrušil tím i školení na Excel nebo IT dovednosti, které jsem navrhovala — argumentoval, že na ně není podepsaná smlouva.",
+    "text": "Pan Ospalík e-mailem (mně a na vědomí Jiřímu Premusovi) vyhlásil moratorium na jakákoli externí školení, dokud nebude jisté, že personál dokonale zná Odoo. Zrušil tím i školení na Excel nebo IT dovednosti, které jsem navrhovala — právě z důvodu lepší orientace v jakémkoli interním systému — a měla na ně schváleno i financování z tehdejší výzvy MPSV na podporu vzdělávání ve firmách a digitalizaci. Argumentoval, že na ně není podepsaná smlouva.",
     "legal": "Vydal to kvůli mně, abych se nevzdělávala v ničem jiném než v Odoo — přesně den před tím, než mi napsal, že systém vedení projektu bude „po jeho“, a týden před zahájením projektového plánu 23. 6. 2025.",
     "tags": [
       "Odoo",
