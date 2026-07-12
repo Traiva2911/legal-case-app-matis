@@ -229,10 +229,9 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "4. 7. – 8. 8. 2025",
     "year": "2025",
     "title": "„O lidech, zrcadlech a tichých signálech“ — a moje odpověď",
-    "text": "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu), zpochybnění restrikce mých odměn jsem označila za demotivující až možná upřímně urážející, a připomněla mu, že na mě čekal sedm měsíců ještě předtím, než jsem vůbec nastoupila do firmy — protože jsem chtěla nejdřív dokončit rozpracovaný projekt u předchozího zaměstnavatele. Vytýkal mi totiž, že není vidět rychlý progres, a měl dojem, že když se mi to nepovedlo hned, dávám od toho ruce pryč.",
+    "text": "Pan Ospalík mi 4. 7. 2025 poslal e-mail nazvaný „Moje myšlenky - O lidech, zrcadlech a tichých signálech“ — vágní text o důvěře, transparentnosti a potřebě „resetu“, bez konkrétního obsahu; údajně nabyl dojmu, že dávám ruce pryč od neúspěšného projektu. Skoro dva týdny jsem nad odpovědí přemýšlela a několikrát ji upravila. V odpovědi z 8. 8. 2025 jsem podrobně popsala své nasazení, i přesto, že byl ve všech zásadních e-mailech jen „na vědomí“ (ERP jsem intenzivně řešila od 29. 4. 2024, smazanou zálohu pilotního projektu na Githubu). Zpochybnění restrikce mých odměn jsem označila za demotivující až možná upřímně urážející a napsala mu, že „z boje neutíkám a od nedokončené práce taky ne“ — ať si vzpomene, že on sám na mě čekal sedm měsíců, než jsem vůbec nastoupila do firmy, protože jsem chtěla nejdřív dokončit svěřený projekt u předchozího zaměstnavatele. Poté jsme měli osobní schůzku, kde mi vytýkal, že není vidět rychlý progres, a měl dojem, že když se mi to nepovedlo hned, dávám od toho ruce pryč. Vysvětlila jsem mu situaci s programátory a to, že jeho termín je nereálný kvůli vytížení Origamis jinými projekty.",
     "tags": [
       "pracovněprávní",
-      "diskriminace",
       "Odoo"
     ],
     "personRefs": [
