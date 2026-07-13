@@ -793,6 +793,14 @@ button {
   margin-top: 12px;
 }
 
+.doc-text {
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+  margin: 8px 0 4px;
+  line-height: 1.5;
+}
+
 .doc-actions {
   display: flex;
   flex-wrap: wrap;

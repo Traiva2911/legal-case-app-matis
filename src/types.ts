@@ -76,6 +76,7 @@ export interface CaseDocument extends Base {
   type: string;
   date: string;
   file?: string;
+  text?: string;
 }
 
 export type DetailKind = "Událost" | "Podklad" | "Osoba" | "Dokument";

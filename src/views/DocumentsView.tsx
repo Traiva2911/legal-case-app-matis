@@ -20,6 +20,7 @@ function DocumentCard({ item }: { item: CaseDocument }) {
         <Highlight text={item.title} />
       </h2>
       <TagRow tags={item.tags} />
+      {item.text && <p className="doc-text">{item.text}</p>}
       <div className="doc-actions">
         <button
           className="ghost-button"
