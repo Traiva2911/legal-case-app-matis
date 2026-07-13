@@ -287,6 +287,28 @@ export const documents: CaseDocument[] = [
     "file": "https://docs.google.com/document/d/1hSdi-SluswOhDW55VgOb4PAhmIDkodvJ_NpGeEuDJhE/edit"
   },
   {
+    "id": "d-olidech",
+    "title": "E-mail export: OLIDECH (13 stran, Outlook)",
+    "type": "PDF export e-mailove komunikace · pouze osobni archiv",
+    "date": "2026",
+    "tags": [
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1Wk8iATwr-BrT-GcZFaYhwH3x3DKafcsa/view",
+    "text": "13-stranovy export emailove komunikace z Outlooku. Soubor je obrazovy PDF — text nelze automaticky extrahovat. Obsah k doplneni po overeni."
+  },
+  {
+    "id": "d-moratorium-skoleni",
+    "title": "E-mail export: Moratorium skoleni (Outlook)",
+    "type": "PDF export e-mailove komunikace · pouze osobni archiv",
+    "date": "2026",
+    "tags": [
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1QpGYtZtlXQ-4YUrBMYNEOamBBykrd9ua/view",
+    "text": "Export emailu o moratoriu skolen. Soubor je obrazovy PDF — text nelze automaticky extrahovat. Obsah k doplneni po overeni."
+  },
+  {
     "id": "d-ospalik-zadani-gpt",
     "title": "Ospalíkovo „zadání“ k párování plateb — ChatGPT konverzace",
     "type": "Google Docs · zadání předané Andree jako instrukce k Odoo",
