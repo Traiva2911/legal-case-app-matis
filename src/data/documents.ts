@@ -265,6 +265,30 @@ export const documents: CaseDocument[] = [
     "file": "https://docs.google.com/document/d/1hSdi-SluswOhDW55VgOb4PAhmIDkodvJ_NpGeEuDJhE/edit"
   },
   {
+    "id": "d-ospalik-zadani-gpt",
+    "title": "Ospalíkovo „zadání“ k párování plateb — ChatGPT konverzace",
+    "type": "Google Docs · zadání předané Andree jako instrukce k Odoo",
+    "date": "2025-2026",
+    "tags": [
+      "Odoo",
+      "pracovněprávní"
+    ],
+    "file": "https://docs.google.com/document/d/1dA_jIEJ7W5wNhbcNn5WRHalmXyLJ8Gld/edit",
+    "text": "Dokument, který Ospalík předal jako „zadání“ k implementaci párování plateb, je doslova ChatGPT konverzace — Ospalík se AI ptal na základní otázky o Odoo, dostal vygenerované instrukce (ABO formát, OCA moduly, bash skripty, cron joby, XML-RPC) a toto předal jako pracovní pokyn. Nikdy ERP systém neviděl. Přesto hodnotil moji práci jako nedostatečnou."
+  },
+  {
+    "id": "d-odoo-parovani-setup",
+    "title": "Screenshot nastavení párování plateb Odoo — TRAIVA bankovní účty",
+    "type": "osobní dokumentace (nikdy nesdíleno) · screenshot z Odoo, červen 2026",
+    "date": "19. 6. 2026",
+    "tags": [
+      "Odoo",
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1gx1iaV7oOVFnIx2XLrInzqQajVSYp4WP/view",
+    "text": "Screenshoty modulu párování plateb v Odoo s konfigurací tří TRAIVA účtů (CZK/EUR). Dokládá, že jsem modul párování plateb reálně nastavila a provozovala — jako přímý protiargument k tvrzení, že práce na Odoo byla povrchní nebo neúplná."
+  },
+  {
     "id": "d-origamis-samouk",
     "title": "E-mail Ospalíka Hrdličkovi (Origamis) 27. 4. 2026 — \"jeden samouk\"",
     "type": "E-mail · uložen v PST archivu",
