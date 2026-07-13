@@ -141,7 +141,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1FrVQQwA-fRW6GJwdnDmo0kXz7wYg4tvI/view"
+    "file": "https://docs.google.com/document/d/1FrVQQwA-fRW6GJwdnDmo0kXz7wYg4tvI/edit"
   },
   {
     "id": "d-odoo-stav",
