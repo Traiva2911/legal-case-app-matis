@@ -248,7 +248,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "text": "Ospalík napsal obchodnímu partnerovi Hrdličkovi z firmy Origamis — s nímž jsem sama jednala o zakázce — že jde o „jednoho samouka". Nejde o interní kritiku: znevažování mé odbornosti proběhlo přímo navenek, vůči dodavateli, se kterým jsem aktivně spolupracovala."
+    "text": "Ospalík napsal obchodnímu partnerovi Hrdličkovi z firmy Origamis — s nímž jsem sama jednala o zakázce — že jde o „jednoho samouka”. Nejde o interní kritiku: znevažování mé odbornosti proběhlo přímo navenek, vůči dodavateli, se kterým jsem aktivně spolupracovala."
   },
   {
     "id": "d-parovani-slatanina",
@@ -259,7 +259,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "text": "Ospalík označil mé shrnutí průběhu párování plateb za „slátaninu" — přestože vzniklo přesně podle jeho vlastního zadání: odmítl číst obsáhlou dokumentaci a vyžádal si kratší verzi. Tu pak označil za povrchní a nepravdivou. Rozpor, který sám vyrobil."
+    "text": "Ospalík označil mé shrnutí průběhu párování plateb za „slátaninu” — přestože vzniklo přesně podle jeho vlastního zadání: odmítl číst obsáhlou dokumentaci a vyžádal si kratší verzi. Tu pak označil za povrchní a nepravdivou. Rozpor, který sám vyrobil."
   },
   {
     "id": "d-neffe-vypoved",
@@ -280,7 +280,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "pracovněprávní"
     ],
-    "text": "Výpis jsem si vyžádala sama, abych mohla vyvrátit obvinění ze „zřejmě soukromých plateb" — to přišlo sedm dní po odvolání, bez předložení jakýchkoli konkrétních položek. Kartou přitom platila i Eva Orel a případně další zaměstnanci."
+    "text": "Výpis jsem si vyžádala sama, abych mohla vyvrátit obvinění ze „zřejmě soukromých plateb” — to přišlo sedm dní po odvolání, bez předložení jakýchkoli konkrétních položek. Kartou přitom platila i Eva Orel a případně další zaměstnanci."
   },
   {
     "id": "d-dd-podklad",
@@ -291,7 +291,7 @@ export const documents: CaseDocument[] = [
       "obchodní",
       "jednatel"
     ],
-    "text": "Ospalík požadoval seznam marketingových akcí s „vyčíslitelným dopadem na ekonomiku firmy" — e-mail přišel šest dní před mým odvoláním v době aktivního due diligence procesu. Vnímám ho jako přípravu podkladů pro odvolání nebo snahu retroaktivně dokladovat, že moje práce nemá měřitelný přínos."
+    "text": "Ospalík požadoval seznam marketingových akcí s „vyčíslitelným dopadem na ekonomiku firmy” — e-mail přišel šest dní před mým odvoláním v době aktivního due diligence procesu. Vnímám ho jako přípravu podkladů pro odvolání nebo snahu retroaktivně dokladovat, že moje práce nemá měřitelný přínos."
   },
   {
     "id": "d-najem-auta",
@@ -302,7 +302,7 @@ export const documents: CaseDocument[] = [
       "vozidla",
       "pracovněprávní"
     ],
-    "text": "Ospalík mi v tomto e-mailu napsal: „Nepiš mi emaily z andrea@gt-sports.cz nebo jiných než firemního." Zároveň vytkl, že nezná navrhovanou prodejní cenu starého vozidla — označil to za „opět porušení firemní instrukce i zvyku ve firmě." Dávám do přímé souvislosti s pozdějším odebráním firemních přístupů."
+    "text": "Ospalík mi v tomto e-mailu napsal: „Nepiš mi emaily z andrea@gt-sports.cz nebo jiných než firemního.” Zároveň vytkl, že nezná navrhovanou prodejní cenu starého vozidla — označil to za „opět porušení firemní instrukce i zvyku ve firmě.” Dávám do přímé souvislosti s pozdějším odebráním firemních přístupů."
   },
   {
     "id": "d-rezim-schvaleni",
@@ -313,7 +313,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "jednatel"
     ],
-    "text": "Ospalík prohlásil vnitřní předpis „Režim práce manažerů verze 1" za schválený mlčením a varoval, že jakmile ho vydá jako předpis, jde pro něj o „červenou čáru". Jsem ale reagovala: navrhla jsem konkrétní řešení sledování pracovní doby — aplikaci Timely, kterou jsem si sama nastavila. Ospalík tento návrh neakceptoval."
+    "text": "Ospalík prohlásil vnitřní předpis „Režim práce manažerů verze 1” za schválený mlčením a varoval, že jakmile ho vydá jako předpis, jde pro něj o „červenou čáru”. Jsem ale reagovala: navrhla jsem konkrétní řešení sledování pracovní doby — aplikaci Timely, kterou jsem si sama nastavila. Ospalík tento návrh neakceptoval."
   },
   {
     "id": "d-rezim",
