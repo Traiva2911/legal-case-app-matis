@@ -145,6 +145,41 @@ export const documents: CaseDocument[] = [
     "file": "https://drive.google.com/file/d/1CaXnuzkUO5jItixm90We5bK4vukU4iR7/view"
   },
   {
+    "id": "d-origamis-sumar",
+    "title": "Projektový sumář Origamis — stav implementace Odoo",
+    "type": "projektová dokumentace dodavatele, akt. 8. 7. 2026",
+    "date": "8. 7. 2026",
+    "tags": [
+      "Odoo"
+    ],
+    "file": "https://docs.google.com/document/d/1sV3rdrrNZ1EMAWgQv7YMFtf6Lcy8XQPLXl4YCHf7CKc/edit"
+  },
+  {
+    "id": "d-valuace",
+    "title": "Valuace/ocenění podílu TRAIVA s.r.o. (2025)",
+    "type": "indikativní ocenění 100% podílu, data k 31. 12. 2024 / 1Q 2025",
+    "date": "2025",
+    "tags": [
+      "obchodní",
+      "mzda"
+    ],
+    "file": "https://drive.google.com/file/d/15_pkRqlBO9Fak_IBFvWL21PIn0ovrfgZ/view",
+    "text": "Equity value firmy vč. pracovního kapitálu, dluhu a nemovitosti: 83,2–89,8 mil. Kč. 10% podíl = cca 8,3–9 mil. Kč — výrazně více než 2,2 mil. Kč uvedených v původním návrhu odměn z roku 2024, který počítal jen s oběžnými aktivy."
+  },
+  {
+    "id": "d-oceneni-kupujici",
+    "title": "Shrnutí ocenění TRAIVA pro kupujícího (stav k 31. 12. 2025)",
+    "type": "ocenění pro due diligence — interní podklad k prodeji firmy",
+    "date": "2025",
+    "tags": [
+      "obchodní",
+      "Odoo",
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1CdlBjHvo7mWoVe-68WcpEPngYJZYtqmw/view",
+    "text": "Dokument explicitně uvádí, že nefunkční ERP (Odoo) snižuje hodnotu firmy o 13–33 % (tj. o 11–27 mil. Kč). Zároveň v části \"úspory po prodeji\" počítá s propuštěním zaměstnanců jako s plánovanou úsporou 829 tis. Kč ročně — moje odvolání bylo tedy předem zahrnuté do prodejní struktury, ne spontánní rozhodnutí."
+  },
+  {
     "id": "d-rekonciliace",
     "title": "Finanční rekonciliace (FINAL)",
     "type": "důvěrný finanční podklad",
