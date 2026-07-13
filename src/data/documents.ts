@@ -167,6 +167,28 @@ export const documents: CaseDocument[] = [
     "text": "Equity value firmy vč. pracovního kapitálu, dluhu a nemovitosti: 83,2–89,8 mil. Kč. 10% podíl = cca 8,3–9 mil. Kč — výrazně více než 2,2 mil. Kč uvedených v původním návrhu odměn z roku 2024, který počítal jen s oběžnými aktivy."
   },
   {
+    "id": "d-term-sheet",
+    "title": "Dohoda o postupu transakce — term sheet TRAIVA / NKtech (30. 3. 2026)",
+    "type": "letter of intent · indikativní kupní cena 93 mil. Kč",
+    "date": "30. 3. 2026",
+    "tags": [
+      "obchodní"
+    ],
+    "file": "https://drive.google.com/file/d/10Yg-YSTArRqFLfZ0nyWMHqFuOvZ4umLV/view",
+    "text": "Term sheet o prodeji 100 % podílu TRAIVA s.r.o. kupujícímu NKtech s.r.o. (Karel Neffe) byl podepsán 30. 3. 2026 — 43 dní před odvoláním Andrey 12. 5. 2026. Prodej firmy tedy probíhal v plném proudu v době odvolání, přičemž propuštění zaměstnanců bylo předem zahrnuté do kalkulace úspor pro kupujícího."
+  },
+  {
+    "id": "d-term-sheet-analyza",
+    "title": "Term Sheet — 13 připomínek z pohledu kupujícího NKtech",
+    "type": "obchodní analýza term sheetu · před podpisem SPA",
+    "date": "2026",
+    "tags": [
+      "obchodní"
+    ],
+    "file": "https://drive.google.com/file/d/1etRbsElLf4dZqkDyiGZrZPdTJ3G2EoRs/view",
+    "text": "Podrobná analýza rizik term sheetu z pohledu NKtech: požadavek na snížení prahu pro korekci ceny, rozšíření záruk na ERP a spolehlivost dat, zvýšení zádržného na 10-15 %, doplnění podmínek o provozní covenanty a udržení klíčových lidí. Dokument potvrzuje, že ERP a klíčové osoby byly explicitním rizikovým faktorem v transakci."
+  },
+  {
     "id": "d-oceneni-kupujici",
     "title": "Shrnutí ocenění TRAIVA pro kupujícího (stav k 31. 12. 2025)",
     "type": "ocenění pro due diligence — interní podklad k prodeji firmy",
