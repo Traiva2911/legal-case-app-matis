@@ -242,7 +242,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-origamis-samouk",
     "title": "E-mail Ospalíka Hrdličkovi (Origamis) 27. 4. 2026 — \"jeden samouk\"",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "27. 4. 2026",
     "tags": [
       "Odoo",
@@ -252,7 +252,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-parovani-slatanina",
     "title": "E-mail Ospalíka 27. 4. 2026 — shrnutí párování plateb \"slátanina\"",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "27. 4. 2026",
     "tags": [
       "Odoo",
@@ -262,7 +262,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-neffe-vypoved",
     "title": "E-mail Neffe/Ospalík 8.-9. 6. 2026 — výpověď nájemní smlouvy vozu",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "8.–9. 6. 2026",
     "tags": [
       "vozidla"
@@ -271,7 +271,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-vypis-karty-22-5",
     "title": "Celý výpis z karty 22. 5. 2026",
-    "type": "E-mail + příloha",
+    "type": "E-mail + příloha · uloženo v PST archivu",
     "date": "22. 5. 2026",
     "tags": [
       "jednatel",
@@ -281,7 +281,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-dd-podklad",
     "title": "Podklad pro DD 6. 5. 2026",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "6. 5. 2026",
     "tags": [
       "obchodní",
@@ -291,7 +291,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-najem-auta",
     "title": "FW: Nájem auta 8. 5. 2026",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "8. 5. 2026",
     "tags": [
       "vozidla",
@@ -301,7 +301,7 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-rezim-schvaleni",
     "title": "E-mail Ospalíka 2.–22. 4. 2026 — schválení předpisu \"mlčením\"",
-    "type": "E-mail",
+    "type": "E-mail · uložen v PST archivu",
     "date": "2.–22. 4. 2026",
     "tags": [
       "pracovněprávní",
