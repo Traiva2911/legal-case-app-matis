@@ -86,7 +86,20 @@ export const documents: CaseDocument[] = [
       "DPP",
       "mzda"
     ],
-    "file": "https://drive.google.com/drive/folders/1YLt0OQusVLWSpipF4unEdlyQHfjx130M"
+    "file": "https://drive.google.com/drive/folders/1YLt0OQusVLWSpipF4unEdlyQHfjx130M",
+    "text": "Čtyři souběžné DPP dohody vedle HPP: TRAIVA s.r.o. 2025 (kompletace výrobků, 400 Kč/h), TRAIVA s.r.o. 2026 (kompletace výrobků, 500 Kč/h — zvýšení o 25 %), Traiva Safety s.r.o. 2025 (správa webu, 400 Kč/h), Traiva Safety s.r.o. 2026 (správa webu, 400 Kč/h). Max. 300 hodin ročně u každé, splatnost do 15. dne. Odměny z DPP jsou součástí nevyplacených položek — Ospalík tyto platby zastavil v rámci širšího tlaku."
+  },
+  {
+    "id": "d-vojtech-smlouva",
+    "title": "Pracovní smlouva Vojtěcha Ospalíka (2. 2. 2026) — manažer vývoje software, 63 000 Kč",
+    "type": "pracovní smlouva + popis pracovní činnosti · syn jednatele",
+    "date": "30. 1. 2026",
+    "tags": [
+      "pracovněprávní",
+      "Odoo"
+    ],
+    "file": "https://drive.google.com/file/d/1iJljUEIJSf4yMPjS7SDCeDrEyaCa54ft/view",
+    "text": "Vojtěch Ospalík (syn Karla Ospalíka, nar. 16. 10. 1991) nastoupil jako Projektový manažer / Manažer vývoje software dne 2. 2. 2026 — 3,5 měsíce před odvoláním Andrey (12. 5. 2026). Základní mzda 63 000 Kč hrubého, shodná s Andřinou mzdou. Pracovní smlouva podepsána 30. 1. 2026, pružná pracovní doba, home office 80 %. Nástup Vojtěcha proběhl ve chvíli, kdy Andrea vedla projekt Odoo a Origamis konzultace — pozice projektového manažera, kterou reálně zastávala, byla v té době obsazována synem majitele před plánovaným prodejem firmy."
   },
   {
     "id": "d-mzdovy-vymer",
@@ -545,13 +558,75 @@ export const documents: CaseDocument[] = [
   },
   {
     "id": "d-incident",
-    "title": "Záznam incidentu s vozidlem",
-    "type": "záznam incidentu",
-    "date": "5/2026",
+    "title": "Záznam události – vozidlo BMW X1 (Ospalík odejmul klíče, hrozba, GPS)",
+    "type": "osobní záznam události · pořízen bezprostředně po události · pro právní zastoupení",
+    "date": "jaro 2026",
     "tags": [
+      "GPS",
       "vozidla",
-      "GPS"
+      "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1LWRXAEHDuZ2W6iYO_HwIavRJUPsVuUka/view"
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijíel do provozovny, vzal klíče od BMW pod záminkou zkusební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a zmožnčil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splačávané z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
+  }
+,
+  {
+    "id": "d-zadost-pristup-prace",
+    "title": "Žádost o obnovení přístupů, výkonu práce a vyúčtování mzdových nároků (11. 6. 2026)",
+    "type": "formální žádost zaměstnance · podepsaná · adresována K. Ospalíkovi",
+    "date": "11. 6. 2026",
+    "tags": [
+      "pracovněprávní",
+      "mzda"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "Formální dopis Andreou podepsaný den po odvolání z jednatele (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odemčleny, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Writenné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
+  },
+  {
+    "id": "d-vyplatni-paska-kveten-2026",
+    "title": "Výplatní páska podrobná – Květen 2026 (poslední měsíc HPP, 9 odpracovaných dní)",
+    "type": "mzdový doklad · TRAIVA s.r.o. · kategorie HPP",
+    "date": "Květen 2026",
+    "tags": [
+      "mzda",
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "Podrobná výplatní páska za Květen 2026 — poslední mzdové období (odvolání 12. 5. 2026). Tarif: 63 000 Kč/měs. (HPP); fond pracovní doby 168 h, odpracováno 9 dní / 72 h, čerpána dovolená 12 dní / 96 h (zbývá 18,6 dne). Základní složka za 9 dní: 27 000 Kč; dovolená: 43 932 Kč; prémie: 0 Kč. Hrubý příjem: 70 932 Kč; čistá mzda: 54 623 Kč; výplata: 55 319 Kč. Náklady zaměstnavatele: 95 804 Kč. Klíčové: tarif 63 000 Kč shodný s Vojtěchem Ospalíkem; prémie v posledním měsíci nulová (vs. 47 700 Kč hrubého v dubnu 2025); zbývající dovolená ≈ 18,6 dne = pohředávka."
+  },
+  {
+    "id": "d-cho-email-platby-odmeny",
+    "title": "E-maily Karel Ospalíka o Odoo párování plateb a snížení odměn (červen–červenec 2025)",
+    "type": "Outlook e-mail export · odesílatel Karel Ospalík (alias charlie.ospalik@gmail.com)",
+    "date": "červen–červenec 2025",
+    "tags": [
+      "Odoo",
+      "mzda"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "E-mailová vlákna z června–července 2025 týkající se Odoo projektu párování plateb. 19. 6. 2025 Karel Ospalík (charlie.ospalik@gmail.com): „Nemůžeme pověřit takovým úkolem někoho, kdo je tu zcela nový. Protože ani za 6 měsíců systém vedení projektu ala Plaček, Kokoruď ani Tvůj nevedl k odstranění všech kritických chyb, Bude systém vedení projektu po mém.“ Zároveň zaslal vzor testovacích scénářů a požadoval plán do pondělí 23. 6. 10. 7. 2025 Karel: „Upravil jsem Tvoje odměny podle projektového plánu, který jsem poslal 19. 6.“ Kontext: Andrea v té době úspěšně prosazovala automatizaci párování plateb (integrace ČSOB, Comgate, dobírky) — projekt, který nikdo jiný nevedl. E-maily dokládají, že Ospalík zasahoval přímo do výpočtu odměn mimo jakékoli schválené procesy."
+  },
+  {
+    "id": "d-predpis-rezim-manazeru",
+    "title": "E-mail: Předpis – Režim práce manažerů, k podpisu (2. 4. 2026 → 22. 4. 2026)",
+    "type": "interní e-mail Karel Ospalíka → Andrea · nový vniřní předpis k podpisu 6 týdnů před odvoláním",
+    "date": "2. 4. 2026 – 22. 4. 2026",
+    "tags": [
+      "pracovněprávní"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vniřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vniřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „ndodržování pokynů“."
+  },
+  {
+    "id": "d-email-eshop-nefunguje",
+    "title": "E-mail: Systém řízení – eshop nefunguje (2. 5. 2026) – 10 dní před odvoláním",
+    "type": "interní e-mail Karel Ospalíka → Andrea Matis + Jiří Premus",
+    "date": "2. 5. 2026",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před odvoláním Andreou 12. 5. 2026) adresovaný Andree i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na Andreu jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
   }
 ];
