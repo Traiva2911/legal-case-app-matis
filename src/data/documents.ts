@@ -327,17 +327,6 @@ export const documents: CaseDocument[] = [
     "file": "https://drive.google.com/file/d/1bPYww1sHboUIAW-zus83_VsrdL1GrJTr/view"
   },
   {
-    "id": "d-advokat-v3",
-    "title": "Podklad pro advokáta v3 (DOCX)",
-    "type": "starší verze hlavního spisu",
-    "date": "2026",
-    "tags": [
-      "pracovněprávní",
-      "obchodní"
-    ],
-    "file": "https://drive.google.com/file/d/1oTx0zLE2GOrLEXCKSxBOSAa_jFj2nmTq/view"
-  },
-  {
     "id": "d-sliby",
     "title": "Přehled slibů a nevyplacených odměn",
     "type": "můj chronologický přehled (9 položek)",
