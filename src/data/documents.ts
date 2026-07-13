@@ -184,7 +184,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1yK5SERsZKFvaKkulsqf9J-sWNW5zrHuE/view"
+    "file": "https://docs.google.com/document/d/1yK5SERsZKFvaKkulsqf9J-sWNW5zrHuE/edit"
   },
   {
     "id": "d-prohlaseni",
