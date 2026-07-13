@@ -35,16 +35,6 @@ export const documents: CaseDocument[] = [
     "file": "https://drive.google.com/file/d/1GxFBBo826MEQbquhT-UeWtN3HrHYm2JZ/view"
   },
   {
-    "id": "d-whatsapp",
-    "title": "WhatsApp 20. 5. 2021 (plný přepis konverzace)",
-    "type": "důkazní příloha",
-    "date": "2021",
-    "tags": [
-      "obchodní"
-    ],
-    "file": "https://drive.google.com/file/d/1MW_PSKNiBfFRo8swK--78Fqmpzjpf2iJ/view"
-  },
-  {
     "id": "d-potvrzeni",
     "title": "Formální potvrzení 1. 1. 2024 (Odměny a smlouva)",
     "type": "důkazní příloha",
