@@ -288,25 +288,39 @@ export const documents: CaseDocument[] = [
   },
   {
     "id": "d-olidech",
-    "title": "E-mail export: OLIDECH (13 stran, Outlook)",
-    "type": "PDF export e-mailove komunikace · pouze osobni archiv",
-    "date": "2026",
+    "title": "E-mail Ospalíka Andree (4. 7. 2025) — Moje myšlenky: O lidech, zrcadlech a tichých signálech",
+    "type": "2stránkový PDF export e-mailu z Outlooku · pouze osobní archiv",
+    "date": "4. 7. 2025",
     "tags": [
       "pracovněprávní"
     ],
     "file": "https://drive.google.com/file/d/1Wk8iATwr-BrT-GcZFaYhwH3x3DKafcsa/view",
-    "text": "13-stranovy export emailove komunikace z Outlooku. Soubor je obrazovy PDF — text nelze automaticky extrahovat. Obsah k doplneni po overeni."
+    "text": "Ospalík poslal tento osobní e-mail z privátní adresy charlie.ospalik@gmail.com — nikoli z firemního e-mailu — v pátek 4. 7. 2025 ve 21:52. Popisuje, jak si zaznamenává chování lidí (tichý experiment), vnímá v Andree neklid, že realita se přibarvuje a odpovědnost se přehazuje jinam. Zároveň chválí její ambice a výsledky, ale navrhuje reset — upřímný rozhovor. Použití soukromé e-mailové adresy naznačuje záměrné vedení citlivé komunikace mimo firemní kanály."
   },
   {
     "id": "d-moratorium-skoleni",
-    "title": "E-mail export: Moratorium skoleni (Outlook)",
-    "type": "PDF export e-mailove komunikace · pouze osobni archiv",
-    "date": "2026",
+    "title": "E-mail Ospalíka (18. 6. 2025) — moratorium na veškerá školení do zvládnutí Odoo",
+    "type": "1stránkový PDF export e-mailu z Outlooku · pouze osobní archiv",
+    "date": "18. 6. 2025",
     "tags": [
-      "pracovněprávní"
+      "pracovněprávní",
+      "Odoo"
     ],
     "file": "https://drive.google.com/file/d/1QpGYtZtlXQ-4YUrBMYNEOamBBykrd9ua/view",
-    "text": "Export emailu o moratoriu skolen. Soubor je obrazovy PDF — text nelze automaticky extrahovat. Obsah k doplneni po overeni."
+    "text": "E-mail odeslaný Karlem Ospalíkem z osobní adresy charlie.ospalik@gmail.com Andree a Jiřímu Premusovi dne 18. 6. 2025: Ospalík vydal moratorium na veškerá interní i externí školení zaměstnanců do doby, než bude Odoo v plném provozu. Zrušil tak Andreen zápis na Excel a IT školení, která si sama obstarala. Dokument prokazuje vzorec: Ospalík komunikoval citlivá rozhodnutí mimo firemní e-mail a školení rušil přesto, že sám jejich smysl uznával."
+  },
+  {
+    "id": "d-odoo-tichy-signaly",
+    "title": "E-mail Andrey Neffemu (8. 8. 2025) — odpověď na Ospalíkův e-mail O lidech, Odoo i tichých signálech",
+    "type": "4stránkový PDF export e-mailového vlákna z Outlooku · pouze osobní archiv",
+    "date": "8. 8. 2025",
+    "tags": [
+      "pracovněprávní",
+      "Odoo",
+      "obchodní"
+    ],
+    "file": "https://drive.google.com/file/d/1FLyLnMBcAXgfLQNsKS9QcgYWJIAgZ064/view",
+    "text": "Andrea napsala odpověď na Ospalíkův filozofický e-mail O lidech, zrcadlech a tichých signálech (4. 7. 2025) až po dvou týdnech — záměrně, aby nenapsala nic, čeho by litovala. Odpověď zaslala 8. 8. 2025 přímo Karlu Neffemu (neffe@gt-sports.cz), tedy potenciálnímu kupujícímu TRAIVA, a den poté ji přeposlala Dominice Kurítové. Klíčové body: Ospalík pozastavil výplatu prémií bez vysvětlení; Andrea sama zvládla ERP projekt od začátku bez pomoci; nesouhlasí s moratoriem na školení. E-mail byl záměrně sdílen s kupujícím — Neffe byl s napětím ve firmě obeznámen již v srpnu 2025, devět měsíců před Andřiným odvoláním."
   },
   {
     "id": "d-ospalik-zadani-gpt",
