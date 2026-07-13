@@ -117,7 +117,7 @@ export function DashboardView() {
                 aria-label={`Otevřít událost: ${ev.title}`}
               >
                 <div className="timeline-marker">
-                  <span>{ev.date.slice(0, 2).replace(/\D/, "·")}</span>
+                  <span>{/^\d/.test(ev.date) ? ev.date.slice(0, 2).replace(/\D/, "") : "—"}</span>
                 </div>
                 <div className="timeline-content">
                   <p className="meta">{ev.date}</p>
