@@ -594,10 +594,10 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
   },
   {
     "id": "ev-2026-pristupy",
-    "date": "přelom 5.–6. 2026 (definitiv. 10. 6. 2026)",
+    "date": "10. 6. 2026",
     "year": "2026",
     "title": "Odebírání přístupů – přelom května a června 2026",
-    "text": "V průběhu května a června 2026 mi byly postupně odebírány přístupy k firemnímu e-mailu, internímu úložišti (OneDrive/SharePoint) i k online systémům třetích stran, které jsem v rámci své práce používala a spravovala. Definitivní odebrání proběhlo přibližně 10. 6. 2026 — následující den (11. 6.) jsem zaslala formální písemnou žádost o obnovení přístupů. Bez těchto přístupů jsem nebyla schopna plnit zaměstnavatelem požadované úkoly ani doložit podklady, které byly zároveň vyžádány. OIP podnět tuto situaci kvalifikuje jako možnou překážku v práci na straně zaměstnavatele (§ 208 zákoníku práce).",
+    "text": "V průběhu května 2026 mi byly postupně omezovány přístupy k systémům. Dne 10. 6. 2026 jsem strávila půl dne snahou uložit a exportovat veškeré potřebné dokumenty — tato aktivita je doložitelná záznamem v aplikaci Timely. Téhož dne mi byly definitivně odebrány přístupy k firemnímu e-mailu, internímu úložišti (OneDrive/SharePoint) i k online systémům třetích stran, které jsem v rámci své práce používala a spravovala. Bez těchto přístupů jsem nebyla schopna plnit zaměstnavatelem požadované úkoly ani doložit podklady, které byly zároveň vyžádány. Následující den (11. 6.) jsem zaslala formální písemnou žádost o obnovení přístupů. OIP podnět tuto situaci kvalifikuje jako možnou překážku v práci na straně zaměstnavatele (§ 208 zákoníku práce).",
     "legal": "OIP kvalifikuje situaci jako možnou překážku v práci na straně zaměstnavatele (§ 208 ZP). Chci probrat, jak tato situace ovlivňuje nárok na náhradu mzdy a zda mi zaměstnavatel mohl odebrání přístupů jednostranně nařídit.",
     "tags": [
       "pracovněprávní",
