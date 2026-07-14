@@ -675,9 +675,9 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "id": "ev-2026-zp208",
     "date": "11. 6. 2026",
     "year": "2026",
-    "title": "Výzva přes datovou schránku + odpověď na Ospalíkův e-mail k dokladům (11. 6. 2026)",
-    "text": "Dne 11. 6. 2026 jsem zaslala formální výzvu prostřednictvím datové schránky (na vědomí Jiří Premus, Eva Orel, Tomáš Maralík, Jakub Šatánek, Kateřina Hájková) se čtyřmi požadavky: 1) obnovení přístupů k e-mailu, OneDrive/SharePoint a systémům třetích stran, nebo zpřístupnění konkrétních podkladů odpovědnou osobou (Eva Orel), plus doložení auditních logů s vyznačením data odebrání mého přístupu; 2) obnovení práce z domova sjednané v pracovní smlouvě (kterou sama nemám k dispozici, žádám o kopii) — zdůraznila jsem, že po celou dobu pracovního poměru nebyly žádné mé úkoly fakticky neproveditelné z domova; 3) písemné vyúčtování mzdy za posledních 36 měsíců, doložení důvodu snížení prémiové složky (duben 2025: 47 700 Kč hrubého → duben 2026: 0 Kč) a podkladů, na jejichž základě byly odměny stanovovány; upozornila jsem, že navýšení základní mzdy v roce 2026 je jen běžná inflační valorizace a sloučení mzdové složky do základu, ne kompenzace za zrušenou prémii; požádala jsem i o právní titul k jakémukoliv započtení vůči mé mzdě; 4) žádost o písemnou formu další komunikace. Souběžně mi Ospalík zaslal e-mailem výzvu, v níž požadoval doložení dokladů k prodeji firemního auta a podkladů do účetnictví. Odpověděla jsem, že bez přístupu k firemním systémům, e-mailu a firemnímu počítači se k těmto dokumentům nedostanu — veškerá firemní dokumentace je uložena na firemním cloudu nebo PC, ke kterým mi byl přístup zablokován. Od odeslání výzvy datovou schránkou 11. 6. 2026 se Ospalík přestal ozývat.",
-    "legal": "Výzva zaslaná přes datovou schránku má právní váhu doručené písemnosti — zaměstnavatel ji nemůže ignorovat s odvoláním na nedoručení. Ospalíkův požadavek na doložení dokladů (auto, účetnictví) v situaci, kdy mi sám zablokoval přístup ke všem firemním systémům, považuji za vnitřně rozporný a chci probrat, zda za nesplnění takového požadavku mohu být jakkoliv postižena. Zablokování přístupu k bankovnímu účtu 11. 6. — den po veřejném nařčení z krádeže — chci probrat jako samostatný bod: měl k tomu Ospalík právní podklad, nebo šlo o svévolné opatření navazující na vlastní nepravdivé obvinění? Od 11. 6. žádný kontakt z jeho strany — chci probrat, co toto mlčení právně znamená a jaké jsou lhůty pro odpověď na výzvu zaslanou datovou schránkou.",
+    "title": "Formální dopis se 4 požadavky + podnět na OIP datovou schránkou (11. 6. 2026)",
+    "text": "Dne 11. 6. 2026 jsem učinila dva kroky. Za prvé: zaslala jsem formální písemnou žádost e-mailem (na vědomí Jiří Premus, Eva Orel, Tomáš Maralík, Jakub Šatánek, Kateřina Hájková) se čtyřmi požadavky: 1) obnovení přístupů k e-mailu, OneDrive/SharePoint a systémům třetích stran nebo zpřístupnění konkrétních podkladů odpovědnou osobou (Eva Orel), plus doložení auditních logů s datem odebrání přístupu; 2) obnovení práce z domova sjednané v pracovní smlouvě (kopii nemám, žádám o ni) — po celou dobu pracovního poměru nebyly žádné mé úkoly fakticky neproveditelné z domova; 3) písemné vyúčtování mzdy za 36 měsíců, doložení důvodu snížení prémiové složky (duben 2025: 47 700 Kč → duben 2026: 0 Kč) a právní titul k jakémukoli započtení vůči mé mzdě; 4) písemná forma veškeré další komunikace. Za druhé: zaslala jsem datovou schránkou podnět na Oblastní inspektorát práce (OIP) k prošetření jednání zaměstnavatele. Souběžně mi Ospalík zaslal e-mail požadující doložení dokladů k prodeji firemního auta a podkladů do účetnictví. Odpověděla jsem, že bez přístupu k firemním systémům (e-mail, cloud, PC) se k těmto dokumentům nedostanu — jsou uloženy výhradně na firemním cloudu nebo PC.",
+    "legal": "Podnět na OIP byl podán datovou schránkou — má právní váhu doručeného podání. Ospalíkův požadavek na doložení dokladů (auto, účetnictví) v situaci, kdy mi sám zablokoval přístup ke všem firemním systémům, považuji za rozporný a chci probrat, zda za nesplnění takového požadavku mohu být jakkoliv postižena. Zablokování přístupu k bankovnímu účtu 11. 6. — den po veřejném nařčení z krádeže — chci probrat jako samostatný bod: měl k tomu Ospalík právní podklad?",
     "tags": [
       "mzda",
       "pracovněprávní"
@@ -692,6 +692,24 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "evidenceRefs": [
       "E-mail 11. 6. 2026",
       "Žádost zaměstnavateli 11. 6. 2026 (plné znění)"
+    ]
+  },
+  {
+    "id": "ev-2026-datovka-17",
+    "date": "17. 6. 2026",
+    "year": "2026",
+    "title": "Žádost Ospalíkovi datovou schránkou o obnovení pracovních přístupů (17. 6. 2026)",
+    "text": "Dne 17. 6. 2026 jsem zaslala Ospalíkovi datovou schránkou formální žádost o obnovení pracovních přístupů. Požadovala jsem obnovení přístupu k firemnímu e-mailu, OneDrive/SharePoint, vzdálenému připojení, bankovnímu účtu a systémům třetích stran, které mi byly blokovány od 10. 6. a definitivně od 11. 6. 2026. Zároveň jsem připomněla, že bez těchto přístupů nemohu plnit pracovní povinnosti ani dodat dokumenty, které po mně Ospalík e-mailem požadoval (doklady k prodeji auta, účetní podklady). Od odeslání této žádosti se Ospalík přestal ozývat — žádná odpověď na datovou schránku, žádné telefonní hovory.",
+    "legal": "Žádost zaslaná datovou schránkou má právní váhu doručené písemnosti. Ospalíkovo mlčení od 17. 6. chci probrat jako možné ignorování formální písemné výzvy a jeho právní důsledky. Chci vědět, zda neobnovení přístupů po formální datové žádosti zakládá nárok na náhradu mzdy za překážku v práci na straně zaměstnavatele (§ 208 ZP) a od jakého data tento nárok případně vznikl.",
+    "tags": [
+      "pracovněprávní",
+      "OIP"
+    ],
+    "personRefs": [
+      "Charlie Ospalík"
+    ],
+    "evidenceRefs": [
+      "Výpis z datové schránky — žádost o obnovení přístupů 17. 6. 2026"
     ]
   },
   {
