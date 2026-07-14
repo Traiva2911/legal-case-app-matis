@@ -64,4 +64,5 @@ export const documentAlias: Record<string, string> = {
   "Podklad pro DD 6. 5. 2026": "d-dd-podklad",
   "FW: Nájem auta 8. 5. 2026": "d-najem-auta",
   "Nátlak na podpis odlvolání jednatelky – záznam": "d-natlek-odvolani",
+  "Strategický plán 2025 — souhrn pro poradu vedení 14. 1. 2026": "d-strategicky-plan-2025",
 };

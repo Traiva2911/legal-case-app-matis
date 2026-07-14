@@ -451,8 +451,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "6. 5. 2026",
     "year": "2026",
     "title": "Požadavek Ospalíka na „Výsledky práce“",
-    "text": "6. 5. 2026 mi Ospalík napsal: „Možná jen nemám informace, protože se Ti neodesílaly e-maily.“ Požadoval seznam názvů marketingových akcí za rok 2025 a 2026, které měly „významný, odhadnutelný nebo vyčíslitelný dopad na ekonomiku firmy“.",
-    "legal": "E-mail přišel 6. 5. 2026 — šest dní před mým odvoláním a v době aktivního DD procesu pro prodej firmy Neffemu. Interpretuju ho jako snahu retroaktivně dokladovat, že moje práce nemá měřitelný přínos — nebo jako přípravu podkladů pro odvolání. Formulace ‚možná se Ti neodesílaly e-maily' mi přijde jako předjímání omezení přístupů, ke kterému pak skutečně došlo.",
+    "text": "6. 5. 2026 mi Ospalík napsal: „Možná jen nemám informace, protože se Ti neodesílaly e-maily.\" Požadoval seznam názvů marketingových akcí za rok 2025 a 2026, které měly „významný, odhadnutelný nebo vyčíslitelný dopad na ekonomiku firmy\". Ospalík přitom sám 14. 1. 2026 připravil pro poradu vedení Strategický plán 2025 — vyhodnocení, ve kterém nesplnění cílů e-shopu (+150 produktů) přičetl „vysokému pracovnímu zatížení při implementaci Odoo\" a nesplnění marketingových nástrojů přičetl nespolehlivému externímu dodavateli Sniper — ne marketing manažerovi. Čtyři měsíce poté, šest dní před mým odvoláním, po mně stejné výsledky retroaktivně požadoval jako doklad mé práce.",
+    "legal": "E-mail přišel 6. 5. 2026 — šest dní před mým odvoláním a v době aktivního DD procesu. Interpretuju ho jako snahu retroaktivně dokladovat, že moje práce nemá měřitelný přínos. Přitom vlastní firemní dokument z 14. 1. 2026 přičítal nesplnění cílů Odoo zatížení a externímu dodavateli — ne mně. Chci s advokátem probrat, zda tento rozpor (vlastní vyhodnocení vs. následná obvinění) dokládá účelovost požadavku a zda jde o formu postihu za uplatnění mých práv.",
     "tags": [
       "pracovněprávní",
       "mzda"
@@ -462,7 +462,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "Karel Ospalík"
     ],
     "evidenceRefs": [
-      "E-mail Ospalíka 6. 5. 2026 — Výsledky práce"
+      "E-mail Ospalíka 6. 5. 2026 — Výsledky práce",
+      "Strategický plán 2025 — souhrn pro poradu vedení 14. 1. 2026"
     ]
   },
   {
