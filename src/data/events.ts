@@ -594,11 +594,11 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
   },
   {
     "id": "ev-2026-pristupy",
-    "date": "konec 5/2026",
+    "date": "přelom 5.–6. 2026 (definitiv. 10. 6. 2026)",
     "year": "2026",
-    "title": "Odebrání přístupů",
-    "text": "Byl mi odebrán firemní e-mail, OneDrive/SharePoint i systémy třetích stran; zároveň po mně byly požadovány výstupy. Ty stěžejní přístupy mi odebral až poté, co jsem se na půl dne „vrátila“ z nařízené dovolené.",
-    "legal": "Bez přístupů nemohu pracovat, i když pracovat chci — jak se to posuzuje, nechám na Vás.",
+    "title": "Odebírání přístupů – přelom května a června 2026",
+    "text": "V průběhu května a června 2026 mi byly postupně odebírány přístupy k firemnímu e-mailu, internímu úložišti (OneDrive/SharePoint) i k online systémům třetích stran, které jsem v rámci své práce používala a spravovala. Definitivní odebrání proběhlo přibližně 10. 6. 2026 — následující den (11. 6.) jsem zaslala formální písemnou žádost o obnovení přístupů. Bez těchto přístupů jsem nebyla schopna plnit zaměstnavatelem požadované úkoly ani doložit podklady, které byly zároveň vyžádány. OIP podnět tuto situaci kvalifikuje jako možnou překážku v práci na straně zaměstnavatele (§ 208 zákoníku práce).",
+    "legal": "OIP kvalifikuje situaci jako možnou překážku v práci na straně zaměstnavatele (§ 208 ZP). Chci probrat, jak tato situace ovlivňuje nárok na náhradu mzdy a zda mi zaměstnavatel mohl odebrání přístupů jednostranně nařídit.",
     "tags": [
       "pracovněprávní",
       "mzda"
@@ -617,8 +617,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "3. 6. 2026",
     "year": "2026",
     "title": "Nová vnitřní směrnice verze 2",
-    "text": "Nová směrnice Režim práce a měření výsledků manažerů verze 2, tentokrát už bez možnosti připomínkování.",
-    "legal": "Chci porovnat, co se změnilo oproti verzi 1, kterou jsem znala. Verzi 1 už v dubnu 2026 sám prohlásil za schválenou „mlčením\" a upozornil, že jakmile něco vydá jako vnitřní předpis, je to pro něj červená čára (viz e-maily z 2. a 22. 4. 2026) — verze 2 na to navazuje, tentokrát ale bez jakéhokoliv prostoru pro připomínky.",
+    "text": "Dne 3. 6. 2026 vydána nová vnitřní směrnice „Režim práce a měření výsledků manažerů verze 2\" — bez jakéhokoliv prostoru pro připomínky. Verzi 1 této směrnice přitom Ospalík sám v dubnu 2026 prohlásil za schválenou „mlčením\" a upozornil, že jakmile něco vydá jako vnitřní předpis, je to pro něj červená čára (viz e-maily z 2. a 22. 4. 2026). Verze 2 na tuto logiku navazuje, tentokrát ale bez jakéhokoliv dalšího prostoru pro připomínky — vydána 22 dní po mém odvolání, v době, kdy jsem neměla přístupy ani možnost plnit úkoly, které směrnice ukládá.",
+    "legal": "Chci s advokátem probrat: (1) zda lze jednostranné vydání vnitřního předpisu bez možnosti připomínkování zpochybnit, zvláště jde-li o předpis zavedený v době, kdy jsem neměla přístupy k systémům; (2) zda je směrnice platná vůči mně jako zaměstnankyni, která o ní nebyla řádně informována; (3) jaký vliv má prohlášení „schválení mlčením\" u verze 1 na případný postih za její nesplnění.",
     "tags": [
       "mzda",
       "pracovněprávní"
