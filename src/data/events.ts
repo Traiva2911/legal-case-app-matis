@@ -614,6 +614,44 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ]
   },
   {
+    "id": "ev-2026-eskalace-9-6",
+    "date": "9. 6. 2026",
+    "year": "2026",
+    "title": "WhatsApp eskalace a telefonický nátlak — tlak na komunikaci mimo písemný záznam",
+    "text": "Den po incidentu s BMW (8. 6. 2026) Ospalík eskaloval přes WhatsApp a telefonicky. Vyvíjel na mě nátlak, abych přestala komunikovat písemně a přešla na komunikaci, která nezanechá záznam — opakovaně mě žádal o telefonické hovory místo e-mailů a zpráv. Zároveň se pokoušel svolat interní poradu — nejprve jen se mnou, pak s dalšími zaměstnanci — bez jasně stanoveného programu a bezprostředně po dni, kdy mě na pracovišti fakticky uzavřel bez klíčů od auta.",
+    "legal": "Tlak na přechod z písemné na ústní komunikaci hned po incidentu s vozidlem považuji za záměrnou snahu omezit důkazní stopu. Chci probrat, zda toto jednání může mít právní relevanci — zejm. v kontextu obstrukce dokazování nebo šikany na pracovišti. Odmítnutí písemné komunikace jsem doložila vlastní žádostí o písemnou formu (e-mail 11. 6. 2026).",
+    "tags": [
+      "pracovněprávní",
+      "GPS"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "WhatsApp archiv — eskalace 9. 6. 2026"
+    ]
+  },
+  {
+    "id": "ev-2026-porada-difamace",
+    "date": "9. 6. 2026",
+    "year": "2026",
+    "title": "Interní porada — zákaz vstupu, zákaz kontaktu, nařčení z krádeže 100 000 Kč",
+    "text": "Ospalík svolal celou firmu na interní poradu. Na ní zaměstnancům sdělil: (1) mám zákaz vstupu do prostor společnosti; (2) zaměstnancům zakázal jakýkoli kontakt se mnou — pod hrozbou výpovědi; (3) sdělil jim, že jsem ukradla z firemního účtu 100 000 Kč a dosud je nevrátila. Tato tvrzení jsou nepravdivá. O poradě a jejím obsahu jsem se dozvěděla zprostředkovaně od zaměstnanců, kteří mě kontaktovali — přestože jim to bylo výslovně zakázáno.",
+    "legal": "Veřejné nařčení z krádeže před kolektivem zaměstnanců pod hrozbou jejich vlastního propuštění považuji za závažné — může jít o difamaci (poškození dobré pověsti), nátlak na svědky a případně o trestněprávně relevantní jednání. Zároveň zákaz kontaktu zaměstnanců se mnou pod hrozbou výpovědi vnímám jako obstrukci mého přístupu k důkazům a potenciálně jako nátlak na svědky před soudním řízením. Chci probrat, jak toto prokázat a jaký má dopad na pracovní spor i na případné trestní oznámení.",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "Svědecké výpovědi zaměstnanců — porada červen 2026"
+    ]
+  },
+  {
     "id": "ev-2026-pristupy",
     "date": "10. 6. 2026",
     "year": "2026",
