@@ -526,7 +526,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ],
     "evidenceRefs": [
       "SMS 12. 5. 2026",
-      "Prohlášení o doručení 21. 5. 2026"
+      "Prohlášení o doručení 21. 5. 2026",
+      "Nátlak na podpis odlvolání jednatelky – záznam"
     ]
   },
   {
@@ -591,25 +592,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "Záznamy platební karty",
       "Interní komunikace",
       "Celý výpis z karty 22. 5. 2026"
-    ]
-  },
-  {
-    "id": "ev-2026-doruceni",
-    "date": "21. 5. 2026",
-    "year": "2026",
-    "title": "Prohlášení o doručení rozhodnutí o odvolání",
-    "text": "Podala jsem písemné prohlášení o průběhu doručení; kopii rozhodnutí o odvolání jsem nedostala.",
-    "legal": "Nevím, jestli takový postup byl formálně v pořádku — chci se zeptat.",
-    "tags": [
-      "jednatel",
-      "obchodní"
-    ],
-    "personRefs": [
-      "Andrea Matis",
-      "Karel Ospalík"
-    ],
-    "evidenceRefs": [
-      "Prohlášení o doručení 21. 5. 2026"
     ]
   },
   {

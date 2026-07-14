@@ -629,4 +629,18 @@ export const documents: CaseDocument[] = [
     "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
     "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před odvoláním Andreou 12. 5. 2026) adresovaný Andree i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na Andreu jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
   }
+,
+  {
+    "id": "d-natlek-odvolani",
+    "title": "Nátlak na podpis jednostranného odlvolání jednatelky (12. 5. 2026)",
+    "type": "osobní záznam události · popsaný co nejdříve po události · pro právní zástupce",
+    "date": "12. 5. 2026",
+    "tags": [
+      "jednatel",
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "text": "12. 5. 2026 mi bylo předloženo Rozhodnutí jediného společníka o odvolání z funkce jednatelky. Podpis jsem odmítla, protože jsem nebyla s dokumentem předem srozuměna, nezískala jsem čas na konzultaci s právníkem a nebyl mi předložen ani její písební doklad o doručení s prostorem k vyjadření. Přesto mi kopie rozhodnutí nebyla předána. Nátlak probíhal títčem: (1) nevydání kopie dokumentu, který jsem odmítla podepsat; (2) v tentýž den zablokována firemní karta; (3) tentýž den aktivováno GPS sledování vozidla bez souhlasu; (4) tentýž den nařízena dovolená ze dne na den. Vše proběhlo koordinovaně v jeden den, což naznačuje předem připravený postup. Následující dny bylo postupně odebíráno IT přístupy do systémů, s nimiž jsem pracovala jako jednatelka. Tento záznam popisuje okolnosti podpisu/odmítnutí, atmosféru při jednání, přítomné osoby a bezprostřední reakce."
+  }
 ];
