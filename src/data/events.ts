@@ -329,7 +329,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "12. 3. 2026",
     "year": "2026",
     "title": "Pokyn ke kompletaci dokumentů pro due diligence",
-    "text": "Dostala jsem pokyn ke kompletaci dokumentů; teprve poté mi došel účel — příprava prodeje firmy běžela od jara 2026 bez mého vědomí a užší výběr 2 zájemců probíhal bez mé účasti. Součástí byla i příprava podkladu k objasnění struktury nákladů pro potenciálního kupujícího ještě před samotnou due diligence (6. 5. 2026) — mimo jiné jsem měla od účetní vyžádat všechny účty za benzín 2025–26 a nechat sestavit knihu jízd všech firemních aut.",
+    "text": "Dostala jsem pokyn ke kompletaci dokumentů; teprve poté mi došel účel — příprava prodeje firmy běžela od podzimu 2025 bez mého vědomí (užší výběr 2 zájemců probíhal bez mé účasti, term sheet podepsán 30. 3. 2026). Součástí byla i příprava podkladu k objasnění struktury nákladů pro potenciálního kupujícího ještě před samotnou due diligence (6. 5. 2026) — mimo jiné jsem měla od účetní vyžádat všechny účty za benzín 2025–26 a nechat sestavit knihu jízd všech firemních aut.",
     "legal": "Působí to na mě, jako by odvolání bylo načasované k prodeji a já z něj byla záměrně vyloučena — posouzení nechám na Vás.",
     "tags": [
       "obchodní",
