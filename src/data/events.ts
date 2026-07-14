@@ -374,7 +374,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "legal": "Není to jen soukromá poznámka mezi námi — napsal to přímo obchodnímu partnerovi, se kterým jsem sama jednala o zakázce. Vnímám to jako znevažování mé odbornosti navenek, ne jen interní kritiku.",
     "tags": [
       "Odoo",
-      "pracovněprávní",
       "pracovněprávní"
     ],
     "personRefs": [
@@ -394,7 +393,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "legal": "Kritizoval shrnutí, které vzniklo přesně podle jeho vlastního zadání — sám odmítl číst obsáhlou dokumentaci, a když jsem mu proto poslala stručnější verzi, vytkl mi, že je to nepravdivé a povrchní. Přijde mi to jako rozpor, který sám vyrobil. Zároveň to znovu propojuje s předpisem o režimu práce manažerů, který zmiňuji u bodu 16.",
     "tags": [
       "Odoo",
-      "pracovněprávní",
       "pracovněprávní"
     ],
     "personRefs": [
@@ -750,4 +748,64 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
       "Výplatní páska — červen 2026 (TRAIVA s.r.o.)"
     ]
   },
+  {
+    "id": "ev-2026-protest-absence",
+    "date": "14. 7. 2026",
+    "year": "2026",
+    "title": "Protest + výzva k opravě mzdy — odesláno datovou schránkou",
+    "text": "Dne 14. 7. 2026 v 17:55:17 byl zaměstnavateli TRAIVA, s.r.o. odeslán formální protest + výzva k opravě výplatní pásky za červen 2026. Zasláno datovou schránkou (PDZ), ID zprávy: 1734487765, ID schránky příjemce: gwn73br, K rukám: Ing. Karel Ospalík, Do vlastních rukou: Ano. EV0 (podána) i EV5 (dodána do schránky příjemce): 14. 7. 2026 v 17:55:17 — doručena okamžitě. Přílohy: průvodní text zprávy + Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf. Obsah výzvy: (1) překlasifikování 20 dnů z neomluvené absence na překážky v práci § 208 ZP, (2) doplacení rozdílu mzdy 65 898,80 Kč hrubého na účet 2298163003/0800, (3) doplacení pojistného ZP + ČSSZ. Prodlení od 11. 7. 2026, zákonný úrok § 1970 OZ. Lhůta k plnění: 28. 7. 2026.",
+    "legal": "Datová schránka zajišťuje prokazatelnost doručení. EV5 = technické doručení do schránky příjemce. Typ zprávy PDZ (Poštovní datová zpráva) — pro soukromoprávní doručování. \"Do vlastních rukou: Ano\" — Ospalík musí zprávu osobně otevřít, jinak nastane fiktivní doručení. Fiktivní doručení: 10 dní od EV5, tj. nejpozději 24. 7. 2026. Lhůta v dopise 28. 7. 2026 je 10 pracovních dní od doručení — k posouzení advokátem: pokud doručení nastalo 24. 7. (fiktivní), běží 10 pracovních dní od 24. 7. (= 7. 8. 2026), nikoliv do 28. 7. — v každém případě je 28. 7. jako fixní deadline formálně správný a pro advokáta dostatečný. Odeslání protestu zakládá: (1) prokazatelnou výzvu k plnění, (2) fixuje prodlení od 11. 7. 2026 (§ 1970 OZ), (3) vylučuje argument zaměstnavatele o nevědomosti nároku, (4) je klíčovým podkladem pro soudní/správní řízení. Dokumenty k doložení: ID zprávy 1734487765, potvrzení z datovka.gov.cz uloženo.",
+    "tags": [
+      "pracovněprávní",
+      "mzda"
+    ],
+    "personRefs": [
+      "Charlie Ospalík"
+    ],
+    "evidenceRefs": [
+      "Potvrzení o odeslání datové zprávy ID 1734487765 (14. 7. 2026 17:55)",
+      "Textová zpráva zaslaná datovou schránkou — protest (14. 7. 2026)",
+      "Protest proti klasifikaci absence + výzva k opravě mzdového výměru — příloha datovky (14. 7. 2026)"
+    ]
+  },
+  {
+    "id": "ev-2025-erp-tlumeni-reklamy",
+    "date": "leden 2025",
+    "year": "2025",
+    "title": "Vědomé tlumení reklamy při spuštění ERP Odoo (leden–srpen 2025)",
+    "text": "Po spuštění ERP Odoo v lednu 2025 bylo na úrovni vedení rozhodnuto o záměrném utlumení reklamy na dobu přibližně 6–9 měsíců. Důvodem byl přechod na nový systém a nutnost stabilizace procesů. Pokles výkonnosti marketingu v tomto období nebyl selháním marketingové manažerky, ale vědomým provozním rozhodnutím schváleným vedením.",
+    "legal": "Klíčový exkulpační důkaz: Ing. Ospalík v DD (due diligence) komunikaci z jara 2026 sám vysvětlil: 'pokles v roce 2025 vysvětlen spuštěním ERP v lednu 2025 a vědomým tlumením reklamy cca 6–9 měsíců'. Tato skutečnost vylučuje, aby jakékoli hodnocení výkonu Ing. Matis v 1. pololetí 2025 vycházelo pouze z poklesu marketingových výsledků. Pro advokáta: přímé vyvracení případných tvrzení zaměstnavatele o neuspokojivém výkonu v tomto období.",
+    "tags": [
+      "pracovněprávní",
+      "obchodní",
+      "Odoo"
+    ],
+    "personRefs": [
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "DD komunikace — vědomé tlumení reklamy po spuštění ERP Odoo (leden 2025)"
+    ]
+  },
+  {
+    "id": "ev-2025-karin-expedice",
+    "date": "říjen 2025",
+    "year": "2025",
+    "title": "Přijetí Karin Švédové — posila expedice, nikoliv marketing (podzim 2025)",
+    "text": "V říjnu 2025 byla přijata Karin Švédová jako dočasná posila expedice v důsledku výpadku personálu (dlouhodobé PN a dovolené zaměstnankyň expedice). Ing. Matis zajistila nábor jako provozní opatření; v plánu bylo Karin přesunout na prodejna místo Dany Rogalové bez navýšení stavu. Ing. Ospalík byl s plánem obeznámen a sám zmrazil organizační změny kvůli probíhající akvizici. Karin nikdy nevykonávala marketingové úkoly.",
+    "legal": "E-mail Ing. Matis → Jiří Premus (30. 4. 2026, předmět 'Stav pracovníků a náklady') prokazuje: (1) Karin přijata jako zástup na expedici v období PN, (2) Ing. Matis koordinovala postup s vedením, (3) Ospalík zmrazil změny kvůli akvizici — proto nebyla Karin přesunuta dle plánu. Teams chat s Barborou Slonkovou (říjen 2025) dokládá provozní kontext přijetí. Závěr: jakékoli tvrzení zaměstnavatele, že Karin byla přijata jako marketingová specialistka nebo bez vědomí vedení, je interními zdroji vyvráceno.",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "personRefs": [
+      "Karel Ospalík",
+      "Jiří Premus"
+    ],
+    "evidenceRefs": [
+      "E-mail 'Stav pracovníků a náklady' — Ing. Matis → Jiří Premus (30. 4. 2026)",
+      "Teams chat Barbora Slonková — kontext přijetí Karin Švédové (říjen 2025)"
+    ]
+  }
+
 ];

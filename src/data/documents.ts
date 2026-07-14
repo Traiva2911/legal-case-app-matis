@@ -10,7 +10,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://docs.google.com/document/d/1mbjYSxnS4vBEAi9slsNKMU9BG0HeBb5CBNyMXR-vWR0/edit"
+    "file": "https://docs.google.com/document/d/1nmscUziUWgEBE_8VxhyKXTNaIHZimyxrWwzuyKMd19U/edit"
   },
   {
     "id": "d-odoo-plan-puvodni",
@@ -32,7 +32,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1GxFBBo826MEQbquhT-UeWtN3HrHYm2JZ/view"
+    "file": "https://drive.google.com/file/d/1uA4iLgZEbN-GfWm-L07Esnum5-oCP_mC/view"
   },
   {
     "id": "d-potvrzeni",
@@ -43,7 +43,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/12GHeMwprTYm71fh0DZg-mw299h2KzPD-/view"
+    "file": "https://drive.google.com/file/d/1AbR0Mj09mw5mDzMfYIGW_3BNmBhZnqo9/view"
   },
   {
     "id": "d-usneseni",
@@ -53,7 +53,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "jednatel"
     ],
-    "file": "https://drive.google.com/file/d/1eCAa25alrAYcvMjsaBmiR_GSXIW1OhTj/view"
+    "file": "https://drive.google.com/file/d/13wrk9FHRclhRq4ePHbc3WshkKrTcfnF1/view"
   },
   {
     "id": "d-payroll",
@@ -75,7 +75,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1EoD5fzM1_kKVf4ZjlslXeKcq-rp3EB4y/view"
+    "file": "https://drive.google.com/file/d/1OAJk6PmxiOD2bofnBsPWm6rL_OpHENhO/view"
   },
   {
     "id": "d-dpp",
@@ -98,7 +98,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "Odoo"
     ],
-    "file": "https://drive.google.com/file/d/1iJljUEIJSf4yMPjS7SDCeDrEyaCa54ft/view",
+    "file": "https://drive.google.com/file/d/1kv2pC5iwOHo9ist7bppP4HKI-qpqzRww/view",
     "text": "Vojtěch Ospalík (syn Karla Ospalíka, nar. 16. 10. 1991) nastoupil jako Projektový manažer / Manažer vývoje software dne 2. 2. 2026 — 3,5 měsíce před odvoláním Andrey (12. 5. 2026). Základní mzda 63 000 Kč hrubého, shodná s Andřinou mzdou. Pracovní smlouva podepsána 30. 1. 2026, pružná pracovní doba, home office 80 %. Nástup Vojtěcha proběhl ve chvíli, kdy Andrea vedla projekt Odoo a Origamis konzultace — pozice projektového manažera, kterou reálně zastávala, byla v té době obsazována synem majitele před plánovaným prodejem firmy."
   },
   {
@@ -110,7 +110,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1d-Lcg37_8b-hHvUa4bbU2kNb94qRgUw4/view"
+    "file": "https://drive.google.com/file/d/1KBVF0jFouWO3jqncl0ywASuQ8MxcC9Sx/view"
   },
   {
     "id": "d-zsd",
@@ -121,7 +121,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1Kj40mPnCi7YRAcMCo9vCKTOYKSDWLem_/view"
+    "file": "https://drive.google.com/file/d/1xejWktLV7Q0huvYQ-EP8Fqvl2KnCBNCv/view"
   },
   {
     "id": "d-dukazy-firemni",
@@ -144,7 +144,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "mzda"
     ],
-    "file": "https://docs.google.com/document/d/1FrVQQwA-fRW6GJwdnDmo0kXz7wYg4tvI/edit"
+    "file": "https://drive.google.com/file/d/1EO9ihP82-ECB4PE747k0OBudZc2aNo8Z/view"
   },
   {
     "id": "d-odoo-stav",
@@ -155,7 +155,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1CaXnuzkUO5jItixm90We5bK4vukU4iR7/view"
+    "file": "https://drive.google.com/file/d/1e3qQ1Um1D4MkcTDDO3qflBofV3OpAu9i/view"
   },
   {
     "id": "d-origamis-sumar",
@@ -165,7 +165,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "Odoo"
     ],
-    "file": "https://docs.google.com/document/d/1sV3rdrrNZ1EMAWgQv7YMFtf6Lcy8XQPLXl4YCHf7CKc/edit"
+    "file": "https://docs.google.com/document/d/1PEAZZKUDpOZYdwAx11vGTr4caUr_tgxJBVrt7qmHr1M/edit"
   },
   {
     "id": "d-valuace",
@@ -176,7 +176,7 @@ export const documents: CaseDocument[] = [
       "obchodní",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/15_pkRqlBO9Fak_IBFvWL21PIn0ovrfgZ/view",
+    "file": "https://drive.google.com/file/d/1XBiamdZffko1CNNL3gne7tdrPI-sUUu7/view",
     "text": "Equity value firmy vč. pracovního kapitálu, dluhu a nemovitosti: 83,2–89,8 mil. Kč. 10% podíl = cca 8,3–9 mil. Kč — výrazně více než 2,2 mil. Kč uvedených v původním návrhu odměn z roku 2024, který počítal jen s oběžnými aktivy."
   },
   {
@@ -187,7 +187,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/10Yg-YSTArRqFLfZ0nyWMHqFuOvZ4umLV/view",
+    "file": "https://drive.google.com/file/d/1iM38mOBoMxhzwkCz0dhjc0GnwsIZu4wz/view",
     "text": "Term sheet o prodeji 100 % podílu TRAIVA s.r.o. kupujícímu NKtech s.r.o. (Karel Neffe) byl podepsán 30. 3. 2026 — 43 dní před odvoláním Andrey 12. 5. 2026. Prodej firmy tedy probíhal v plném proudu v době odvolání, přičemž propuštění zaměstnanců bylo předem zahrnuté do kalkulace úspor pro kupujícího."
   },
   {
@@ -198,7 +198,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1etRbsElLf4dZqkDyiGZrZPdTJ3G2EoRs/view",
+    "file": "https://drive.google.com/file/d/12jDXhSMGVUbBt6Mcz4boTJhxPqFD8ZUL/view",
     "text": "Podrobná analýza rizik term sheetu z pohledu NKtech: požadavek na snížení prahu pro korekci ceny, rozšíření záruk na ERP a spolehlivost dat, zvýšení zádržného na 10-15 %, doplnění podmínek o provozní covenanty a udržení klíčových lidí. Dokument potvrzuje, že ERP a klíčové osoby byly explicitním rizikovým faktorem v transakci."
   },
   {
@@ -211,7 +211,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1CdlBjHvo7mWoVe-68WcpEPngYJZYtqmw/view",
+    "file": "https://drive.google.com/file/d/17CavHsjgEOHM-cwbSSEJqT9j3F-5aLl8/view",
     "text": "Dokument explicitně uvádí, že nefunkční ERP (Odoo) snižuje hodnotu firmy o 13–33 % (tj. o 11–27 mil. Kč). Zároveň v části \"úspory po prodeji\" počítá s propuštěním zaměstnanců jako s plánovanou úsporou 829 tis. Kč ročně — moje odvolání bylo tedy předem zahrnuté do prodejní struktury, ne spontánní rozhodnutí."
   },
   {
@@ -222,7 +222,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1PRXtPPldc0yY25mBHotKh7fITXUa45Ax/view"
+    "file": "https://drive.google.com/file/d/1UD2yBt-JpN2qFnUBGvAueSl6ih91wEfJ/view"
   },
   {
     "id": "d-whatsapp-original",
@@ -233,7 +233,7 @@ export const documents: CaseDocument[] = [
       "obchodní",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/17-QQlBM_O_F5DwRXIPcWHScBjr2GoIf4/view"
+    "file": "https://drive.google.com/file/d/1-x2lF0A2Lulido4YzWU6nKLNioPEzhZ-/view"
   },
   {
     "id": "d-vyzva",
@@ -244,7 +244,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://docs.google.com/document/d/1yK5SERsZKFvaKkulsqf9J-sWNW5zrHuE/edit"
+    "file": "https://drive.google.com/file/d/1e-zy6Z-Phg6iAIMqDmJ236w3aD6-9aP7/view"
   },
   {
     "id": "d-prohlaseni",
@@ -255,7 +255,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://docs.google.com/document/d/1qRMMzc0uhl8roKjXbLnyE7bSu-to3_ID/edit"
+    "file": "https://drive.google.com/file/d/1E94K8usl-3WcOEtPE6hyJOKVNQ8WlRDj/view"
   },
   {
     "id": "d-gps",
@@ -266,7 +266,7 @@ export const documents: CaseDocument[] = [
       "GPS",
       "GDPR"
     ],
-    "file": "https://drive.google.com/file/d/1R_K_qFHMwjBQb-WXERUERcWfWPgll4zT/view"
+    "file": "https://drive.google.com/file/d/1zT_wuILfuexQKpK1OqXeYu7a5g_71MLb/view"
   },
   {
     "id": "d-email-208",
@@ -277,7 +277,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/12PYgmPifc5Ej-pYyFd__1ExD5WNo2r1K/view"
+    "file": "https://drive.google.com/file/d/1svJmqbCCl_V5az3Oy_7CVDRKDee1i6zB/view"
   },
   {
     "id": "d-oip",
@@ -287,7 +287,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "OIP"
     ],
-    "file": "https://drive.google.com/file/d/1MGVUBMj5yhXNn47GuPD67U5FHKObaqYI/view"
+    "file": "https://drive.google.com/file/d/1TxfuFasXGx2W2qTuXs56828jMzeuFSIV/view"
   },
   {
     "id": "d-oip2",
@@ -297,7 +297,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "OIP"
     ],
-    "file": "https://docs.google.com/document/d/1hSdi-SluswOhDW55VgOb4PAhmIDkodvJ_NpGeEuDJhE/edit"
+    "file": "https://docs.google.com/document/d/14kobVhbFm7fzY7rpDCqXqivMBXpNSzXRctuVmZfezWM/edit"
   },
   {
     "id": "d-olidech",
@@ -307,7 +307,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1Wk8iATwr-BrT-GcZFaYhwH3x3DKafcsa/view",
+    "file": "https://drive.google.com/file/d/1e8883Bf5QT5dXBZgx5zChcN7njPm0UGm/view",
     "text": "Ospalík poslal tento osobní e-mail z privátní adresy charlie.ospalik@gmail.com — nikoli z firemního e-mailu — v pátek 4. 7. 2025 ve 21:52. Popisuje, jak si zaznamenává chování lidí (tichý experiment), vnímá v Andree neklid, že realita se přibarvuje a odpovědnost se přehazuje jinam. Zároveň chválí její ambice a výsledky, ale navrhuje reset — upřímný rozhovor. Použití soukromé e-mailové adresy naznačuje záměrné vedení citlivé komunikace mimo firemní kanály."
   },
   {
@@ -319,7 +319,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "Odoo"
     ],
-    "file": "https://drive.google.com/file/d/1QpGYtZtlXQ-4YUrBMYNEOamBBykrd9ua/view",
+    "file": "https://drive.google.com/file/d/1MuYkccSbm3_lNqM0l2TQBsnsNSOTrh7O/view",
     "text": "E-mail odeslaný Karlem Ospalíkem z osobní adresy charlie.ospalik@gmail.com Andree a Jiřímu Premusovi dne 18. 6. 2025: Ospalík vydal moratorium na veškerá interní i externí školení zaměstnanců do doby, než bude Odoo v plném provozu. Zrušil tak Andreen zápis na Excel a IT školení, která si sama obstarala. Dokument prokazuje vzorec: Ospalík komunikoval citlivá rozhodnutí mimo firemní e-mail a školení rušil přesto, že sám jejich smysl uznával."
   },
   {
@@ -332,7 +332,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1FLyLnMBcAXgfLQNsKS9QcgYWJIAgZ064/view",
+    "file": "https://drive.google.com/file/d/1lSHISke1fZBwVDEDzb0eqQDp5_PBCerf/view",
     "text": "Andrea napsala odpověď na Ospalíkův filozofický e-mail O lidech, zrcadlech a tichých signálech (4. 7. 2025) až po dvou týdnech — záměrně, aby nenapsala nic, čeho by litovala. Odpověď zaslala 8. 8. 2025 přímo Karlu Neffemu (neffe@gt-sports.cz), tedy potenciálnímu kupujícímu TRAIVA, a den poté ji přeposlala Dominice Kurítové. Klíčové body: Ospalík pozastavil výplatu prémií bez vysvětlení; Andrea sama zvládla ERP projekt od začátku bez pomoci; nesouhlasí s moratoriem na školení. E-mail byl záměrně sdílen s kupujícím — Neffe byl s napětím ve firmě obeznámen již v srpnu 2025, devět měsíců před Andřiným odvoláním."
   },
   {
@@ -344,7 +344,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "file": "https://docs.google.com/document/d/1dA_jIEJ7W5wNhbcNn5WRHalmXyLJ8Gld/edit",
+    "file": "https://drive.google.com/file/d/1Bk_2xqM-a2kGVmSdJ124OUU-TvLcFg4K/view",
     "text": "Dokument, který Ospalík předal jako „zadání“ k implementaci párování plateb, je doslova ChatGPT konverzace — Ospalík se AI ptal na základní otázky o Odoo, dostal vygenerované instrukce (ABO formát, OCA moduly, bash skripty, cron joby, XML-RPC) a toto předal jako pracovní pokyn. Nikdy ERP systém neviděl. Přesto hodnotil moji práci jako nedostatečnou."
   },
   {
@@ -356,7 +356,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1gx1iaV7oOVFnIx2XLrInzqQajVSYp4WP/view",
+    "file": "https://drive.google.com/file/d/1QHEbSdCZSfUDZEasT2Xe6V-z6iM8gssk/view",
     "text": "Screenshoty modulu párování plateb v Odoo s konfigurací tří TRAIVA účtů (CZK/EUR). Dokládá, že jsem modul párování plateb reálně nastavila a provozovala — jako přímý protiargument k tvrzení, že práce na Odoo byla povrchní nebo neúplná."
   },
   {
@@ -444,7 +444,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1bPYww1sHboUIAW-zus83_VsrdL1GrJTr/view"
+    "file": "https://drive.google.com/file/d/1AJUwwJDCpe8IqjAMYhe1PZNfXxJEQLk6/view"
   },
   {
     "id": "d-sliby",
@@ -456,7 +456,7 @@ export const documents: CaseDocument[] = [
       "obchodní",
       "jednatel"
     ],
-    "file": "https://docs.google.com/document/d/10cjzhW4CUKvDxQRmZRjxCjQKpGFdqFcFabXkz8yQMUQ/edit"
+    "file": "https://docs.google.com/document/d/1AeIZh0WJzZWwn1YF09Z95_kxUwYTsi15JtH9nkjtXgM/edit"
   },
   {
     "id": "d-pracovni-smlouva",
@@ -467,7 +467,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1yRmqslu0TipZ1Ate2ZBYwa4oMkp5oCWK/view"
+    "file": "https://drive.google.com/file/d/1ZDfCxzMdsxyIQ9Ofdnp8A14MsWDU6gCa/view"
   },
   {
     "id": "d-rozhodnuti-odvolani",
@@ -478,7 +478,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1ChNAkLj2o5Cvjbc2JfRfXQN6oVFFCr4R/view"
+    "file": "https://drive.google.com/file/d/1kXF_Dkp2tLxIDz8R_1mOx5ppmId0Hs1s/view"
   },
   {
     "id": "d-fio-2023",
@@ -489,7 +489,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1iySiQ3EC3M1aTmwarJ5JXMWJoLmFK_SB/view"
+    "file": "https://drive.google.com/file/d/1m1UD7cEpeBIhceIX-wVI8amKBO8ooPty/view"
   },
   {
     "id": "d-fio-sprava",
@@ -500,7 +500,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1Na7vlC2DB7sjfGS77J5DFHHtXNfsVeq5/view"
+    "file": "https://drive.google.com/file/d/1CBa0bnHn3XLRrg6C9T_Dss_THfP76NWA/view"
   },
   {
     "id": "d-lekarske",
@@ -511,7 +511,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1PAtdFe44ERMxTwHbxdzLmZJYCHJXfyKc/view"
+    "file": "https://drive.google.com/file/d/1D2k4LhQt_RazypVIR3AlPW9uabpqrEUB/view"
   },
   {
     "id": "d-prijem-potvrzeni",
@@ -521,7 +521,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1diRhLApgp71Gb_seiO9F1FhJ4DiMTJO_/view"
+    "file": "https://drive.google.com/file/d/1P24Wi7k0QBVM_wwIHCbOrUNBg42m9mkQ/view"
   },
   {
     "id": "d-prijem-zam",
@@ -531,7 +531,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1tFRbuOn-jrSbUFWHszJgdp8YKC3c1pha/view"
+    "file": "https://drive.google.com/file/d/1rvnIcimNf6UzGBjXDgXMf60UKeBo8Hov/view"
   },
   {
     "id": "d-kalkulace",
@@ -542,7 +542,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "obchodní"
     ],
-    "file": "https://docs.google.com/spreadsheets/d/1lJm9IDy0TLJS6fobZ2JJtPxFp16LP4zDvJOEugkosTA/edit"
+    "file": "https://docs.google.com/spreadsheets/d/1k8PsdO18cwfUnEakZ9pdpc64oACR0z6TlseYBV7X6yM/edit"
   },
   {
     "id": "d-vozidla",
@@ -554,7 +554,7 @@ export const documents: CaseDocument[] = [
       "obchodní",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1vAK_0erlIG0q-XeU8PL2t8RwRuiHDr9M/view"
+    "file": "https://drive.google.com/file/d/1NstneWZEO3fuv87pcs8yjTVdLrdoq4Tj/view"
   },
   {
     "id": "d-incident",
@@ -566,7 +566,7 @@ export const documents: CaseDocument[] = [
       "vozidla",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijíel do provozovny, vzal klíče od BMW pod záminkou zkusební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a zmožnčil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splačávané z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
   }
 ,
@@ -579,7 +579,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "Formální dopis Andreou podepsaný den po odvolání z jednatele (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odemčleny, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Writenné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
   },
   {
@@ -591,7 +591,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "Podrobná výplatní páska za Květen 2026 — poslední mzdové období (odvolání 12. 5. 2026). Tarif: 63 000 Kč/měs. (HPP); fond pracovní doby 168 h, odpracováno 9 dní / 72 h, čerpána dovolená 12 dní / 96 h (zbývá 18,6 dne). Základní složka za 9 dní: 27 000 Kč; dovolená: 43 932 Kč; prémie: 0 Kč. Hrubý příjem: 70 932 Kč; čistá mzda: 54 623 Kč; výplata: 55 319 Kč. Náklady zaměstnavatele: 95 804 Kč. Klíčové: tarif 63 000 Kč shodný s Vojtěchem Ospalíkem; prémie v posledním měsíci nulová (vs. 47 700 Kč hrubého v dubnu 2025); zbývající dovolená ≈ 18,6 dne = pohředávka."
   },
   {
@@ -603,7 +603,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "E-mailová vlákna z června–července 2025 týkající se Odoo projektu párování plateb. 19. 6. 2025 Karel Ospalík (charlie.ospalik@gmail.com): „Nemůžeme pověřit takovým úkolem někoho, kdo je tu zcela nový. Protože ani za 6 měsíců systém vedení projektu ala Plaček, Kokoruď ani Tvůj nevedl k odstranění všech kritických chyb, Bude systém vedení projektu po mém.“ Zároveň zaslal vzor testovacích scénářů a požadoval plán do pondělí 23. 6. 10. 7. 2025 Karel: „Upravil jsem Tvoje odměny podle projektového plánu, který jsem poslal 19. 6.“ Kontext: Andrea v té době úspěšně prosazovala automatizaci párování plateb (integrace ČSOB, Comgate, dobírky) — projekt, který nikdo jiný nevedl. E-maily dokládají, že Ospalík zasahoval přímo do výpočtu odměn mimo jakékoli schválené procesy."
   },
   {
@@ -614,7 +614,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vniřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vniřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „ndodržování pokynů“."
   },
   {
@@ -626,7 +626,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před odvoláním Andreou 12. 5. 2026) adresovaný Andree i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na Andreu jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
   }
 ,
@@ -640,7 +640,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1APCHgxxKsOH8NHmG3wF-NYyLCWA2n-Bc/view",
+    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
     "text": "12. 5. 2026 mi bylo předloženo Rozhodnutí jediného společníka o odvolání z funkce jednatelky. Podpis jsem odmítla, protože jsem nebyla s dokumentem předem srozuměna, nezískala jsem čas na konzultaci s právníkem a nebyl mi předložen ani její písební doklad o doručení s prostorem k vyjadření. Přesto mi kopie rozhodnutí nebyla předána. Nátlak probíhal títčem: (1) nevydání kopie dokumentu, který jsem odmítla podepsat; (2) v tentýž den zablokována firemní karta; (3) tentýž den aktivováno GPS sledování vozidla bez souhlasu; (4) tentýž den nařízena dovolená ze dne na den. Vše proběhlo koordinovaně v jeden den, což naznačuje předem připravený postup. Následující dny bylo postupně odebíráno IT přístupy do systémů, s nimiž jsem pracovala jako jednatelka. Tento záznam popisuje okolnosti podpisu/odmítnutí, atmosféru při jednání, přítomné osoby a bezprostřední reakce. Tentýž den večer jsem jako jednatelka (stále ve funkci) zrušila GPS službu u T-Mobile — protož Následující ráno (13. 5. 2026) mi volal Karel Ospalík a ptal se, proč jsem šla do T-Mobile GPS sledování zrušit. Sdělil, že GPS zapnul proto, že má o mne strach — má pocit, že „nejsem v pořádku“ a že bych si měla zajít pro diagnózu. Tento hovor je zásadní pro právní posouzení: (1) potvrzuje, že GPS aktivaci 12. 5. 2026 nářídil Ospalík osobně a bez mého souhlasu; (2) jako důvod uvádí subjektivní obavy o mé duševí zdraví — bez jakéhokoliv podkladu a v situaci, kde koordinovaný postup (odvolání + karta + GPS + dovolená v jeden den) naznačuje předem připravené opatření, nikoliv spontanní obavy; (3) výzva k „diagnóze“ jako reakce na mé odmítnutí podpisu odlvolání je zásadní skutečností pro posouzení, zda nedošlo k diskriminaci nebo zpochybnění opozice neopodstatněným útolkem na duševí zdraví."
   }
 ,
@@ -655,5 +655,83 @@ export const documents: CaseDocument[] = [
       "Odoo"
     ],
     "text": "Oficiální vyhodnocení roku 2025 připravené Karelem Ospalíkem pro poradu vedení TRAIVA s.r.o. (stav k 14. 1. 2026). Dokument hodnotí 5 strategických oblastí: (1) ERP Odoo — \"Splněno\": systém nasazen ve stanoveném termínu, avšak s \"významnými implementačními problémy způsobenými nevhodným výběrem dodavatele, nedostatečnou specifikací, změnou koncepce, nepřipraveným testováním a podceněním školení\"; (2) Software BOZP — \"Probíhá\": testovací verze hotovy, plné spuštění plánováno 1. 5. 2026; (3) E-shop portfolio (cíl 150 produktů) — \"Nesplněno\": přidáno pouze cca 15 produktů, hlavní důvod: \"vysoké pracovní zatížení při implementaci Odoo\"; (4) Marketingové nástroje e-shopu — \"Částečně\": implementován pouze přesný termín doručení, ostatní nástroje nebyly dodány kvůli \"neplnění závazků externího dodavatele Sniper\", který \"nedodal objednanou službu ani po opakovaných urgencích\"; (5) Aplikace cedulí vasecedule.cz — \"Téměř dokončeno\". Klíčový kontext: dokument přiznává, že nesplnění cílů e-shopu a marketingu bylo způsobeno Odoo implementací a nespolehlivým externím dodavatelem — nikoliv selháním marketing manažera. Zároveň Ospalík v e-mailu z 6. 5. 2026 (tj. 4 měsíce po tomto dokumentu) požadoval po Andree doložení \"marketingových akcí s měřitelným dopadem\", ačkoliv vlastní vyhodnocení roku přičítalo neúspěchy jiným příčinám."
+  },
+  {
+    "id": "d-datovka-protest-potvrzeni",
+    "title": "Potvrzení o odeslání datové zprávy ID 1734487765 (14. 7. 2026 17:55)",
+    "type": "potvrzení datové schránky · export z portálu datovka.gov.cz",
+    "date": "14. 7. 2026",
+    "tags": [
+      "pracovněprávní",
+      "mzda"
+    ],
+    "text": "Odeslaná PDZ, ID zprávy: 1734487765. Odesílatel: Andrea Matis (schránka 2n4vhud). Adresát: TRAIVA, s.r.o., Pohraniční 2911/13b, Vítkovice, 70300 Ostrava (ID schránky: gwn73br). K rukám: Ing. Karel Ospalík. Do vlastních rukou: Ano. Stav zprávy: Dodaná. Datum a čas: 14. 7. 2026 v 17:55:17. EV0 (podána): 14. 7. 2026 v 17:55:17. EV5 (dodána do schránky příjemce): 14. 7. 2026 v 17:55:17. Přílohy: Textová zpráva.PDF + Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf."
+  },
+  {
+    "id": "d-datovka-protest-text",
+    "title": "Textová zpráva zaslaná datovou schránkou — protest (14. 7. 2026)",
+    "type": "průvodní text datové zprávy PDZ",
+    "date": "14. 7. 2026",
+    "tags": [
+      "pracovněprávní",
+      "mzda"
+    ],
+    "text": "Průvodní text zprávy ID 1734487765: Dobrý den, v příloze zasílám formální protest proti nesprávné klasifikaci 20 pracovních dnů v červnu 2026 jako neomluvená absence a výzvu k opravě výplatní pásky za červen 2026 včetně doplacení dlužné náhrady mzdy dle § 208 zákoníku práce. Lhůta k plnění: 28. 7. 2026. S pozdravem, Ing. Andrea Matis."
+  },
+  {
+    "id": "d-datovka-protest-vyzva",
+    "title": "Protest proti klasifikaci absence + výzva k opravě mzdového výměru — příloha datovky (14. 7. 2026)",
+    "type": "formální výzva zaměstnavateli · příloha PDZ 1734487765",
+    "date": "14. 7. 2026",
+    "tags": [
+      "pracovněprávní",
+      "mzda"
+    ],
+    "text": "Příloha datové zprávy ID 1734487765. Soubor: Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf. Obsah: formální protest + výzva k opravě výplatní pásky za červen 2026. Odesílatel: Ing. Andrea Matis, Kostelní 607, 739 24 Krmelín. Adresát: TRAIVA, s.r.o., jednatel Ing. Karel Ospalík. Datum: 14. 7. 2026. Věc: protest proti klasifikaci 20 dnů jako neomluvená absence (správně: § 208 ZP — překážky na straně zaměstnavatele). Požadavky: (1) oprava výplatní pásky, (2) doplacení 65 898,80 Kč hrubého na účet 2298163003/0800, (3) doplacení pojistného ZP + ČSSZ. Prodlení od 11. 7. 2026, zákonný úrok § 1970 OZ. Deadline: 28. 7. 2026."
+  },
+  {
+    "id": "d-email-karin-premus-30042026",
+    "title": "E-mail 'Stav pracovníků a náklady' — Ing. Matis → Jiří Premus (30. 4. 2026)",
+    "type": "interní e-mail · klíčový důkaz o roli Karin Švédové v expedici",
+    "date": "30. 4. 2026",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "E-mail, ve kterém Ing. Matis píše Jiřímu Premusovi: 'chtěla bych se s tebou sladit na dalším postupu u Karin'. Prokazuje: (1) Karin Švédová přijata jako zástup na expedici v období plánované PN, (2) výhledově měla nahradit Danu Rogalovou na prodejně bez navýšení stavu, (3) Ing. Ospalík dočasně zmrazil org. změny kvůli akvizici, (4) Ing. Matis připravila plán a koordinovala ho s vedením. Vyvrací tvrzení, že Karin byla přijata jako marketingová specialistka nebo bez vědomí vedení. Zdroj: Outlook (TRAIVA), přístup vyžaduje přihlášení."
+  },
+  {
+    "id": "d-vysledovka-traiva-2023",
+    "title": "TRAIVA — Výsledovka analyticky po zaúčtování daně 2023",
+    "type": "účetní výkaz · SharePoint TRAIVA",
+    "date": "2023",
+    "tags": [
+      "obchodní"
+    ],
+    "file": "https://traiva-my.sharepoint.com/personal/a_matis_traiva_cz/Documents/02_Dokumenty/Ostatn%c3%ad/TRAIVA%20-%20Vysledovka_analyticky%20-%20%20po%20zauct.dane%202023.pdf?web=1",
+    "text": "Hospodářský zisk za rok 2023 po zaúčtování daně: 7 592 693,58 Kč. Upřesnění metriky: v DD komunikaci se pracovalo s EBITDA cca 9,1 mil. Kč — to je odlišný ukazatel než čistý účetní zisk. Případné tvrzení 'čistý zisk ~9 mil Kč' je nepřesné. Normalizovaná EBITDA z DD komunikace: cca 12,1 mil Kč. Zdroj: TRAIVA SharePoint (přihlášení nutné)."
+  },
+  {
+    "id": "d-trello-marketing-produkty-traiva",
+    "title": "Trello board 'Marketing produktů Traiva' — strategický plán Ing. Matis (k 5. 11. 2025)",
+    "type": "strategický dokument · meta-data ze SharePoint archivu",
+    "date": "5. 11. 2025",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "Existence Trello boardu 'Marketing produktů Traiva' (starred, autor Ing. Matis, aktuální k 5. 11. 2025) prokazuje, že strategický marketingový plán pro rok 2025 existoval a byl aktivně udržován. Vyvrací případná tvrzení, že marketingové plánování nebo strategické směřování chybělo."
+  },
+  {
+    "id": "d-trello-marketingove-strategie-am",
+    "title": "Trello board 'AM – Marketingové strategie a věrnostní program' (aktualizace 17. 3. 2026)",
+    "type": "strategický dokument · meta-data ze SharePoint archivu",
+    "date": "17. 3. 2026",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "Trello board vedený Ing. Matis, naposledy aktualizován 17. 3. 2026 — v době, kdy pracovní spor byl již v běhu. Obsahuje strategické plány pro marketing a věrnostní program (loajalitní program, B2B akvizice). Dokládá, že Ing. Matis soustavně pracovala na strategickém rozvoji firmy i v kritickém období jaro 2026."
   }
+
 ];
