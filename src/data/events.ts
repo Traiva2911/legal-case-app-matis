@@ -551,6 +551,46 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ]
   },
   {
+    "id": "ev-2026-karta",
+    "date": "19. 5. 2026",
+    "year": "2026",
+    "title": "Pozastavení plateb na firemní kartě — obvinění ze soukromých plateb",
+    "text": "19. 5. 2026 mi Ospalík poslal e-mail s předmětem „Obrat vs náklady“: „Za rok jsme zvýšili obrat o 3 miliony a náklady na kartě a i jiné, jsi zvýšilo o 2,5 milionů. Pozastavuji nové platby na Tvé kartě do doby než budou dodány všechny účty a vyřešeny některé zřejmě soukromé platby. Vše na základě firemních předpisů. Jen na kartě 1,7 mil. Náklady za posledních 12 měsíců. Musíme to vyhodnotit.“ O tři dny později, 22. 5. 2026, jsem si vyžádala celý výpis z karty — potřebovala jsem doložit všechny položky, které z ní byly strženy neoprávněně nebo chybně, a obvinění ze soukromých plateb vyvrátit. Má firemní karta přitom sloužila jako hlavní platební prostředek pro online marketingové systémy (Meta Ads, Google Ads), PPC poplatky a SW licence — tedy výdaje přímo svázané s obratem eshopu — a pro drobné firemní nákupy. Kartou navíc platila i Eva Orel a případně další zaměstnanci.",
+    "legal": "Obvinění ze „zejmě soukromých plateb“ přišlo 7 dní po odvolání, bez předložení jakýchkoli konkrétních položek. Karta sloužila výhradně k firemním účelům (PPC, SW licence, marketingové systémy, drobné nákupy) — v systémech jsou k tomu doklady. Výpis jsem si vyžádala sama, abych obvinění vyvrátila — ne abych něco skrývala. Kartou platila i Eva Orel a případně další zaměstnanci, přesto obvinění míří jen na mě. Chci probrat: (1) jak se toto obvinění právně kvalifikuje, (2) zda zastavení platební karty bylo oprávněné, (3) zda nárůst nákladů o 2,5 mil. koreluje s nárůstem obratu o 3 mil. (tedy de facto 83 % nákladová efektivita nárůstu obratu).",
+    "tags": [
+      "jednatel",
+      "pracovněprávní"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "Záznamy platební karty",
+      "Interní komunikace",
+      "Celý výpis z karty 22. 5. 2026"
+    ]
+  },
+  {
+    "id": "ev-2026-smernice2",
+    "date": "3. 6. 2026",
+    "year": "2026",
+    "title": "Nová vnitřní směrnice verze 2",
+    "text": "Dne 3. 6. 2026 vydána nová vnitřní směrnice „Režim práce a měření výsledků manažerů verze 2\" — bez jakéhokoliv prostoru pro připomínky. Verzi 1 této směrnice přitom Ospalík sám v dubnu 2026 prohlásil za schválenou „mlčením\" a upozornil, že jakmile něco vydá jako vnitřní předpis, je to pro něj červená čára (viz e-maily z 2. a 22. 4. 2026). Verze 2 na tuto logiku navazuje, tentokrát ale bez jakéhokoliv dalšího prostoru pro připomínky — vydána 22 dní po mém odvolání, v době, kdy jsem neměla přístupy ani možnost plnit úkoly, které směrnice ukládá.",
+    "legal": "Chci s advokátem probrat: (1) zda lze jednostranné vydání vnitřního předpisu bez možnosti připomínkování zpochybnit, zvláště jde-li o předpis zavedený v době, kdy jsem neměla přístupy k systémům; (2) zda je směrnice platná vůči mně jako zaměstnankyni, která o ní nebyla řádně informována; (3) jaký vliv má prohlášení „schválení mlčením\" u verze 1 na případný postih za její nesplnění.",
+    "tags": [
+      "mzda",
+      "pracovněprávní"
+    ],
+    "personRefs": [
+      "Andrea Matis",
+      "Karel Ospalík"
+    ],
+    "evidenceRefs": [
+      "Vnitřní směrnice verze 1 + 2"
+    ]
+  },
+  {
     "id": "ev-2026-bmw-incident",
     "date": "8. 6. 2026",
     "year": "2026",
@@ -574,27 +614,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ]
   },
   {
-    "id": "ev-2026-karta",
-    "date": "19. 5. 2026",
-    "year": "2026",
-    "title": "Pozastavení plateb na firemní kartě — obvinění ze soukromých plateb",
-    "text": "19. 5. 2026 mi Ospalík poslal e-mail s předmětem „Obrat vs náklady“: „Za rok jsme zvýšili obrat o 3 miliony a náklady na kartě a i jiné, jsi zvýšilo o 2,5 milionů. Pozastavuji nové platby na Tvé kartě do doby než budou dodány všechny účty a vyřešeny některé zřejmě soukromé platby. Vše na základě firemních předpisů. Jen na kartě 1,7 mil. Náklady za posledních 12 měsíců. Musíme to vyhodnotit.“ O tři dny později, 22. 5. 2026, jsem si vyžádala celý výpis z karty — potřebovala jsem doložit všechny položky, které z ní byly strženy neoprávněně nebo chybně, a obvinění ze soukromých plateb vyvrátit. Má firemní karta přitom sloužila jako hlavní platební prostředek pro online marketingové systémy (Meta Ads, Google Ads), PPC poplatky a SW licence — tedy výdaje přímo svázané s obratem eshopu — a pro drobné firemní nákupy. Kartou navíc platila i Eva Orel a případně další zaměstnanci.",
-    "legal": "Obvinění ze „zejmě soukromých plateb“ přišlo 7 dní po odvolání, bez předložení jakýchkoli konkrétních položek. Karta sloužila výhradně k firemním účelům (PPC, SW licence, marketingové systémy, drobné nákupy) — v systémech jsou k tomu doklady. Výpis jsem si vyžádala sama, abych obvinění vyvrátila — ne abych něco skrývala. Kartou platila i Eva Orel a případně další zaměstnanci, přesto obvinění míří jen na mě. Chci probrat: (1) jak se toto obvinění právně kvalifikuje, (2) zda zastavení platební karty bylo oprávněné, (3) zda nárůst nákladů o 2,5 mil. koreluje s nárůstem obratu o 3 mil. (tedy de facto 83 % nákladová efektivita nárůstu obratu).",
-    "tags": [
-      "jednatel",
-      "pracovněprávní"
-    ],
-    "personRefs": [
-      "Andrea Matis",
-      "Karel Ospalík"
-    ],
-    "evidenceRefs": [
-      "Záznamy platební karty",
-      "Interní komunikace",
-      "Celý výpis z karty 22. 5. 2026"
-    ]
-  },
-  {
     "id": "ev-2026-pristupy",
     "date": "10. 6. 2026",
     "year": "2026",
@@ -612,25 +631,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "evidenceRefs": [
       "Záznamy přístupů",
       "E-mail 11. 6. 2026"
-    ]
-  },
-  {
-    "id": "ev-2026-smernice2",
-    "date": "3. 6. 2026",
-    "year": "2026",
-    "title": "Nová vnitřní směrnice verze 2",
-    "text": "Dne 3. 6. 2026 vydána nová vnitřní směrnice „Režim práce a měření výsledků manažerů verze 2\" — bez jakéhokoliv prostoru pro připomínky. Verzi 1 této směrnice přitom Ospalík sám v dubnu 2026 prohlásil za schválenou „mlčením\" a upozornil, že jakmile něco vydá jako vnitřní předpis, je to pro něj červená čára (viz e-maily z 2. a 22. 4. 2026). Verze 2 na tuto logiku navazuje, tentokrát ale bez jakéhokoliv dalšího prostoru pro připomínky — vydána 22 dní po mém odvolání, v době, kdy jsem neměla přístupy ani možnost plnit úkoly, které směrnice ukládá.",
-    "legal": "Chci s advokátem probrat: (1) zda lze jednostranné vydání vnitřního předpisu bez možnosti připomínkování zpochybnit, zvláště jde-li o předpis zavedený v době, kdy jsem neměla přístupy k systémům; (2) zda je směrnice platná vůči mně jako zaměstnankyni, která o ní nebyla řádně informována; (3) jaký vliv má prohlášení „schválení mlčením\" u verze 1 na případný postih za její nesplnění.",
-    "tags": [
-      "mzda",
-      "pracovněprávní"
-    ],
-    "personRefs": [
-      "Andrea Matis",
-      "Karel Ospalík"
-    ],
-    "evidenceRefs": [
-      "Vnitřní směrnice verze 1 + 2"
     ]
   },
   {
