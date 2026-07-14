@@ -400,7 +400,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "pracovněprávní"
     ],
-    "text": "Výpis jsem si vyžádala sama, abych mohla vyvrátit obvinění ze „zřejmě soukromých plateb” — to přišlo sedm dní po odvolání, bez předložení jakýchkoli konkrétních položek. Kartou přitom platila i Eva Orel a případně další zaměstnanci."
+    "text": "Výpis jsem si vyžádala 22. 5. 2026 sama, abych mohla vyvrátit obvinění ze „zejmě soukromých plateb“ z e-mailu Ospalíka (19. 5. 2026, předmět „Obrat vs náklady“). Firemní karta sloužila jako hlavní platební prostředek pro online marketingové systémy (Meta Ads, Google Ads), PPC poplatky a SW licence — výdaje přímo svázané s obratem eshopu — a pro drobné firemní nákupy. Kartou platila i Eva Orel a případně další zaměstnanci, přesto obvinění míří výhradně na mě. Výpis je podkladem pro reklamaci neoprávněných nebo nesprávně účtovaných položek a pro vyvrácení tvrzení o soukromých výdajích."
   },
   {
     "id": "d-dd-podklad",
