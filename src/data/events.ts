@@ -511,7 +511,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "year": "2026",
     "title": "Odvolání z funkce, karta a GPS",
     "text": "V jeden den jsem byla odvolána z funkce jednatelky (podpis rozhodnutí jsem odmítla, kopii mi nepředali), byla mi zablokována firemní karta, přišla SMS o aktivaci GPS sledování bez mého souhlasu, byla mi nařízena dovolená ze dne na den (bez předchozího upozornění na termín — tu jsem k podpisu dostala a podepsala, ale vlastní kopii mi také nepředali) a začalo postupné odebírání všech přístupů do systémů, se kterými jsem pracovala.",
-    "legal": "Vše proběhlo v jeden den — co z toho pro mě plyne, chci probrat.",
     "tags": [
       "jednatel",
       "GPS",
@@ -521,8 +520,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ],
     "personRefs": [
       "Andrea Matis",
-      "Karel Ospalík",
-      "Vojtěch Ospalík"
+      "Karel Ospalík"
     ],
     "evidenceRefs": [
       "SMS 12. 5. 2026",
