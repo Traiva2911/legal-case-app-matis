@@ -551,11 +551,11 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
   },
   {
     "id": "ev-2026-bmw-incident",
-    "date": "5/2026 (datum ověřit)",
+    "date": "8. 6. 2026",
     "year": "2026",
-    "title": "Incident s BMW X1 — zadržení vozidla a odpojení GPS",
-    "text": "Přijela jsem na sídlo firmy vozem BMW X1 (vlastník Under8/NK Technology, já výhradní řidič dle Přílohy č. 1 ke smlouvě o pronájmu). V kanceláři jsme byli sami, bez svědků. Pan Ospalík mě uvedl v omyl — pod záminkou, že „se jde projet“, si vzal klíče od BMW a s vozidlem odjel; pohyb vozidla jsem sledovala přes GPS. Týž den mi napsal na WhatsApp, že mi „do odvolání ruší home office“. Asi o hodinu později mi napsal, že „potřebuje BMW asi tak na týden“ a abych se „nestarala proč“. Vozidlo pak zadržel a znemožnil mi jeho užívání; vydání/užívání vozu spojil s požadavkem, abych mu vrátila hotovost přijatou za prodej SsangYong Korando. Odpojil také GPS z vozidla, které patří NK. Cítila jsem se v této situaci ohrožená a vyděšená.",
-    "legal": "Jak se na zadržení auta, odpojení GPS a podmiňování vydání dívat právně, netuším — prosím o posouzení. Zrušení home office „do odvolání“ tímto incidentem přímo souvisí s tím, že jsem měla výkon práce z domova sjednaný v pracovní smlouvě (viz moje žádost zaměstnavateli 11. 6. 2026) — jeho zrušení bez opory ve smlouvě považuji za překážku v práci na straně zaměstnavatele.",
+    "title": "Incident s BMW X1 — zadržení vozidla, odpojení GPS a výpověď nájmu (8.–9. 6. 2026)",
+    "text": "Dne 8. 6. 2026 jsem přijela na sídlo firmy vozem BMW X1 (vlastník Under8/NK Technology — Karel Neffe, já výhradní řidič dle Přílohy č. 1 ke smlouvě o pronájmu). V kanceláři jsme byli sami, bez svědků. Pan Ospalík mě uvedl v omyl — pod záminkou, že „se jde projet\", si vzal klíče od BMW a s vozidlem odjel; pohyb vozidla jsem sledovala přes GPS. Týž den mi napsal na WhatsApp, že mi „do odvolání ruší home office\". Asi o hodinu později mi napsal, že „potřebuje BMW asi tak na týden\" a abych se „nestarala proč\". Vozidlo pak zadržel a znemožnil mi jeho užívání; vydání vozu podmínil požadavkem, abych mu vrátila hotovost přijatou za prodej SsangYong Korando. Odpojil také GPS přístup k vozidlu, které patří NK Technology/Karel Neffe. Cítila jsem se v této situaci ohrožená a vyděšená. Téhož dne (8. 6. 2026) napsal Karel Neffe Ospalíkovi (v kopii mně, Jiřímu Premusovi, Evě Orel a Barboře Zikmundové), že mu Ospalík při telefonátu lhal a zároveň smazal jeho přístup k vozu i k GPS poloze — kvůli tomu mu s okamžitou platností vypověděl smlouvu o pronájmu a oznámil, že si vůz osobně vyzvedne následující večer. Ospalík mu 9. 6. 2026 odpověděl, že Traiva s.r.o. nesouhlasí s tvrzením o porušení smlouvy ani s tím, že by vozidlo bylo dle smlouvy určeno k mému výhradnímu užívání — přitom Přílohu č. 1 sám nikdy neviděl a v dalších e-mailech mě vyzýval, ať mu ji doložím.",
+    "legal": "Jak se na zadržení auta, odpojení GPS a podmiňování vydání dívat právně, netuším — prosím o posouzení. Zrušení home office „do odvolání\" přímo souvisí s pracovní smlouvou (viz žádost 11. 6. 2026) — považuji za překážku v práci na straně zaměstnavatele. Neffova okamžitá výpověď nájmu kvůli Ospalíkově lži potvrzuje moji verzi incidentu a dokládá, že GPS přístup Ospalík skutečně smazal. Ospalík navíc Přílohu č. 1 sám neznal — jak obstojí jeho tvrzení, že výhradní užívání nebylo sjednáno?",
     "tags": [
       "vozidla",
       "pracovněprávní",
@@ -568,7 +568,8 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ],
     "evidenceRefs": [
       "Záznam incidentu s vozidlem",
-      "WhatsApp zprávy o BMW a home office"
+      "WhatsApp zprávy o BMW a home office",
+      "E-mail Neffe/Ospalík 8.-9. 6. 2026 — výpověď nájemní smlouvy vozu"
     ]
   },
   {
@@ -629,26 +630,6 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     ],
     "evidenceRefs": [
       "Vnitřní směrnice verze 1 + 2"
-    ]
-  },
-  {
-    "id": "ev-2026-neffe-vypoved",
-    "date": "8.–9. 6. 2026",
-    "year": "2026",
-    "title": "Majitel vozu Karel Neffe vypovídá Ospalíkovi smlouvu kvůli lži o GPS a přístupu",
-    "text": "8. 6. 2026 napsal Karel Neffe (NKtech s.r.o.), skutečný majitel BMW X1, Ospalíkovi (v kopii mně, Jiřímu Premusovi, Evě Orel a Barboře Zikmundové), že mu Ospalík při telefonátu lhal a zároveň smazal přístup k vozu i k jeho GPS poloze — kvůli tomu mu s okamžitou platností vypověděl smlouvu o pronájmu a oznámil, že si vůz osobně vyzvedne následující večer. Ospalík mu 9. 6. 2026 odpověděl, že Traiva s.r.o. nesouhlasí s tvrzením o porušení smlouvy, ani s tím, že by vozidlo bylo dle smlouvy určeno k mému výhradnímu užívání — napsal, že takové ustanovení smlouva neobsahuje. Ospalík ale podle mě dokumentaci k pronájmu (Přílohu č. 1) sám nikdy neviděl, a v dalších e-mailech mě naopak vyzýval, ať mu ji doložím.",
-    "legal": "Beru jako důležité, že se do sporu o vůz zapojil i skutečný majitel a kvůli lži a smazání GPS přístupu Ospalíkovi okamžitě vypověděl nájemní smlouvu — to podporuje moji verzi bodu 24 (incident s BMW). Ospalík ale dokumentaci k pronájmu sám neznal, proto teď chce, abych doložila, co přesně bylo v Příloze č. 1 dohodnuté.",
-    "tags": [
-      "vozidla",
-      "pracovněprávní"
-    ],
-    "personRefs": [
-      "Andrea Matis",
-      "Karel Ospalík",
-      "Karel Neffe"
-    ],
-    "evidenceRefs": [
-      "E-mail Neffe/Ospalík 8.-9. 6. 2026 — výpověď nájemní smlouvy vozu"
     ]
   },
   {
