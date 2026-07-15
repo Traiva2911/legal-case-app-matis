@@ -46,8 +46,13 @@ button {
   flex-direction: column;
   gap: 22px;
   padding: 30px 16px 24px;
-  border-right: 1px solid var(--line);
+  border-right: none;
   background: var(--sidebar-bg);
+  /* Sidebar je vždy tmavý — přebijeme color tokeny lokálně */
+  --_text: rgba(255, 255, 255, 0.88);
+  --_muted: rgba(255, 255, 255, 0.44);
+  --_line: rgba(255, 255, 255, 0.10);
+  color: var(--_text);
 }
 
 .sidebar::before {
@@ -94,10 +99,18 @@ button {
   line-height: 1.25;
 }
 
+.sidebar .brand strong {
+  color: rgba(255, 255, 255, 0.92);
+}
+
 .brand span {
   margin-top: 3px;
   color: var(--muted);
   font-size: 12px;
+}
+
+.sidebar .brand span {
+  color: rgba(255, 255, 255, 0.44);
 }
 
 .nav-list {
@@ -123,8 +136,17 @@ button {
   transition: background 140ms ease;
 }
 
+.sidebar .nav-item {
+  color: rgba(255, 255, 255, 0.80);
+}
+
 .nav-item:hover {
   background: color-mix(in srgb, var(--text) 6%, transparent);
+}
+
+.sidebar .nav-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.96);
 }
 
 .nav-item[aria-current="page"] {
@@ -134,6 +156,12 @@ button {
   border-left: 3px solid var(--m-blue);
   border-radius: 0 10px 10px 0;
   padding-left: 9px;
+}
+
+.sidebar .nav-item[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border-left: 3px solid var(--m-blue);
 }
 
 .nav-left {
@@ -151,10 +179,22 @@ button {
   font-weight: 600;
 }
 
+.sidebar .nav-icon {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.sidebar .nav-item[aria-current="page"] .nav-icon {
+  color: var(--m-blue);
+}
+
 .nav-count {
   color: var(--muted);
   font-size: 12px;
   font-variant-numeric: tabular-nums;
+}
+
+.sidebar .nav-count {
+  color: rgba(255, 255, 255, 0.36);
 }
 
 .sidebar-footer {
@@ -168,6 +208,15 @@ button {
 .theme-toggle {
   border: 1px solid var(--line-strong);
   font-size: 17px;
+}
+
+.sidebar .theme-toggle {
+  border-color: rgba(255, 255, 255, 0.20);
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.sidebar .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .workspace {
