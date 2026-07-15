@@ -183,8 +183,16 @@ export function DashboardView() {
           <ul className="shrnuti-list">
             <li>
               Firma vykazuje náklady u spřízněných osob, které se jeví jako
-              nadhodnocené — nájem budovy a strojů, prodej budovy, fakturované
-              služby. Posouzení obvyklosti ponechávám zcela na advokátovi.
+              nadhodnocené — nájem budovy a strojů, fakturované služby.
+              Konkrétně: TRAIVA Safety s.r.o. (vlastněná dcerou majitele)
+              prodala budovu s pozemky a příslušenstvím firmě TRAIVA s.r.o.
+              V souvislosti s touto transakcí jsem byla na pokyn Ospalíka
+              osobně přihlásit změnu provozovny a sídla společnosti
+              na živnostenském úřadě — původní adresa Pohraniční 104,
+              nová Pohraniční 2911/13b. Prodej nemovitosti spřízněnou osobou
+              mohl být jedním z prvních kroků, kdy byl majitel o prodeji
+              firmy již rozhodnut. Posouzení obvyklosti ceny transakce
+              ponechávám zcela na advokátovi.
             </li>
             <li>
               Fungování firmy fakticky stojí na mých znalostech — jako jediná
@@ -201,8 +209,9 @@ export function DashboardView() {
             </li>
           </ul>
           <p>
-            Majitel se zřejmě mylně domnívá, že jsem Neffemu poskytla interní
-            informace — <strong>to není pravda</strong>.
+            Majitel se zřejmě mylně domnívá, že jsem Neffemu mohla poskytnout
+            interní informace — vše, co jsem mu sdělila či zaslala, jsem
+            předem konzultovala s majitelem.
           </p>
         </AccordionPanel>
 
