@@ -225,7 +225,7 @@ export function DashboardView() {
       </div>
 
       <div className="shrnuti-situace">
-        <h2 className="shrnuti-heading">Shrnutí situace</h2>
+        <h2 className="shrnuti-heading">Shrnutí situace a milníky</h2>
 
         <AccordionPanel {...panelProps("postaveni")} title="1 · K mé osobě a postavení">
           <p>
