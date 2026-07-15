@@ -107,7 +107,7 @@ export function DetailPanel() {
 
         {item.kind === "evidence" && (
           <div className="detail-section">
-            <h3>Podle mě dokládá</h3>
+            <h3>Dokládá</h3>
             <p>{item.proves.join(", ")}</p>
           </div>
         )}

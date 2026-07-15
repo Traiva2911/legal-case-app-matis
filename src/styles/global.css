@@ -255,12 +255,13 @@ body::before {
 
 .search-wrap input {
   width: 100%;
-  min-height: 40px;
-  padding: 0 16px;
+  min-height: 48px;
+  padding: 0 20px;
   border: 0;
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--panel-strong);
   color: var(--text);
+  font-size: 15px;
   outline: none;
   transition: box-shadow 160ms ease, background 160ms ease;
 }
@@ -308,6 +309,20 @@ body::before {
 
 .primary-button:hover {
   background: var(--accent-hover);
+}
+
+.clear-button {
+  width: 36px;
+  min-height: 36px;
+  padding: 0;
+  font-size: 13px;
+  color: var(--muted);
+  background: transparent;
+}
+
+.clear-button:hover {
+  color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 8%, transparent);
 }
 
 .ghost-button {
@@ -1543,4 +1558,118 @@ mark {
   .skip-link {
     transition: none;
   }
+}
+
+/* ---------- Shrnutí situace — accordion ---------- */
+
+.shrnuti-situace {
+  margin-top: 32px;
+}
+
+.shrnuti-heading {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .10em;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.shrnuti-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: 8px;
+  background: var(--panel);
+}
+
+.shrnuti-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  gap: 12px;
+  transition: background 140ms ease;
+}
+
+.shrnuti-toggle:hover {
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+}
+
+.shrnuti-chevron {
+  font-size: 11px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.shrnuti-body {
+  padding: 16px 18px 20px;
+  border-top: 1px solid var(--line);
+}
+
+.shrnuti-body p {
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--text);
+  margin: 0 0 10px;
+}
+
+.shrnuti-body p:last-child { margin-bottom: 0; }
+
+.shrnuti-list {
+  margin: 8px 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.shrnuti-list li {
+  font-size: 14px;
+  line-height: 1.62;
+  color: var(--text);
+  padding: 4px 0 4px 20px;
+  position: relative;
+}
+
+.shrnuti-list li::before {
+  content: '\2014';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+.shrnuti-note {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--m-red) 9%, transparent);
+  border-left: 3px solid var(--m-red);
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.58;
+}
+
+.shrnuti-sub {
+  margin-top: 14px;
+}
+
+.shrnuti-sub + .shrnuti-sub {
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.shrnuti-sub-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--m-blue);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
 }

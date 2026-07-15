@@ -23,13 +23,13 @@ export function TopBar({ onMenuClick }: { onMenuClick: () => void }) {
         />
       </div>
       <button
-        className="primary-button"
+        className="ghost-button clear-button"
         type="button"
         onClick={() => {
           dispatch({ type: "CLEAR_SEARCH" });
         }}
       >
-        Vyčistit
+        ✕
       </button>
     </header>
   );

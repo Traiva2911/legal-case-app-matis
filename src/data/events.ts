@@ -805,7 +805,30 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "evidenceRefs": [
       "E-mail 'Stav pracovníků a náklady' — Ing. Matis → Jiří Premus (30. 4. 2026)",
       "Teams chat Barbora Slonková — kontext přijetí Karin Švédové (říjen 2025)"
-    ]
+    ]  },
+
+  {
+    "id": "ev-traiva-safety-dpp",
+    "date": "2021–2026",
+    "year": "2021",
+    "title": "Struktura odměňování — HPP + DPP u TRAIVA Safety s.r.o.",
+    "text": "Zaměstnanci TRAIVA s.r.o. měli dlouhodobě mzdu rozdělenou na dvě složky: HPP + DPP u TRAIVA s.r.o. a DPP u spřízněné rodinné firmy TRAIVA Safety s.r.o. TRAIVA Safety s.r.o. je vlastněná dcerou majitele Karla Opalíka; jednatelem je zeť Ospalíka, který je zároveň zaměstnaný u TRAIVA s.r.o. Tato struktura platila i pro mou odměnu po celou dobu trvání pracovního poměru.",
+    "legal": "Chci probrat, jaké právní důsledky má tato struktura odměňování — zejm. zda rozdělení odměny mezi dvě spřízněné firmy ovlivňuje výpočet průměrného výdělku, přesčasů a případných náhrad. Zda šlo o standardní praxi nebo účelové rozvrhání, nechám na posouzení advokáta.",
+    "tags": ["mzda", "pracovněprávní", "DPP"],
+    "personRefs": ["Andrea Matis", "Karel Ospalík"],
+    "evidenceRefs": ["Výplatní pásky — DPP TRAIVA Safety s.r.o."]
+  },
+  {
+    "id": "ev-2026-dovolena-kupci",
+    "date": "únor 2026",
+    "year": "2026",
+    "title": "Vynucená dovolená v době schůzek s potenciálními kupci firmy",
+    "text": "V únoru 2026 na mě majitel Karel Ospalík naléhal, abych odjela na dovolenou „odpočinout si“. Ve stejném termínu probíhaly ve firmě schůzky jeho zetě (jako zástupce majitele) s potenciálními kupci. Tuto skutečnost mi zeť následně potvrdil s tím, že majitel prodej „zvažuje“. Přímými doklady k těmto schůzkám nedisponuji; mám za to, že jsou dohledaté (kalendáře, e-mailová komunikace, svědky). Jednoho ze zájemců jsem ve firmě osobně opakovaně zaznamenala.",
+    "legal": "Dávám do souvislosti s celkovým vzorcem chování — odebrání mé přítomnosti ve firmě v klíčový okamžik jednání o prodeji. Chci probrat, zda lze nepřítomnost v době due diligence a schůzek s kupci považovat za součást účelového jednání zaměstnavatele.",
+    "tags": ["pracovněprávní", "obchodní"],
+    "personRefs": ["Andrea Matis", "Karel Ospalík"],
+    "evidenceRefs": []
   }
+
 
 ];

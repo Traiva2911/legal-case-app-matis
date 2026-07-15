@@ -19,7 +19,7 @@ function EvidenceCard({ item }: { item: Evidence }) {
         <Highlight text={item.title} />
       </h2>
       <div className="strength">{"★".repeat(item.strength)}{"☆".repeat(5 - item.strength)}</div>
-      <p className="tagline">Podle mě dokládá: {item.proves.join(", ")}</p>
+      <p className="tagline">{item.proves.join(", ")}</p>
       {item.risk && <p className="tagline">Poznámka: {item.risk}</p>}
       <TagRow tags={item.tags} />
       <button
