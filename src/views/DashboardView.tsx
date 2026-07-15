@@ -120,9 +120,17 @@ export function DashboardView() {
           <p>
             U TRAIVA s.r.o. jsem zaměstnána na hlavním pracovním poměru od{" "}
             <strong>19. 1. 2021</strong>, formálně na pozici{" "}
-            <em>produktový manažer</em>. Fakticky jsem dlouhodobě vykonávala
-            podstatně širší agendu — kompletní online i offline marketing, obchod,
-            B2B, akvizici a HR.
+            <em>produktový manažer</em>. Fakticky jsem vykonávala podstatně
+            širší agendu — kompletní online i offline marketing, obchod, B2B,
+            akvizici, HR a celkový provoz firmy. Poslední přibližně rok a půl
+            jsem se navíc dobrovolně, jako samouk, ujala implementace nového
+            ERP systému (Odoo) včetně programování — nikdo jiný ve firmě to
+            neovládal a majitel se o to nechtěl starat.{" "}
+            <em>
+              Problémy s implementací majitel následně označil za mé
+              „manažerské selhání" — a já jsem díky událostem, které popisuji
+              níže, zjistila, že s poctivostí se dnes asi nikam nedojde.
+            </em>
           </p>
           <p>
             Posledních přibližně pět let se majitel (Karel Ospalík) do chodu
