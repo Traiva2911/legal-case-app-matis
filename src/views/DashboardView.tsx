@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { events, evidence, people, documents, lawyerQuestions } from "../data";
 import { useCaseDispatch } from "../state/caseStore";
 
@@ -10,19 +10,59 @@ const INITIALS: Record<string, string> = {
 
 type PanelId = "postaveni" | "kontext" | "vzorec" | "naroky";
 
+const storageKey = (id: PanelId) => `case-shrnuti-${id}`;
+
+function loadSaved(): Partial<Record<PanelId, string>> {
+  const ids: PanelId[] = ["postaveni", "kontext", "vzorec", "naroky"];
+  const out: Partial<Record<PanelId, string>> = {};
+  ids.forEach((id) => {
+    const v = localStorage.getItem(storageKey(id));
+    if (v) out[id] = v;
+  });
+  return out;
+}
+
 function AccordionPanel({
   id,
   title,
   open,
   onToggle,
+  savedHtml,
+  onSave,
+  onReset,
   children,
 }: {
   id: PanelId;
   title: string;
   open: boolean;
   onToggle: () => void;
+  savedHtml?: string;
+  onSave: (id: PanelId, html: string) => void;
+  onReset: (id: PanelId) => void;
   children: React.ReactNode;
 }) {
+  const [editing, setEditing] = useState(false);
+  const [editHtml, setEditHtml] = useState("");
+  const editRef = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
+
+  function startEdit() {
+    const html = savedHtml ?? bodyRef.current?.innerHTML ?? "";
+    setEditHtml(html);
+    setEditing(true);
+    setTimeout(() => editRef.current?.focus(), 50);
+  }
+
+  function saveEdit() {
+    if (!editRef.current) return;
+    onSave(id, editRef.current.innerHTML);
+    setEditing(false);
+  }
+
+  function cancelEdit() {
+    setEditing(false);
+  }
+
   return (
     <div className="shrnuti-panel">
       <button
@@ -33,11 +73,63 @@ function AccordionPanel({
         onClick={onToggle}
       >
         <span>{title}</span>
-        <span className="shrnuti-chevron" aria-hidden="true">{open ? "▲" : "▼"}</span>
+        <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
+          {open && !editing && (
+            <span
+              className="shrnuti-edit-btn"
+              role="button"
+              tabIndex={0}
+              title="Upravit text"
+              onClick={(e) => { e.stopPropagation(); startEdit(); }}
+              onKeyDown={(e) => { if (e.key === "Enter") { e.stopPropagation(); startEdit(); } }}
+            >✏️</span>
+          )}
+          {open && savedHtml && !editing && (
+            <span
+              className="shrnuti-edit-btn"
+              role="button"
+              tabIndex={0}
+              title="Obnovit původní text"
+              onClick={(e) => {
+                e.stopPropagation();
+                if (window.confirm("Obnovit původní text panelu?")) onReset(id);
+              }}
+              onKeyDown={(e) => { if (e.key === "Enter") { e.stopPropagation(); onReset(id); } }}
+            >↺</span>
+          )}
+          <span className="shrnuti-chevron" aria-hidden="true">{open ? "▲" : "▼"}</span>
+        </span>
       </button>
+
       {open && (
-        <div className="shrnuti-body" id={`shrnuti-body-${id}`}>
-          {children}
+        <div className="shrnuti-body" id={`shrnuti-body-${id}`} ref={bodyRef}>
+          {editing ? (
+            <>
+              <div
+                ref={editRef}
+                contentEditable
+                suppressContentEditableWarning
+                className="shrnuti-editable"
+                dangerouslySetInnerHTML={{ __html: editHtml }}
+                onKeyDown={(e) => {
+                  if ((e.ctrlKey || e.metaKey) && e.key === "s") { e.preventDefault(); saveEdit(); }
+                  if (e.key === "Escape") cancelEdit();
+                }}
+              />
+              <div className="shrnuti-edit-actions">
+                <button type="button" className="shrnuti-save-btn" onClick={saveEdit}>
+                  Uložit (Ctrl+S)
+                </button>
+                <button type="button" className="shrnuti-cancel-btn" onClick={cancelEdit}>
+                  Zrušit
+                </button>
+              </div>
+            </>
+          ) : savedHtml ? (
+            <div dangerouslySetInnerHTML={{ __html: savedHtml }} />
+          ) : (
+            children
+          )}
         </div>
       )}
     </div>
@@ -48,12 +140,27 @@ export function DashboardView() {
   const dispatch = useCaseDispatch();
   const keyPeople = people.slice(0, 3);
   const [openPanels, setOpenPanels] = useState<Set<PanelId>>(new Set(["naroky"]));
+  const [savedContent, setSavedContent] = useState<Partial<Record<PanelId, string>>>(loadSaved);
 
   function toggle(id: PanelId) {
     setOpenPanels((prev) => {
       const next = new Set(prev);
       if (next.has(id)) next.delete(id);
       else next.add(id);
+      return next;
+    });
+  }
+
+  function handleSave(id: PanelId, html: string) {
+    localStorage.setItem(storageKey(id), html);
+    setSavedContent((prev) => ({ ...prev, [id]: html }));
+  }
+
+  function handleReset(id: PanelId) {
+    localStorage.removeItem(storageKey(id));
+    setSavedContent((prev) => {
+      const next = { ...prev };
+      delete next[id];
       return next;
     });
   }
@@ -66,6 +173,15 @@ export function DashboardView() {
     dispatch({ type: "SELECT", id });
     dispatch({ type: "SET_VIEW", view: "people" });
   }
+
+  const panelProps = (id: PanelId) => ({
+    id,
+    open: openPanels.has(id),
+    onToggle: () => toggle(id),
+    savedHtml: savedContent[id],
+    onSave: handleSave,
+    onReset: handleReset,
+  });
 
   return (
     <section className="view" data-view="dashboard" id="view-dashboard">
@@ -111,12 +227,7 @@ export function DashboardView() {
       <div className="shrnuti-situace">
         <h2 className="shrnuti-heading">Shrnutí situace</h2>
 
-        <AccordionPanel
-          id="postaveni"
-          title="1 · K mé osobě a postavení"
-          open={openPanels.has("postaveni")}
-          onToggle={() => toggle("postaveni")}
-        >
+        <AccordionPanel {...panelProps("postaveni")} title="1 · K mé osobě a postavení">
           <p>
             U TRAIVA s.r.o. jsem zaměstnána na hlavním pracovním poměru od{" "}
             <strong>19. 1. 2021</strong>, formálně na pozici{" "}
@@ -151,12 +262,7 @@ export function DashboardView() {
           </div>
         </AccordionPanel>
 
-        <AccordionPanel
-          id="kontext"
-          title="2 · Kontext — prodej firmy a eskalace"
-          open={openPanels.has("kontext")}
-          onToggle={() => toggle("kontext")}
-        >
+        <AccordionPanel {...panelProps("kontext")} title="2 · Kontext — prodej firmy a eskalace">
           <p>
             Majitel se rozhodl firmu prodat, zřejmě mnohem dříve než jsem si
             původně myslela a než jsem se to — v té době ještě jako jednatelka
@@ -224,12 +330,7 @@ export function DashboardView() {
           </p>
         </AccordionPanel>
 
-        <AccordionPanel
-          id="vzorec"
-          title="3 · Vzorec jednání zaměstnavatele"
-          open={openPanels.has("vzorec")}
-          onToggle={() => toggle("vzorec")}
-        >
+        <AccordionPanel {...panelProps("vzorec")} title="3 · Vzorec jednání zaměstnavatele">
           <ul className="shrnuti-list">
             <li>Nejprve mi předal veškeré kompetence — následně je „za trest" postupně odebíral.</li>
             <li>Systematicky snižoval odměny.</li>
@@ -258,12 +359,7 @@ export function DashboardView() {
           </p>
         </AccordionPanel>
 
-        <AccordionPanel
-          id="naroky"
-          title="4 · Okruhy nároků k posouzení"
-          open={openPanels.has("naroky")}
-          onToggle={() => toggle("naroky")}
-        >
+        <AccordionPanel {...panelProps("naroky")} title="4 · Okruhy nároků k posouzení">
           <div className="shrnuti-sub">
             <div className="shrnuti-sub-title">a) Neuhrazené přesčasy</div>
             <ul className="shrnuti-list">

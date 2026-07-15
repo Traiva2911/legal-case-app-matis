@@ -1673,3 +1673,46 @@ mark {
   text-transform: uppercase;
   letter-spacing: .08em;
 }
+
+/* ---------- Shrnutí situace — inline editace ---------- */
+.shrnuti-edit-btn {
+  font-size: 13px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 140ms;
+  user-select: none;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.shrnuti-edit-btn:hover { opacity: 1; }
+
+.shrnuti-editable {
+  min-height: 80px;
+  padding: 10px 12px;
+  border: 2px solid var(--m-blue);
+  border-radius: var(--radius-sm);
+  outline: none;
+  font-size: 14px;
+  line-height: 1.68;
+  color: var(--text);
+  background: color-mix(in srgb, var(--m-blue) 4%, transparent);
+  margin-bottom: 12px;
+}
+
+.shrnuti-edit-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+.shrnuti-save-btn, .shrnuti-cancel-btn {
+  padding: 7px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: opacity 140ms;
+}
+.shrnuti-save-btn { background: var(--m-blue); color: #fff; }
+.shrnuti-cancel-btn { background: color-mix(in srgb, var(--text) 10%, transparent); color: var(--text); }
+.shrnuti-save-btn:hover, .shrnuti-cancel-btn:hover { opacity: 0.82; }
