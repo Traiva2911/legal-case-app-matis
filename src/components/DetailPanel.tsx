@@ -1,9 +1,19 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { events, evidence, people, documents } from "../data";
 import { useCaseDispatch, useCaseState } from "../state/caseStore";
 import type { DetailItem } from "../types";
 import { TagRow } from "./TagRow";
 import { Highlight } from "./Highlight";
+
+function toDrivePreviewUrl(url: string): string | null {
+  // Google Drive file: /file/d/ID/view → /file/d/ID/preview
+  const fileMatch = url.match(/drive\.google\.com\/file\/d\/([^/?]+)/);
+  if (fileMatch) return `https://drive.google.com/file/d/${fileMatch[1]}/preview`;
+  // Google Docs/Sheets/Slides: /document/d/ID/... → /document/d/ID/preview
+  const docsMatch = url.match(/docs\.google\.com\/(document|spreadsheets|presentation)\/d\/([^/?]+)/);
+  if (docsMatch) return `https://docs.google.com/${docsMatch[1]}/d/${docsMatch[2]}/preview?embedded=true`;
+  return null;
+}
 
 function findDetailItem(id: string | null): DetailItem | null {
   if (!id) return null;
@@ -43,9 +53,11 @@ export function DetailPanel() {
   const dispatch = useCaseDispatch();
   const item = findDetailItem(state.selectedId);
   const panelRef = useRef<HTMLDivElement>(null);
+  const [docOpen, setDocOpen] = useState(false);
 
   useEffect(() => {
     if (item) panelRef.current?.focus();
+    setDocOpen(false);
   }, [item?.id]);
 
   if (!item) {
@@ -126,16 +138,36 @@ export function DetailPanel() {
           </div>
         )}
 
-        {"file" in item && item.file && (
-          <div className="detail-section">
-            <h3>Soubor</h3>
-            <p>
-              <a href={item.file} target="_blank" rel="noopener noreferrer">
-                Otevřít na Google Drive ↗
-              </a>
-            </p>
-          </div>
-        )}
+        {"file" in item && item.file && (() => {
+          const previewUrl = toDrivePreviewUrl(item.file);
+          return (
+            <div className="detail-section">
+              <div className="doc-file-row">
+                {previewUrl && (
+                  <button
+                    className="btn-doc-toggle"
+                    type="button"
+                    onClick={() => setDocOpen((v) => !v)}
+                    aria-expanded={docOpen}
+                  >
+                    {docOpen ? "▲ Skrýt dokument" : "▼ Zobrazit dokument"}
+                  </button>
+                )}
+                <a className="doc-external-link" href={item.file} target="_blank" rel="noopener noreferrer">
+                  Otevřít v Drive ↗
+                </a>
+              </div>
+              {docOpen && previewUrl && (
+                <iframe
+                  className="doc-preview"
+                  src={previewUrl}
+                  title="Náhled dokumentu"
+                  allow="autoplay"
+                />
+              )}
+            </div>
+          );
+        })()}
       </article>
     </aside>
   );
