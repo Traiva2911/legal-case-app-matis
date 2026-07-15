@@ -129,7 +129,7 @@ export function DashboardView() {
             <em>
               Problémy s implementací majitel následně označil za mé
               „manažerské selhání" — a já jsem díky událostem, které popisuji
-              níže, zjistila, že s poctivostí se dnes asi nikam nedojde.
+              níže, zjistila, že s poctivostí se dnes asi nikam nedojdeš.
             </em>
           </p>
           <p>
@@ -158,12 +158,13 @@ export function DashboardView() {
           onToggle={() => toggle("kontext")}
         >
           <p>
-            Majitel se rozhodl firmu prodat, přičemž tuto skutečnost přede mnou{" "}
-            <strong>tajil</strong>. Poslední přibližně rok a půl jsem se jako
-            samouk starala o implementaci nového ERP systému (Odoo) i programování
-            s tím spojené — nikdo jiný ve firmě to neovládal. Problémy
-            s implementací majitel následně označil za mé{" "}
-            <em>„manažerské selhání"</em>.
+            Majitel se rozhodl firmu prodat, zřejmě mnohem dříve než jsem si
+            původně myslela a než jsem se to — v té době ještě jako jednatelka
+            společnosti — vůbec dozvěděla. Od jeho zetě, mého kolegy a rovněž
+            zaměstnance firmy, jsem se tuto skutečnost dozvěděla{" "}
+            <strong>úplně náhodou koncem roku 2025</strong> s tím, že ji
+            majitel záměrně přede mnou tají a nesmím ho tedy „prozradit",
+            že to už vím.
           </p>
           <p>
             <strong>Únor 2026:</strong> majitel na mě naléhal, abych odjela
