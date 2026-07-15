@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Moje podklady ke konzultaci s advokátem: časová osa, dokumenty, osoby a částky k posouzení." />
+    <title>Podklady pro advokátní kancelář | Spisový přehled TRAIVA s.r.o.</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Hlavní navigace">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">§</div>
+          <div>
+            <strong>Podklady pro advokátní kancelář</strong>
+            <span>Spisový přehled TRAIVA s.r.o. §</span>
+          </div>
+        </div>
+
+        <nav class="nav-list" id="navList"></nav>
+
+        <div class="sidebar-footer">
+          <button class="icon-button" id="themeToggle" type="button" aria-label="Přepnout režim zobrazení" title="Přepnout režim">
+            <span id="themeIcon" aria-hidden="true">☾</span>
+          </button>
+          <button class="primary-button compact" id="printButton" type="button">Export PDF</button>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <button class="icon-button menu-button" id="menuButton" type="button" aria-label="Otevřít menu" title="Menu">☰</button>
+          <div class="search-wrap">
+            <label class="sr-only" for="globalSearch">Vyhledávání</label>
+            <input id="globalSearch" type="search" placeholder="Hledat GPS, Odoo, mzda, osoba, důkaz..." autocomplete="off" />
+          </div>
+          <button class="primary-button" id="clearSearch" type="button">Vyčistit</button>
+        </header>
+
+        <section class="filter-band" aria-label="Filtry témat">
+          <div class="filter-row" id="filterRow"></div>
+        </section>
+
+        <section class="view" id="view-dashboard" data-view="dashboard"></section>
+        <section class="view" id="view-timeline" data-view="timeline" hidden></section>
+        <section class="view" id="view-evidence" data-view="evidence" hidden></section>
+        <section class="view" id="view-people" data-view="people" hidden></section>
+        <section class="view" id="view-documents" data-view="documents" hidden></section>
+        <section class="view" id="view-notes" data-view="notes" hidden></section>
+        <section class="view" id="view-export" data-view="export" hidden></section>
+      </main>
+
+      <aside class="detail-panel" aria-label="Detail vybrané položky">
+        <div id="detailPanel"></div>
+      </aside>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

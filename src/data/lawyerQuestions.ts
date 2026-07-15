@@ -1,0 +1,21 @@
+export const lawyerQuestions: string[] = [
+  "Do kdy si ještě můžu nárokovat věci z Období I, než se to promlčí?",
+  "Dá se po něm vůbec vymáhat to, co mi sliboval přes WhatsApp v roce 2021 a pak e-mailem v roce 2023 (podmínky odměňování k mé pozici, a od 1. 1. 2024 příslib podílů)?",
+  "Ten nesmyslně krátký dvouměsíční termín na Odoo — může kvůli němu přijít o nárok na tu odměnu?",
+  "Dá se vůbec dokázat, že mi záměrně znemožnil splnit podmínku pro těch 10 % podílu z prodeje?",
+  "Má finanční „optimalizace“ firmy vliv na výši mých 5 % ze zisku?",
+  "Co je nejlepší první krok, pokud se rozhodnu jít k soudu?",
+  "Dá se prodej firmy nějak pozastavit, dokud se nevypořádají moje nároky?",
+  "Jak mám dokázat, že o mých přesčasech věděl?",
+  "Jak se řeší situace, kdy mi vzal přístupy do systémů, a přitom po mně pořád chce výstupy z práce?",
+  "Dá se to sledování přes GPS bez mého souhlasu žalovat samo o sobě?",
+  "Mám nárok na to, aby mi zaplatil moje právní náklady?",
+  "Jak se v mém případě stanoví přiměřená odměna jednatelky?",
+  "Jak mám naložit s těmi 237 593 Kč v hotovosti, abych to případně mohla započíst proti svým nárokům, ale nehrozila mi za to zpronevěra?",
+  "Můžu se reálně dostat do problémů kvůli SsangYongu — zaplatila jsem ho ze svých odměn, ale pořád je vedený na firmu, ne na mě?",
+  "Co na to řeknete, že mi zadržel BMW, odpojil z něj GPS a vydání auta podmiňoval vrácením peněz?",
+  "Můžu po zaměstnavateli chtít kopie dokumentů, které jsem podepsala, ale nikdy nedostala (třeba to nařízení dovolené z 12. 5. 2026), a taky svou pracovní korespondenci z firemního e-mailu a SharePointu — je tam mimo jiné i písemný příslib odměny za Odoo z června 2025? A co když mezitím stihl něco smazat?",
+  "Směl mi 12. 5. 2026 nařídit dovolenou ze dne na den, bez jakéhokoliv předchozího oznámení — a pak si jako moji dovolenou vykazovat i dobu, kdy mi sám odebral přístupy?",
+  "Podle mě na mě nezačal tlačit až 11. 3. 2026, ale už v červnu 2025, kdy mi vzal agendu výpočtu mezd, a v září 2025 to zesílilo s příchodem nového IT kolegy — mění tahle delší časová linie nějak právní posouzení?",
+  "Co pro mě znamená, že mě hned v den odvolání (12. 5. 2026) odstranili z firemního webu — všechny moje články, kontaktní formulář, moje údaje — ještě předtím, než se cokoliv vypořádalo? Má to nějaký právní význam?"
+];
