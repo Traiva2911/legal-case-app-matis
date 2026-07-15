@@ -260,12 +260,6 @@ export function DashboardView() {
                 odeslání a záznamy videohovorů s programátory. Výpočet nedokončen.
               </li>
             </ul>
-            <div className="shrnuti-note">
-              ⚠️ <strong>Upozornění k OIP podnětu:</strong> v podaném podnětu
-              je číslo 673 h označeno jako „přesčasy" — správně jde
-              o <em>celkový odpracovaný čas</em>, samotný přesčas je nižší.
-              Tuto formulaci je nutné před jednáním s OIP opravit.
-            </div>
           </div>
 
           <div className="shrnuti-sub">
