@@ -36,6 +36,19 @@ button {
   min-height: 100vh;
 }
 
+/* M-stripe celá šířka stránky */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--m-blue) 0%, var(--m-violet) 50%, var(--m-red) 100%);
+  z-index: 9999;
+  pointer-events: none;
+}
+
 /* ---------- Sidebar ---------- */
 
 .sidebar {
