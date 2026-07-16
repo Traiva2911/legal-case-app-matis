@@ -841,5 +841,17 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "personRefs": ["Andrea Matis", "Karel Ospalík", "Karel Neffe"],
     "evidenceRefs": ["Okamžité zrušení pracovního poměru zaměstnavatelem 15. 7. 2026 + příloha č. 1"]
   }
+,
+  {
+    "id": "ev-2026-trello-pristupy",
+    "date": "16. 7. 2026",
+    "year": "2026",
+    "title": "Odebrání přístupů k Trello boardům",
+    "text": "Dne 16. 7. 2026 dopoledne mi byly odebrány přístupy k oběma Trello boardům vedeným pod firemním účtem TRAIVA ('Marketing produktů Traiva' a 'AM – Marketingové strategie a věrnostní program'), na kterých jsem dlouhodobě vedla strategické marketingové plánování. K obsahu už nemám přístup, mám k dispozici jen dříve zaznamenaná meta-data.",
+    "legal": "Odebrání přístupu přišlo den po doručení okamžitého zrušení pracovního poměru (15. 7. 2026) — časová souvislost dokresluje pokračující odebírání přístupů do firemních systémů i po formálním ukončení PP. Chci probrat, zda a jak dokládat obsah těchto boardů (screenshoty, historie, svědci), když už k nim nemám přístup.",
+    "tags": ["pracovněprávní", "obchodní"],
+    "personRefs": ["Andrea Matis", "Karel Ospalík"],
+    "evidenceRefs": ["Trello board 'Marketing produktů Traiva'", "Trello board 'AM – Marketingové strategie a věrnostní program'"]
+  }
 
 ];

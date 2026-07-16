@@ -733,7 +733,7 @@ export const documents: CaseDocument[] = [
       "obchodní"
     ],
     "text": "Existence Trello boardu 'Marketing produktů Traiva' (starred, autor Ing. Matis, aktuální k 5. 11. 2025) prokazuje, že strategický marketingový plán pro rok 2025 existoval a byl aktivně udržován. Vyvrací případná tvrzení, že marketingové plánování nebo strategické směřování chybělo.",
-    "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — bez přístupu na firemní profil se k obsahu nedostanu, mám jen meta-data."
+    "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — přístup mi byl odebrán 16. 7. 2026 dopoledne, mám jen meta-data."
   },
   {
     "id": "d-trello-marketingove-strategie-am",
@@ -745,7 +745,7 @@ export const documents: CaseDocument[] = [
       "obchodní"
     ],
     "text": "Trello board vedený Ing. Matis, naposledy aktualizován 17. 3. 2026 — v době, kdy pracovní spor byl již v běhu. Obsahuje strategické plány pro marketing a věrnostní program (loajalitní program, B2B akvizice). Dokládá, že Ing. Matis soustavně pracovala na strategickém rozvoji firmy i v kritickém období jaro 2026.",
-    "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — bez přístupu na firemní profil se k obsahu nedostanu, mám jen meta-data."
+    "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — přístup mi byl odebrán 16. 7. 2026 dopoledne, mám jen meta-data."
   }
 ,
   {
