@@ -955,5 +955,17 @@ export const documents: CaseDocument[] = [
     ],
     "text": "Podrobná výplatní páska za červen 2026 (zam14 Matis Andrea, HPP, ČPZP; TRAIVA s.r.o.). ZNIČUJÍCÍ ČÍSLA: tarif měsíční 63 000 Kč, průměrný výdělek 457,63 Kč/h, fond 176 h (22 dní) — ale hrubý příjem POUZE 7 322 Kč (náhrada za dovolenou ~16 h), 20 dní (160 h) vedeno jako NEOMLUVENÁ ABSENCE bez nároku. KLÍČOVÉ K ODVODŮM: (1) sociální pojištění odvedeno jen z vyměřovacího základu 7 322 Kč — tj. jen z dovolené; za 20 dní absence je základ NULA; (2) zdravotní pojištění na základu 22 400 Kč = zákonné minimum (minimální mzda), povinný doplatek, nikoli vstřícnost. DŮSLEDKY: (a) § 208 ZP — správně měla být náhrada 160 h × 457,63 = 73 220,80 Kč hrubého s plnými odvody (zaměstnavatel odebral přístupy 10./11. 6.); (b) snížení nemocenské k DPN vzniklé 15. 7. 2026 (nízký vyměřovací základ); (c) minimální započtení pro důchod. K OVĚŘENÍ: zda i tyto snížené částky byly reálně odvedeny na ČSSZ/ČPZP (přehled od pojišťovny + ePortál ČSSZ); při neodvedení sražených částek § 241 TZ. Originál PDF v držení Andrey.",
     "file": "https://docs.google.com/document/d/1tSShCy-PrFrGEpekxHoafnkhE5S1XbaCjgwDDo9jW94/view"
+  },
+  {
+    "id": "d-cssz-pojistne-vztahy-eldp",
+    "title": "ČSSZ — pojistné vztahy + ELDP 2025 (HPP bez odhlášky, základ 1,07 mil. vs. červen 7 322)",
+    "type": "výpis z ePortálu ČSSZ · potvrzení pojištění + baseline vyměřovacích základů",
+    "date": "19. 7. 2026 (ELDP za rok 2025)",
+    "tags": [
+      "pracovněprávní",
+      "jednatel"
+    ],
+    "text": "Přehled z ePortálu ČSSZ (staženo 19. 7. 2026). POJISTNÉ VZTAHY: HPP u TRAIVA (od 19. 1. 2021) — „pojistný vztah do\" prázdné = STÁLE TRVÁ, bez odhlášky; DPP u TRAIVA (od 1. 11. 2022) trvá; DPP u Traiva Safety (od 1. 9. 2023) UKONČENA k 31. 3. 2026. VÝZNAM: (1) HPP bez odhlášky → k 19. 7. tě ČSSZ vede jako pojištěnou, potvrzuje pojištění při vzniku DPN 15. 7. (nemocenská jistá) a záznam zatím odpovídá pozici „PP trvá\", ne verzi zaměstnavatele; (2) DPP Traiva Safety ukončena 6 týdnů před odvoláním — proud DPP TS osekán před odvoláním. ELDP 2025: souvislé pojištění celý rok, VYMĚŘOVACÍ ZÁKLAD 1 073 380 Kč (~89 tis./měs), vyhotoveno 21. 4. 2026 — BASELINE: řádné plné hlášení po roky vs. propad na 7 322 Kč v červnu 2026 (viz d-vyplatni-paska-cerven-2026) = argument účelovosti. NEMOCENSKÁ: eNeschopenka od 15. 7. v systému; dávka od 15. dne (~od 29. 7.), orientačně ~1 200–1 250 Kč/den. CHYBÍ: ELDP 2026 (podat do 30 dnů od skončení PP, ~do pol. srpna) prokáže základy 2026; ČPZP přehled za 2026. Screenshoty v držení Andrey.",
+    "file": "https://docs.google.com/document/d/1q5HnnREZtW9KAyjWg8lIdl02TNShZfrAtlvXA4gMoes/view"
   }
 ];
