@@ -573,7 +573,7 @@ export const documents: CaseDocument[] = [
       "vozidla",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/1z4GNfQ5_F78GSp_pnKxpi64cJzTNGO8wXQIgFe7AK4Q/view",
     "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijíel do provozovny, vzal klíče od BMW pod záminkou zkusební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a zmožnčil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splačávané z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
   }
 ,
@@ -586,7 +586,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://drive.google.com/file/d/1svJmqbCCl_V5az3Oy_7CVDRKDee1i6zB/view",
     "text": "Formální dopis Andreou podepsaný den po odvolání z jednatele (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odemčleny, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Writenné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
   },
   {
@@ -598,7 +598,7 @@ export const documents: CaseDocument[] = [
       "mzda",
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/1k1nb_ttqykk8gNi3D27-BTWLDFA1DLaNVtEgP2dNh9Y/view",
     "text": "Podrobná výplatní páska za Květen 2026 — poslední mzdové období (odvolání 12. 5. 2026). Tarif: 63 000 Kč/měs. (HPP); fond pracovní doby 168 h, odpracováno 9 dní / 72 h, čerpána dovolená 12 dní / 96 h (zbývá 18,6 dne). Základní složka za 9 dní: 27 000 Kč; dovolená: 43 932 Kč; prémie: 0 Kč. Hrubý příjem: 70 932 Kč; čistá mzda: 54 623 Kč; výplata: 55 319 Kč. Náklady zaměstnavatele: 95 804 Kč. Klíčové: tarif 63 000 Kč shodný s Vojtěchem Ospalíkem; prémie v posledním měsíci nulová (vs. 47 700 Kč hrubého v dubnu 2025); zbývající dovolená ≈ 18,6 dne = pohředávka."
   },
   {
@@ -610,7 +610,7 @@ export const documents: CaseDocument[] = [
       "Odoo",
       "mzda"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/1mYYgKflA-RWTnXrNz3sl01LvW3NP3I0mpjJrJIx2vIY/view",
     "text": "E-mailová vlákna z června–července 2025 týkající se Odoo projektu párování plateb. 19. 6. 2025 Karel Ospalík (charlie.ospalik@gmail.com): „Nemůžeme pověřit takovým úkolem někoho, kdo je tu zcela nový. Protože ani za 6 měsíců systém vedení projektu ala Plaček, Kokoruď ani Tvůj nevedl k odstranění všech kritických chyb, Bude systém vedení projektu po mém.“ Zároveň zaslal vzor testovacích scénářů a požadoval plán do pondělí 23. 6. 10. 7. 2025 Karel: „Upravil jsem Tvoje odměny podle projektového plánu, který jsem poslal 19. 6.“ Kontext: Andrea v té době úspěšně prosazovala automatizaci párování plateb (integrace ČSOB, Comgate, dobírky) — projekt, který nikdo jiný nevedl. E-maily dokládají, že Ospalík zasahoval přímo do výpočtu odměn mimo jakékoli schválené procesy."
   },
   {
@@ -621,7 +621,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "pracovněprávní"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/16GU7L6X6ukne4gFvU4wkyKCG1P88PyZTBsxXAlv_bu4/view",
     "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vniřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vniřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „ndodržování pokynů“."
   },
   {
@@ -633,7 +633,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/1Fi0S6Lr9h7VECjjn67s4UvVc5plS1_Hn6IwF7ao4bgc/view",
     "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před odvoláním Andreou 12. 5. 2026) adresovaný Andree i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na Andreu jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
   }
 ,
@@ -647,7 +647,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "file": "https://drive.google.com/file/d/1JzqzrkeWWbOhoyRUEh7U8yd5A-FWSQbO/view",
+    "file": "https://docs.google.com/document/d/1pCVqtrxGnzwTmH-lb33UbxHvr6RKqf2JqCKFD0_k4Ok/view",
     "text": "12. 5. 2026 mi bylo předloženo Rozhodnutí jediného společníka o odvolání z funkce jednatelky. Podpis jsem odmítla, protože jsem nebyla s dokumentem předem srozuměna, nezískala jsem čas na konzultaci s právníkem a nebyl mi předložen ani její písební doklad o doručení s prostorem k vyjadření. Přesto mi kopie rozhodnutí nebyla předána. Nátlak probíhal títčem: (1) nevydání kopie dokumentu, který jsem odmítla podepsat; (2) v tentýž den zablokována firemní karta; (3) tentýž den aktivováno GPS sledování vozidla bez souhlasu; (4) tentýž den nařízena dovolená ze dne na den. Vše proběhlo koordinovaně v jeden den, což naznačuje předem připravený postup. Následující dny bylo postupně odebíráno IT přístupy do systémů, s nimiž jsem pracovala jako jednatelka. Tento záznam popisuje okolnosti podpisu/odmítnutí, atmosféru při jednání, přítomné osoby a bezprostřední reakce. Tentýž den večer jsem jako jednatelka (stále ve funkci) zrušila GPS službu u T-Mobile — protož Následující ráno (13. 5. 2026) mi volal Karel Ospalík a ptal se, proč jsem šla do T-Mobile GPS sledování zrušit. Sdělil, že GPS zapnul proto, že má o mne strach — má pocit, že „nejsem v pořádku“ a že bych si měla zajít pro diagnózu. Tento hovor je zásadní pro právní posouzení: (1) potvrzuje, že GPS aktivaci 12. 5. 2026 nářídil Ospalík osobně a bez mého souhlasu; (2) jako důvod uvádí subjektivní obavy o mé duševí zdraví — bez jakéhokoliv podkladu a v situaci, kde koordinovaný postup (odvolání + karta + GPS + dovolená v jeden den) naznačuje předem připravené opatření, nikoliv spontanní obavy; (3) výzva k „diagnóze“ jako reakce na mé odmítnutí podpisu odlvolání je zásadní skutečností pro posouzení, zda nedošlo k diskriminaci nebo zpochybnění opozice neopodstatněným útolkem na duševí zdraví."
   }
 ,
