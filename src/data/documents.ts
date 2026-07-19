@@ -715,12 +715,12 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-vysledovka-traiva-2023",
     "title": "TRAIVA — Výsledovka analyticky po zaúčtování daně 2023",
-    "type": "účetní výkaz · SharePoint TRAIVA",
+    "type": "účetní výkaz · analytická výsledovka 2023 · souhrn, originál lokálně u Andrey",
     "date": "2023",
     "tags": [
       "obchodní"
     ],
-    "file": "https://traiva-my.sharepoint.com/personal/a_matis_traiva_cz/Documents/02_Dokumenty/Ostatn%c3%ad/TRAIVA%20-%20Vysledovka_analyticky%20-%20%20po%20zauct.dane%202023.pdf?web=1",
+    "file": "https://docs.google.com/document/d/1Rs_Yf1rCmP-Bmj79LKMfykz6AqbuSHLCHY1_QlNDbbE/view",
     "text": "Hospodářský zisk za rok 2023 po zaúčtování daně: 7 592 693,58 Kč. Upřesnění metriky: v DD komunikaci se pracovalo s EBITDA cca 9,1 mil. Kč — to je odlišný ukazatel než čistý účetní zisk. Případné tvrzení 'čistý zisk ~9 mil Kč' je nepřesné. Normalizovaná EBITDA z DD komunikace: cca 12,1 mil Kč. Zdroj: TRAIVA SharePoint (přihlášení nutné)."
   },
   {
@@ -905,5 +905,30 @@ export const documents: CaseDocument[] = [
     ],
     "text": "Excelová tabulka odeslaná Karlem Ospalíkem Andree Matis e-mailem. Záhlaví: 'Mzdy a náklady, kterých se lze zbavit okamžitě.' Poznámka pod tabulkou: 'propuštění bez odstupného PŘED TRANSAKCÍ / zrušení DPP/HPP.' Tabulka jmenuje všechny zaměstnance s ročními náklady. Andrea Matis: HPP 551 081 Kč + prémie 402 397 Kč + DPP 115 200 Kč = CELKEM 1 188 580 Kč/rok. Jiří Premus: celkem 1 313 830 Kč/rok. Celková úspora z propuštění: 829 396 Kč. Celková úspora se mzdami i náklady: 3 110 896 Kč/rok. ZNIČUJÍCÍ PRÁVNÍ DŮKAZY: (1) PŘEDPLÁNOVANÝ OZP — dokument datován 'od 07_2026', OZP doručeno 15. 7. 2026 = propuštění bylo naplánováno jako součást akvizičního plánu, ne reakce na prohřešky; (2) ÚČELOVOST DOSLOVA PŘIZNÁNA — 'propuštění bez odstupného před transakcí' je přesný popis toho, co se stalo; OZP místo výpovědi = ušetřit odstupné; (3) PRÉMIE 402 397 KČ JAKO ELIMINOVANÝ NÁKLAD — Ospalík zahrnul Andrein nárok na prémie do nákladů k eliminaci = věděl, že je dluží, a OZP použil k úniku z platební povinnosti; (4) ZASLÁNO SAMOTNÝM OSPALÍKEM — Andrea dokument obdržela od zaměstnavatele, nelze zpochybnit pravost ani způsob nabytí; (5) RODINA ZŮSTÁVÁ — Vojtěch Ospalík + Zita Ospalíková (DPP) nejsou na seznamu k eliminaci; (6) PROPOJENÍ s DD podklady — stejná čísla (829 tis. Kč) figurují v due diligence materiálech pro kupce (d-oceneni-kupujici) = koordinovaný plán.",
     "file": "https://docs.google.com/document/d/1vKWwJfT2C1xD8F7p9WsC4nvV3OyH_-idOq_yY2jIdoU/view"
+  },
+  {
+    "id": "d-ebitda-model",
+    "title": "EBITDA model TRAIVA — ocenění a normalizace (skutečná 10,6 vs. pro kupujícího 12,1 mil.)",
+    "type": "finanční model · normalizace EBITDA · propojení propuštění s cenou firmy",
+    "date": "2026 (dataroom)",
+    "tags": [
+      "obchodní",
+      "jednatel",
+      "pracovněprávní"
+    ],
+    "text": "Model ocenění TRAIVA přes EBITDA. Tři pohledy na výdělek 2025: skutečná EBITDA 10 610 tis. Kč (účetní kotva, marže 14 %), po úpravě zásob 13 110 tis., 'pro nového majitele' 12 212 tis. Kč. Ocenění = EBITDA × 5 + nemovitost 23 mil.: skutečná 76 mil., pro nového majitele 84 mil. Kč. ZNIČUJÍCÍ PROPOJENÍ: normalizace +3 111 tis. Kč, kterou se cena firmy pro kupujícího ZVYŠUJE, obsahuje položku 'Mzdy — propuštění bez odstupného / zrušení DPP-HPP: 829 tis. Kč' a 'vedlejší náklady na propuštěné + jednatele: 400 tis. Kč'. Zdrojem těchto úspor je tabulka 'Budoucí úspory od 07/2026', kterou Ospalík zaslal Andree (viz d-uspory-07-2026). Propuštění Andrey tak figuruje jako položka v akvizičním finančním modelu — přímé propojení OZP s navýšením prodejní ceny. Model zároveň sám označuje odměny jednatelů jako spornou úpravu vyžadující odečet nákladu na náhradní vedení. Metrika: čistý zisk ≠ EBITDA; tvrzení 'čistý zisk ~9 mil.' je nepřesné (9,1 mil. je průměrná EBITDA).",
+    "file": "https://docs.google.com/document/d/18C2FeugSgv80w2-K2DXAuc-3rjfQ9DQARAh8CFGY7go/view"
+  },
+  {
+    "id": "d-dd-analyza-naklady",
+    "title": "DD analýza: struktura nákladů a normalizace EBITDA (vypracovala Matis, 30. 4. 2026)",
+    "type": "finanční M&A analýza · autorka jednatelka Matis · podklad k transakci",
+    "date": "30. 4. 2026",
+    "tags": [
+      "obchodní",
+      "jednatel"
+    ],
+    "text": "13stránková odborná analýza výkazů zisku a ztráty 2021–2025 a prostoru pro normalizaci EBITDA k posouzení transakce. VYPRACOVALA ANDREA MATIS jako jednatelka, 30. 4. 2026 — přímý doklad, že aktivně dělala finanční M&A přípravu firmy, což vyvrací tvrzení o zanedbávání práce (OZP doručeno 15. 7. 2026). Obsah: pětiletý VZZ (tržby 56,5 → 75,8 mil.; EBITDA 2025 10,6 mil.; čistý zisk 2023 7,59 mil.); rozbor odchylek nákladových řádků od oborových hodnot (A.3 Služby, osobní náklady, ostatní provozní, materiál = celkem +19,3 mil. Kč za 2024+2025); pohled z oceňování (pro cenu 90 mil. při násobku 4–5× je potřeba EBITDA 36–45 mil. za 2 roky, skutečnost 18,2 mil. → prostor pro normalizaci); a detailní seznam požadavků na due diligence včetně přehledu transakcí se spřízněnými osobami a odměn statutárního orgánu.",
+    "file": "https://docs.google.com/document/d/10msaI_YLUGjZHLeuUJzZo72ON_RZQop0ze8O62HmZqo/view"
   }
 ];
