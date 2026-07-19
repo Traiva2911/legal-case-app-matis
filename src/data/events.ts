@@ -812,10 +812,10 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "2021–2026",
     "year": "2021",
     "title": "Struktura odměňování — HPP + DPP u TRAIVA Safety s.r.o.",
-    "text": "Zaměstnanci TRAIVA s.r.o. měli dlouhodobě mzdu rozdělenou na dvě složky: HPP + DPP u TRAIVA s.r.o. a DPP u spřízněné rodinné firmy TRAIVA Safety s.r.o. TRAIVA Safety s.r.o. je vlastněná dcerou majitele Karla Opalíka; jednatelem je zeť Ospalíka, který je zároveň zaměstnaný u TRAIVA s.r.o. Tato struktura platila i pro mou odměnu po celou dobu trvání pracovního poměru.",
+    "text": "Zaměstnanci TRAIVA s.r.o. měli dlouhodobě mzdu rozdělenou na dvě složky: HPP + DPP u TRAIVA s.r.o. a DPP u spřízněné rodinné firmy TRAIVA Safety s.r.o. TRAIVA Safety s.r.o. je vlastněná dcerou majitele Karla Ospalíka — Magdalenou Premusovou; jednatelem je zeť Ospalíka Jiří Premus (manžel Magdaleny), který je zároveň ředitelem/zaměstnancem TRAIVA s.r.o. DPP u Traiva Safety byly k 31. 3. 2026 ukončeny plošně všem zaměstnancům (restrukturalizace před transakcí). Tato struktura platila i pro mou odměnu po celou dobu trvání pracovního poměru.",
     "legal": "Chci probrat, jaké právní důsledky má tato struktura odměňování — zejm. zda rozdělení odměny mezi dvě spřízněné firmy ovlivňuje výpočet průměrného výdělku, přesčasů a případných náhrad. Zda šlo o standardní praxi nebo účelové rozvrhání, nechám na posouzení advokáta.",
     "tags": ["mzda", "pracovněprávní", "DPP"],
-    "personRefs": ["Andrea Matis", "Karel Ospalík"],
+    "personRefs": ["Andrea Matis", "Karel Ospalík", "Jiří Premus"],
     "evidenceRefs": ["Výplatní pásky — DPP TRAIVA Safety s.r.o."]
   },
   {

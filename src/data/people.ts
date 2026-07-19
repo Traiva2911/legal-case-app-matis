@@ -120,4 +120,15 @@ export const people: Person[] = [
     "tags": ["pracovněprávní"]
   }
 
+,
+  {
+    "id": "p-premus",
+    "name": "Jiří Premus",
+    "role": "zeť Karla Ospalíka (manžel dcery Magdaleny Premusové) · jednatel Traiva Safety s.r.o. (vlastník Magdalena Premusová) · ředitel/zaměstnanec TRAIVA s.r.o. · jednal s potenciálním kupcem 4× bez účasti jednatelky Andrey",
+    "documents": 3,
+    "events": 6,
+    "claims": 1,
+    "tags": ["obchodní", "pracovněprávní"]
+  }
+
 ];

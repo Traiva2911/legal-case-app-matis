@@ -22,6 +22,7 @@ export const personAlias: Record<string, string> = {
   "Vojtěch Ospalík": "p-vojtech",
   "Charlie Ospalík": "p-karel", // Gmailový alias Karla Ospalíka
   "Karin Švédová": "p-karin-svedova",
+  "Jiří Premus": "p-premus",
   // "Jiří Premus" and "Eva Orel" are mentioned in events but have no
   // dedicated Person card — intentionally left unmapped.
 };
