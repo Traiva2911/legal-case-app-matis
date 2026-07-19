@@ -846,5 +846,28 @@ export const documents: CaseDocument[] = [
     ],
     "text": "Andrea připravila kompletní vizuální strategický plán pro poradu vedení TRAIVA na rok 2026. Zahrnuje 4 strategické oblasti: (1) Rozšíření portfolia e-shopu o 150+ produktů BOZP/PO; (2) Uvedení Smart First Aid na trh (04/2026) — nový inovativní produkt kompletně připraven; (3) Marketing B2C+B2B, LinkedIn, Facebook, emailing, Saleskit; (4) Dokončení automatizace Odoo, integrace systémů, analytics; (5) Růst prodeje BOZP software (Dokumentace, Organizer, Safetutor, Komplet e-BOZP). PRÁVNÍ RELEVANCE: Přímý důkaz, že Andrea vykonávala vrcholnou strategickou manažerskou práci těsně před OZP. Plán je profesionálně zpracovaný, strukturovaný, s přínosy a termíny. Vyvrací tvrzení o 'závažném porušení povinností' nebo nečinnosti.",
     "file": "https://docs.google.com/document/d/19G09H2v5kNInivIGus3N71XWbKRKaayDVWyNHTSsHA4/view"
+  },
+  {
+    "id": "d-manual-care-call",
+    "title": "Manuál pro nového zaměstnance: Care call + e-mail follow-up (TRAIVA) — Andrea Matis",
+    "type": "interní manuál · tréninkový dokument · autor Andrea Matis",
+    "date": "2026 (před OZP)",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "Andrea vytvořila kompletní 8-bodový manuál pro onboarding nového zaměstnance na pozici care callu — strukturovaný talk track, pravidla pro followup e-maily, CRM záznamy, eskalační postupy. Profesionálně zpracovaný dokument s konkrétními šablonami, časovými normami a pravidly komunikace. PRÁVNÍ RELEVANCE: Přímý důkaz, že Andrea vykonávala manažerskou práci na úrovni tvorby interních procesů, onboardingu a standardizace komunikace. Dokument vyvrací tvrzení o nečinnosti nebo zanedbání manažerských povinností. Autor = Andrea Matis (jednatelka), určeno pro zaměstnance TRAIVA.",
+    "file": "https://docs.google.com/document/d/1WZNYKGt0qphcN3wR7Wy6qV5wYU6uTlNkT9MNI3GpA0s/view"
+  },
+  {
+    "id": "d-email-pohledavky-2025",
+    "title": "E-mail 'Pohledávky 2025' — Ospalík → Maralík, Orel, Matis (17. 4. 2026)",
+    "type": "interní e-mail · 9 dní před OZP · adresováno třem lidem najednou",
+    "date": "17. 4. 2026",
+    "tags": [
+      "pracovněprávní"
+    ],
+    "text": "Ospalík (17. 4. 2026) kritizuje absenci seznamu pohledávek — ale email adresuje TŘEM lidem: Maralíkovi (Odoo správce), Orelové (účetní) a Matis. Tvrdí, že 'ani za celý rok ani za 4 týdny není k dispozici seznam pohledávek', přikládá spárované faktury. KLÍČOVÉ OBRANNÉ BODY: (1) Výtka míří na celý tým, ne výlučně na Andreu; (2) Příčina: chybné primární nastavení Odoo systému implementačním partnerem — Andrea to aktivně řeší s Origamis a Evou Orel (viz email z 8. 4. 2026); (3) Ospalík sám přiznává znalost alternativy: 'Denní spárování mimo Odoo trvá několik minut' — ale nikdy to nikomu konkrétně nenařídil; (4) Email odeslán 9 dní před OZP — ukazuje, že Ospalík hledal záminky. KONTEXT: Párování pohledávek je systémový problém Odoo, ne osobní selhání Andrey.",
+    "file": "https://docs.google.com/document/d/13v0ZNyX2uil9L9qXY_eKLjTqYEDiyltbHuZDSuHxyIY/view"
   }
 ];
