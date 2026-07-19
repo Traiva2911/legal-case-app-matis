@@ -930,5 +930,18 @@ export const documents: CaseDocument[] = [
     ],
     "text": "13stránková odborná analýza výkazů zisku a ztráty 2021–2025 a prostoru pro normalizaci EBITDA k posouzení transakce. VYPRACOVALA ANDREA MATIS jako jednatelka, 30. 4. 2026 — přímý doklad, že aktivně dělala finanční M&A přípravu firmy, což vyvrací tvrzení o zanedbávání práce (OZP doručeno 15. 7. 2026). Obsah: pětiletý VZZ (tržby 56,5 → 75,8 mil.; EBITDA 2025 10,6 mil.; čistý zisk 2023 7,59 mil.); rozbor odchylek nákladových řádků od oborových hodnot (A.3 Služby, osobní náklady, ostatní provozní, materiál = celkem +19,3 mil. Kč za 2024+2025); pohled z oceňování (pro cenu 90 mil. při násobku 4–5× je potřeba EBITDA 36–45 mil. za 2 roky, skutečnost 18,2 mil. → prostor pro normalizaci); a detailní seznam požadavků na due diligence včetně přehledu transakcí se spřízněnými osobami a odměn statutárního orgánu.",
     "file": "https://docs.google.com/document/d/10msaI_YLUGjZHLeuUJzZo72ON_RZQop0ze8O62HmZqo/view"
+  },
+  {
+    "id": "d-premie-odmeny",
+    "title": "Evidence výpočtu prémií/odměn Matis 2023–2026 — souvislá řada 28 měsíců + opce 480 tis.",
+    "type": "interní mzdové tabulky · metodika výpočtu odměn · zdroj nároku na prémie i opci",
+    "date": "XI/2023 – II/2026",
+    "tags": [
+      "pracovněprávní",
+      "jednatel",
+      "obchodní"
+    ],
+    "text": "Dvě interní tabulky výpočtu odměn oddělení prodeje (Prémie nové 2024.xlsx: XI/2023–VIII/2025; Prémie 2026.xlsx: I–II/2026). Metodika: 15–25 % z hrubého zisku z prodeje výrobků, rozdělováno mezi pracovníky měsíčně. KLÍČOVÉ: (1) SOUVISLÁ ŘADA — Andrea pobírala odměny nepřetržitě 28 měsíců (XI/2023–II/2026), v průměru ~35 tis. Kč/měsíc (rozsah 18–57 tis.); (2) SHODA S ÚSPORAMI — roční suma ~400 tis. Kč odpovídá položce „prémie 402 397 Kč“ v tabulce Budoucí úspory od 07/2026 (d-uspory-07-2026), kterou Ospalík označil za náklad k eliminaci; (3) ZLOM — výplatní páska květen 2026 uvádí prémii 0 Kč = účelové odstřižení zavedeného nároku v době odvolání/OZP; (4) OPCE / PODÍL — u Andrey se každý měsíc opakuje poznámka „120 tis./rok, 4 roky, celkem 480 tis.“ + měsíční odpočet „opce −15 000“ = doklad ujednání o obchodním podílu spláceném z odměn (podpora d-valuace, d-sliby); (5) TABULKY, O KTERÉ ŽÁDALA — jsou to přesně podklady, jejichž doložení Andrea požadovala v Žádosti o obnovení přístupů 11. 6. 2026 (bod 4). Originály xlsx v držení Andrey.",
+    "file": "https://docs.google.com/document/d/1RDZocU8zdFR6poIl5rNgzeGnik9IPIdB7GsLmx-uQws/view"
   }
 ];
