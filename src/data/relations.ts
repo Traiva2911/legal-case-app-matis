@@ -54,7 +54,7 @@ export const documentAlias: Record<string, string> = {
   "Původní projektový plán Odoo a přílohy": "d-odoo-plan-puvodni",
   "Podnět OIP FINAL": "d-oip",
   "Žádost zaměstnavateli 11. 6. 2026 — popis procesu stanovení mezd": "d-email-208",
-  "Žádost zaměstnavateli 11. 6. 2026 (plné znění)": "d-email-208",
+  "Žádost zaměstnavateli 11. 6. 2026 (plné znění)": "d-zadost-pristup-prace",
   "Podklad advokát vozidla PRIORITA": "d-vozidla",
   "Odoo párování plateb — stav projektu 7. 5. 2026": "d-odoo-stav",
   "Podklady pro advokáta": "d-main",
