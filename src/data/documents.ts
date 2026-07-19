@@ -799,5 +799,52 @@ export const documents: CaseDocument[] = [
     ],
     "text": "VĚC: TRAIVA s.r.o. (IČO 25380141) vs. Ing. Andrea Matis | OZP doručeno 15. 7. 2026 | Lhůta § 72 ZP: 15. 9. 2026\n\n— OKAMŽITÉ ÚKONY (PŘED 15. 9. 2026) —\n1. Odeslat prohlášení 'trvám na zaměstnávání' dle § 69 ZP — URGENTNÍ (kondicionuje nárok na náhradu mzdy po dobu sporu)\n2. Podat žalobu na neplatnost OZP u soudu do 15. 9. 2026 (§ 72 ZP) — prekluzivní lhůta, zmeškání = zánik práva\n\n— 6 DŮVODŮ OZP — OBRANA —\n\nBOD 1 (T-Mobile GPS): Zaměstnavatel tvrdí neoprávněnou změnu admin. práv T-Mobile dne 12. 5. 2026. OBRANA: (a) k 12. 5. 2026 Andrea stále zapsaná jako jednatelka v rejstříku → ověřit justice.cz; (b) OZP uvádí datum 15. 5., nikoliv 12. 5. — vnitřní rozpor; (c) GPS aktivoval Ospalík bez souhlasu zaměstnance (§ 316 odst. 2 ZP) — Andrea tuto službu oprávněně zrušila; (d) Ospalík v hovoru 13. 5. sám potvrdil, že GPS aktivoval on. SÍLA: střední → slabý.\n\nBOD 2 (přístup k e-mailům): Zaměstnavatel tvrdí neoprávněný přístup do schránek zaměstnanců (příloha č. 1 — logy 20.–30. 4. 2026). OBRANA: (a) v době přístupu Andrea jednatelka (odvolání 12. 5.) → přístup v rámci oprávnění; (b) přístup náhodný při testování Microsoft AI agentů (Insider program); (c) kolega na chybu ihned upozornil a Andrea schránky okamžitě odebrala → náprava bez prodlení; (d) VŠECHNY logy v příloze jsou z 20.–30. 4. — 2 měsíce před OZP → § 58 odst. 1 ZP: subjektivní lhůta 2 měsíce od okamžiku vědomosti zaměstnavatele — klíčové je KDY se Ospalík dozvěděl; (e) Maralík (shromažďovatel důkazů) sám figuruje v logu + používal nestandardní AI-asistované metody sběru. KLÍČOVÝ SVĚDEK: kolega, jehož schránka byla omylem otevřena — datum incidentu lze ověřit z Teams offline cache. SÍLA: silný → slabý.\n\nBOD 3 (info Neffemu): Zaměstnavatel tvrdí přeposílání interních informací potenciálnímu kupci Neffemu. OBRANA: (a) Ospalík o vztahu Andrea–Neffe věděl a sám ji telefonicky konzultoval o Neffových motivech; (b) Andrea si SAMA nechala znění e-mailu odsouhlasit Ospalíkem, aby nevzniklo podezření; (c) žádný písemný zákaz předávání neexistuje (OZP by ho citovalo); (d) Neffe = potenciální nabyvatel → komunikace v zájmu firmy. SÍLA: střední.\n\nBOD 4 (finanční výkazy na pavelcermak@kb.cz): Zaměstnavatel tvrdí neoprávněné zaslání výkazů. OBRANA: (a) Pavel Čermák z KB = akvizičním bankéř Neffova → zaslání v rámci přípravy DD na Ospalíkův pokyn (12. 3. 2026); (b) e-mail s odsouhlasením Ospalíkem; (c) dataroomu koordinovala Andrea sama. SÍLA: silný → střední.\n\nBOD 5 (neomluvená absence červen 2026): Zaměstnavatel tvrdí 20 dní neomluvené absence. OBRANA: (a) od 11. 6. veškeré přístupy zablokovány zaměstnavatelem; (b) zákaz kontaktu ostatních zaměstnanců s Andreou pod hrozbou výpovědi; (c) Andrea zaslala 3 výzvy datovou schránkou; (d) § 208 ZP = překážka na straně zaměstnavatele → nárok na náhradu mzdy, nikoliv neomluvená absence; (e) Ospalík věděl o záložním Gmailu (zakázal komunikaci 8. 5.) a na firemní e-mail Andree NIKDY sám nepsal; (f) klasifikace napadena protestem + výzvou k opravě (datovka 14. 7. 2026). SÍLA: střední → velmi slabý.\n\nBOD 6 (smazání dat v j.premus@traiva.cz): OBRANA: (a) přístup v rámci testování AI agentů (duben 2026) — přístupy ihned odebrány po upozornění kolegy; (b) 'smazání dat' pravděpodobně = automaticky rozeslané e-maily z Premusovy schránky + úklid AI agenta, nikoliv záměrné ničení; (c) příloha č. 1 OZP neobsahuje logy o mazání — jen o přístupu; (d) Microsoft 365 audit log zachovává záznamy o smazání a lze si je vyžádat. SÍLA: nejsilnější → střední-slabý.\n\n— RETALIAČNÍ VZOREC —\nOspalík retroaktivně hledal důvody PO datových výzvách: (1) 11. 6. — první datovka; (2) Maralík dostává instrukci prohledat celý počítač; (3) zaměstnankyně přeřazena za 'donášení'; (4) 14. 7. — třetí datovka; (5) 15. 7. — OZP doručeno. Dubnové přístupy 'objeveny' v červnu–červenci = 2–3 měsíce po incidentu → problém § 58 odst. 1 ZP.\n\n— KLÍČOVÍ SVĚDCI —\n1. Karin Švédová — potvrzuje pomluvu 100 000 Kč, zákaz kontaktu, nátlak; OIP podnět ID f83b0ad4 podán 17. 7. 2026 = OFICIÁLNÍ DOKUMENT\n2. Kolega (AI e-mail incident) — svědek okamžité nápravy; klíčový pro § 58 ZP lhůtu; totožnost: Teams cache v telefonu\n3. Natalie Baloghová, Nikol Kostková, Šárka Mullerová — svědkyně porad 10. 6. 2026\n4. Kateřina Hájková (mzdová účetní) — potvrdila pokyn nevyplatit DPP Karin\n\n— DŮKAZY K ZAJIŠTĚNÍ —\nPŘES ADVOKÁTA: (a) Microsoft 365 audit log — nezávislé ověření přílohy č. 1 a logů o mazání; návrh dle § 78 OSŘ na zajištění; (b) justice.cz — výpis funkce jednatelky ke dni 12. 5. 2026.\nU ANDREOU: (a) SMS T-Mobile (datum GPS aktivace/deaktivace); (b) záložní Gmail — prázdná schránka = Ospalík nikdy nepsal; (c) WhatsApp export — odsouhlasení e-mailu Neffemu + konzultace pohnutek; (d) 3 potvrzení datové schránky; (e) Teams cache v telefonu.\n\n— NÁROKY (ORIENTAČNĚ) —\n• Náhrada mzdy § 208 ZP (červen 2026): 65 899 Kč hrubého + pojistné\n• Nevyplacené DPP odměny (TRAIVA + Safety): dle výplatních pásek\n• Prémie Odoo 200 000 Kč: závisí na posouzení podmínek splnění\n• Pomluva (§ 82 OZ + § 184 TZ): posoudit trestní oznámení\n• Hotovost 237 593 Kč ze SsangYongu: projednat vypořádání před žalobou\n\n— LHŮTY —\n• § 69 ZP trvání na zaměstnávání: ODESLAT CO NEJDŘÍVE\n• § 72 ZP žaloba neplatnosti: 15. 9. 2026 (prekluzivní)\n• § 208 ZP náhrada mzdy: 3 roky od splatnosti\n• Trestní oznámení: bez prekluzivní lhůty (promlčení 5 let)"
   }
-
+,
+  {
+    "id": "d-email-uprava-rezimu-prace",
+    "title": "E-mail 'Úprava režimu práce návrh' — Ospalík ↔ Matis (11.–12. 3. 2026)",
+    "type": "interní e-mail · eskalace konfliktu 4 měsíce před OZP · hrozba sníženými odměnami",
+    "date": "12. 3. 2026",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "Klíčový email ze 4 měsíce před OZP. Ospalík navrhuje 'bonus za režim' = faktická hrozba sníženou odměnou za nedodržení pracovního režimu. Andrea (11. 3.) odmítá koercivní nastavení, popisuje šíři manažerské práce (lidi, marketing, Odoo, obchod, systémy), žádá zvýšení platu jako jednatelky. Ospalík (12. 3.) uzavírá kategoricky: 'Manažer není placen za snahu, ale za dopad na firmu.' Uvádí příklady: Andrea neřešila zdražení (+300 000 Kč/měs) — ale Andrea respektovala priority vedení (akvizice). PRÁVNÍ RELEVANCE: Prokazuje eskalaci konfliktu, nátlak na manažerku, podmíněné odměňování. Silný kontext k pochopení motivace OZP.",
+    "file": "https://docs.google.com/document/d/1Rqt_g4lMKtgIeGjqEr5FGm_fiUpAXHzJaXdVXtxP5ls/view"
+  },
+  {
+    "id": "d-email-navrh-odmen-podil",
+    "title": "E-mail 'Návrh Tvých odměn a smlouvy na obchodní podíl' — Ospalík → Matis (4. 8. 2023)",
+    "type": "interní e-mail · návrh odměn a obchodního podílu · 3 roky před OZP",
+    "date": "4. 8. 2023",
+    "tags": [
+      "pracovněprávní",
+      "obchodní"
+    ],
+    "text": "V srpnu 2023 — 3 roky před OZP — Ospalík sám inicioval návrh smlouvy na OBCHODNÍ PODÍL pro Andreu a návrh jejích odměn. Email má jen krátký text 'k projednání', příloha s konkrétním návrhem nebyla zachována v exportu. PRÁVNÍ RELEVANCE: Nikdo nenabídne obchodní podíl ve firmě zaměstnanci, který 'závažně porušuje povinnosti'. Přímý protiargument k OZP tvrzení o dlouhodobém selhání. Prokazuje, že v roce 2023 byl vztah plně funkční a Ospalík Andreinu práci oceňoval natolik, aby nabídl sdílení ve firmě.",
+    "file": "https://docs.google.com/document/d/1zaTaNbxwst7JW6pTQSY7jVfys9w_7jEd2q7_c5A-xhU/view"
+  },
+  {
+    "id": "d-email-odpovedi-emaily",
+    "title": "E-mail 'Odpovědi na mé emaily' — Ospalík → oba manažeři (25. 10. 2025)",
+    "type": "interní e-mail · kritika obou manažerů · přeposlán Andreou 23. 4. 2026 jako důkazní materiál",
+    "date": "25. 10. 2025 (forward 23. 4. 2026)",
+    "tags": [
+      "pracovněprávní"
+    ],
+    "text": "Ospalík (25. 10. 2025) obviňuje oba manažery (Andreu i Premuse) z ignorování emailů: 'Za půl roku mám u každého z manažerů více než 10 emailů bez odpovědi.' Přikládá 16 příkladů. OBRANNÁ LINIE: (1) Totéž vytýká i Premusovi — nejde o specifické selhání Andrey; (2) Ze 16 emailů: 'Zácvikový plán Dana Rogalová', 'Maralík-smlouva', 'Školení' — věci, které Andrea prokazatelně řešila (viz ostatní záznamy); (3) Firemní praxe: věci se řešily telefonicky a osobně, ne jen e-mailem; (4) Ospalík sám píše 'telefonuji' = přiznává, že alternativní komunikace existovala. Andrea email přeposlala sama sobě 23. 4. 2026 jako důkazní materiál pro svou obranu.",
+    "file": "https://docs.google.com/document/d/1Wu84pAmsCYh3oX4ThgstZaAaYiPp_IizGRag4EZ7VFE/view"
+  },
+  {
+    "id": "d-strategicky-plan-2026",
+    "title": "Strategický plán 2026 pro poradu vedení TRAIVA — FINÁL (Ing. Andrea Matis)",
+    "type": "strategický dokument · vrcholná manažerská práce · připraveno pro vedení TRAIVA",
+    "date": "2026",
+    "tags": [
+      "obchodní",
+      "pracovněprávní"
+    ],
+    "text": "Andrea připravila kompletní vizuální strategický plán pro poradu vedení TRAIVA na rok 2026. Zahrnuje 4 strategické oblasti: (1) Rozšíření portfolia e-shopu o 150+ produktů BOZP/PO; (2) Uvedení Smart First Aid na trh (04/2026) — nový inovativní produkt kompletně připraven; (3) Marketing B2C+B2B, LinkedIn, Facebook, emailing, Saleskit; (4) Dokončení automatizace Odoo, integrace systémů, analytics; (5) Růst prodeje BOZP software (Dokumentace, Organizer, Safetutor, Komplet e-BOZP). PRÁVNÍ RELEVANCE: Přímý důkaz, že Andrea vykonávala vrcholnou strategickou manažerskou práci těsně před OZP. Plán je profesionálně zpracovaný, strukturovaný, s přínosy a termíny. Vyvrací tvrzení o 'závažném porušení povinností' nebo nečinnosti.",
+    "file": "https://docs.google.com/document/d/19G09H2v5kNInivIGus3N71XWbKRKaayDVWyNHTSsHA4/view"
+  }
 ];
