@@ -22,15 +22,19 @@ export function TopBar({ onMenuClick }: { onMenuClick: () => void }) {
           onChange={(event) => dispatch({ type: "SET_QUERY", query: event.target.value })}
         />
       </div>
-      <button
-        className="ghost-button clear-button"
-        type="button"
-        onClick={() => {
-          dispatch({ type: "CLEAR_SEARCH" });
-        }}
-      >
-        ✕
-      </button>
+      {state.query.trim() !== "" && (
+        <button
+          className="ghost-button clear-button"
+          type="button"
+          aria-label="Vymazat hledání"
+          title="Vymazat hledání"
+          onClick={() => {
+            dispatch({ type: "CLEAR_SEARCH" });
+          }}
+        >
+          ✕
+        </button>
+      )}
     </header>
   );
 }

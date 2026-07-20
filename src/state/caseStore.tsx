@@ -11,7 +11,12 @@ type Action =
   | { type: "HYDRATE"; view?: ViewId; selectedId?: string | null };
 
 function initialState(): CaseState {
-  const theme = (localStorage.getItem("case-theme") as "light" | "dark" | null) || "light";
+  const stored = localStorage.getItem("case-theme") as "light" | "dark" | null;
+  const prefersDark =
+    typeof window !== "undefined" &&
+    typeof window.matchMedia === "function" &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const theme: "light" | "dark" = stored ?? (prefersDark ? "dark" : "light");
   return { view: "dashboard", query: "", filters: new Set(), selectedId: null, theme };
 }
 
