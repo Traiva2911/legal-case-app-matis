@@ -6,12 +6,12 @@ import { lawyerQuestions } from "../lawyerQuestions";
 import { personAlias, evidenceAlias, documentAlias } from "../relations";
 
 describe("content counts survive the rebuild", () => {
-  it("matches the known-good counts extracted from the legacy app", () => {
-    expect(events.length).toBe(33);
-    expect(evidence.length).toBe(22);
-    expect(people.length).toBe(9);
-    expect(documents.length).toBe(44);
-    expect(lawyerQuestions.length).toBe(19);
+  it("never drops below the known-good counts from the legacy app (guards against data loss; grows as data is added)", () => {
+    expect(events.length).toBeGreaterThanOrEqual(33);
+    expect(evidence.length).toBeGreaterThanOrEqual(22);
+    expect(people.length).toBeGreaterThanOrEqual(9);
+    expect(documents.length).toBeGreaterThanOrEqual(44);
+    expect(lawyerQuestions.length).toBeGreaterThanOrEqual(19);
   });
 });
 

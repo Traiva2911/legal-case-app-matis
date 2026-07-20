@@ -23,8 +23,8 @@ export const personAlias: Record<string, string> = {
   "Charlie Ospalík": "p-karel", // Gmailový alias Karla Ospalíka
   "Karin Švédová": "p-karin-svedova",
   "Jiří Premus": "p-premus",
-  // "Jiří Premus" and "Eva Orel" are mentioned in events but have no
-  // dedicated Person card — intentionally left unmapped.
+  // "Eva Orel" is mentioned in events but has no dedicated Person card —
+  // intentionally left unmapped. (Jiří Premus now has card p-premus above.)
 };
 
 /** Raw ref string -> evidence[] id */
