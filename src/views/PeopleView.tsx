@@ -7,6 +7,7 @@ import { EmptyState } from "../components/EmptyState";
 import { CardShell } from "../components/CardShell";
 import { Highlight } from "../components/Highlight";
 import type { Person } from "../types";
+import { RelationGraph } from "../components/RelationGraph";
 
 function PersonCard({ item }: { item: Person }) {
   const dispatch = useCaseDispatch();
@@ -47,6 +48,7 @@ export function PeopleView() {
   return (
     <section className="view" data-view="people">
       <TitleBlock title="Přehled osob" subtitle="Profily osob propojují roli, dokumenty, události a související oblasti." />
+      <RelationGraph />
       {items.length ? (
         <div className="people-grid">
           {items.map((item) => (

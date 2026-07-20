@@ -1716,3 +1716,111 @@ mark {
 .shrnuti-save-btn { background: var(--m-blue); color: #fff; }
 .shrnuti-cancel-btn { background: color-mix(in srgb, var(--text) 10%, transparent); color: var(--text); }
 .shrnuti-save-btn:hover, .shrnuti-cancel-btn:hover { opacity: 0.82; }
+
+/* ---------- Kompaktní dokumenty ---------- */
+.document-toolbar { display: flex; justify-content: flex-end; margin-bottom: 10px; }
+.document-toolbar button { min-height: 30px; padding: 0 12px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); }
+.document-toolbar button:first-child { border-radius: 8px 0 0 8px; }
+.document-toolbar button:last-child { border-radius: 0 8px 8px 0; border-left: 0; }
+.document-toolbar button.active { background: var(--accent); color: var(--bg); }
+.document-browser { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; }
+.document-list .document-item { min-height: 44px; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 5px 12px; border-bottom: 1px solid var(--line); }
+.document-list .document-item:last-child { border-bottom: 0; }
+.document-item { cursor: pointer; transition: background 140ms ease; }
+.document-item:hover { background: color-mix(in srgb, var(--accent) 7%, var(--panel)); }
+.document-icon { width: 22px; height: 22px; fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.document-name { min-width: 0; display: flex; flex-direction: column; line-height: 1.2; }
+.document-name strong { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 13px; }
+.document-name small { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: var(--muted); font-size: 11px; }
+.document-item > a { color: var(--accent); font-size: 12px; text-decoration: none; white-space: nowrap; }
+.document-missing { color: var(--muted); }
+.document-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 12px; padding: 16px; }
+.document-grid .document-item { min-width: 0; aspect-ratio: 1; padding: 14px 10px; border: 1px solid var(--line); border-radius: var(--radius-sm); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.document-grid .document-icon { width: 42px; height: 42px; margin-bottom: 9px; }
+.document-grid .document-name { width: 100%; }
+.document-grid .document-name small { margin-top: 3px; }
+.document-grid .document-item > a, .document-grid .document-missing { margin-top: 8px; }
+
+/* ---------- Dashboard widgets ---------- */
+.dashboard-priority-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 12px; }
+.dashboard-widget { padding: 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
+.dashboard-widget h2 { margin: 0 0 12px; font-size: 17px; }
+.deadline-row { display: grid; grid-template-columns: 82px minmax(0, 1fr) auto; align-items: center; gap: 10px; min-height: 45px; border-top: 1px solid var(--line); font-size: 12px; }
+.deadline-row time, .deadline-row > span { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.deadline-row div { min-width: 0; }
+.deadline-row strong, .deadline-row small { display: block; }
+.deadline-row small, .claim-row small { color: var(--muted); }
+.deadline-danger > span { color: var(--danger); font-weight: 700; }
+.deadline-warning > span { color: var(--accent-3); font-weight: 700; }
+.deadline-done > span { color: var(--accent-2); font-weight: 700; }
+.widget-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.claims-total { color: var(--accent); font-size: 21px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.claim-row { display: grid; grid-template-columns: minmax(0, 1fr) auto 130px; align-items: center; gap: 10px; min-height: 45px; border-top: 1px solid var(--line); font-size: 12px; }
+.claim-row div strong, .claim-row div small { display: block; }
+.claim-row b { text-align: right; font-variant-numeric: tabular-nums; }
+.claim-status { padding: 3px 7px; border-radius: 999px; background: var(--panel-strong); white-space: nowrap; }
+.status-uplatneno, .status-bezi { color: var(--accent-2); }
+.status-sporne { color: var(--danger); }
+.status-k-uplatneni { color: var(--accent-3); }
+.escalation-widget { margin-top: 12px; overflow: hidden; }
+.escalation-axis { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); list-style: none; padding: 18px 0 0; margin: 0; }
+.escalation-axis li { position: relative; padding: 16px 9px 0; border-top: 2px solid var(--line-strong); animation: dash-rise 500ms ease both; }
+.escalation-dot { position: absolute; width: 12px; height: 12px; top: -7px; left: 10px; border: 3px solid var(--panel); border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.escalation-axis time { color: var(--muted); font-size: 11px; font-weight: 700; }
+.escalation-axis p { margin: 4px 0 0; font-size: 12px; line-height: 1.35; }
+.escalation-axis em { display: block; margin-top: 5px; color: var(--danger); font-size: 10px; font-weight: 700; }
+.escalation-axis .key-node { border-top-color: var(--danger); }
+.key-node .escalation-dot { width: 18px; height: 18px; top: -10px; left: 7px; background: var(--danger); box-shadow: 0 0 0 2px var(--danger); }
+
+/* ---------- Mapa vztahů ---------- */
+.relation-graph { margin-bottom: 16px; padding: 18px; overflow-x: auto; }
+.relation-graph h2 { margin: 0 0 8px; font-size: 17px; }
+.relation-graph svg { display: block; width: 100%; max-width: 100%; min-width: 620px; height: auto; }
+.family-group { fill: color-mix(in srgb, var(--accent-3) 6%, transparent); stroke: var(--accent-3); stroke-dasharray: 6 5; }
+.group-label { fill: var(--accent-3); font-size: 12px; font-weight: 700; }
+.graph-edges path { fill: none; stroke: var(--line-strong); stroke-width: 2; }
+.graph-edges .danger-edge { stroke: var(--danger); stroke-width: 3; }
+.graph-edges text { fill: var(--muted); font-size: 11px; }
+.graph-node rect { fill: var(--panel-strong); stroke: var(--line-strong); }
+.graph-node text { fill: var(--text); text-anchor: middle; font-size: 13px; font-weight: 700; }
+.graph-node .node-role { fill: var(--muted); font-size: 10px; font-weight: 400; }
+.andrea-node rect { fill: color-mix(in srgb, var(--accent) 12%, var(--panel)); stroke: var(--accent); stroke-width: 2; }
+.company-node rect { stroke: var(--danger); }
+
+/* ---------- Dossier pro tisk ---------- */
+.lawyer-dossier { display: none; }
+
+@media (max-width: 820px) {
+  .dashboard-priority-grid { grid-template-columns: 1fr; }
+  .deadline-row { grid-template-columns: 72px minmax(0, 1fr); padding: 6px 0; }
+  .deadline-row > span { grid-column: 2; }
+  .claim-row { grid-template-columns: minmax(0, 1fr) auto; padding: 6px 0; }
+  .claim-row b { grid-column: 1 / -1; text-align: left; }
+  .escalation-axis { display: block; padding: 0 0 0 12px; }
+  .escalation-axis li, .escalation-axis .key-node { padding: 2px 0 16px 22px; border-top: 0; border-left: 2px solid var(--line-strong); }
+  .escalation-axis .key-node { border-left-color: var(--danger); }
+  .escalation-dot, .key-node .escalation-dot { top: 2px; left: -7px; }
+  .key-node .escalation-dot { left: -10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .document-item, .escalation-axis li { transition: none; animation: none; }
+}
+
+@media print {
+  .app-shell:has(.export-view:not([hidden])) .view { display: none !important; }
+  .app-shell:has(.export-view:not([hidden])) .export-view { display: block !important; }
+  .export-screen { display: none !important; }
+  .lawyer-dossier { display: block; color: var(--text); font-size: 10pt; }
+  .lawyer-dossier header { margin-bottom: 24px; border-bottom: 2px solid var(--text); }
+  .lawyer-dossier h1 { margin: 3px 0; font-size: 24pt; }
+  .lawyer-dossier h2 { margin-top: 24px; break-after: avoid; }
+  .lawyer-dossier h3 { margin: 0 0 3px; font-size: 11pt; }
+  .lawyer-dossier p { margin: 3px 0; }
+  .dossier-entry { display: grid; grid-template-columns: 90px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+  .dossier-entry time { font-weight: 700; }
+  .lawyer-dossier table { width: 100%; border-collapse: collapse; }
+  .lawyer-dossier th, .lawyer-dossier td { padding: 6px; border: 1px solid var(--line-strong); text-align: left; vertical-align: top; }
+  .lawyer-dossier tr, .lawyer-dossier li { break-inside: avoid; }
+  .lawyer-dossier li { margin-bottom: 5px; }
+}
