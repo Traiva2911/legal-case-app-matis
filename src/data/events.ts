@@ -143,7 +143,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "date": "01/2025",
     "year": "2025",
     "title": "Druhý pokus spuštění Odoo do ostrého provozu",
-    "text": "01/2025 proběhl druhý pokus spustit Odoo do ostrého provozu — první (1. 11. 2024) se nezdařil kvůli rozpadu firmy Quest/ODOPRO. Kontaktní osobou byl mimo jiné Michal Plaček. K projektu jsem tehdy zároveň vyřizovala dotační podporu z fondu ministerstva práce a průmyslu, který v té době poskytoval podnikatelům v Moravskoslezském kraji podporu na nákup strojů a zařízení a v rámci digitalizace i na implementaci ERP systému/software.",
+    "text": "01/2025 proběhl druhý pokus spustit Odoo do ostrého provozu — první (1. 11. 2024) se nezdařil kvůli rozpadu firmy Quest/ODOPRO. Kontaktní osobou byl mimo jiné Michal Plaček. K projektu jsem tehdy zároveň vyřizovala dotační podporu z programu Ministerstva průmyslu a obchodu (MPO), který v té době poskytoval podnikatelům v Moravskoslezském kraji podporu na nákup strojů a zařízení a v rámci digitalizace i na implementaci ERP systému/software.",
     "legal": "Projekt jsem fakticky vedla já — téměř rok a půl intenzivní, z velké části samostatné práce na narovnání celého ERP od základu po nepovedené implementaci ODOPRO, včetně vyřízení dotační podpory na jeho financování. Odoo nebyl IT projekt, ale řízení provozního rizika: bez něj by firma nebyla v prodejném stavu — správně nastavené párování plateb dává přehled cash flow, nutný i pro prodej firmy (viz moje prohlášení v Poznámkách).",
     "tags": [
       "Odoo",
@@ -524,7 +524,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "evidenceRefs": [
       "SMS 12. 5. 2026",
       "Prohlášení o doručení 21. 5. 2026",
-      "Nátlak na podpis odlvolání jednatelky – záznam"
+      "Nátlak na podpis odvolání jednatelky – záznam"
     ]
   },
   {
@@ -891,7 +891,7 @@ export const rawEvents: Omit<CaseEvent, "relatedPersonIds" | "relatedEvidenceIds
     "id": "ev-2026-karin-oip",
     "date": "17. 7. 2026",
     "year": "2026",
-    "title": "Karin Švédová podala podnět k OIP — úřední korobrace pomluvy a zákazu kontaktu",
+    "title": "Karin Švédová podala podnět k OIP — úřední koroborace pomluvy a zákazu kontaktu",
     "text": "Karin Švédová (přijata Andreou, přeřazena na uklízečku po odmítnutí výpovědi 10. 6., od 11. 6. na PN pro psychické obtíže) podala 17. 7. 2026 formální podnět k Oblastnímu inspektorátu práce pro Moravskoslezský kraj a Olomoucký kraj. Podání potvrzeno SÚIP (ID f83b0ad4-7041-4a79-924a-643cd19a6948, číslo podání 20260001). Podnět z NEZÁVISLÉHO zdroje a ÚŘEDNÍ evidence potvrzuje: veřejnou pomluvu Andreou ('neoprávněný výběr 100 000 Kč') na ranní poradě 10. 6. 2026 před všemi zaměstnanci, plošný zákaz kontaktu zaměstnanců s Andreou, a označení Andreou jako 'přímé nadřízené'. Karin zároveň upozorňuje na systémový vzorec: DPP jako obcházení zákonného odměňování, výtky vydávané retroaktivně v den eskalace, přeřazování bez písemného dodatku.",
     "legal": "Podnět k OIP je VEŘEJNÝ DOKUMENT s úřední evidencí — nelze ho zpochybnit jako soukromé sdělení. Potvrzuje pomluvu (§ 184 TZ, § 82 OZ) z nezávislého zdroje: Karin nebyla nikdy v pracovněprávním sporu s Andreou, nemá zájem na výsledku Andreina sporu. Svědkyně jmenovány v OIP podnětu: Natalie Baloghová, Nikol Kostková, Šárka Mullerová, Kateřina Hájková. Inspektorát práce nyní má povinnost kontrolu provést — výsledek kontroly bude dalším důkazem v Andreině věci.",
     "tags": [

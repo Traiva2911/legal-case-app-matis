@@ -574,7 +574,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní"
     ],
     "file": "https://docs.google.com/document/d/1z4GNfQ5_F78GSp_pnKxpi64cJzTNGO8wXQIgFe7AK4Q/view",
-    "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijíel do provozovny, vzal klíče od BMW pod záminkou zkusební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a zmožnčil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splačávané z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
+    "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijel do provozovny, vzal klíče od BMW pod záminkou zkušební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a znemožnil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splácené z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
   }
 ,
   {
@@ -587,7 +587,7 @@ export const documents: CaseDocument[] = [
       "mzda"
     ],
     "file": "https://docs.google.com/document/d/1ij1915tBypQ1-NffFmoseniZo-EiUHpt-o9psxD_tXQ/view",
-    "text": "Formální dopis Andreou podepsaný den po odvolání z jednatele (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odemčleny, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Writenné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
+    "text": "Formální dopis Andreou podepsaný krátce po odebrání pracovních přístupů (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odebrány, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Písemné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
   },
   {
     "id": "d-vyplatni-paska-kveten-2026",
@@ -599,7 +599,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní"
     ],
     "file": "https://docs.google.com/document/d/1k1nb_ttqykk8gNi3D27-BTWLDFA1DLaNVtEgP2dNh9Y/view",
-    "text": "Podrobná výplatní páska za Květen 2026 — poslední mzdové období (odvolání 12. 5. 2026). Tarif: 63 000 Kč/měs. (HPP); fond pracovní doby 168 h, odpracováno 9 dní / 72 h, čerpána dovolená 12 dní / 96 h (zbývá 18,6 dne). Základní složka za 9 dní: 27 000 Kč; dovolená: 43 932 Kč; prémie: 0 Kč. Hrubý příjem: 70 932 Kč; čistá mzda: 54 623 Kč; výplata: 55 319 Kč. Náklady zaměstnavatele: 95 804 Kč. Klíčové: tarif 63 000 Kč shodný s Vojtěchem Ospalíkem; prémie v posledním měsíci nulová (vs. 47 700 Kč hrubého v dubnu 2025); zbývající dovolená ≈ 18,6 dne = pohředávka."
+    "text": "Podrobná výplatní páska za Květen 2026 — poslední mzdové období (odvolání 12. 5. 2026). Tarif: 63 000 Kč/měs. (HPP); fond pracovní doby 168 h, odpracováno 9 dní / 72 h, čerpána dovolená 12 dní / 96 h (zbývá 18,6 dne). Základní složka za 9 dní: 27 000 Kč; dovolená: 43 932 Kč; prémie: 0 Kč. Hrubý příjem: 70 932 Kč; čistá mzda: 54 623 Kč; výplata: 55 319 Kč. Náklady zaměstnavatele: 95 804 Kč. Klíčové: tarif 63 000 Kč shodný s Vojtěchem Ospalíkem; prémie v posledním měsíci nulová (vs. 47 700 Kč hrubého v dubnu 2025); zbývající dovolená ≈ 18,6 dne = pohledávka."
   },
   {
     "id": "d-cho-email-platby-odmeny",
@@ -616,13 +616,13 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-predpis-rezim-manazeru",
     "title": "E-mail: Předpis – Režim práce manažerů, k podpisu (2. 4. 2026 → 22. 4. 2026)",
-    "type": "interní e-mail Karel Ospalíka → Andrea · nový vniřní předpis k podpisu 6 týdnů před odvoláním",
+    "type": "interní e-mail Karel Ospalíka → Andrea · nový vnitřní předpis k podpisu 6 týdnů před odvoláním",
     "date": "2. 4. 2026 – 22. 4. 2026",
     "tags": [
       "pracovněprávní"
     ],
     "file": "https://docs.google.com/document/d/16GU7L6X6ukne4gFvU4wkyKCG1P88PyZTBsxXAlv_bu4/view",
-    "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vniřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vniřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „ndodržování pokynů“."
+    "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vnitřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vnitřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „nedodržování pokynů“."
   },
   {
     "id": "d-email-eshop-nefunguje",
@@ -639,7 +639,7 @@ export const documents: CaseDocument[] = [
 ,
   {
     "id": "d-natlek-odvolani",
-    "title": "Nátlak na podpis jednostranného odlvolání jednatelky (12. 5. 2026)",
+    "title": "Nátlak na podpis jednostranného odvolání jednatelky (12. 5. 2026)",
     "type": "osobní záznam události · popsaný co nejdříve po události · pro právní zástupce",
     "date": "12. 5. 2026",
     "tags": [
@@ -648,7 +648,7 @@ export const documents: CaseDocument[] = [
       "obchodní"
     ],
     "file": "https://docs.google.com/document/d/1pCVqtrxGnzwTmH-lb33UbxHvr6RKqf2JqCKFD0_k4Ok/view",
-    "text": "12. 5. 2026 mi bylo předloženo Rozhodnutí jediného společníka o odvolání z funkce jednatelky. Podpis jsem odmítla, protože jsem nebyla s dokumentem předem srozuměna, nezískala jsem čas na konzultaci s právníkem a nebyl mi předložen ani její písební doklad o doručení s prostorem k vyjadření. Přesto mi kopie rozhodnutí nebyla předána. Nátlak probíhal títčem: (1) nevydání kopie dokumentu, který jsem odmítla podepsat; (2) v tentýž den zablokována firemní karta; (3) tentýž den aktivováno GPS sledování vozidla bez souhlasu; (4) tentýž den nařízena dovolená ze dne na den. Vše proběhlo koordinovaně v jeden den, což naznačuje předem připravený postup. Následující dny bylo postupně odebíráno IT přístupy do systémů, s nimiž jsem pracovala jako jednatelka. Tento záznam popisuje okolnosti podpisu/odmítnutí, atmosféru při jednání, přítomné osoby a bezprostřední reakce. Tentýž den večer jsem jako jednatelka (stále ve funkci) zrušila GPS službu u T-Mobile — protož Následující ráno (13. 5. 2026) mi volal Karel Ospalík a ptal se, proč jsem šla do T-Mobile GPS sledování zrušit. Sdělil, že GPS zapnul proto, že má o mne strach — má pocit, že „nejsem v pořádku“ a že bych si měla zajít pro diagnózu. Tento hovor je zásadní pro právní posouzení: (1) potvrzuje, že GPS aktivaci 12. 5. 2026 nářídil Ospalík osobně a bez mého souhlasu; (2) jako důvod uvádí subjektivní obavy o mé duševí zdraví — bez jakéhokoliv podkladu a v situaci, kde koordinovaný postup (odvolání + karta + GPS + dovolená v jeden den) naznačuje předem připravené opatření, nikoliv spontanní obavy; (3) výzva k „diagnóze“ jako reakce na mé odmítnutí podpisu odlvolání je zásadní skutečností pro posouzení, zda nedošlo k diskriminaci nebo zpochybnění opozice neopodstatněným útolkem na duševí zdraví."
+    "text": "12. 5. 2026 mi bylo předloženo Rozhodnutí jediného společníka o odvolání z funkce jednatelky. Podpis jsem odmítla, protože jsem nebyla s dokumentem předem srozuměna, nezískala jsem čas na konzultaci s právníkem a nebyl mi předložen ani písemný doklad o doručení s prostorem k vyjadření. Přesto mi kopie rozhodnutí nebyla předána. Nátlak probíhal takto: (1) nevydání kopie dokumentu, který jsem odmítla podepsat; (2) v tentýž den zablokována firemní karta; (3) tentýž den aktivováno GPS sledování vozidla bez souhlasu; (4) tentýž den nařízena dovolená ze dne na den. Vše proběhlo koordinovaně v jeden den, což naznačuje předem připravený postup. Následující dny bylo postupně odebíráno IT přístupy do systémů, s nimiž jsem pracovala jako jednatelka. Tento záznam popisuje okolnosti podpisu/odmítnutí, atmosféru při jednání, přítomné osoby a bezprostřední reakce. Tentýž den večer jsem jako jednatelka (stále ve funkci) zrušila GPS službu u T-Mobile. Následující ráno (13. 5. 2026) mi volal Karel Ospalík a ptal se, proč jsem šla do T-Mobile GPS sledování zrušit. Sdělil, že GPS zapnul proto, že má o mne strach — má pocit, že „nejsem v pořádku“ a že bych si měla zajít pro diagnózu. Tento hovor je zásadní pro právní posouzení: (1) potvrzuje, že GPS aktivaci 12. 5. 2026 nařídil Ospalík osobně a bez mého souhlasu; (2) jako důvod uvádí subjektivní obavy o mé duševní zdraví — bez jakéhokoliv podkladu a v situaci, kde koordinovaný postup (odvolání + karta + GPS + dovolená v jeden den) naznačuje předem připravené opatření, nikoliv spontánní obavy; (3) výzva k „diagnóze“ jako reakce na mé odmítnutí podpisu odvolání je zásadní skutečností pro posouzení, zda nedošlo k diskriminaci nebo zpochybnění opozice neopodstatněným útokem na duševní zdraví."
   }
 ,
   {
@@ -777,7 +777,7 @@ export const documents: CaseDocument[] = [
 ,
   {
     "id": "d-karin-oip",
-    "title": "Podnět Karin Švédové k OIP — nezávislá korobrace výpovědí z 10. 6. 2026 (SÚIP, 17. 7. 2026)",
+    "title": "Podnět Karin Švédové k OIP — nezávislá koroborace výpovědí z 10. 6. 2026 (SÚIP, 17. 7. 2026)",
     "type": "podnět k inspekci práce · SÚIP Ostrava · ID f83b0ad4 · potvrzení 17. 7. 2026",
     "date": "17. 7. 2026",
     "tags": [
@@ -885,13 +885,13 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-smlouva-touchstore-2024",
     "title": "Smlouva o licenci TouchStore č. 220/2024 — Walk Solutions × TRAIVA (podpis Andrea Matis)",
-    "type": "obchodní smlouva · expediční systém · podepsáno Andreou před jmenováním jednatelkou",
+    "type": "obchodní smlouva · expediční systém · projekt vedla Andrea měsíce, smlouvu podepsala jako zástupce TRAIVA",
     "date": "4. 7. 2024",
     "tags": [
       "obchodní",
       "pracovněprávní"
     ],
-    "text": "Smlouva o poskytnutí licence a souvisejících služeb č. 220/2024. Zákazník: TRAIVA s.r.o. Poskytovatel: Walk Solutions s.r.o. (Daniel CHOMO). Předmět: expediční systém TouchStore s Odoo konektorem — 10 modulů (GEIS, PPL, Zásilkovna, GLS, DELIVERY, PERSONAL, hromadný picking list, čtečka EAN, podpisy skladníka) + hardware (AIO PC Shuttle P92U, termotiskárna Zebra, čtečky, mobilní terminál Chainway C6000/2D). Cena: ~6 420 Kč/měs. bez DPH + ~10 000 Kč jednorázově. V šabloně smlouvy je vytištěno jméno Ing. KAREL OSPALÍK, jednatel — ale FYZICKÝ PODPIS NA SMLOUVĚ PATŘÍ ANDREE MATIS. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) FAKTICKÁ JEDNATELKA — Andrea podpisem závazné obchodní smlouvy (finanční závazek 77 040 Kč/rok) jednala jako právní zástupkyně TRAIVA PŘED svým formálním jmenováním jednatelem → důkaz de facto jednatelského postavení; (2) OSPALÍK VĚDĚL A SOUHLASIL — přenechal Andree podepisování obchodních smluv s třetími stranami; (3) PROTIARGUMENT K OZP — zaměstnanec, který 'závažně porušuje povinnosti', nepodepisuje jménem firmy závazné smlouvy; (4) ROZSAH ODPOVĚDNOSTI — TouchStore je klíčový provozní systém celé expedice TRAIVA → Andrea zodpovídala za strategická technologická rozhodnutí; (5) VZÁJEMNÝ KONTEXT — smlouva je o Odoo konektoru, tj. propojení TouchStore s Odoo je Andrein projekt od podpisu.",
+    "text": "Smlouva o poskytnutí licence a souvisejících služeb č. 220/2024. Zákazník: TRAIVA s.r.o. Poskytovatel: Walk Solutions s.r.o. (Daniel CHOMO). Předmět: expediční systém TouchStore s Odoo konektorem — 10 modulů (GEIS, PPL, Zásilkovna, GLS, DELIVERY, PERSONAL, hromadný picking list, čtečka EAN, podpisy skladníka) + hardware (AIO PC Shuttle P92U, termotiskárna Zebra, čtečky, mobilní terminál Chainway C6000/2D). Cena: ~6 420 Kč/měs. bez DPH + ~10 000 Kč jednorázově. V šabloně smlouvy je vytištěno jméno Ing. KAREL OSPALÍK, jednatel — ale FYZICKÝ PODPIS NA SMLOUVĚ PATŘÍ ANDREE MATIS. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) FAKTICKÁ JEDNATELKA — Andrea podpisem závazné obchodní smlouvy (finanční závazek 77 040 Kč/rok) jednala jako právní zástupkyně TRAIVA; celý projekt TouchStore (výběr, integraci s Odoo, API, nastavení fungování) přitom vedla a vyjednávala už od dubnového veletrhu Reshoper 2024, tj. i v období PŘED svým formálním jmenováním jednatelkou 24. 6. 2024, → důkaz de facto jednatelského postavení (smlouva nese datum 4. 7. 2024, tj. podpis krátce po jmenování; rozhodující je vedení celého projektu měsíce předtím); (2) OSPALÍK VĚDĚL A SOUHLASIL — přenechal Andree podepisování obchodních smluv s třetími stranami; (3) PROTIARGUMENT K OZP — zaměstnanec, který 'závažně porušuje povinnosti', nepodepisuje jménem firmy závazné smlouvy; (4) ROZSAH ODPOVĚDNOSTI — TouchStore je klíčový provozní systém celé expedice TRAIVA → Andrea zodpovídala za strategická technologická rozhodnutí; (5) VZÁJEMNÝ KONTEXT — smlouva je o Odoo konektoru, tj. propojení TouchStore s Odoo je Andrein projekt od podpisu.",
     "file": "https://docs.google.com/document/d/1NQmYqMBdXgqV1zP02Kl3FCmtLkKVW_OhKBPHum1o1TQ/view"
   },
   {
