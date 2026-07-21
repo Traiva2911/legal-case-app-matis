@@ -14,7 +14,12 @@ export function FilterChips() {
             className={`filter-chip${state.filters.has(tag) ? " active" : ""}`}
             type="button"
             aria-pressed={state.filters.has(tag)}
-            onClick={() => dispatch({ type: "TOGGLE_FILTER", tag })}
+            onClick={() => {
+              dispatch({ type: "TOGGLE_FILTER", tag });
+              if (state.view === "dashboard" || state.view === "notes" || state.view === "export") {
+                dispatch({ type: "SET_VIEW", view: "timeline" });
+              }
+            }}
           >
             {tag}
           </button>
