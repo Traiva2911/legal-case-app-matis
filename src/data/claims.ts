@@ -30,12 +30,12 @@ export const claims: Claim[] = [
   },
   {
     id: "opce",
-    label: "Opce na 10 % obchodní podíl",
+    label: "Přislíbená obchodní odměna (5 % z čistého zisku ročně / 10 % podíl)",
     amount: 2200000,
     basis: "e-mail Ospalíka 4. 8. 2023",
     status: "sporne",
     group: "odhad",
-    note: "odhad hodnoty podílu; částečně splaceno (~15 000 Kč/měs. cca 1 rok)",
+    note: "buď 5 % z čistého zisku jako roční odměna (5 % ze zisku 2023 = 7,59 mil. ≈ 380 tis./rok), nebo opce na 10 % obchodní podíl (~2,2 mil.); částečně splaceno; přesné vyčíslení k ověření s advokátem",
   },
   {
     id: "nahrada-69",
