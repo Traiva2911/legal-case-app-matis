@@ -30,7 +30,7 @@ export const claims: Claim[] = [
   },
   {
     id: "opce",
-    label: "Přislíbená obchodní odměna (5 % z čistého zisku ročně / 10 % podíl)",
+    label: "Přislíbená odměna",
     amount: 2200000,
     basis: "e-mail Ospalíka 4. 8. 2023",
     status: "sporne",
