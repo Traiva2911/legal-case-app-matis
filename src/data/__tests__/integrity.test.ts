@@ -80,3 +80,24 @@ describe("document/evidence file links", () => {
     }
   });
 });
+
+describe("timeline is genuinely chronological", () => {
+  it("every event carries a sortable ISO key", () => {
+    for (const event of events) {
+      expect(event.sort, `event "${event.id}" is missing a sort key`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    }
+  });
+
+  it("exports events in chronological order (the year headings in the timeline depend on it)", () => {
+    const keys = events.map((event) => event.sort);
+    expect(keys).toEqual([...keys].sort());
+  });
+
+  it("sort keys agree with the year shown on the card", () => {
+    for (const event of events) {
+      expect(event.sort.slice(0, 4), `event "${event.id}": sort ${event.sort} vs year ${event.year}`).toBe(
+        event.year.slice(0, 4)
+      );
+    }
+  });
+});

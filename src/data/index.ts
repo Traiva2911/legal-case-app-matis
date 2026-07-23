@@ -44,11 +44,14 @@ function resolveEvidenceAndDocumentIds(
   return { evidenceIds: Array.from(new Set(evidenceIds)), documentIds: Array.from(new Set(documentIds)) };
 }
 
-export const events: CaseEvent[] = rawEvents.map((e) => {
-  const relatedPersonIds = resolvePersonIds(e.personRefs, e.id);
-  const { evidenceIds, documentIds } = resolveEvidenceAndDocumentIds(e.evidenceRefs, e.id);
-  return { ...e, relatedPersonIds, relatedEvidenceIds: evidenceIds, relatedDocumentIds: documentIds };
-});
+// Zdrojove pole je v poradi, v jakem udalosti pribyvaly; osa se radi podle `sort`.
+export const events: CaseEvent[] = rawEvents
+  .map((e) => {
+    const relatedPersonIds = resolvePersonIds(e.personRefs, e.id);
+    const { evidenceIds, documentIds } = resolveEvidenceAndDocumentIds(e.evidenceRefs, e.id);
+    return { ...e, relatedPersonIds, relatedEvidenceIds: evidenceIds, relatedDocumentIds: documentIds };
+  })
+  .sort((a, b) => a.sort.localeCompare(b.sort));
 
 export const evidence: Evidence[] = rawEvidence.map((e) => {
   const relatedPersonIds = resolvePersonIds(e.personRefs, e.id);

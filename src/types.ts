@@ -34,6 +34,8 @@ interface Base {
 /** A timeline event, as Andrea experienced it. */
 export interface CaseEvent extends Base {
   date: string;
+  /** Řadicí klíč YYYY-MM-DD. U měsíců a rozsahů první den období. */
+  sort: string;
   year: string;
   title: string;
   text: string;
