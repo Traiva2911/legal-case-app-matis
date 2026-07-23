@@ -36,6 +36,15 @@ button {
   min-height: 100vh;
 }
 
+/* Pravý panel je sbalený, dokud není nic vybráno — obsah se roztáhne. */
+.app-shell.detail-collapsed {
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+}
+
+.app-shell.detail-collapsed .detail-panel {
+  display: none;
+}
+
 /* M-stripe celá šířka stránky */
 body::before {
   content: '';

@@ -46,7 +46,7 @@ export function App() {
   }, [state.theme]);
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell${state.selectedId ? "" : " detail-collapsed"}`}>
       <a className="skip-link" href="#main-content">
         Přeskočit na obsah
       </a>
