@@ -69,7 +69,7 @@ export const claims: Claim[] = [
     basis: "§ 211 a násl. ZP — od 1/2024 vzniká dovolená i z DPP a DPČ",
     status: "k-uplatneni",
     group: "odhad",
-    note: "NIKDO neeviduje odpracované hodiny na DPP — dovolená z nich proto nikdy nebyla vypočtena, poskytnuta ani proplacena. Vést evidenci odpracované doby je povinnost zaměstnavatele (§ 96 ZP); chybějící evidence jde k jeho tíži, ne k mé. Hodinovou sazbu navíc účetní zpětně dopočítala tak, aby se hodiny vešly pod strop 300 h/rok (§ 75 ZP).",
+    note: "NIKDO neeviduje odpracované hodiny na DPP — dovolená z nich proto nikdy nebyla vypočtena, poskytnuta ani proplacena. Vést evidenci odpracované doby je povinnost zaměstnavatele (§ 96 ZP); chybějící evidence jde k jeho tíži, ne k mé. Hodinová sazba je přitom uvedena přímo v DPP — účetní upravovala vykázané hodiny tak, aby se vešly pod zákonný strop 300 h/rok (§ 75 ZP); vykázané hodiny proto neodpovídají skutečně odpracované době.",
   },
   {
     id: "prumer-podhodnoceny",
