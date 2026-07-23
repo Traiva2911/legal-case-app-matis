@@ -3,7 +3,7 @@ import type { CaseDocument } from "../types";
 export const documents: CaseDocument[] = [
   {
     "id": "d-main",
-    "title": "Podklady pro advokáta Matis",
+    "title": "Mé podklady pro advokáta",
     "type": "hlavní spis",
     "date": "19. 6. 2026",
     "tags": [
@@ -99,7 +99,7 @@ export const documents: CaseDocument[] = [
       "Odoo"
     ],
     "file": "https://drive.google.com/file/d/1kv2pC5iwOHo9ist7bppP4HKI-qpqzRww/view",
-    "text": "Vojtěch Ospalík (syn Karla Ospalíka, nar. 16. 10. 1991) nastoupil jako Projektový manažer / Manažer vývoje software dne 2. 2. 2026 — 3,5 měsíce před odvoláním Andrey (12. 5. 2026). Základní mzda 63 000 Kč hrubého, shodná s Andřinou mzdou. Pracovní smlouva podepsána 30. 1. 2026, pružná pracovní doba, home office 80 %. Nástup Vojtěcha proběhl ve chvíli, kdy Andrea vedla projekt Odoo a Origamis konzultace — pozice projektového manažera, kterou reálně zastávala, byla v té době obsazována synem majitele před plánovaným prodejem firmy."
+    "text": "Vojtěch Ospalík (syn Karla Ospalíka, nar. 16. 10. 1991) nastoupil jako Projektový manažer / Manažer vývoje software dne 2. 2. 2026 — 3,5 měsíce před mým odvoláním (12. 5. 2026). Základní mzda 63 000 Kč hrubého, shodná s mou mzdou. Pracovní smlouva podepsána 30. 1. 2026, pružná pracovní doba, home office 80 %. Nástup Vojtěcha proběhl ve chvíli, kdy jsem vedla projekt Odoo a Origamis konzultace — pozice projektového manažera, kterou jsem reálně zastávala, byla v té době obsazována synem majitele před plánovaným prodejem firmy."
   },
   {
     "id": "d-mzdovy-vymer",
@@ -188,7 +188,7 @@ export const documents: CaseDocument[] = [
       "obchodní"
     ],
     "file": "https://drive.google.com/file/d/1iM38mOBoMxhzwkCz0dhjc0GnwsIZu4wz/view",
-    "text": "Term sheet o prodeji 100 % podílu TRAIVA s.r.o. kupujícímu NKtech s.r.o. (Karel Neffe) byl podepsán 30. 3. 2026 — 43 dní před odvoláním Andrey 12. 5. 2026. Prodej firmy tedy probíhal v plném proudu v době odvolání, přičemž propuštění zaměstnanců bylo předem zahrnuté do kalkulace úspor pro kupujícího."
+    "text": "Term sheet o prodeji 100 % podílu TRAIVA s.r.o. kupujícímu NKtech s.r.o. (Karel Neffe) byl podepsán 30. 3. 2026 — 43 dní před mým odvoláním 12. 5. 2026. Prodej firmy tedy probíhal v plném proudu v době odvolání, přičemž propuštění zaměstnanců bylo předem zahrnuté do kalkulace úspor pro kupujícího."
   },
   {
     "id": "d-term-sheet-analyza",
@@ -301,14 +301,14 @@ export const documents: CaseDocument[] = [
   },
   {
     "id": "d-olidech",
-    "title": "E-mail Ospalíka Andree (4. 7. 2025) — Moje myšlenky: O lidech, zrcadlech a tichých signálech",
+    "title": "E-mail, který mi poslal Ospalík (4. 7. 2025) — Moje myšlenky: O lidech, zrcadlech a tichých signálech",
     "type": "2stránkový PDF export e-mailu z Outlooku · pouze osobní archiv",
     "date": "4. 7. 2025",
     "tags": [
       "pracovněprávní"
     ],
     "file": "https://drive.google.com/file/d/1e8883Bf5QT5dXBZgx5zChcN7njPm0UGm/view",
-    "text": "Ospalík poslal tento osobní e-mail z privátní adresy charlie.ospalik@gmail.com — nikoli z firemního e-mailu — v pátek 4. 7. 2025 ve 21:52. Popisuje, jak si zaznamenává chování lidí (tichý experiment), vnímá v Andree neklid, že realita se přibarvuje a odpovědnost se přehazuje jinam. Zároveň chválí její ambice a výsledky, ale navrhuje reset — upřímný rozhovor. Použití soukromé e-mailové adresy naznačuje záměrné vedení citlivé komunikace mimo firemní kanály."
+    "text": "Ospalík poslal tento osobní e-mail z privátní adresy charlie.ospalik@gmail.com — nikoli z firemního e-mailu — v pátek 4. 7. 2025 ve 21:52. Popisuje, jak si zaznamenává chování lidí (tichý experiment), vnímá ve mně neklid, že realita se přibarvuje a odpovědnost se přehazuje jinam. Zároveň chválí mé ambice a výsledky, ale navrhuje reset — upřímný rozhovor. Použití soukromé e-mailové adresy naznačuje záměrné vedení citlivé komunikace mimo firemní kanály."
   },
   {
     "id": "d-moratorium-skoleni",
@@ -320,11 +320,11 @@ export const documents: CaseDocument[] = [
       "Odoo"
     ],
     "file": "https://drive.google.com/file/d/1MuYkccSbm3_lNqM0l2TQBsnsNSOTrh7O/view",
-    "text": "E-mail odeslaný Karlem Ospalíkem z osobní adresy charlie.ospalik@gmail.com Andree a Jiřímu Premusovi dne 18. 6. 2025: Ospalík vydal moratorium na veškerá interní i externí školení zaměstnanců do doby, než bude Odoo v plném provozu. Zrušil tak Andreen zápis na Excel a IT školení, která si sama obstarala. Dokument prokazuje vzorec: Ospalík komunikoval citlivá rozhodnutí mimo firemní e-mail a školení rušil přesto, že sám jejich smysl uznával."
+    "text": "E-mail odeslaný Karlem Ospalíkem z osobní adresy charlie.ospalik@gmail.com mně a Jiřímu Premusovi dne 18. 6. 2025: Ospalík vydal moratorium na veškerá interní i externí školení zaměstnanců do doby, než bude Odoo v plném provozu. Zrušil tak můj zápis na Excel a IT školení, která jsem si sama obstarala. Dokument prokazuje vzorec: Ospalík komunikoval citlivá rozhodnutí mimo firemní e-mail a školení rušil přesto, že sám jejich smysl uznával."
   },
   {
     "id": "d-odoo-tichy-signaly",
-    "title": "E-mail Andrey Neffemu (8. 8. 2025) — odpověď na Ospalíkův e-mail O lidech, Odoo i tichých signálech",
+    "title": "Můj e-mail Neffemu (8. 8. 2025) — odpověď na Ospalíkův e-mail O lidech, Odoo i tichých signálech",
     "type": "4stránkový PDF export e-mailového vlákna z Outlooku · pouze osobní archiv",
     "date": "8. 8. 2025",
     "tags": [
@@ -333,12 +333,12 @@ export const documents: CaseDocument[] = [
       "obchodní"
     ],
     "file": "https://drive.google.com/file/d/1lSHISke1fZBwVDEDzb0eqQDp5_PBCerf/view",
-    "text": "Andrea napsala odpověď na Ospalíkův filozofický e-mail O lidech, zrcadlech a tichých signálech (4. 7. 2025) až po dvou týdnech — záměrně, aby nenapsala nic, čeho by litovala. Odpověď zaslala 8. 8. 2025 přímo Karlu Neffemu (neffe@gt-sports.cz), tedy potenciálnímu kupujícímu TRAIVA, a den poté ji přeposlala Dominice Kurítové. Klíčové body: Ospalík pozastavil výplatu prémií bez vysvětlení; Andrea sama zvládla ERP projekt od začátku bez pomoci; nesouhlasí s moratoriem na školení. E-mail byl záměrně sdílen s kupujícím — Neffe byl s napětím ve firmě obeznámen již v srpnu 2025, devět měsíců před Andřiným odvoláním."
+    "text": "Odpověď jsem napsala na Ospalíkův filozofický e-mail O lidech, zrcadlech a tichých signálech (4. 7. 2025) až po dvou týdnech — záměrně, abych nenapsala nic, čeho bych litovala. Odpověď jsem zaslala 8. 8. 2025 přímo Karlu Neffemu (neffe@gt-sports.cz), tedy potenciálnímu kupujícímu TRAIVA, a den poté jsem ji přeposlala Dominice Kurítové. Klíčové body: Ospalík pozastavil výplatu prémií bez vysvětlení; sama jsem zvládla ERP projekt od začátku bez pomoci; nesouhlasím s moratoriem na školení. E-mail byl záměrně sdílen s kupujícím — Neffe byl s napětím ve firmě obeznámen již v srpnu 2025, devět měsíců před mým odvoláním."
   },
   {
     "id": "d-ospalik-zadani-gpt",
     "title": "Ospalíkovo „zadání“ k párování plateb — ChatGPT konverzace",
-    "type": "Google Docs · zadání předané Andree jako instrukce k Odoo",
+    "type": "Google Docs · zadání předané mně jako instrukce k Odoo",
     "date": "2025-2026",
     "tags": [
       "Odoo",
@@ -574,7 +574,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní"
     ],
     "file": "https://docs.google.com/document/d/1z4GNfQ5_F78GSp_pnKxpi64cJzTNGO8wXQIgFe7AK4Q/view",
-    "text": "Osobní záznam Andreou sepsán co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); Andrea výhradní řidič dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijel do provozovny, vzal klíče od BMW pod záminkou zkušební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a znemožnil Andree jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splácené z Andřiných odměn, pořízeno jako benefit). Andrea se cítila v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
+    "text": "Osobní záznam jsem sepsala co nejdříve po události. BMW X1 v nájmu TRAIVA s.r.o. od Under8 s.r.o. / NK Technology s.r.o. (Karel Neffe); já jako výhradní řidička dle Přílohy č. 1 k nájemní smlouvě. Chronologie: Ospalík přijel do provozovny, vzal klíče od BMW pod záminkou zkušební jízdy; téhož dne na WhatsApp zrušil home office ‚do odvolání“; cca 1 hod. poté napsal, že „potřebuje BMW asi na týden“ a ať se „nestarala proč“; vozidlo zadržel a znemožnil mi jeho užívání; odebrání vozu podmínil vrácením hotovosti 237 593 Kč přijaté za prodej vozu SsangYong Korando (vozidlo vedeno na firmu, splácené z mých odměn, pořízeno jako benefit). Cítila jsem se v situaci omezená a ohrožená. Důkazy: WhatsApp zprávy (screenshoty + export konverzace), GPS záznamy pohybu vozidla, smlouva o pronájmu BMW vč. Přílohy č. 1."
   }
 ,
   {
@@ -587,7 +587,7 @@ export const documents: CaseDocument[] = [
       "mzda"
     ],
     "file": "https://docs.google.com/document/d/1ij1915tBypQ1-NffFmoseniZo-EiUHpt-o9psxD_tXQ/view",
-    "text": "Formální dopis Andreou podepsaný krátce po odebrání pracovních přístupů (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odebrány, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Písemné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; Andrea požádala o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
+    "text": "Formální dopis, který jsem podepsala krátce po odebrání pracovních přístupů (11. 6. 2026), adresován Karlu Ospalíkovi. Čtyři požadavky: (1) Obnovení přístupu k pracovnímu e-mailu, OneDrive/SharePoint a SaaS systémům (CRM, HR, marketing, účetnictví) — přístupy byly odebrány, přičemž zaměstnavatel zároveň požadoval doložení dokumentů z těchto systémů. (2) Zpřístupnění nebo export podkladů, k nimž přístup chybí, zejm. přes Evu Orel (evidence mezd). (3) Obnovení práce z domova dle smlouvy. (4) Písemné vyúčtování veškerých mzdových složek za 36 měsíců — bonusová složka byla snižována bez dohody: duben 2025 = 47 700 Kč hrubého, duben 2026 = 0 Kč; požádala jsem o tabulky, na jejichž základě byl výpočet prováděn a odměny snižovány. Navíc žádost o doložení auditních logů docházkového systému prokazujících rozsah práce a odebrání přístupu."
   },
   {
     "id": "d-vyplatni-paska-kveten-2026",
@@ -611,30 +611,30 @@ export const documents: CaseDocument[] = [
       "mzda"
     ],
     "file": "https://docs.google.com/document/d/1mYYgKflA-RWTnXrNz3sl01LvW3NP3I0mpjJrJIx2vIY/view",
-    "text": "E-mailová vlákna z června–července 2025 týkající se Odoo projektu párování plateb. 19. 6. 2025 Karel Ospalík (charlie.ospalik@gmail.com): „Nemůžeme pověřit takovým úkolem někoho, kdo je tu zcela nový. Protože ani za 6 měsíců systém vedení projektu ala Plaček, Kokoruď ani Tvůj nevedl k odstranění všech kritických chyb, Bude systém vedení projektu po mém.“ Zároveň zaslal vzor testovacích scénářů a požadoval plán do pondělí 23. 6. 10. 7. 2025 Karel: „Upravil jsem Tvoje odměny podle projektového plánu, který jsem poslal 19. 6.“ Kontext: Andrea v té době úspěšně prosazovala automatizaci párování plateb (integrace ČSOB, Comgate, dobírky) — projekt, který nikdo jiný nevedl. E-maily dokládají, že Ospalík zasahoval přímo do výpočtu odměn mimo jakékoli schválené procesy."
+    "text": "E-mailová vlákna z června–července 2025 týkající se Odoo projektu párování plateb. 19. 6. 2025 Karel Ospalík (charlie.ospalik@gmail.com): „Nemůžeme pověřit takovým úkolem někoho, kdo je tu zcela nový. Protože ani za 6 měsíců systém vedení projektu ala Plaček, Kokoruď ani Tvůj nevedl k odstranění všech kritických chyb, Bude systém vedení projektu po mém.“ Zároveň zaslal vzor testovacích scénářů a požadoval plán do pondělí 23. 6. 10. 7. 2025 Karel: „Upravil jsem Tvoje odměny podle projektového plánu, který jsem poslal 19. 6.“ Kontext: v té době jsem úspěšně prosazovala automatizaci párování plateb (integrace ČSOB, Comgate, dobírky) — projekt, který nikdo jiný nevedl. E-maily dokládají, že Ospalík zasahoval přímo do výpočtu odměn mimo jakékoli schválené procesy."
   },
   {
     "id": "d-predpis-rezim-manazeru",
     "title": "E-mail: Předpis – Režim práce manažerů, k podpisu (2. 4. 2026 → 22. 4. 2026)",
-    "type": "interní e-mail Karel Ospalíka → Andrea · nový vnitřní předpis k podpisu 6 týdnů před odvoláním",
+    "type": "interní e-mail Karel Ospalíka → pro mě · nový vnitřní předpis k podpisu 6 týdnů před odvoláním",
     "date": "2. 4. 2026 – 22. 4. 2026",
     "tags": [
       "pracovněprávní"
     ],
     "file": "https://docs.google.com/document/d/16GU7L6X6ukne4gFvU4wkyKCG1P88PyZTBsxXAlv_bu4/view",
-    "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal Andree nový vnitřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vnitřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „nedodržování pokynů“."
+    "text": "2. 4. 2026 e-mail Karla Ospalíka (charlie.ospalik@gmail.com): zaslal mi nový vnitřní předpis „Režim práce manažerů“ k podpisu — „Není to vlastně nic nového, jen detailněji rozepsaná dohoda z roku 2022, která nějak tiše vymizela.“ Požadoval vypracování vlastního ročního plánu + měsíčního plánu. 22. 4. 2026 follow-up: „Stále věřím, že se zastavíš, pohlédneš zpět a přehodnotíš styl práce opět na ten původní — tedy týmovou práci řízenou plánem a hodnocením výsledků. Jirka plán práce vypracoval. Ví, že když už něco vydám jako vnitřní předpis, je to červená čára.“ — Předpis vydán 6 týdnů před odvoláním 12. 5. 2026; buduje papírový záznam „nedodržování pokynů“."
   },
   {
     "id": "d-email-eshop-nefunguje",
     "title": "E-mail: Systém řízení – eshop nefunguje (2. 5. 2026) – 10 dní před odvoláním",
-    "type": "interní e-mail Karel Ospalíka → Andrea Matis + Jiří Premus",
+    "type": "interní e-mail Karel Ospalíka → mně a Jiřímu Premusovi",
     "date": "2. 5. 2026",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
     "file": "https://docs.google.com/document/d/1Fi0S6Lr9h7VECjjn67s4UvVc5plS1_Hn6IwF7ao4bgc/view",
-    "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před odvoláním Andreou 12. 5. 2026) adresovaný Andree i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na Andreu jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
+    "text": "E-mail Karla Ospalíka ze 2. 5. 2026 (10 dní před mým odvoláním 12. 5. 2026) adresovaný mně i Jiřímu Premusovi. Obsah: „Pravidelně jsou nové produkty špatně zavedeny, nejsou skladem, i když jich máme plný sklad nebo je vyrabíme.“ 430 ks skladem, produkt přesto nedostupný — Karel opravil sám. Přidává: „Nelze se pak divit, že odměny nejsou podle vašich představ. Je potřeba zavést systém a předpis — kdo za co zodpovídá (marketing manažer).“ Uzavírá: „Tak to bylo nastaveno před změnami v týmu.“ — E-mail cílí na mě jako osobu zodpovědnou za selhání eshopu; buduje papírový podklad pro odvolání 10 dní poté."
   }
 ,
   {
@@ -661,7 +661,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "Odoo"
     ],
-    "text": "Oficiální vyhodnocení roku 2025 připravené Karelem Ospalíkem pro poradu vedení TRAIVA s.r.o. (stav k 14. 1. 2026). Dokument hodnotí 5 strategických oblastí: (1) ERP Odoo — \"Splněno\": systém nasazen ve stanoveném termínu, avšak s \"významnými implementačními problémy způsobenými nevhodným výběrem dodavatele, nedostatečnou specifikací, změnou koncepce, nepřipraveným testováním a podceněním školení\"; (2) Software BOZP — \"Probíhá\": testovací verze hotovy, plné spuštění plánováno 1. 5. 2026; (3) E-shop portfolio (cíl 150 produktů) — \"Nesplněno\": přidáno pouze cca 15 produktů, hlavní důvod: \"vysoké pracovní zatížení při implementaci Odoo\"; (4) Marketingové nástroje e-shopu — \"Částečně\": implementován pouze přesný termín doručení, ostatní nástroje nebyly dodány kvůli \"neplnění závazků externího dodavatele Sniper\", který \"nedodal objednanou službu ani po opakovaných urgencích\"; (5) Aplikace cedulí vasecedule.cz — \"Téměř dokončeno\". Klíčový kontext: dokument přiznává, že nesplnění cílů e-shopu a marketingu bylo způsobeno Odoo implementací a nespolehlivým externím dodavatelem — nikoliv selháním marketing manažera. Zároveň Ospalík v e-mailu z 6. 5. 2026 (tj. 4 měsíce po tomto dokumentu) požadoval po Andree doložení \"marketingových akcí s měřitelným dopadem\", ačkoliv vlastní vyhodnocení roku přičítalo neúspěchy jiným příčinám.",
+    "text": "Oficiální vyhodnocení roku 2025 připravené Karelem Ospalíkem pro poradu vedení TRAIVA s.r.o. (stav k 14. 1. 2026). Dokument hodnotí 5 strategických oblastí: (1) ERP Odoo — \"Splněno\": systém nasazen ve stanoveném termínu, avšak s \"významnými implementačními problémy způsobenými nevhodným výběrem dodavatele, nedostatečnou specifikací, změnou koncepce, nepřipraveným testováním a podceněním školení\"; (2) Software BOZP — \"Probíhá\": testovací verze hotovy, plné spuštění plánováno 1. 5. 2026; (3) E-shop portfolio (cíl 150 produktů) — \"Nesplněno\": přidáno pouze cca 15 produktů, hlavní důvod: \"vysoké pracovní zatížení při implementaci Odoo\"; (4) Marketingové nástroje e-shopu — \"Částečně\": implementován pouze přesný termín doručení, ostatní nástroje nebyly dodány kvůli \"neplnění závazků externího dodavatele Sniper\", který \"nedodal objednanou službu ani po opakovaných urgencích\"; (5) Aplikace cedulí vasecedule.cz — \"Téměř dokončeno\". Klíčový kontext: dokument přiznává, že nesplnění cílů e-shopu a marketingu bylo způsobeno Odoo implementací a nespolehlivým externím dodavatelem — nikoliv selháním marketing manažera. Zároveň Ospalík v e-mailu z 6. 5. 2026 (tj. 4 měsíce po tomto dokumentu) požadoval po mně doložení \"marketingových akcí s měřitelným dopadem\", ačkoliv vlastní vyhodnocení roku přičítalo neúspěchy jiným příčinám.",
     "unavailableReason": "Interní dokument veden na firemním serveru — bez přístupu na firemní profil se k originálu nedostanu."
   },
   {
@@ -673,7 +673,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "mzda"
     ],
-    "text": "Odeslaná PDZ, ID zprávy: 1734487765. Odesílatel: Andrea Matis (schránka 2n4vhud). Adresát: TRAIVA, s.r.o., Pohraniční 2911/13b, Vítkovice, 70300 Ostrava (ID schránky: gwn73br). K rukám: Ing. Karel Ospalík. Do vlastních rukou: Ano. Stav zprávy: Dodaná. Datum a čas: 14. 7. 2026 v 17:55:17. EV0 (podána): 14. 7. 2026 v 17:55:17. EV5 (dodána do schránky příjemce): 14. 7. 2026 v 17:55:17. Přílohy: Textová zpráva.PDF + Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf.",
+    "text": "Odeslaná PDZ, ID zprávy: 1734487765. Odesílatel: já (schránka 2n4vhud). Adresát: TRAIVA, s.r.o., Pohraniční 2911/13b, Vítkovice, 70300 Ostrava (ID schránky: gwn73br). K rukám: Ing. Karel Ospalík. Do vlastních rukou: Ano. Stav zprávy: Dodaná. Datum a čas: 14. 7. 2026 v 17:55:17. EV0 (podána): 14. 7. 2026 v 17:55:17. EV5 (dodána do schránky příjemce): 14. 7. 2026 v 17:55:17. Přílohy: Textová zpráva.PDF + Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf.",
     "unavailableReason": "Export ještě nemám nahraný na Drive — mám ho k dispozici jen v datové schránce, doplním."
   },
   {
@@ -697,25 +697,25 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "mzda"
     ],
-    "text": "Příloha datové zprávy ID 1734487765. Soubor: Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf. Obsah: formální protest + výzva k opravě výplatní pásky za červen 2026. Odesílatel: Ing. Andrea Matis, Kostelní 607, 739 24 Krmelín. Adresát: TRAIVA, s.r.o., jednatel Ing. Karel Ospalík. Datum: 14. 7. 2026. Věc: protest proti klasifikaci 20 dnů jako neomluvená absence (správně: § 208 ZP — překážky na straně zaměstnavatele). Požadavky: (1) oprava výplatní pásky, (2) doplacení 65 898,80 Kč hrubého na účet 2298163003/0800, (3) doplacení pojistného ZP + ČSSZ. Prodlení od 11. 7. 2026, zákonný úrok § 1970 OZ. Deadline: 28. 7. 2026.",
+    "text": "Příloha datové zprávy ID 1734487765. Soubor: Andrea_Matis_vyzva_k_oprave_mzdoveho_vymeru.pdf. Obsah: formální protest + výzva k opravě výplatní pásky za červen 2026. Odesílatel: já, Kostelní 607, 739 24 Krmelín. Adresát: TRAIVA, s.r.o., jednatel Ing. Karel Ospalík. Datum: 14. 7. 2026. Věc: protest proti klasifikaci 20 dnů jako neomluvená absence (správně: § 208 ZP — překážky na straně zaměstnavatele). Požadavky: (1) oprava výplatní pásky, (2) doplacení 65 898,80 Kč hrubého na účet 2298163003/0800, (3) doplacení pojistného ZP + ČSSZ. Prodlení od 11. 7. 2026, zákonný úrok § 1970 OZ. Deadline: 28. 7. 2026.",
     "unavailableReason": "Export ještě nemám nahraný na Drive — mám ho k dispozici jen v datové schránce, doplním."
   },
   {
     "id": "d-email-karin-premus-30042026",
-    "title": "E-mailové vlákno 'Stav pracovníků a náklady' — Ospalík / Premus / Matis (26. 3. – 14. 4. 2026)",
+    "title": "E-mailové vlákno 'Stav pracovníků a náklady' — Ospalík / Premus / já (26. 3. – 14. 4. 2026)",
     "type": "interní e-mailové vlákno · klíčový důkaz manažerské role · 7 zpráv",
     "date": "14. 4. 2026 (vlákno od 26. 3. 2026)",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "E-mailové vlákno 7 zpráv (26. 3. – 14. 4. 2026) mezi Ospalíkem, Premusem a Matis ohledně Karin Švédové. KLÍČOVÉ DŮKAZY: (1) Ředitel Premus 27. 3. 2026 výslovně potvrzuje: 'Na řízení lidí ve spodních kanceláří máme Andrei' — 6 týdnů před OZP. (2) Premus potvrzuje, že Andrea SAMA NAŠLA Karin Švédovou: 'na základě bodu 1 a 2 Andrea našla Karin Švédovou.' (3) Karin pracovala na úkolech zadaných OSPALÍKEM, ne Andreou: 'pracuje na úkolech, které jsi jí zadal přímo ty'. (4) Ospalík sám označuje Andreu jako 'manažera': 'Nevím kdo z manažerů přijímal Karin Švédovou'. (5) Ospalík odmítl 8týdenní plán práce s odůvodněním 'K takovým úkolům jsi pořídila asistentku' — přiznává, že asistentka sloužila Andreině manažerské práci. (6) Andrea připravila strukturovaný plán na 8 týdnů — prokazuje proaktivní management a koordinaci s vedením. Vlákno přímou řečí vyvrací tvrzení, že Andrea neřídila lidi nebo přijala Karin bez pověření.",
+    "text": "E-mailové vlákno 7 zpráv (26. 3. – 14. 4. 2026) mezi Ospalíkem, Premusem a mnou ohledně Karin Švédové. KLÍČOVÉ DŮKAZY: (1) Ředitel Premus 27. 3. 2026 výslovně potvrzuje: 'Na řízení lidí ve spodních kanceláří máme Andrei' — 6 týdnů před OZP. (2) Premus potvrzuje, že jsem SAMA NAŠLA Karin Švédovou: 'na základě bodu 1 a 2 Andrea našla Karin Švédovou.' (3) Karin pracovala na úkolech zadaných OSPALÍKEM, ne mnou: 'pracuje na úkolech, které jsi jí zadal přímo ty'. (4) Ospalík mě sám označuje jako 'manažera': 'Nevím kdo z manažerů přijímal Karin Švédovou'. (5) Ospalík odmítl 8týdenní plán práce s odůvodněním 'K takovým úkolům jsi pořídila asistentku' — přiznává, že asistentka sloužila mé manažerské práci. (6) Připravila jsem strukturovaný plán na 8 týdnů — prokazuje proaktivní management a koordinaci s vedením. Vlákno přímou řečí vyvrací tvrzení, že jsem neřídila lidi nebo přijala Karin bez pověření.",
     "file": "https://docs.google.com/document/d/1ECIzIHHYUGqUDbYuC90-nWLfCdqc9GHRGfj9wL8ujOg/view"
   },
   {
     "id": "d-vysledovka-traiva-2023",
     "title": "TRAIVA — Výsledovka analyticky po zaúčtování daně 2023",
-    "type": "účetní výkaz · analytická výsledovka 2023 · souhrn, originál lokálně u Andrey",
+    "type": "účetní výkaz · analytická výsledovka 2023 · souhrn, originál mám lokálně",
     "date": "2023",
     "tags": [
       "obchodní"
@@ -725,14 +725,14 @@ export const documents: CaseDocument[] = [
   },
   {
     "id": "d-trello-marketing-produkty-traiva",
-    "title": "Trello board 'Marketing produktů Traiva' — strategický plán Ing. Matis (k 5. 11. 2025)",
+    "title": "Trello board 'Marketing produktů Traiva' — můj strategický plán (k 5. 11. 2025)",
     "type": "strategický dokument · meta-data ze SharePoint archivu",
     "date": "5. 11. 2025",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Existence Trello boardu 'Marketing produktů Traiva' (starred, autor Ing. Matis, aktuální k 5. 11. 2025) prokazuje, že strategický marketingový plán pro rok 2025 existoval a byl aktivně udržován. Vyvrací případná tvrzení, že marketingové plánování nebo strategické směřování chybělo.",
+    "text": "Existence Trello boardu 'Marketing produktů Traiva' (starred, mnou vedený, aktuální k 5. 11. 2025) prokazuje, že strategický marketingový plán pro rok 2025 existoval a byl aktivně udržován. Vyvrací případná tvrzení, že marketingové plánování nebo strategické směřování chybělo.",
     "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — přístup mi byl odebrán 16. 7. 2026 dopoledne, mám jen meta-data."
   },
   {
@@ -744,7 +744,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Trello board vedený Ing. Matis, naposledy aktualizován 17. 3. 2026 — v době, kdy pracovní spor byl již v běhu. Obsahuje strategické plány pro marketing a věrnostní program (loajalitní program, B2B akvizice). Dokládá, že Ing. Matis soustavně pracovala na strategickém rozvoji firmy i v kritickém období jaro 2026.",
+    "text": "Trello board, který jsem vedla, naposledy aktualizován 17. 3. 2026 — v době, kdy pracovní spor byl již v běhu. Obsahuje strategické plány pro marketing a věrnostní program (loajalitní program, B2B akvizice). Dokládá, že jsem soustavně pracovala na strategickém rozvoji firmy i v kritickém období jaro 2026.",
     "unavailableReason": "Trello board vedený pod firemním účtem TRAIVA — přístup mi byl odebrán 16. 7. 2026 dopoledne, mám jen meta-data."
   }
 ,
@@ -767,12 +767,12 @@ export const documents: CaseDocument[] = [
   {
     "id": "d-karin-vytka",
     "title": "Výtka Karin Švédové za použití mobilu (datum 1. 6. 2026, doručeno 10. 6. 2026)",
-    "type": "písemná výtka TRAIVA s.r.o. · v den veřejné difamace Andreou · formálně vadná",
+    "type": "písemná výtka TRAIVA s.r.o. · v den mé veřejné difamace · formálně vadná",
     "date": "10. 6. 2026",
     "tags": [
       "pracovněprávní"
     ],
-    "text": "Výtka nese datum 1. 6. 2026, ale Karin Švédová ji obdržela až 10. 6. 2026 — v den, kdy Ospalík (1) veřejně lhal zaměstnancům o krádeži 100 000 Kč od Andreou, (2) nutil Karin podepsat dohodu o rozvázání bez odstupného a (3) ji přeřadil na uklízečku. Výtka odkazuje v záhlaví na § 52 písm. g) ZP (výpovědní důvod zaměstnavatele) místo správného § 46 ZP (základ pro výtku) — formálně vadná. Důvod: použití soukromého telefonu 1. 6. 2026. Karin odmítla podepsat; Ospalík ji verbálně napadl ('blbá', 'hloupá'), poté přivolal Nikol Kostkovou a Šárku Mullerovou jako svědkyně předání. Chronologie prokazuje vzorec: výtka retroaktivně datovaná a předaná až v den eskalace po odmítnutí dohody o rozvázání — stejný postup jako vůči Andree (retroaktivní hledání důvodů po datových výzvách)."
+    "text": "Výtka nese datum 1. 6. 2026, ale Karin Švédová ji obdržela až 10. 6. 2026 — v den, kdy Ospalík (1) veřejně lhal zaměstnancům o tom, že jsem odcizila 100 000 Kč, (2) nutil Karin podepsat dohodu o rozvázání bez odstupného a (3) ji přeřadil na uklízečku. Výtka odkazuje v záhlaví na § 52 písm. g) ZP (výpovědní důvod zaměstnavatele) místo správného § 46 ZP (základ pro výtku) — formálně vadná. Důvod: použití soukromého telefonu 1. 6. 2026. Karin odmítla podepsat; Ospalík ji verbálně napadl ('blbá', 'hloupá'), poté přivolal Nikol Kostkovou a Šárku Mullerovou jako svědkyně předání. Chronologie prokazuje vzorec: výtka retroaktivně datovaná a předaná až v den eskalace po odmítnutí dohody o rozvázání — stejný postup jako vůči mně (retroaktivní hledání důvodů po datových výzvách)."
   }
 ,
   {
@@ -784,12 +784,12 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "OIP"
     ],
-    "text": "Karin Švédová (asistentka expedice, přijata Andreou) podala 17. 7. 2026 podnět k OIP pro Moravskoslezský kraj — dva dny poté, co Traiva doručila Andree OZP. Podnět z NEZÁVISLÉHO zdroje potvrzuje: (1) Na ranní poradě 10. 6. 2026 v 7:30 Ospalík před VŠEMI zaměstnanci prohlásil, že 'přímá nadřízená Ing. Andrea Matis neoprávněně vybrala z firemního účtu 100 000 Kč' a zakázal se zaměstnancům kontaktovat, řídit se jejími pokyny nebo ji vpustit do firmy. (2) Karin Ospalík nutil podepsat dohodu o rozvázání bez odstupného k 11. 6. 2026 — bezprostředně odmítnutí vedlo k přeřazení na uklízečku. (3) Za červen 2026 Karin záměrně nevyplatil odměnu z DPP — potvrzeno mzdovou účetní Kateřinou Hájkovou. Karin označuje Andreu výslovně jako svoji 'přímou nadřízenou' — potvrzuje manažerskou roli AM ve firmě. Podání potvrzeno SÚIP ID f83b0ad4-7041-4a79-924a-643cd19a6948, datum 17. 7. 2026. Svědkyně jmenovány v podnětu: Natalie Baloghová, Nikol Kostková, Šárka Mullerová (porada 10. 6.), Kateřina Hájková (mzdová účetní)."
+    "text": "Karin Švédová (asistentka expedice, kterou jsem přijala) podala 17. 7. 2026 podnět k OIP pro Moravskoslezský kraj — dva dny poté, co mi Traiva doručila OZP. Podnět z NEZÁVISLÉHO zdroje potvrzuje: (1) Na ranní poradě 10. 6. 2026 v 7:30 Ospalík před VŠEMI zaměstnanci prohlásil, že 'přímá nadřízená Ing. Andrea Matis neoprávněně vybrala z firemního účtu 100 000 Kč' a zakázal zaměstnancům mě kontaktovat, řídit se mými pokyny nebo mě vpustit do firmy. (2) Karin Ospalík nutil podepsat dohodu o rozvázání bez odstupného k 11. 6. 2026 — bezprostředně odmítnutí vedlo k přeřazení na uklízečku. (3) Za červen 2026 Karin záměrně nevyplatil odměnu z DPP — potvrzeno mzdovou účetní Kateřinou Hájkovou. Karin mě označuje výslovně jako svoji 'přímou nadřízenou' — potvrzuje mou manažerskou roli ve firmě. Podání potvrzeno SÚIP ID f83b0ad4-7041-4a79-924a-643cd19a6948, datum 17. 7. 2026. Svědkyně jmenovány v podnětu: Natalie Baloghová, Nikol Kostková, Šárka Mullerová (porada 10. 6.), Kateřina Hájková (mzdová účetní)."
   }
 ,
   {
     "id": "d-podklad-advokat",
-    "title": "Podklad pro advokáta: Analýza OZP ze dne 15. 7. 2026 — Matis vs. TRAIVA s.r.o.",
+    "title": "Podklad pro advokáta: Analýza OZP ze dne 15. 7. 2026 — já vs. TRAIVA s.r.o.",
     "type": "právní analýza · připraveno pro konzultaci · lhůta § 72 ZP: 15. 9. 2026",
     "date": "19. 7. 2026",
     "tags": [
@@ -797,77 +797,77 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "text": "VĚC: TRAIVA s.r.o. (IČO 25380141) vs. Ing. Andrea Matis | OZP doručeno 15. 7. 2026 | Lhůta § 72 ZP: 15. 9. 2026\n\n— OKAMŽITÉ ÚKONY (PŘED 15. 9. 2026) —\n1. Odeslat prohlášení 'trvám na zaměstnávání' dle § 69 ZP — URGENTNÍ (kondicionuje nárok na náhradu mzdy po dobu sporu)\n2. Podat žalobu na neplatnost OZP u soudu do 15. 9. 2026 (§ 72 ZP) — prekluzivní lhůta, zmeškání = zánik práva\n\n— 6 DŮVODŮ OZP — OBRANA —\n\nBOD 1 (T-Mobile GPS): Zaměstnavatel tvrdí neoprávněnou změnu admin. práv T-Mobile dne 12. 5. 2026. OBRANA: (a) k 12. 5. 2026 Andrea stále zapsaná jako jednatelka v rejstříku → ověřit justice.cz; (b) OZP uvádí datum 15. 5., nikoliv 12. 5. — vnitřní rozpor; (c) GPS aktivoval Ospalík bez souhlasu zaměstnance (§ 316 odst. 2 ZP) — Andrea tuto službu oprávněně zrušila; (d) Ospalík v hovoru 13. 5. sám potvrdil, že GPS aktivoval on. SÍLA: střední → slabý.\n\nBOD 2 (přístup k e-mailům): Zaměstnavatel tvrdí neoprávněný přístup do schránek zaměstnanců (příloha č. 1 — logy 20.–30. 4. 2026). OBRANA: (a) v době přístupu Andrea jednatelka (odvolání 12. 5.) → přístup v rámci oprávnění; (b) přístup náhodný při testování Microsoft AI agentů (Insider program); (c) kolega na chybu ihned upozornil a Andrea schránky okamžitě odebrala → náprava bez prodlení; (d) VŠECHNY logy v příloze jsou z 20.–30. 4. — 2 měsíce před OZP → § 58 odst. 1 ZP: subjektivní lhůta 2 měsíce od okamžiku vědomosti zaměstnavatele — klíčové je KDY se Ospalík dozvěděl; (e) Maralík (shromažďovatel důkazů) sám figuruje v logu + používal nestandardní AI-asistované metody sběru. KLÍČOVÝ SVĚDEK: kolega, jehož schránka byla omylem otevřena — datum incidentu lze ověřit z Teams offline cache. SÍLA: silný → slabý.\n\nBOD 3 (info Neffemu): Zaměstnavatel tvrdí přeposílání interních informací potenciálnímu kupci Neffemu. OBRANA: (a) Ospalík o vztahu Andrea–Neffe věděl a sám ji telefonicky konzultoval o Neffových motivech; (b) Andrea si SAMA nechala znění e-mailu odsouhlasit Ospalíkem, aby nevzniklo podezření; (c) žádný písemný zákaz předávání neexistuje (OZP by ho citovalo); (d) Neffe = potenciální nabyvatel → komunikace v zájmu firmy. SÍLA: střední.\n\nBOD 4 (finanční výkazy na pavelcermak@kb.cz): Zaměstnavatel tvrdí neoprávněné zaslání výkazů. OBRANA: (a) Pavel Čermák z KB = akvizičním bankéř Neffova → zaslání v rámci přípravy DD na Ospalíkův pokyn (12. 3. 2026); (b) e-mail s odsouhlasením Ospalíkem; (c) dataroomu koordinovala Andrea sama. SÍLA: silný → střední.\n\nBOD 5 (neomluvená absence červen 2026): Zaměstnavatel tvrdí 20 dní neomluvené absence. OBRANA: (a) od 11. 6. veškeré přístupy zablokovány zaměstnavatelem; (b) zákaz kontaktu ostatních zaměstnanců s Andreou pod hrozbou výpovědi; (c) Andrea zaslala 3 výzvy datovou schránkou; (d) § 208 ZP = překážka na straně zaměstnavatele → nárok na náhradu mzdy, nikoliv neomluvená absence; (e) Ospalík věděl o záložním Gmailu (zakázal komunikaci 8. 5.) a na firemní e-mail Andree NIKDY sám nepsal; (f) klasifikace napadena protestem + výzvou k opravě (datovka 14. 7. 2026). SÍLA: střední → velmi slabý.\n\nBOD 6 (smazání dat v j.premus@traiva.cz): OBRANA: (a) přístup v rámci testování AI agentů (duben 2026) — přístupy ihned odebrány po upozornění kolegy; (b) 'smazání dat' pravděpodobně = automaticky rozeslané e-maily z Premusovy schránky + úklid AI agenta, nikoliv záměrné ničení; (c) příloha č. 1 OZP neobsahuje logy o mazání — jen o přístupu; (d) Microsoft 365 audit log zachovává záznamy o smazání a lze si je vyžádat. SÍLA: nejsilnější → střední-slabý.\n\n— RETALIAČNÍ VZOREC —\nOspalík retroaktivně hledal důvody PO datových výzvách: (1) 11. 6. — první datovka; (2) Maralík dostává instrukci prohledat celý počítač; (3) zaměstnankyně přeřazena za 'donášení'; (4) 14. 7. — třetí datovka; (5) 15. 7. — OZP doručeno. Dubnové přístupy 'objeveny' v červnu–červenci = 2–3 měsíce po incidentu → problém § 58 odst. 1 ZP.\n\n— KLÍČOVÍ SVĚDCI —\n1. Karin Švédová — potvrzuje pomluvu 100 000 Kč, zákaz kontaktu, nátlak; OIP podnět ID f83b0ad4 podán 17. 7. 2026 = OFICIÁLNÍ DOKUMENT\n2. Kolega (AI e-mail incident) — svědek okamžité nápravy; klíčový pro § 58 ZP lhůtu; totožnost: Teams cache v telefonu\n3. Natalie Baloghová, Nikol Kostková, Šárka Mullerová — svědkyně porad 10. 6. 2026\n4. Kateřina Hájková (mzdová účetní) — potvrdila pokyn nevyplatit DPP Karin\n\n— DŮKAZY K ZAJIŠTĚNÍ —\nPŘES ADVOKÁTA: (a) Microsoft 365 audit log — nezávislé ověření přílohy č. 1 a logů o mazání; návrh dle § 78 OSŘ na zajištění; (b) justice.cz — výpis funkce jednatelky ke dni 12. 5. 2026.\nU ANDREOU: (a) SMS T-Mobile (datum GPS aktivace/deaktivace); (b) záložní Gmail — prázdná schránka = Ospalík nikdy nepsal; (c) WhatsApp export — odsouhlasení e-mailu Neffemu + konzultace pohnutek; (d) 3 potvrzení datové schránky; (e) Teams cache v telefonu.\n\n— NÁROKY (ORIENTAČNĚ) —\n• Náhrada mzdy § 208 ZP (červen 2026): 65 899 Kč hrubého + pojistné\n• Nevyplacené DPP odměny (TRAIVA + Safety): dle výplatních pásek\n• Prémie Odoo 200 000 Kč: závisí na posouzení podmínek splnění\n• Pomluva (§ 82 OZ + § 184 TZ): posoudit trestní oznámení\n• Hotovost 237 593 Kč ze SsangYongu: projednat vypořádání před žalobou\n\n— LHŮTY —\n• § 69 ZP trvání na zaměstnávání: ODESLAT CO NEJDŘÍVE\n• § 72 ZP žaloba neplatnosti: 15. 9. 2026 (prekluzivní)\n• § 208 ZP náhrada mzdy: 3 roky od splatnosti\n• Trestní oznámení: bez prekluzivní lhůty (promlčení 5 let)"
+    "text": "VĚC: já vs. TRAIVA s.r.o. (IČO 25380141) | OZP doručeno 15. 7. 2026 | Lhůta § 72 ZP: 15. 9. 2026\n\n— OKAMŽITÉ ÚKONY (PŘED 15. 9. 2026) —\n1. Odeslat prohlášení 'trvám na zaměstnávání' dle § 69 ZP — URGENTNÍ (kondicionuje nárok na náhradu mzdy po dobu sporu)\n2. Podat žalobu na neplatnost OZP u soudu do 15. 9. 2026 (§ 72 ZP) — prekluzivní lhůta, zmeškání = zánik práva\n\n— 6 DŮVODŮ OZP — OBRANA —\n\nBOD 1 (T-Mobile GPS): Zaměstnavatel tvrdí neoprávněnou změnu admin. práv T-Mobile dne 12. 5. 2026. OBRANA: (a) k 12. 5. 2026 jsem stále zapsaná jako jednatelka v rejstříku → ověřit justice.cz; (b) OZP uvádí datum 15. 5., nikoliv 12. 5. — vnitřní rozpor; (c) GPS aktivoval Ospalík bez souhlasu zaměstnance (§ 316 odst. 2 ZP) — tuto službu jsem oprávněně zrušila; (d) Ospalík v hovoru 13. 5. sám potvrdil, že GPS aktivoval on. SÍLA: střední → slabý.\n\nBOD 2 (přístup k e-mailům): Zaměstnavatel tvrdí neoprávněný přístup do schránek zaměstnanců (příloha č. 1 — logy 20.–30. 4. 2026). OBRANA: (a) v době přístupu jsem byla jednatelkou (odvolání 12. 5.) → přístup v rámci oprávnění; (b) přístup náhodný při testování Microsoft AI agentů (Insider program); (c) kolega na chybu ihned upozornil a schránky jsem okamžitě odebrala → náprava bez prodlení; (d) VŠECHNY logy v příloze jsou z 20.–30. 4. — 2 měsíce před OZP → § 58 odst. 1 ZP: subjektivní lhůta 2 měsíce od okamžiku vědomosti zaměstnavatele — klíčové je KDY se Ospalík dozvěděl; (e) Maralík (shromažďovatel důkazů) sám figuruje v logu + používal nestandardní AI-asistované metody sběru. KLÍČOVÝ SVĚDEK: kolega, jehož schránka byla omylem otevřena — datum incidentu lze ověřit z Teams offline cache. SÍLA: silný → slabý.\n\nBOD 3 (info Neffemu): Zaměstnavatel tvrdí přeposílání interních informací potenciálnímu kupci Neffemu. OBRANA: (a) Ospalík o mém vztahu s Neffem věděl a sám se mnou telefonicky konzultoval Neffovy motivy; (b) SAMA jsem si nechala znění e-mailu odsouhlasit Ospalíkem, aby nevzniklo podezření; (c) žádný písemný zákaz předávání neexistuje (OZP by ho citovalo); (d) Neffe = potenciální nabyvatel → komunikace v zájmu firmy. SÍLA: střední.\n\nBOD 4 (finanční výkazy na pavelcermak@kb.cz): Zaměstnavatel tvrdí neoprávněné zaslání výkazů. OBRANA: (a) Pavel Čermák z KB = akvizičním bankéř Neffova → zaslání v rámci přípravy DD na Ospalíkův pokyn (12. 3. 2026); (b) e-mail s odsouhlasením Ospalíkem; (c) dataroom jsem koordinovala sama. SÍLA: silný → střední.\n\nBOD 5 (neomluvená absence červen 2026): Zaměstnavatel tvrdí 20 dní neomluvené absence. OBRANA: (a) od 11. 6. veškeré přístupy zablokovány zaměstnavatelem; (b) zákaz kontaktu ostatních zaměstnanců se mnou pod hrozbou výpovědi; (c) zaslala jsem 3 výzvy datovou schránkou; (d) § 208 ZP = překážka na straně zaměstnavatele → nárok na náhradu mzdy, nikoliv neomluvená absence; (e) Ospalík věděl o záložním Gmailu (zakázal komunikaci 8. 5.) a na můj firemní e-mail NIKDY sám nepsal; (f) klasifikace napadena protestem + výzvou k opravě (datovka 14. 7. 2026). SÍLA: střední → velmi slabý.\n\nBOD 6 (smazání dat v j.premus@traiva.cz): OBRANA: (a) přístup v rámci testování AI agentů (duben 2026) — přístupy ihned odebrány po upozornění kolegy; (b) 'smazání dat' pravděpodobně = automaticky rozeslané e-maily z Premusovy schránky + úklid AI agenta, nikoliv záměrné ničení; (c) příloha č. 1 OZP neobsahuje logy o mazání — jen o přístupu; (d) Microsoft 365 audit log zachovává záznamy o smazání a lze si je vyžádat. SÍLA: nejsilnější → střední-slabý.\n\n— RETALIAČNÍ VZOREC —\nOspalík retroaktivně hledal důvody PO datových výzvách: (1) 11. 6. — první datovka; (2) Maralík dostává instrukci prohledat celý počítač; (3) zaměstnankyně přeřazena za 'donášení'; (4) 14. 7. — třetí datovka; (5) 15. 7. — OZP doručeno. Dubnové přístupy 'objeveny' v červnu–červenci = 2–3 měsíce po incidentu → problém § 58 odst. 1 ZP.\n\n— KLÍČOVÍ SVĚDCI —\n1. Karin Švédová — potvrzuje pomluvu 100 000 Kč, zákaz kontaktu, nátlak; OIP podnět ID f83b0ad4 podán 17. 7. 2026 = OFICIÁLNÍ DOKUMENT\n2. Kolega (AI e-mail incident) — svědek okamžité nápravy; klíčový pro § 58 ZP lhůtu; totožnost: Teams cache v telefonu\n3. Natalie Baloghová, Nikol Kostková, Šárka Mullerová — svědkyně porad 10. 6. 2026\n4. Kateřina Hájková (mzdová účetní) — potvrdila pokyn nevyplatit DPP Karin\n\n— DŮKAZY K ZAJIŠTĚNÍ —\nPŘES ADVOKÁTA: (a) Microsoft 365 audit log — nezávislé ověření přílohy č. 1 a logů o mazání; návrh dle § 78 OSŘ na zajištění; (b) justice.cz — výpis funkce jednatelky ke dni 12. 5. 2026.\nU MĚ: (a) SMS T-Mobile (datum GPS aktivace/deaktivace); (b) záložní Gmail — prázdná schránka = Ospalík nikdy nepsal; (c) WhatsApp export — odsouhlasení e-mailu Neffemu + konzultace pohnutek; (d) 3 potvrzení datové schránky; (e) Teams cache v telefonu.\n\n— NÁROKY (ORIENTAČNĚ) —\n• Náhrada mzdy § 208 ZP (červen 2026): 65 899 Kč hrubého + pojistné\n• Nevyplacené DPP odměny (TRAIVA + Safety): dle výplatních pásek\n• Prémie Odoo 200 000 Kč: závisí na posouzení podmínek splnění\n• Pomluva (§ 82 OZ + § 184 TZ): posoudit trestní oznámení\n• Hotovost 237 593 Kč ze SsangYongu: projednat vypořádání před žalobou\n\n— LHŮTY —\n• § 69 ZP trvání na zaměstnávání: ODESLAT CO NEJDŘÍVE\n• § 72 ZP žaloba neplatnosti: 15. 9. 2026 (prekluzivní)\n• § 208 ZP náhrada mzdy: 3 roky od splatnosti\n• Trestní oznámení: bez prekluzivní lhůty (promlčení 5 let)"
   }
 ,
   {
     "id": "d-email-uprava-rezimu-prace",
-    "title": "E-mail 'Úprava režimu práce návrh' — Ospalík ↔ Matis (11.–12. 3. 2026)",
+    "title": "E-mail 'Úprava režimu práce návrh' — Ospalík ↔ já (11.–12. 3. 2026)",
     "type": "interní e-mail · eskalace konfliktu 4 měsíce před OZP · hrozba sníženými odměnami",
     "date": "12. 3. 2026",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Klíčový email ze 4 měsíce před OZP. Ospalík navrhuje 'bonus za režim' = faktická hrozba sníženou odměnou za nedodržení pracovního režimu. Andrea (11. 3.) odmítá koercivní nastavení, popisuje šíři manažerské práce (lidi, marketing, Odoo, obchod, systémy), žádá zvýšení platu jako jednatelky. Ospalík (12. 3.) uzavírá kategoricky: 'Manažer není placen za snahu, ale za dopad na firmu.' Uvádí příklady: Andrea neřešila zdražení (+300 000 Kč/měs) — ale Andrea respektovala priority vedení (akvizice). PRÁVNÍ RELEVANCE: Prokazuje eskalaci konfliktu, nátlak na manažerku, podmíněné odměňování. Silný kontext k pochopení motivace OZP.",
+    "text": "Klíčový email ze 4 měsíce před OZP. Ospalík navrhuje 'bonus za režim' = faktická hrozba sníženou odměnou za nedodržení pracovního režimu. Já (11. 3.) odmítám koercivní nastavení, popisuji šíři manažerské práce (lidi, marketing, Odoo, obchod, systémy), žádám zvýšení platu jako jednatelky. Ospalík (12. 3.) uzavírá kategoricky: 'Manažer není placen za snahu, ale za dopad na firmu.' Uvádí příklady: neřešila jsem zdražení (+300 000 Kč/měs) — ale respektovala jsem priority vedení (akvizice). PRÁVNÍ RELEVANCE: Prokazuje eskalaci konfliktu, nátlak na manažerku, podmíněné odměňování. Silný kontext k pochopení motivace OZP.",
     "file": "https://docs.google.com/document/d/1Rqt_g4lMKtgIeGjqEr5FGm_fiUpAXHzJaXdVXtxP5ls/view"
   },
   {
     "id": "d-email-navrh-odmen-podil",
-    "title": "E-mail 'Návrh Tvých odměn a smlouvy na obchodní podíl' — Ospalík → Matis (4. 8. 2023)",
+    "title": "E-mail 'Návrh Tvých odměn a smlouvy na obchodní podíl' — Ospalík → mně (4. 8. 2023)",
     "type": "interní e-mail · návrh odměn a obchodního podílu · 3 roky před OZP",
     "date": "4. 8. 2023",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "V srpnu 2023 — 3 roky před OZP — Ospalík sám inicioval návrh smlouvy na OBCHODNÍ PODÍL pro Andreu a návrh jejích odměn. Email má jen krátký text 'k projednání', příloha s konkrétním návrhem nebyla zachována v exportu. PRÁVNÍ RELEVANCE: Nikdo nenabídne obchodní podíl ve firmě zaměstnanci, který 'závažně porušuje povinnosti'. Přímý protiargument k OZP tvrzení o dlouhodobém selhání. Prokazuje, že v roce 2023 byl vztah plně funkční a Ospalík Andreinu práci oceňoval natolik, aby nabídl sdílení ve firmě.",
+    "text": "V srpnu 2023 — 3 roky před OZP — Ospalík sám inicioval návrh smlouvy na můj OBCHODNÍ PODÍL a návrh mých odměn. Email má jen krátký text 'k projednání', příloha s konkrétním návrhem nebyla zachována v exportu. PRÁVNÍ RELEVANCE: Nikdo nenabídne obchodní podíl ve firmě zaměstnanci, který 'závažně porušuje povinnosti'. Přímý protiargument k OZP tvrzení o dlouhodobém selhání. Prokazuje, že v roce 2023 byl vztah plně funkční a Ospalík mou práci oceňoval natolik, aby nabídl sdílení ve firmě.",
     "file": "https://docs.google.com/document/d/1zaTaNbxwst7JW6pTQSY7jVfys9w_7jEd2q7_c5A-xhU/view"
   },
   {
     "id": "d-email-odpovedi-emaily",
     "title": "E-mail 'Odpovědi na mé emaily' — Ospalík → oba manažeři (25. 10. 2025)",
-    "type": "interní e-mail · kritika obou manažerů · přeposlán Andreou 23. 4. 2026 jako důkazní materiál",
+    "type": "interní e-mail · kritika obou manažerů · mnou přeposlaný 23. 4. 2026 jako důkazní materiál",
     "date": "25. 10. 2025 (forward 23. 4. 2026)",
     "tags": [
       "pracovněprávní"
     ],
-    "text": "Ospalík (25. 10. 2025) obviňuje oba manažery (Andreu i Premuse) z ignorování emailů: 'Za půl roku mám u každého z manažerů více než 10 emailů bez odpovědi.' Přikládá 16 příkladů. OBRANNÁ LINIE: (1) Totéž vytýká i Premusovi — nejde o specifické selhání Andrey; (2) Ze 16 emailů: 'Zácvikový plán Dana Rogalová', 'Maralík-smlouva', 'Školení' — věci, které Andrea prokazatelně řešila (viz ostatní záznamy); (3) Firemní praxe: věci se řešily telefonicky a osobně, ne jen e-mailem; (4) Ospalík sám píše 'telefonuji' = přiznává, že alternativní komunikace existovala. Andrea email přeposlala sama sobě 23. 4. 2026 jako důkazní materiál pro svou obranu.",
+    "text": "Ospalík (25. 10. 2025) obviňuje oba manažery (mě i Premuse) z ignorování emailů: 'Za půl roku mám u každého z manažerů více než 10 emailů bez odpovědi.' Přikládá 16 příkladů. OBRANNÁ LINIE: (1) Totéž vytýká i Premusovi — nejde o mé specifické selhání; (2) Ze 16 emailů: 'Zácvikový plán Dana Rogalová', 'Maralík-smlouva', 'Školení' — věci, které jsem prokazatelně řešila (viz ostatní záznamy); (3) Firemní praxe: věci se řešily telefonicky a osobně, ne jen e-mailem; (4) Ospalík sám píše 'telefonuji' = přiznává, že alternativní komunikace existovala. E-mail jsem přeposlala sama sobě 23. 4. 2026 jako důkazní materiál pro svou obranu.",
     "file": "https://docs.google.com/document/d/1Wu84pAmsCYh3oX4ThgstZaAaYiPp_IizGRag4EZ7VFE/view"
   },
   {
     "id": "d-strategicky-plan-2026",
-    "title": "Strategický plán 2026 pro poradu vedení TRAIVA — FINÁL (Ing. Andrea Matis)",
+    "title": "Strategický plán 2026 pro poradu vedení TRAIVA — FINÁL (mnou zpracovaný)",
     "type": "strategický dokument · vrcholná manažerská práce · stav k 1. pololetí 2026 · sdíleno přes Teams",
     "date": "2026 (stav k 23. 4. 2026)",
     "tags": [
       "obchodní",
       "pracovněprávní"
     ],
-    "text": "Kompletní strategický plán 2026 zpracovaný Andreou pro poradu vedení TRAIVA. Stav k 1. pololetí 2026 — tj. aktuální přehled k 23. 4. 2026, přibližně 3 měsíce před OZP (15. 7. 2026). OBSAH: (1) ERP Odoo stabilizace a automatizace: párování plateb nasazeno 15. 4. 2026, k 23. 4. 2026 dosaženo ~85 % automatického párování na staging 2 — Andrea aktivně dořešovala Odoo těsně před OZP; (2) E-shop portfolio: revize 02/2026, Smart First Aid ve fázi dokončování (krabičky + web), plán Q4 2026; (3) Marketing B2C+B2B: Saleskit testován 01/2026, LinkedIn + B2B leads, plán na celý rok 2026; (4) BOZP software: technické migrace BOZP webů 01/2026, cíl Komplet e-BOZP 05/2026, integrace BOZP ↔ Odoo. FORMÁT: Profesionální dokument s KPI, ownery, termíny, analýzou rizik, mitigačními plány a výchozím stavem ke každé oblasti. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) PRÁCE TĚSNĚ PŘED OZP — Odoo automatizace nasazena 15. 4. a dokončována 23. 4. 2026 = Andrea aktivně pracovala v týdnu před OZP, přímý protiargument k 'závažnému porušování'; (2) ODOO PÁROVÁNÍ = PŘÍMÁ OBRANA — Ospalík v e-mailu Pohledávky 17. 4. 2026 kritizuje absenci párování, ale Andrea tuto věc aktivně řešila a měla ~85 % výsledek; (3) SMART FIRST AID = NAD RÁMEC POVINNOSTÍ — Andrea dokončovala produkt, který byl v Ospalíkově strategii 2025 přidělen Technickému řediteli; (4) SDÍLENO PŘES TEAMS = Ospalík o plánu věděl nebo ho viděl; (5) MANAŽERSKÁ PRÁCE — KPI, ownery, termíny, rizika = vrcholná strategická práce, neslučitelná s 'nečinností'.",
+    "text": "Kompletní strategický plán 2026, který jsem zpracovala pro poradu vedení TRAIVA. Stav k 1. pololetí 2026 — tj. aktuální přehled k 23. 4. 2026, přibližně 3 měsíce před OZP (15. 7. 2026). OBSAH: (1) ERP Odoo stabilizace a automatizace: párování plateb nasazeno 15. 4. 2026, k 23. 4. 2026 dosaženo ~85 % automatického párování na staging 2 — aktivně jsem dořešovala Odoo těsně před OZP; (2) E-shop portfolio: revize 02/2026, Smart First Aid ve fázi dokončování (krabičky + web), plán Q4 2026; (3) Marketing B2C+B2B: Saleskit testován 01/2026, LinkedIn + B2B leads, plán na celý rok 2026; (4) BOZP software: technické migrace BOZP webů 01/2026, cíl Komplet e-BOZP 05/2026, integrace BOZP ↔ Odoo. FORMÁT: Profesionální dokument s KPI, ownery, termíny, analýzou rizik, mitigačními plány a výchozím stavem ke každé oblasti. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) PRÁCE TĚSNĚ PŘED OZP — Odoo automatizace nasazena 15. 4. a dokončována 23. 4. 2026 = aktivně jsem pracovala v týdnu před OZP, přímý protiargument k 'závažnému porušování'; (2) ODOO PÁROVÁNÍ = PŘÍMÁ OBRANA — Ospalík v e-mailu Pohledávky 17. 4. 2026 kritizuje absenci párování, ale tuto věc jsem aktivně řešila a měla ~85 % výsledek; (3) SMART FIRST AID = NAD RÁMEC POVINNOSTÍ — dokončovala jsem produkt, který byl v Ospalíkově strategii 2025 přidělen Technickému řediteli; (4) SDÍLENO PŘES TEAMS = Ospalík o plánu věděl nebo ho viděl; (5) MANAŽERSKÁ PRÁCE — KPI, ownery, termíny, rizika = vrcholná strategická práce, neslučitelná s 'nečinností'.",
     "file": "https://docs.google.com/document/d/1pT-a-hKYSW04F2QJ2oEHSCJ-j7GK8f0WOTSM8Itm7qk/view"
   },
   {
     "id": "d-manual-care-call",
-    "title": "Manuál pro nového zaměstnance: Care call + e-mail follow-up (TRAIVA) — Andrea Matis",
-    "type": "interní manuál · tréninkový dokument · autor Andrea Matis",
+    "title": "Můj manuál pro nového zaměstnance: Care call + e-mail follow-up (TRAIVA)",
+    "type": "interní manuál · tréninkový dokument · autorka: já",
     "date": "2026 (před OZP)",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Andrea vytvořila kompletní 8-bodový manuál pro onboarding nového zaměstnance na pozici care callu — strukturovaný talk track, pravidla pro followup e-maily, CRM záznamy, eskalační postupy. Profesionálně zpracovaný dokument s konkrétními šablonami, časovými normami a pravidly komunikace. PRÁVNÍ RELEVANCE: Přímý důkaz, že Andrea vykonávala manažerskou práci na úrovni tvorby interních procesů, onboardingu a standardizace komunikace. Dokument vyvrací tvrzení o nečinnosti nebo zanedbání manažerských povinností. Autor = Andrea Matis (jednatelka), určeno pro zaměstnance TRAIVA.",
+    "text": "Vytvořila jsem kompletní 8-bodový manuál pro onboarding nového zaměstnance na pozici care callu — strukturovaný talk track, pravidla pro followup e-maily, CRM záznamy, eskalační postupy. Profesionálně zpracovaný dokument s konkrétními šablonami, časovými normami a pravidly komunikace. PRÁVNÍ RELEVANCE: Přímý důkaz, že jsem vykonávala manažerskou práci na úrovni tvorby interních procesů, onboardingu a standardizace komunikace. Dokument vyvrací tvrzení o nečinnosti nebo zanedbání manažerských povinností. Autorka = já (jednatelka), určeno pro zaměstnance TRAIVA.",
     "file": "https://docs.google.com/document/d/1WZNYKGt0qphcN3wR7Wy6qV5wYU6uTlNkT9MNI3GpA0s/view"
   },
   {
     "id": "d-email-pohledavky-2025",
-    "title": "E-mail 'Pohledávky 2025' — Ospalík → Maralík, Orel, Matis (17. 4. 2026)",
+    "title": "E-mail 'Pohledávky 2025' — Ospalík → Maralík, Orel a já (17. 4. 2026)",
     "type": "interní e-mail · 3 měsíce před OZP (15. 7. 2026) · adresováno třem lidem najednou",
     "date": "17. 4. 2026",
     "tags": [
       "pracovněprávní"
     ],
-    "text": "Ospalík (17. 4. 2026) kritizuje absenci seznamu pohledávek — ale email adresuje TŘEM lidem: Maralíkovi (Odoo správce), Orelové (účetní) a Matis. Tvrdí, že 'ani za celý rok ani za 4 týdny není k dispozici seznam pohledávek', přikládá spárované faktury. KLÍČOVÉ OBRANNÉ BODY: (1) Výtka míří na celý tým, ne výlučně na Andreu; (2) Příčina: chybné primární nastavení Odoo systému implementačním partnerem — Andrea to aktivně řeší s Origamis a Evou Orel (viz email z 8. 4. 2026); (3) Ospalík sám přiznává znalost alternativy: 'Denní spárování mimo Odoo trvá několik minut' — ale nikdy to nikomu konkrétně nenařídil; (4) Email odeslán 3 měsíce před OZP (15. 7. 2026) — součást vzorce eskalace napětí vedoucí k OZP. KONTEXT: Párování pohledávek je systémový problém Odoo, ne osobní selhání Andrey.",
+    "text": "Ospalík (17. 4. 2026) kritizuje absenci seznamu pohledávek — ale email adresuje TŘEM lidem: Maralíkovi (Odoo správce), Orelové (účetní) a mně. Tvrdí, že 'ani za celý rok ani za 4 týdny není k dispozici seznam pohledávek', přikládá spárované faktury. KLÍČOVÉ OBRANNÉ BODY: (1) Výtka míří na celý tým, ne výlučně na mě; (2) Příčina: chybné primární nastavení Odoo systému implementačním partnerem — aktivně to řeším s Origamis a Evou Orel (viz email z 8. 4. 2026); (3) Ospalík sám přiznává znalost alternativy: 'Denní spárování mimo Odoo trvá několik minut' — ale nikdy to nikomu konkrétně nenařídil; (4) Email odeslán 3 měsíce před OZP (15. 7. 2026) — součást vzorce eskalace napětí vedoucí k OZP. KONTEXT: Párování pohledávek je systémový problém Odoo, ne osobní mé selhání.",
     "file": "https://docs.google.com/document/d/13v0ZNyX2uil9L9qXY_eKLjTqYEDiyltbHuZDSuHxyIY/view"
   },
   {
@@ -879,31 +879,31 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Ospalíkův strategický dokument pro rok 2025 přidělující konkrétní úkoly jednotlivým manažerům. Sekce B) 'Ředitel marketingu' přímo vyjmenovává Andreiny úkoly: marketingový plán 2025, kampaně, Manutan integrace, strom kategorií e-shopu, silikagel marketing, mezinárodní expanze (Foggystop, německý trh, Amazon/Kaufland), 100 tabulek v němčině, AI pro design. Sekce 3 zavádí podmíněný systém odměn: pokles zisku = 2x strmější pokles odměn. PRÁVNÍ RELEVANCE KLÍČOVÁ: (1) Důkaz, že Andrea DOSTALA konkrétní úkoly jako Ředitel marketingu = vykonávala svou roli; (2) Systém bonusů je přesně ten, na který Ospalík narážel v emailu z 11.-12. 3. 2026 o 'bonusu za režim' — prokazuje systémový nátlak na odměny; (3) Smart First Aid byl přidělen Technickému řediteli, ale Andrea ho sama dokončila (viz Strategický plán 2026) — práce nad rámec; (4) 'Každá marketingová akce musí být vyhodnocena' — přísná podmínka, která omezovala Andrein prostor bez zpětné vazby. Dokument existoval před OZP minimálně 12 měsíců.",
+    "text": "Ospalíkův strategický dokument pro rok 2025 přidělující konkrétní úkoly jednotlivým manažerům. Sekce B) 'Ředitel marketingu' přímo vyjmenovává mé úkoly: marketingový plán 2025, kampaně, Manutan integrace, strom kategorií e-shopu, silikagel marketing, mezinárodní expanze (Foggystop, německý trh, Amazon/Kaufland), 100 tabulek v němčině, AI pro design. Sekce 3 zavádí podmíněný systém odměn: pokles zisku = 2x strmější pokles odměn. PRÁVNÍ RELEVANCE KLÍČOVÁ: (1) Důkaz, že jsem DOSTALA konkrétní úkoly jako Ředitel marketingu = vykonávala svou roli; (2) Systém bonusů je přesně ten, na který Ospalík narážel v emailu z 11.-12. 3. 2026 o 'bonusu za režim' — prokazuje systémový nátlak na odměny; (3) Smart First Aid byl přidělen Technickému řediteli, ale sama jsem ho dokončila (viz Strategický plán 2026) — práce nad rámec; (4) 'Každá marketingová akce musí být vyhodnocena' — přísná podmínka, která omezovala můj prostor bez zpětné vazby. Dokument existoval před OZP minimálně 12 měsíců.",
     "file": "https://docs.google.com/document/d/1kZ9xIRMp7FL00vEwWeAFwJvyygtYXrXfTstaEt0fVwo/view"
   },
   {
     "id": "d-smlouva-touchstore-2024",
-    "title": "Smlouva o licenci TouchStore č. 220/2024 — Walk Solutions × TRAIVA (podpis Andrea Matis)",
-    "type": "obchodní smlouva · expediční systém · projekt vedla Andrea měsíce, smlouvu podepsala jako zástupce TRAIVA",
+    "title": "Smlouva o licenci TouchStore č. 220/2024 — Walk Solutions × TRAIVA (můj podpis)",
+    "type": "obchodní smlouva · expediční systém · projekt jsem vedla měsíce, smlouvu jsem podepsala jako zástupce TRAIVA",
     "date": "4. 7. 2024",
     "tags": [
       "obchodní",
       "pracovněprávní"
     ],
-    "text": "Smlouva o poskytnutí licence a souvisejících služeb č. 220/2024. Zákazník: TRAIVA s.r.o. Poskytovatel: Walk Solutions s.r.o. (Daniel CHOMO). Předmět: expediční systém TouchStore s Odoo konektorem — 10 modulů (GEIS, PPL, Zásilkovna, GLS, DELIVERY, PERSONAL, hromadný picking list, čtečka EAN, podpisy skladníka) + hardware (AIO PC Shuttle P92U, termotiskárna Zebra, čtečky, mobilní terminál Chainway C6000/2D). Cena: ~6 420 Kč/měs. bez DPH + ~10 000 Kč jednorázově. V šabloně smlouvy je vytištěno jméno Ing. KAREL OSPALÍK, jednatel — ale FYZICKÝ PODPIS NA SMLOUVĚ PATŘÍ ANDREE MATIS. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) FAKTICKÁ JEDNATELKA — Andrea podpisem závazné obchodní smlouvy (finanční závazek 77 040 Kč/rok) jednala jako právní zástupkyně TRAIVA; celý projekt TouchStore (výběr, integraci s Odoo, API, nastavení fungování) přitom vedla a vyjednávala už od dubnového veletrhu Reshoper 2024, tj. i v období PŘED svým formálním jmenováním jednatelkou 24. 6. 2024, → důkaz de facto jednatelského postavení (smlouva nese datum 4. 7. 2024, tj. podpis krátce po jmenování; rozhodující je vedení celého projektu měsíce předtím); (2) OSPALÍK VĚDĚL A SOUHLASIL — přenechal Andree podepisování obchodních smluv s třetími stranami; (3) PROTIARGUMENT K OZP — zaměstnanec, který 'závažně porušuje povinnosti', nepodepisuje jménem firmy závazné smlouvy; (4) ROZSAH ODPOVĚDNOSTI — TouchStore je klíčový provozní systém celé expedice TRAIVA → Andrea zodpovídala za strategická technologická rozhodnutí; (5) VZÁJEMNÝ KONTEXT — smlouva je o Odoo konektoru, tj. propojení TouchStore s Odoo je Andrein projekt od podpisu.",
+    "text": "Smlouva o poskytnutí licence a souvisejících služeb č. 220/2024. Zákazník: TRAIVA s.r.o. Poskytovatel: Walk Solutions s.r.o. (Daniel CHOMO). Předmět: expediční systém TouchStore s Odoo konektorem — 10 modulů (GEIS, PPL, Zásilkovna, GLS, DELIVERY, PERSONAL, hromadný picking list, čtečka EAN, podpisy skladníka) + hardware (AIO PC Shuttle P92U, termotiskárna Zebra, čtečky, mobilní terminál Chainway C6000/2D). Cena: ~6 420 Kč/měs. bez DPH + ~10 000 Kč jednorázově. V šabloně smlouvy je vytištěno jméno Ing. KAREL OSPALÍK, jednatel — ale FYZICKÝ PODPIS NA SMLOUVĚ PATŘÍ MNĚ. KLÍČOVÁ PRÁVNÍ RELEVANCE: (1) FAKTICKÁ JEDNATELKA — podpisem závazné obchodní smlouvy (finanční závazek 77 040 Kč/rok) jsem jednala jako právní zástupkyně TRAIVA; celý projekt TouchStore (výběr, integraci s Odoo, API, nastavení fungování) jsem přitom vedla a vyjednávala už od dubnového veletrhu Reshoper 2024, tj. i v období PŘED svým formálním jmenováním jednatelkou 24. 6. 2024, → důkaz de facto jednatelského postavení (smlouva nese datum 4. 7. 2024, tj. podpis krátce po jmenování; rozhodující je vedení celého projektu měsíce předtím); (2) OSPALÍK VĚDĚL A SOUHLASIL — přenechal mi podepisování obchodních smluv s třetími stranami; (3) PROTIARGUMENT K OZP — zaměstnanec, který 'závažně porušuje povinnosti', nepodepisuje jménem firmy závazné smlouvy; (4) ROZSAH ODPOVĚDNOSTI — TouchStore je klíčový provozní systém celé expedice TRAIVA → zodpovídala jsem za strategická technologická rozhodnutí; (5) VZÁJEMNÝ KONTEXT — smlouva je o Odoo konektoru, tj. propojení TouchStore s Odoo je můj projekt od podpisu.",
     "file": "https://docs.google.com/document/d/1NQmYqMBdXgqV1zP02Kl3FCmtLkKVW_OhKBPHum1o1TQ/view"
   },
   {
     "id": "d-uspory-07-2026",
-    "title": "Tabulka 'Budoucí úspory od 07_2026' — Ospalík zaslal Matis e-mailem (propuštění bez odstupného před transakcí)",
-    "type": "interní tabulka mezd · plán akvizičních úspor · zasláno Ospalíkem Andree · přímý důkaz účelovosti OZP",
+    "title": "Tabulka 'Budoucí úspory od 07_2026' — Ospalík mi zaslal e-mailem (propuštění bez odstupného před transakcí)",
+    "type": "interní tabulka mezd · plán akvizičních úspor · zasláno Ospalíkem mně · přímý důkaz účelovosti OZP",
     "date": "2026 (před 15. 7. 2026)",
     "tags": [
       "pracovněprávní",
       "obchodní"
     ],
-    "text": "Excelová tabulka odeslaná Karlem Ospalíkem Andree Matis e-mailem. Záhlaví: 'Mzdy a náklady, kterých se lze zbavit okamžitě.' Poznámka pod tabulkou: 'propuštění bez odstupného PŘED TRANSAKCÍ / zrušení DPP/HPP.' Tabulka jmenuje všechny zaměstnance s ročními náklady. Andrea Matis: HPP 551 081 Kč + prémie 402 397 Kč + DPP 115 200 Kč = CELKEM 1 188 580 Kč/rok. Jiří Premus: celkem 1 313 830 Kč/rok. Celková úspora z propuštění: 829 396 Kč. Celková úspora se mzdami i náklady: 3 110 896 Kč/rok. ZNIČUJÍCÍ PRÁVNÍ DŮKAZY: (1) PŘEDPLÁNOVANÝ OZP — dokument datován 'od 07_2026', OZP doručeno 15. 7. 2026 = propuštění bylo naplánováno jako součást akvizičního plánu, ne reakce na prohřešky; (2) ÚČELOVOST DOSLOVA PŘIZNÁNA — 'propuštění bez odstupného před transakcí' je přesný popis toho, co se stalo; OZP místo výpovědi = ušetřit odstupné; (3) PRÉMIE 402 397 KČ JAKO ELIMINOVANÝ NÁKLAD — Ospalík zahrnul Andrein nárok na prémie do nákladů k eliminaci = věděl, že je dluží, a OZP použil k úniku z platební povinnosti; (4) ZASLÁNO SAMOTNÝM OSPALÍKEM — Andrea dokument obdržela od zaměstnavatele, nelze zpochybnit pravost ani způsob nabytí; (5) RODINA ZŮSTÁVÁ — Vojtěch Ospalík + Zita Ospalíková (DPP) nejsou na seznamu k eliminaci; (6) PROPOJENÍ s DD podklady — stejná čísla (829 tis. Kč) figurují v due diligence materiálech pro kupce (d-oceneni-kupujici) = koordinovaný plán.",
+    "text": "Excelová tabulka odeslaná Karlem Ospalíkem mně e-mailem. Záhlaví: 'Mzdy a náklady, kterých se lze zbavit okamžitě.' Poznámka pod tabulkou: 'propuštění bez odstupného PŘED TRANSAKCÍ / zrušení DPP/HPP.' Tabulka jmenuje všechny zaměstnance s ročními náklady. Já: HPP 551 081 Kč + prémie 402 397 Kč + DPP 115 200 Kč = CELKEM 1 188 580 Kč/rok. Jiří Premus: celkem 1 313 830 Kč/rok. Celková úspora z propuštění: 829 396 Kč. Celková úspora se mzdami i náklady: 3 110 896 Kč/rok. ZNIČUJÍCÍ PRÁVNÍ DŮKAZY: (1) PŘEDPLÁNOVANÝ OZP — dokument datován 'od 07_2026', OZP doručeno 15. 7. 2026 = propuštění bylo naplánováno jako součást akvizičního plánu, ne reakce na prohřešky; (2) ÚČELOVOST DOSLOVA PŘIZNÁNA — 'propuštění bez odstupného před transakcí' je přesný popis toho, co se stalo; OZP místo výpovědi = ušetřit odstupné; (3) PRÉMIE 402 397 KČ JAKO ELIMINOVANÝ NÁKLAD — Ospalík zahrnul můj nárok na prémie do nákladů k eliminaci = věděl, že je dluží, a OZP použil k úniku z platební povinnosti; (4) ZASLÁNO SAMOTNÝM OSPALÍKEM — dokument jsem obdržela od zaměstnavatele, nelze zpochybnit pravost ani způsob nabytí; (5) RODINA ZŮSTÁVÁ — Vojtěch Ospalík + Zita Ospalíková (DPP) nejsou na seznamu k eliminaci; (6) PROPOJENÍ s DD podklady — stejná čísla (829 tis. Kč) figurují v due diligence materiálech pro kupce (d-oceneni-kupujici) = koordinovaný plán.",
     "file": "https://docs.google.com/document/d/1vKWwJfT2C1xD8F7p9WsC4nvV3OyH_-idOq_yY2jIdoU/view"
   },
   {
@@ -916,24 +916,24 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "pracovněprávní"
     ],
-    "text": "Model ocenění TRAIVA přes EBITDA. Tři pohledy na výdělek 2025: skutečná EBITDA 10 610 tis. Kč (účetní kotva, marže 14 %), po úpravě zásob 13 110 tis., 'pro nového majitele' 12 212 tis. Kč. Ocenění = EBITDA × 5 + nemovitost 23 mil.: skutečná 76 mil., pro nového majitele 84 mil. Kč. ZNIČUJÍCÍ PROPOJENÍ: normalizace +3 111 tis. Kč, kterou se cena firmy pro kupujícího ZVYŠUJE, obsahuje položku 'Mzdy — propuštění bez odstupného / zrušení DPP-HPP: 829 tis. Kč' a 'vedlejší náklady na propuštěné + jednatele: 400 tis. Kč'. Zdrojem těchto úspor je tabulka 'Budoucí úspory od 07/2026', kterou Ospalík zaslal Andree (viz d-uspory-07-2026). Propuštění Andrey tak figuruje jako položka v akvizičním finančním modelu — přímé propojení OZP s navýšením prodejní ceny. Model zároveň sám označuje odměny jednatelů jako spornou úpravu vyžadující odečet nákladu na náhradní vedení. Metrika: čistý zisk ≠ EBITDA; tvrzení 'čistý zisk ~9 mil.' je nepřesné (9,1 mil. je průměrná EBITDA).",
+    "text": "Model ocenění TRAIVA přes EBITDA. Tři pohledy na výdělek 2025: skutečná EBITDA 10 610 tis. Kč (účetní kotva, marže 14 %), po úpravě zásob 13 110 tis., 'pro nového majitele' 12 212 tis. Kč. Ocenění = EBITDA × 5 + nemovitost 23 mil.: skutečná 76 mil., pro nového majitele 84 mil. Kč. ZNIČUJÍCÍ PROPOJENÍ: normalizace +3 111 tis. Kč, kterou se cena firmy pro kupujícího ZVYŠUJE, obsahuje položku 'Mzdy — propuštění bez odstupného / zrušení DPP-HPP: 829 tis. Kč' a 'vedlejší náklady na propuštěné + jednatele: 400 tis. Kč'. Zdrojem těchto úspor je tabulka 'Budoucí úspory od 07/2026', kterou Ospalík mi zaslal (viz d-uspory-07-2026). Mé propuštění tak figuruje jako položka v akvizičním finančním modelu — přímé propojení OZP s navýšením prodejní ceny. Model zároveň sám označuje odměny jednatelů jako spornou úpravu vyžadující odečet nákladu na náhradní vedení. Metrika: čistý zisk ≠ EBITDA; tvrzení 'čistý zisk ~9 mil.' je nepřesné (9,1 mil. je průměrná EBITDA).",
     "file": "https://docs.google.com/document/d/18C2FeugSgv80w2-K2DXAuc-3rjfQ9DQARAh8CFGY7go/view"
   },
   {
     "id": "d-dd-analyza-naklady",
-    "title": "DD analýza: struktura nákladů a normalizace EBITDA (vypracovala Matis, 30. 4. 2026)",
-    "type": "finanční M&A analýza · autorka jednatelka Matis · podklad k transakci",
+    "title": "DD analýza: struktura nákladů a normalizace EBITDA (mnou vypracovaná, 30. 4. 2026)",
+    "type": "finanční M&A analýza · autorka: já jako jednatelka · podklad k transakci",
     "date": "30. 4. 2026",
     "tags": [
       "obchodní",
       "jednatel"
     ],
-    "text": "13stránková odborná analýza výkazů zisku a ztráty 2021–2025 a prostoru pro normalizaci EBITDA k posouzení transakce. VYPRACOVALA ANDREA MATIS jako jednatelka, 30. 4. 2026 — přímý doklad, že aktivně dělala finanční M&A přípravu firmy, což vyvrací tvrzení o zanedbávání práce (OZP doručeno 15. 7. 2026). Obsah: pětiletý VZZ (tržby 56,5 → 75,8 mil.; EBITDA 2025 10,6 mil.; čistý zisk 2023 7,59 mil.); rozbor odchylek nákladových řádků od oborových hodnot (A.3 Služby, osobní náklady, ostatní provozní, materiál = celkem +19,3 mil. Kč za 2024+2025); pohled z oceňování (pro cenu 90 mil. při násobku 4–5× je potřeba EBITDA 36–45 mil. za 2 roky, skutečnost 18,2 mil. → prostor pro normalizaci); a detailní seznam požadavků na due diligence včetně přehledu transakcí se spřízněnými osobami a odměn statutárního orgánu.",
+    "text": "13stránková odborná analýza výkazů zisku a ztráty 2021–2025 a prostoru pro normalizaci EBITDA k posouzení transakce. VYPRACOVALA JSEM JAKO JEDNATELKA, 30. 4. 2026 — přímý doklad, že jsem aktivně zpracovávala finanční M&A přípravu firmy, což vyvrací tvrzení o zanedbávání práce (OZP doručeno 15. 7. 2026). Obsah: pětiletý VZZ (tržby 56,5 → 75,8 mil.; EBITDA 2025 10,6 mil.; čistý zisk 2023 7,59 mil.); rozbor odchylek nákladových řádků od oborových hodnot (A.3 Služby, osobní náklady, ostatní provozní, materiál = celkem +19,3 mil. Kč za 2024+2025); pohled z oceňování (pro cenu 90 mil. při násobku 4–5× je potřeba EBITDA 36–45 mil. za 2 roky, skutečnost 18,2 mil. → prostor pro normalizaci); a detailní seznam požadavků na due diligence včetně přehledu transakcí se spřízněnými osobami a odměn statutárního orgánu.",
     "file": "https://docs.google.com/document/d/10msaI_YLUGjZHLeuUJzZo72ON_RZQop0ze8O62HmZqo/view"
   },
   {
     "id": "d-premie-odmeny",
-    "title": "Evidence výpočtu prémií/odměn Matis 2023–2026 — souvislá řada 28 měsíců + opce 480 tis.",
+    "title": "Evidence výpočtu mých prémií/odměn 2023–2026 — souvislá řada 28 měsíců + opce 480 tis.",
     "type": "interní mzdové tabulky · metodika výpočtu odměn · zdroj nároku na prémie i opci",
     "date": "XI/2023 – II/2026",
     "tags": [
@@ -941,7 +941,7 @@ export const documents: CaseDocument[] = [
       "jednatel",
       "obchodní"
     ],
-    "text": "Dvě interní tabulky výpočtu odměn oddělení prodeje (Prémie nové 2024.xlsx: XI/2023–VIII/2025; Prémie 2026.xlsx: I–II/2026). Metodika: 15–25 % z hrubého zisku z prodeje výrobků, rozdělováno mezi pracovníky měsíčně. KLÍČOVÉ: (1) SOUVISLÁ ŘADA — Andrea pobírala odměny nepřetržitě 28 měsíců (XI/2023–II/2026), v průměru ~35 tis. Kč/měsíc (rozsah 18–57 tis.); (2) SHODA S ÚSPORAMI — roční suma ~400 tis. Kč odpovídá položce „prémie 402 397 Kč“ v tabulce Budoucí úspory od 07/2026 (d-uspory-07-2026), kterou Ospalík označil za náklad k eliminaci; (3) ZLOM — výplatní páska květen 2026 uvádí prémii 0 Kč = účelové odstřižení zavedeného nároku v době odvolání/OZP; (4) OPCE / PODÍL — u Andrey se každý měsíc opakuje poznámka „120 tis./rok, 4 roky, celkem 480 tis.“ + měsíční odpočet „opce −15 000“ = doklad ujednání o obchodním podílu spláceném z odměn (podpora d-valuace, d-sliby); (5) TABULKY, O KTERÉ ŽÁDALA — jsou to přesně podklady, jejichž doložení Andrea požadovala v Žádosti o obnovení přístupů 11. 6. 2026 (bod 4). Originály xlsx v držení Andrey.",
+    "text": "Dvě interní tabulky výpočtu odměn oddělení prodeje (Prémie nové 2024.xlsx: XI/2023–VIII/2025; Prémie 2026.xlsx: I–II/2026). Metodika: 15–25 % z hrubého zisku z prodeje výrobků, rozdělováno mezi pracovníky měsíčně. KLÍČOVÉ: (1) SOUVISLÁ ŘADA — odměny jsem pobírala nepřetržitě 28 měsíců (XI/2023–II/2026), v průměru ~35 tis. Kč/měsíc (rozsah 18–57 tis.); (2) SHODA S ÚSPORAMI — roční suma ~400 tis. Kč odpovídá položce „prémie 402 397 Kč“ v tabulce Budoucí úspory od 07/2026 (d-uspory-07-2026), kterou Ospalík označil za náklad k eliminaci; (3) ZLOM — výplatní páska květen 2026 uvádí prémii 0 Kč = účelové odstřižení zavedeného nároku v době odvolání/OZP; (4) OPCE / PODÍL — u mě se každý měsíc opakuje poznámka „120 tis./rok, 4 roky, celkem 480 tis.“ + měsíční odpočet „opce −15 000“ = doklad ujednání o obchodním podílu spláceném z odměn (podpora d-valuace, d-sliby); (5) TABULKY, O KTERÉ ŽÁDALA — jsou to přesně podklady, jejichž doložení jsem požadovala v Žádosti o obnovení přístupů 11. 6. 2026 (bod 4). Originály xlsx v mém držení.",
     "file": "https://docs.google.com/document/d/1RDZocU8zdFR6poIl5rNgzeGnik9IPIdB7GsLmx-uQws/view"
   },
   {
@@ -953,7 +953,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "jednatel"
     ],
-    "text": "Podrobná výplatní páska za červen 2026 (zam14 Matis Andrea, HPP, ČPZP; TRAIVA s.r.o.). ZNIČUJÍCÍ ČÍSLA: tarif měsíční 63 000 Kč, průměrný výdělek 457,63 Kč/h, fond 176 h (22 dní) — ale hrubý příjem POUZE 7 322 Kč (náhrada za dovolenou ~16 h), 20 dní (160 h) vedeno jako NEOMLUVENÁ ABSENCE bez nároku. KLÍČOVÉ K ODVODŮM: (1) sociální pojištění odvedeno jen z vyměřovacího základu 7 322 Kč — tj. jen z dovolené; za 20 dní absence je základ NULA; (2) zdravotní pojištění na základu 22 400 Kč = zákonné minimum (minimální mzda), povinný doplatek, nikoli vstřícnost. DŮSLEDKY: (a) § 208 ZP — správně měla být náhrada 160 h × 457,63 = 73 220,80 Kč hrubého s plnými odvody (zaměstnavatel odebral přístupy 10./11. 6.); (b) snížení nemocenské k DPN vzniklé 15. 7. 2026 (nízký vyměřovací základ); (c) minimální započtení pro důchod. K OVĚŘENÍ: zda i tyto snížené částky byly reálně odvedeny na ČSSZ/ČPZP (přehled od pojišťovny + ePortál ČSSZ); při neodvedení sražených částek § 241 TZ. Originál PDF v držení Andrey.",
+    "text": "Podrobná výplatní páska za červen 2026 (já (zam14), HPP, ČPZP; TRAIVA s.r.o.). ZNIČUJÍCÍ ČÍSLA: tarif měsíční 63 000 Kč, průměrný výdělek 457,63 Kč/h, fond 176 h (22 dní) — ale hrubý příjem POUZE 7 322 Kč (náhrada za dovolenou ~16 h), 20 dní (160 h) vedeno jako NEOMLUVENÁ ABSENCE bez nároku. KLÍČOVÉ K ODVODŮM: (1) sociální pojištění odvedeno jen z vyměřovacího základu 7 322 Kč — tj. jen z dovolené; za 20 dní absence je základ NULA; (2) zdravotní pojištění na základu 22 400 Kč = zákonné minimum (minimální mzda), povinný doplatek, nikoli vstřícnost. DŮSLEDKY: (a) § 208 ZP — správně měla být náhrada 160 h × 457,63 = 73 220,80 Kč hrubého s plnými odvody (zaměstnavatel odebral přístupy 10./11. 6.); (b) snížení nemocenské k DPN vzniklé 15. 7. 2026 (nízký vyměřovací základ); (c) minimální započtení pro důchod. K OVĚŘENÍ: zda i tyto snížené částky byly reálně odvedeny na ČSSZ/ČPZP (přehled od pojišťovny + ePortál ČSSZ); při neodvedení sražených částek § 241 TZ. Originál PDF v mém držení.",
     "file": "https://docs.google.com/document/d/1tSShCy-PrFrGEpekxHoafnkhE5S1XbaCjgwDDo9jW94/view"
   },
   {
@@ -965,7 +965,7 @@ export const documents: CaseDocument[] = [
       "pracovněprávní",
       "jednatel"
     ],
-    "text": "Přehled z ePortálu ČSSZ (staženo 19. 7. 2026). POJISTNÉ VZTAHY: HPP u TRAIVA (od 19. 1. 2021) — „pojistný vztah do\" prázdné = STÁLE TRVÁ, bez odhlášky; DPP u TRAIVA (od 1. 11. 2022) trvá; DPP u Traiva Safety (od 1. 9. 2023) UKONČENA k 31. 3. 2026. VÝZNAM: (1) HPP bez odhlášky → k 19. 7. tě ČSSZ vede jako pojištěnou, potvrzuje pojištění při vzniku DPN 15. 7. (nemocenská jistá) a záznam zatím odpovídá pozici „PP trvá\", ne verzi zaměstnavatele; (2) DPP u Traiva Safety ukončena k 31. 3. 2026 plošně VŠEM zaměstnancům (jednatel TS = Premus, zeť Ospalíka) — restrukturalizace před transakcí, ne cílené na Andreu; kontext viz ev-traiva-safety-dpp. ELDP 2025: souvislé pojištění celý rok, VYMĚŘOVACÍ ZÁKLAD 1 073 380 Kč (~89 tis./měs), vyhotoveno 21. 4. 2026 — BASELINE: řádné plné hlášení po roky vs. propad na 7 322 Kč v červnu 2026 (viz d-vyplatni-paska-cerven-2026) = argument účelovosti. NEMOCENSKÁ: eNeschopenka od 15. 7. v systému; dávka od 15. dne (~od 29. 7.), orientačně ~1 200–1 250 Kč/den. CHYBÍ: ELDP 2026 (podat do 30 dnů od skončení PP, ~do pol. srpna) prokáže základy 2026; ČPZP přehled za 2026. Screenshoty v držení Andrey. ČPZP kontrolní zpráva (vystavena 19. 7. 2026, ref. 26845606): hodnoty evidovány jen k 19. 2. 2025 + platba z posledních 5 prac. dní nemusí být započtena → NEPOKRÝVÁ spolehlivě sporné období 2025–2026. K 2/2025 osobní účet pojištěnce bez dluhu, registrace zaměstnance u TRAIVA od 19. 1. 2021 trvá; osobní účet ale neukazuje odvody zaměstnavatele (plátcovský účet). Dle A. M. zaměstnavatel platí pojistné opakovaně pozdě. Nutno: aktuální výpis ČPZP + dotaz OSSZ na prodlení + ELDP 2026.",
+    "text": "Přehled z ePortálu ČSSZ (staženo 19. 7. 2026). POJISTNÉ VZTAHY: HPP u TRAIVA (od 19. 1. 2021) — „pojistný vztah do\" prázdné = STÁLE TRVÁ, bez odhlášky; DPP u TRAIVA (od 1. 11. 2022) trvá; DPP u Traiva Safety (od 1. 9. 2023) UKONČENA k 31. 3. 2026. VÝZNAM: (1) HPP bez odhlášky → k 19. 7. tě ČSSZ vede jako pojištěnou, potvrzuje pojištění při vzniku DPN 15. 7. (nemocenská jistá) a záznam zatím odpovídá pozici „PP trvá\", ne verzi zaměstnavatele; (2) DPP u Traiva Safety ukončena k 31. 3. 2026 plošně VŠEM zaměstnancům (jednatel TS = Premus, zeť Ospalíka) — restrukturalizace před transakcí, ne cílené na mě; kontext viz ev-traiva-safety-dpp. ELDP 2025: souvislé pojištění celý rok, VYMĚŘOVACÍ ZÁKLAD 1 073 380 Kč (~89 tis./měs), vyhotoveno 21. 4. 2026 — BASELINE: řádné plné hlášení po roky vs. propad na 7 322 Kč v červnu 2026 (viz d-vyplatni-paska-cerven-2026) = argument účelovosti. NEMOCENSKÁ: eNeschopenka od 15. 7. v systému; dávka od 15. dne (~od 29. 7.), orientačně ~1 200–1 250 Kč/den. CHYBÍ: ELDP 2026 (podat do 30 dnů od skončení PP, ~do pol. srpna) prokáže základy 2026; ČPZP přehled za 2026. Screenshoty v mém držení. ČPZP kontrolní zpráva (vystavena 19. 7. 2026, ref. 26845606): hodnoty evidovány jen k 19. 2. 2025 + platba z posledních 5 prac. dní nemusí být započtena → NEPOKRÝVÁ spolehlivě sporné období 2025–2026. K 2/2025 osobní účet pojištěnce bez dluhu, registrace zaměstnance u TRAIVA od 19. 1. 2021 trvá; osobní účet ale neukazuje odvody zaměstnavatele (plátcovský účet). Dle A. M. zaměstnavatel platí pojistné opakovaně pozdě. Nutno: aktuální výpis ČPZP + dotaz OSSZ na prodlení + ELDP 2026.",
     "file": "https://docs.google.com/document/d/1q5HnnREZtW9KAyjWg8lIdl02TNShZfrAtlvXA4gMoes/view"
   },
   {
@@ -976,7 +976,7 @@ export const documents: CaseDocument[] = [
     "tags": [
       "pracovněprávní"
     ],
-    "text": "Formální oznámení zaměstnavateli podle § 69 odst. 1 zákoníku práce — Andrea sděluje, že s okamžitým zrušením pracovního poměru (doručeno 15. 7. 2026) nesouhlasí, považuje ho za neplatné a TRVÁ NA TOM, ABY JI ZAMĚSTNAVATEL DÁLE ZAMĚSTNÁVAL. Připraveno k odeslání datovou schránkou 20. 7. 2026. PRÁVNÍ ÚČEL: podmiňuje nárok na náhradu mzdy dle § 69 ZP za dobu sporu (náhrada běží od doručení oznámení; plně po skončení PN). Text zmiňuje i trvající pracovní neschopnost od 15. 7. a vyhrazuje si veškeré další mzdové nároky. POZOR — nezaměňovat se žalobou na neplatnost dle § 72 ZP (nutno podat u soudu do 15. 9. 2026, prekluzivní lhůta); toto oznámení žalobu nenahrazuje, obojí je třeba. Tisknutelná verze i v appce (/oznameni-69-minimal.html).",
+    "text": "Formální oznámení zaměstnavateli podle § 69 odst. 1 zákoníku práce — sděluji, že s okamžitým zrušením pracovního poměru (doručeno 15. 7. 2026) nesouhlasím, považuji ho za neplatné a TRVÁM NA TOM, ABY MĚ ZAMĚSTNAVATEL DÁLE ZAMĚSTNÁVAL. Připraveno k odeslání datovou schránkou 20. 7. 2026. PRÁVNÍ ÚČEL: podmiňuje nárok na náhradu mzdy dle § 69 ZP za dobu sporu (náhrada běží od doručení oznámení; plně po skončení PN). Text zmiňuje i mou trvající pracovní neschopnost od 15. 7. a vyhrazuji si veškeré další mzdové nároky. POZOR — nezaměňovat se žalobou na neplatnost dle § 72 ZP (nutno podat u soudu do 15. 9. 2026, prekluzivní lhůta); toto oznámení žalobu nenahrazuje, obojí je třeba. Tisknutelná verze i v appce (/oznameni-69-minimal.html).",
     "file": "https://docs.google.com/document/d/1iA3X02zujYoZ9B5ULcaPkPGyc76EeH7JTO2OMkXNttk/view"
   }
 ];

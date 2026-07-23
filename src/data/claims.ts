@@ -35,7 +35,7 @@ export const claims: Claim[] = [
     basis: "e-mail Ospalíka 4. 8. 2023",
     status: "sporne",
     group: "odhad",
-    note: "buď 5 % z čistého zisku jako roční odměna (5 % ze zisku 2023 = 7,59 mil. ≈ 380 tis./rok), nebo opce na 10 % obchodní podíl (~2,2 mil.); částečně splaceno; přesné vyčíslení k ověření s advokátem",
+    note: "buď 5 % z čistého zisku KAŽDÝ ROK (2023 ≈ 380 tis. · 2024 ≈ 250 tis. · 2025 ≈ 338 tis. → za 2023–2025 ≈ 970 tis. + poměrná část 2026), nebo opce na 10 % obchodní podíl (~2,2 mil.); částečně splaceno; přesné vyčíslení k ověření s advokátem",
   },
   {
     id: "nahrada-69",
