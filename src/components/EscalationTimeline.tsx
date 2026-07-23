@@ -6,6 +6,7 @@ const steps = [
   ["červen 2026", "Mzda vykázána jako „neomluvená absence“"],
   ["14. 7. 2026", "Protest proti klasifikaci absence a výzva k opravě mzdového výměru (§ 208)"],
   ["15. 7. 2026", "Okamžité zrušení pracovního poměru zaměstnavatelem dle § 55"],
+  ["20. 7. 2026", "Vyjádřila jsem nesouhlas s okamžitým zrušením — jde o neplatné rozvázání pracovního poměru, trvám na dalším zaměstnávání (§ 69 ZP)"],
 ] as const;
 
 export function EscalationTimeline() {
